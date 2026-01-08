@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../assets/CJH_Circle_Logo.png';
 
 export default function Header() {
   return (
@@ -6,8 +7,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-xl font-bold text-blue-600">
-            Creative Job Hub
+          <Link to="/" className="flex items-center gap-3">
+            <img src={logo} alt="Creative Job Hub" className="h-10 w-10" />
+            <span className="text-xl font-bold text-blue-600">Creative Job Hub</span>
           </Link>
 
           {/* Navigation */}

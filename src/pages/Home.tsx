@@ -1,8 +1,17 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
+import heroBanner from '../assets/CJH_Google_Business_Cover.png';
+import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
 
 export default function Home() {
   return (
     <div className="bg-white">
+      <SEO 
+        title="Creative Job Hub - Field Service Management Software for Creative Professionals"
+        description="The all-in-one field service management software built specifically for creative contractors. Schedule jobs, create estimates, manage clients, and get paid faster. $89/month, everything included. Try free for 14 days."
+        keywords="field service management software, contractor software, hvac software, plumbing software, electrical software, landscaping software, job scheduling, estimates, invoicing, QuickBooks integration"
+      />
+      
       <section className="bg-gradient-to-b from-blue-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -15,15 +24,19 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Link to="/signup" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center">
-                  Start Free Trial - No Credit Card
+                  Start Your 14-Day Free Trial
                 </Link>
                 <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
                   Watch 2-Min Demo
                 </button>
               </div>
             </div>
-            <div className="bg-gray-200 rounded-lg aspect-video flex items-center justify-center">
-              <p className="text-gray-500">Video/Screenshot Placeholder</p>
+            <div className="rounded-lg overflow-hidden shadow-2xl">
+              <img 
+                src={heroBanner} 
+                alt="Creative Job Hub - Field Service Management Software" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -73,8 +86,12 @@ export default function Home() {
             Built By a Contractor, For Contractors
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-blue-700 rounded-lg aspect-square flex items-center justify-center">
-              <p className="text-blue-200">Photo placeholder</p>
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img 
+                src={integrationsImage} 
+                alt="Creative Job Hub Integrations - Stripe, QuickBooks, Twilio" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="space-y-4 text-lg">
               <p>I'm Jeremy. I run Creative Constructors in the Dallas-Fort Worth area.</p>
@@ -109,7 +126,7 @@ export default function Home() {
             Stop Overpaying For Field Service Software
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            14-day free trial. No credit card. No sales call.
+            14-day free trial. No charge for 14 days. Cancel anytime.
           </p>
           <Link to="/signup" className="inline-block bg-white text-orange-600 px-12 py-4 rounded-lg font-bold text-xl hover:bg-orange-50 transition-colors">
             Start Free Trial
