@@ -68,6 +68,36 @@ export default function Signup() {
         // Mark as successfully submitted to prevent any future submissions
         hasSubmittedSuccessfullyRef.current = true;
         
+        // Log to Google Sheets (non-blocking)
+        // Replace YOUR_GOOGLE_APPS_SCRIPT_URL with your actual webhook URL
+        const googleSheetsUrl = 'YOUR_GOOGLE_APPS_SCRIPT_URL';
+        if (googleSheetsUrl && googleSheetsUrl !== 'YOUR_GOOGLE_APPS_SCRIPT_URL') {
+          fetch(googleSheetsUrl, {
+            method: 'POST',
+            mode: 'no-cors', // Important: Google Apps Script requires no-cors
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              timestamp: new Date().toISOString(),
+              email: formData.email,
+              firstName: formData.firstName,
+              lastName: formData.lastName,
+              businessName: formData.businessName,
+              phone: formData.phone,
+              source: 'Marketing Site Signup'
+            })
+          }).catch(err => console.log('Sheet logging failed (non-critical):', err));
+        }
+        
+        // Track signup form submission in Google Analytics
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'begin_checkout', {
+            event_category: 'Signup',
+            event_label: 'Trial Signup Started',
+            value: formData.businessName,
+            email: formData.email
+          });
+        }
+        
         // Redirect to Stripe Checkout
         console.log('Redirecting to Stripe Checkout...');
         window.location.href = result.url;
