@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 import heroBanner from '../assets/CJH_Google_Business_Cover.png';
 import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
 
@@ -22,6 +23,9 @@ export default function Home() {
               <p className="text-xl text-gray-600 mb-8">
                 $89/month. Everything included. Built by a contractor who got tired of $400/month software bills.
               </p>
+              <div className="mb-8">
+                <StarRating />
+              </div>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Link to="/signup" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center">
                   Start Your 14-Day Free Trial

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function Login() {
   useEffect(() => {
@@ -35,9 +36,10 @@ export default function Login() {
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
               Login to Creative Job Hub
             </h1>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mb-6">
               Redirecting you to the app login...
             </p>
+            <StarRating />
           </div>
 
           <div className="space-y-4">

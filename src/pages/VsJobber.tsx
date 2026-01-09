@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 import vsJobberImage from '../assets/cjh-vs-jobber.png';
 
 export default function VsJobber() {
@@ -18,9 +19,10 @@ export default function VsJobber() {
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
               Creative Job Hub vs Jobber
             </h1>
-            <p className="text-2xl text-gray-600">
+            <p className="text-2xl text-gray-600 mb-6">
               Same features. Half the price. No hidden fees.
             </p>
+            <StarRating />
           </div>
           <div className="max-w-4xl mx-auto">
             <img 

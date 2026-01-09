@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function VsServiceM8() {
   return (
@@ -20,9 +21,10 @@ export default function VsServiceM8() {
             <p className="text-2xl text-gray-600 mb-4">
               Save $480/year with more powerful features
             </p>
-            <p className="text-lg text-gray-500 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-6">
               ServiceM8 is fine for basic scheduling, but lacks the advanced job management and automation features growing contractors need.
             </p>
+            <StarRating />
           </div>
 
           {/* Price Comparison */}

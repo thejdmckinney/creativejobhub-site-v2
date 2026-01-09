@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function VsFieldEdge() {
   return (
@@ -20,9 +21,10 @@ export default function VsFieldEdge() {
             <p className="text-2xl text-gray-600 mb-4">
               Save $960/year with modern software
             </p>
-            <p className="text-lg text-gray-500 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-6">
               FieldEdge has been around forever, but their outdated interface and poor customer support show their age. Time for something better.
             </p>
+            <StarRating />
           </div>
 
           {/* Price Comparison */}

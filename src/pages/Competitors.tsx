@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function Competitors() {
   const competitors = [
@@ -55,9 +56,12 @@ export default function Competitors() {
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
             Why Contractors Choose Creative Job Hub Over The Competition
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
             We're not trying to be everything to everyone. We're focused on one thing: helping small to mid-size field service businesses run better, without the enterprise price tag.
           </p>
+          <div className="mb-8">
+            <StarRating />
+          </div>
           <Link 
             to="/signup" 
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

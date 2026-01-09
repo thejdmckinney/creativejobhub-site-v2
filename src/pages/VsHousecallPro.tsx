@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 import vsHousecallProImage from '../assets/cjh-vs-housecall-pro.png';
 
 export default function VsHousecallPro() {
@@ -21,9 +22,10 @@ export default function VsHousecallPro() {
             <p className="text-2xl text-gray-600 mb-4">
               Save $1,920/year and get better features
             </p>
-            <p className="text-lg text-gray-500 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-6">
               Housecall Pro markets itself as the all-in-one solution, but their pricing tells a different story. Let's break down the real costs.
             </p>
+            <StarRating />
           </div>
           <div className="max-w-4xl mx-auto mb-12">
             <img 

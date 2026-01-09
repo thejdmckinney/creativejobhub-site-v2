@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function HowItWorks() {
   return (
@@ -16,9 +17,12 @@ export default function HowItWorks() {
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
             How Creative Job Hub Works
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
             From booking to payment, Creative Job Hub handles everything. Here's how we help you run your field service business better.
           </p>
+          <div className="mb-8">
+            <StarRating />
+          </div>
           <Link 
             to="/signup" 
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function Signup() {
   const [formData, setFormData] = useState({
@@ -145,9 +146,10 @@ export default function Signup() {
           <p className="text-2xl text-gray-600 mb-2">
             14 days free. No charge for 14 days.
           </p>
-          <p className="text-lg text-gray-500">
+          <p className="text-lg text-gray-500 mb-6">
             Get started in less than 2 minutes.
           </p>
+          <StarRating />
         </div>
 
         {/* Signup Form */}

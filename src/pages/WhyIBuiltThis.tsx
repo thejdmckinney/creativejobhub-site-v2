@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function WhyIBuiltThis() {
   return (
@@ -16,9 +17,10 @@ export default function WhyIBuiltThis() {
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
             I Got Tired of Paying $400/Month for Software That Didn't Work
           </h1>
-          <p className="text-2xl text-gray-600">
+          <p className="text-2xl text-gray-600 mb-6">
             So I built what I actually needed. And it turns out, you need it too.
           </p>
+          <StarRating />
         </div>
       </section>
 

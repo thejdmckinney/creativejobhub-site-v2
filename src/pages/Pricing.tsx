@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function Pricing() {
   return (
@@ -16,9 +17,10 @@ export default function Pricing() {
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
             One Price. Everything Included. No Games.
           </h1>
-          <p className="text-2xl text-gray-600">
+          <p className="text-2xl text-gray-600 mb-6">
             What you see is what you pay. Forever.
           </p>
+          <StarRating />
         </div>
       </section>
 

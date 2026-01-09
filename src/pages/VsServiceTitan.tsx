@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import StarRating from '../components/StarRating';
 
 export default function VsServiceTitan() {
   return (
@@ -20,9 +21,10 @@ export default function VsServiceTitan() {
             <p className="text-2xl text-gray-600 mb-4">
               Save $4,932/year without the enterprise complexity
             </p>
-            <p className="text-lg text-gray-500 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-6">
               ServiceTitan is overkill for small to mid-size contractors. You don't need a $500+/month enterprise platform to run a successful field service business.
             </p>
+            <StarRating />
           </div>
 
           {/* Price Comparison */}
