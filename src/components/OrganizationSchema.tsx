@@ -18,7 +18,7 @@ export default function OrganizationSchema() {
     "foundingDate": "2025",
     "slogan": "Field Service Software That Doesn't Cost More Than Your Truck Payment",
     "email": "support@creativejobhub.com",
-    "telephone": "+1-XXX-XXX-XXXX", // Replace with real phone number
+    "telephone": "+1-682-466-2130", // Replace with real phone number
     
     // Software Application Details
     "applicationCategory": "BusinessApplication",
@@ -43,11 +43,9 @@ export default function OrganizationSchema() {
     
     // Social Media Links
     "sameAs": [
-      // Add your social media profiles here when created:
-      // "https://www.facebook.com/creativejobhub",
-      // "https://twitter.com/creativejobhub",
-      // "https://www.linkedin.com/company/creativejobhub",
-      // "https://www.instagram.com/creativejobhub"
+      "https://www.facebook.com/profile.php?id=61582571702601",
+      "https://x.com/cjh_fsm",
+      "https://www.linkedin.com/in/jeremy-mckinney-4872aba1/"
     ],
     
     // Contact Information
