@@ -4,6 +4,7 @@ import logo from '../assets/CJH_Circle_Logo.png';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [industriesOpen, setIndustriesOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
@@ -20,9 +21,44 @@ export default function Header() {
             <Link to="/pricing" className="text-gray-700 hover:text-blue-600">
               Pricing
             </Link>
-            <Link to="/why-i-built-this" className="text-gray-700 hover:text-blue-600">
-              Why I Built This
-            </Link>
+            
+            {/* Industries Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setIndustriesOpen(true)}
+              onMouseLeave={() => setIndustriesOpen(false)}
+            >
+              <button className="text-gray-700 hover:text-blue-600 flex items-center gap-1">
+                Industries
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              
+              {industriesOpen && (
+                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
+                  <Link 
+                    to="/chimney-sweep-software" 
+                    className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                  >
+                    Chimney Sweep Software
+                  </Link>
+                  <Link 
+                    to="/handyman-software" 
+                    className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                  >
+                    Handyman Software
+                  </Link>
+                  <Link 
+                    to="/pool-service-software" 
+                    className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                  >
+                    Pool Service Software
+                  </Link>
+                </div>
+              )}
+            </div>
+            
             <Link to="/how-it-works" className="text-gray-700 hover:text-blue-600">
               How It Works
             </Link>
@@ -73,13 +109,35 @@ export default function Header() {
               >
                 Pricing
               </Link>
-              <Link
-                to="/why-i-built-this"
-                className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Why I Built This
-              </Link>
+              
+              {/* Industries submenu in mobile */}
+              <div className="px-4 py-2">
+                <div className="text-gray-900 font-semibold mb-2">Industries</div>
+                <div className="pl-4 space-y-2">
+                  <Link
+                    to="/chimney-sweep-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Chimney Sweep Software
+                  </Link>
+                  <Link
+                    to="/handyman-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Handyman Software
+                  </Link>
+                  <Link
+                    to="/pool-service-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Pool Service Software
+                  </Link>
+                </div>
+              </div>
+              
               <Link
                 to="/how-it-works"
                 className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
