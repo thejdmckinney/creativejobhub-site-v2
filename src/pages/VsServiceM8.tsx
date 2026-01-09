@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function VsServiceM8() {
   return (
@@ -9,6 +10,14 @@ export default function VsServiceM8() {
         title="Creative Job Hub vs ServiceM8 - Save $480/Year"
         description="Get enterprise features for small business pricing. Creative Job Hub offers more customization and unlimited users for $89/month vs $129/month."
         keywords="ServiceM8 alternative, Creative Job Hub vs ServiceM8, ServiceM8 comparison"
+      />
+      
+      <Breadcrumbs 
+        items={[
+          { label: 'Home', path: '/' },
+          { label: 'Competitors', path: '/competitors' },
+          { label: 'Creative Job Hub vs ServiceM8' }
+        ]} 
       />
       
       {/* Hero Section */}

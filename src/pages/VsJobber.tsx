@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import Breadcrumbs from '../components/Breadcrumbs';
 import vsJobberImage from '../assets/cjh-vs-jobber.png';
 
 export default function VsJobber() {
@@ -10,6 +11,14 @@ export default function VsJobber() {
         title="Creative Job Hub vs Jobber - Save $1,560/Year"
         description="Detailed comparison: Creative Job Hub vs Jobber. Get the same features for $89/month instead of $219/month. Save $1,560 per year with better support and no user fees."
         keywords="Jobber alternative, Creative Job Hub vs Jobber, Jobber comparison, cheaper than Jobber"
+      />
+      
+      <Breadcrumbs 
+        items={[
+          { label: 'Home', path: '/' },
+          { label: 'Competitors', path: '/competitors' },
+          { label: 'Creative Job Hub vs Jobber' }
+        ]} 
       />
       
       {/* Hero Section */}

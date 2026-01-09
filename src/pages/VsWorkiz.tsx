@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function VsWorkiz() {
   return (
@@ -9,6 +10,14 @@ export default function VsWorkiz() {
         title="Creative Job Hub vs Workiz - Save $1,788/Year"
         description="Compare Creative Job Hub vs Workiz. Get more features for $89/month vs $238/month. Save $1,788 per year with unlimited users and better integrations."
         keywords="Workiz alternative, Creative Job Hub vs Workiz, Workiz comparison"
+      />
+      
+      <Breadcrumbs 
+        items={[
+          { label: 'Home', path: '/' },
+          { label: 'Competitors', path: '/competitors' },
+          { label: 'Creative Job Hub vs Workiz' }
+        ]} 
       />
       
       {/* Hero Section */}

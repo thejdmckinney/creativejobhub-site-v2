@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function VsServiceTitan() {
   return (
@@ -9,6 +10,14 @@ export default function VsServiceTitan() {
         title="Creative Job Hub vs ServiceTitan - Save $5,000+/Year"
         description="Enterprise features without enterprise pricing. Get the same functionality as ServiceTitan for $89/month instead of $500+/month. Perfect for growing contractors."
         keywords="ServiceTitan alternative, affordable ServiceTitan, Creative Job Hub vs ServiceTitan"
+      />
+      
+      <Breadcrumbs 
+        items={[
+          { label: 'Home', path: '/' },
+          { label: 'Competitors', path: '/competitors' },
+          { label: 'Creative Job Hub vs ServiceTitan' }
+        ]} 
       />
       
       {/* Hero Section */}

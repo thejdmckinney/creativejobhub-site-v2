@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function Competitors() {
   const competitors = [
@@ -48,6 +49,13 @@ export default function Competitors() {
         title="Competitors - Compare Field Service Software"
         description="Compare Creative Job Hub vs Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, and ServiceM8. See why contractors are switching to save $2,000-$5,000 per year."
         keywords="field service software comparison, Jobber alternative, ServiceTitan alternative, Housecall Pro alternative"
+      />
+      
+      <Breadcrumbs 
+        items={[
+          { label: 'Home', path: '/' },
+          { label: 'Competitors' }
+        ]} 
       />
       
       {/* Hero Section */}

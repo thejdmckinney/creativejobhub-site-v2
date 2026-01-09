@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import Breadcrumbs from '../components/Breadcrumbs';
 import vsHousecallProImage from '../assets/cjh-vs-housecall-pro.png';
 
 export default function VsHousecallPro() {
@@ -10,6 +11,14 @@ export default function VsHousecallPro() {
         title="Creative Job Hub vs Housecall Pro - Save $1,188/Year"
         description="Compare Creative Job Hub vs Housecall Pro. Get unlimited users for $89/month vs $188/month. Save $1,188 per year with better mobile apps and faster support."
         keywords="Housecall Pro alternative, Creative Job Hub vs Housecall Pro, Housecall Pro comparison"
+      />
+      
+      <Breadcrumbs 
+        items={[
+          { label: 'Home', path: '/' },
+          { label: 'Competitors', path: '/competitors' },
+          { label: 'Creative Job Hub vs Housecall Pro' }
+        ]} 
       />
       
       {/* Hero Section */}

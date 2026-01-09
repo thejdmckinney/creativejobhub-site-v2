@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function VsFieldEdge() {
   return (
@@ -9,6 +10,14 @@ export default function VsFieldEdge() {
         title="Creative Job Hub vs FieldEdge - Save $960/Year"
         description="Modern software that doesn't feel stuck in 2010. Get better features for $89/month vs $169/month. Save $960 per year with faster support and a better mobile app."
         keywords="FieldEdge alternative, Creative Job Hub vs FieldEdge, modern field service software"
+      />
+      
+      <Breadcrumbs 
+        items={[
+          { label: 'Home', path: '/' },
+          { label: 'Competitors', path: '/competitors' },
+          { label: 'Creative Job Hub vs FieldEdge' }
+        ]} 
       />
       
       {/* Hero Section */}
