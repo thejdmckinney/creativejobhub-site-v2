@@ -1,10 +1,40 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import OrganizationSchema from '../components/OrganizationSchema';
+import FAQSchema from '../components/FAQSchema';
 import heroBanner from '../assets/home-page-image.png';
 import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
 
 export default function Home() {
+  // FAQ data for Schema.org markup
+  const faqs = [
+    {
+      question: "How much does Creative Job Hub cost?",
+      answer: "$89 per month with everything included - unlimited users, unlimited jobs, QuickBooks integration, mobile apps, GPS tracking, and 24/7 support. No hidden fees or per-user charges."
+    },
+    {
+      question: "Is there a free trial?",
+      answer: "Yes! We offer a 14-day free trial with full access to all features. No credit card required to start."
+    },
+    {
+      question: "Does it work offline?",
+      answer: "Yes. The mobile app works offline so your technicians can complete jobs in basements, remote areas, or anywhere without internet. Data syncs automatically when connection is restored."
+    },
+    {
+      question: "Can I import my existing customer data?",
+      answer: "Yes. We can import your customer list, job history, and pricing from spreadsheets or most other field service software. Our team handles the migration for free."
+    },
+    {
+      question: "Does it integrate with QuickBooks?",
+      answer: "Yes. Creative Job Hub syncs directly with QuickBooks Online. Invoices, payments, and expenses transfer automatically - no duplicate data entry."
+    },
+    {
+      question: "What industries is Creative Job Hub built for?",
+      answer: "We're built for field service contractors including HVAC, plumbing, electrical, chimney sweeps, handymen, pool service, landscaping, and other service businesses. If you go to customer locations, we're for you."
+    }
+  ];
+
   return (
     <div className="bg-white">
       <SEO 
@@ -12,6 +42,8 @@ export default function Home() {
         description="The all-in-one field service management software built specifically for creative contractors. Schedule jobs, create estimates, manage clients, and get paid faster. $89/month, everything included. Try free for 14 days."
         keywords="field service management software, contractor software, hvac software, plumbing software, electrical software, landscaping software, job scheduling, estimates, invoicing, QuickBooks integration"
       />
+      <OrganizationSchema />
+      <FAQSchema faqs={faqs} />
       
       <section className="bg-gradient-to-b from-blue-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -105,6 +137,36 @@ export default function Home() {
                 See How It Works
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section - Visible content that matches Schema.org markup */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-6">
+            {faqs.map((faq, index) => (
+              <div key={index} className="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  {faq.question}
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <p className="text-gray-600 mb-4">Still have questions?</p>
+            <a 
+              href="mailto:support@creativejobhub.com" 
+              className="text-blue-600 hover:text-blue-700 font-semibold text-lg"
+            >
+              Email us - we respond fast
+            </a>
           </div>
         </div>
       </section>
