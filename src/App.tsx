@@ -13,6 +13,8 @@ import VsWorkiz from './pages/VsWorkiz';
 import VsFieldEdge from './pages/VsFieldEdge';
 import VsServiceM8 from './pages/VsServiceM8';
 import ChimneySweepSoftware from './pages/ChimneySweepSoftware';
+import HandymanSoftware from './pages/HandymanSoftware';
+import PoolServiceSoftware from './pages/PoolServiceSoftware';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 
@@ -34,6 +36,8 @@ function App() {
           <Route path="vs-fieldedge" element={<VsFieldEdge />} />
           <Route path="vs-servicem8" element={<VsServiceM8 />} />
           <Route path="chimney-sweep-software" element={<ChimneySweepSoftware />} />
+          <Route path="handyman-software" element={<HandymanSoftware />} />
+          <Route path="pool-service-software" element={<PoolServiceSoftware />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
         </Route>
