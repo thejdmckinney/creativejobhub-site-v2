@@ -28,7 +28,7 @@ export default function Header() {
               onMouseEnter={() => setIndustriesOpen(true)}
               onMouseLeave={() => setIndustriesOpen(false)}
             >
-              <button className="text-gray-700 hover:text-blue-600 flex items-center gap-1">
+              <button className="text-gray-700 hover:text-blue-600 flex items-center gap-1 py-2">
                 Industries
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -36,25 +36,27 @@ export default function Header() {
               </button>
               
               {industriesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
-                  <Link 
-                    to="/chimney-sweep-software" 
-                    className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
-                  >
-                    Chimney Sweep Software
-                  </Link>
-                  <Link 
-                    to="/handyman-software" 
-                    className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
-                  >
-                    Handyman Software
-                  </Link>
-                  <Link 
-                    to="/pool-service-software" 
-                    className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
-                  >
-                    Pool Service Software
-                  </Link>
+                <div className="absolute top-full left-0 pt-2 w-56">
+                  <div className="bg-white rounded-lg shadow-lg border border-gray-200 py-2">
+                    <Link 
+                      to="/chimney-sweep-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Chimney Sweep Software
+                    </Link>
+                    <Link 
+                      to="/handyman-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Handyman Software
+                    </Link>
+                    <Link 
+                      to="/pool-service-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Pool Service Software
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
