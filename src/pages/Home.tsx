@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
-import heroBanner from '../assets/CJH_Google_Business_Cover.png';
+import heroBanner from '../assets/home-page-image.png';
 import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
 
 export default function Home() {
