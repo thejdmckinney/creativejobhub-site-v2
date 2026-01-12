@@ -67,6 +67,14 @@ export default function Header() {
             <Link to="/competitors" className="text-gray-700 hover:text-blue-600">
               Competitors
             </Link>
+            <a 
+              href="https://support.creativejobhub.com/en/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-blue-600"
+            >
+              Help
+            </a>
             <Link to="/login" className="text-gray-700 hover:text-blue-600">
               Login
             </Link>
@@ -194,6 +202,15 @@ export default function Header() {
               >
                 Competitors
               </Link>
+              <a
+                href="https://support.creativejobhub.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Help Center
+              </a>
               <Link
                 to="/login"
                 className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"

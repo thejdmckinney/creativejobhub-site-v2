@@ -64,6 +64,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <a 
+                  href="https://support.creativejobhub.com/en/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li>
                 <Link to="/blog" className="hover:text-white">
                   Field Notes Blog
                 </Link>
