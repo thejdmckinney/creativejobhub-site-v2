@@ -3,23 +3,15 @@
   <!-- Homepage -->
   <url>
     <loc>https://creativejobhub.com/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  
-  <!-- Features -->
-  <url>
-    <loc>https://creativejobhub.com/features</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
   
   <!-- How It Works -->
   <url>
     <loc>https://creativejobhub.com/how-it-works</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -27,7 +19,7 @@
   <!-- Pricing -->
   <url>
     <loc>https://creativejobhub.com/pricing</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -35,21 +27,21 @@
   <!-- Industry Pages -->
   <url>
     <loc>https://creativejobhub.com/chimney-sweep-software</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://creativejobhub.com/handyman-software</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://creativejobhub.com/pool-service-software</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -57,7 +49,7 @@
   <!-- Competitors Overview -->
   <url>
     <loc>https://creativejobhub.com/competitors</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -65,42 +57,42 @@
   <!-- Competitor Comparisons -->
   <url>
     <loc>https://creativejobhub.com/vs-jobber</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://creativejobhub.com/vs-housecallpro</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://creativejobhub.com/vs-housecall-pro</loc>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://creativejobhub.com/vs-servicetitan</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://creativejobhub.com/vs-workiz</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://creativejobhub.com/vs-fieldedge</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://creativejobhub.com/vs-servicem8</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -108,7 +100,7 @@
   <!-- Why I Built This -->
   <url>
     <loc>https://creativejobhub.com/why-i-built-this</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -116,7 +108,7 @@
   <!-- Signup -->
   <url>
     <loc>https://creativejobhub.com/signup</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -124,7 +116,7 @@
   <!-- Login -->
   <url>
     <loc>https://creativejobhub.com/login</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
