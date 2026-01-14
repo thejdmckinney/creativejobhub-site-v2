@@ -13,12 +13,12 @@ export default function SEO({
   title = 'Creative Job Hub - Field Service Management Software for Creative Professionals',
   description = 'The all-in-one field service management software built specifically for creative contractors. Schedule jobs, create estimates, manage clients, and get paid faster. Try free for 14 days.',
   keywords = 'field service management, contractor software, job management, hvac software, plumbing software, electrical software, landscaping software, scheduling software, estimate software, invoice software',
-  ogImage = 'https://creativejobhub.com/cjh-og-image.png',
+  ogImage = 'https://www.creativejobhub.com/cjh-og-image.png',
   ogType = 'website',
   canonicalUrl,
 }: SEOProps) {
   const fullTitle = title.includes('Creative Job Hub') ? title : `${title} | Creative Job Hub`;
-  const currentUrl = canonicalUrl || `https://creativejobhub.com${window.location.pathname}`;
+  const currentUrl = canonicalUrl || `https://www.creativejobhub.com${window.location.pathname}`;
 
   return (
     <Helmet>

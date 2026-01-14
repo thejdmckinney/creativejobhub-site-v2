@@ -9,11 +9,11 @@ export default function OrganizationSchema() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": ["Organization", "SoftwareApplication"],
-    "@id": "https://creativejobhub.com/#organization",
+    "@id": "https://www.creativejobhub.com/#organization",
     "name": "Creative Job Hub",
     "legalName": "Creative Job Hub LLC",
-    "url": "https://creativejobhub.com",
-    "logo": "https://creativejobhub.com/cjh-og-image.png",
+    "url": "https://www.creativejobhub.com",
+    "logo": "https://www.creativejobhub.com/cjh-og-image.png",
     "description": "Field service management software for contractors. Scheduling, estimates, invoicing, QuickBooks integration. Built by a contractor for contractors.",
     "foundingDate": "2025",
     "slogan": "Field Service Software That Doesn't Cost More Than Your Truck Payment",
@@ -29,7 +29,7 @@ export default function OrganizationSchema() {
       "priceCurrency": "USD",
       "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
-      "url": "https://creativejobhub.com/pricing"
+      "url": "https://www.creativejobhub.com/pricing"
     },
     
     // Aggregate Rating from your 433 reviews

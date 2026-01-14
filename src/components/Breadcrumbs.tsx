@@ -19,7 +19,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
       "@type": "ListItem",
       "position": index + 1,
       "name": item.label,
-      ...(item.path && { "item": `https://creativejobhub.com${item.path}` })
+      ...(item.path && { "item": `https://www.creativejobhub.com${item.path}` })
     }))
   };
 
