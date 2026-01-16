@@ -7,6 +7,7 @@ interface SEOProps {
   ogImage?: string;
   ogType?: string;
   canonicalUrl?: string;
+  noIndex?: boolean;
 }
 
 export default function SEO({
@@ -16,6 +17,7 @@ export default function SEO({
   ogImage = 'https://www.creativejobhub.com/cjh-og-image.png',
   ogType = 'website',
   canonicalUrl,
+  noIndex = false,
 }: SEOProps) {
   const fullTitle = title.includes('Creative Job Hub') ? title : `${title} | Creative Job Hub`;
   const currentUrl = canonicalUrl || `https://www.creativejobhub.com${window.location.pathname}`;
@@ -27,6 +29,7 @@ export default function SEO({
       <meta name="title" content={fullTitle} />
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
+      {noIndex && <meta name="robots" content="noindex, nofollow" />}
       
       {/* Canonical URL */}
       <link rel="canonical" href={currentUrl} />
