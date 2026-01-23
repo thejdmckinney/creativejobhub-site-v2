@@ -160,7 +160,7 @@ export default function BringYourOwnTools() {
                 <p className="text-red-600"><strong>They Charge:</strong> $50+/month for the same thing</p>
               </div>
               <Link 
-                to="/signup" 
+                to="/setup-guides/twilio" 
                 className="inline-block w-full text-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
               >
                 View Setup Guide →
@@ -178,7 +178,7 @@ export default function BringYourOwnTools() {
                 <p className="text-red-600"><strong>They Charge:</strong> Bundled into $300/month plans</p>
               </div>
               <Link 
-                to="/signup" 
+                to="/setup-guides/resend" 
                 className="inline-block w-full text-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
               >
                 View Setup Guide →
@@ -196,7 +196,7 @@ export default function BringYourOwnTools() {
                 <p className="text-red-600"><strong>They Charge:</strong> $50-100/month "premium" tier</p>
               </div>
               <Link 
-                to="/signup" 
+                to="/setup-guides/mapbox" 
                 className="inline-block w-full text-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
               >
                 View Setup Guide →
@@ -214,7 +214,7 @@ export default function BringYourOwnTools() {
                 <p className="text-red-600"><strong>They Charge:</strong> 2.9% + $0.30 PLUS their software fee</p>
               </div>
               <Link 
-                to="/signup" 
+                to="/setup-guides/stripe" 
                 className="inline-block w-full text-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
               >
                 View Setup Guide →

@@ -19,6 +19,11 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import NotFound from './pages/NotFound';
 import BringYourOwnTools from './pages/BringYourOwnTools';
+import SetupGuidesIndex from './pages/setup-guides/SetupGuidesIndex';
+import TwilioSetup from './pages/setup-guides/TwilioSetup';
+import ResendSetup from './pages/setup-guides/ResendSetup';
+import MapboxSetup from './pages/setup-guides/MapboxSetup';
+import StripeSetup from './pages/setup-guides/StripeSetup';
 
 function App() {
   return (
@@ -43,6 +48,12 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
+          {/* Setup Guides */}
+          <Route path="setup-guides" element={<SetupGuidesIndex />} />
+          <Route path="setup-guides/twilio" element={<TwilioSetup />} />
+          <Route path="setup-guides/resend" element={<ResendSetup />} />
+          <Route path="setup-guides/mapbox" element={<MapboxSetup />} />
+          <Route path="setup-guides/stripe" element={<StripeSetup />} />
           {/* Catch-all 404 route */}
           <Route path="*" element={<NotFound />} />
         </Route>

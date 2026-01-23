@@ -32,6 +32,42 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- Setup Guides -->
+  <url>
+    <loc>https://www.creativejobhub.com/setup-guides</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.creativejobhub.com/setup-guides/twilio</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.creativejobhub.com/setup-guides/resend</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.creativejobhub.com/setup-guides/mapbox</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.creativejobhub.com/setup-guides/stripe</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   <!-- Industry Pages -->
   <url>
     <loc>https://www.creativejobhub.com/chimney-sweep-software</loc>
