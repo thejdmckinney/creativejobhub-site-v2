@@ -24,6 +24,14 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- Bring Your Own Tools -->
+  <url>
+    <loc>https://www.creativejobhub.com/bring-your-own-tools</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
   <!-- Industry Pages -->
   <url>
     <loc>https://www.creativejobhub.com/chimney-sweep-software</loc>

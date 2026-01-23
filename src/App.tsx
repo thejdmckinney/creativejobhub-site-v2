@@ -18,6 +18,7 @@ import PoolServiceSoftware from './pages/PoolServiceSoftware';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import NotFound from './pages/NotFound';
+import BringYourOwnTools from './pages/BringYourOwnTools';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="pool-service-software" element={<PoolServiceSoftware />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
+          <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
           {/* Catch-all 404 route */}
           <Route path="*" element={<NotFound />} />
         </Route>
