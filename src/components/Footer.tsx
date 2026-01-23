@@ -20,6 +20,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/bring-your-own-tools" className="hover:text-white font-semibold">
+                  Bring Your Own Tools
+                </Link>
+              </li>
+              <li>
                 <Link to="/signup" className="hover:text-white">
                   Free Trial
                 </Link>

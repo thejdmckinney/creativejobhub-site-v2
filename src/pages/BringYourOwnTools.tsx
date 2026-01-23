@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import SavingsCalculator from '../components/SavingsCalculator';
 
 export default function BringYourOwnTools() {
   return (
@@ -265,65 +266,62 @@ export default function BringYourOwnTools() {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
             Let's Do The <span className="text-blue-600">Real Math</span>
           </h2>
-          <p className="text-xl text-center text-gray-600 mb-12">Typical Contractor: 50 jobs/month, 2-person crew</p>
+          <p className="text-xl text-center text-gray-600 mb-12">Calculate your exact savings below</p>
 
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white shadow-lg rounded-lg overflow-hidden">
-              <thead className="bg-blue-600 text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Feature</th>
-                  <th className="px-6 py-4 text-left">Jobber/HCP Cost</th>
-                  <th className="px-6 py-4 text-left">Your Real Cost</th>
-                  <th className="px-6 py-4 text-left">Annual Savings</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold">Software Base</td>
-                  <td className="px-6 py-4">$300/mo</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">$89/mo</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">$2,532/year</td>
-                </tr>
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold">SMS (500 msgs/mo)</td>
-                  <td className="px-6 py-4">Included*</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">FREE</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">$600/year</td>
-                </tr>
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold">Email (1,000/mo)</td>
-                  <td className="px-6 py-4">Included*</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">FREE</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">$300/year</td>
-                </tr>
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold">Maps/Routing</td>
-                  <td className="px-6 py-4">Included*</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">FREE</td>
-                  <td className="px-6 py-4 text-green-600 font-bold">$600/year</td>
-                </tr>
-                <tr className="bg-blue-50 font-bold text-lg">
-                  <td className="px-6 py-4">TOTAL</td>
-                  <td className="px-6 py-4 text-red-600">$3,600/year</td>
-                  <td className="px-6 py-4 text-green-600">$1,068/year</td>
-                  <td className="px-6 py-4 text-green-600 text-2xl">💰 $2,532/year</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          {/* Interactive Calculator */}
+          <SavingsCalculator />
 
-          <div className="mt-8 text-center text-sm text-gray-600">
-            <p>*Included = You're paying for it, they just hide the cost</p>
-          </div>
+          {/* Static table for reference (optional - can be shown below calculator) */}
+          <div className="mt-16 pt-12 border-t-2 border-gray-200">
+            <p className="text-center text-gray-600 mb-8">Here's a typical example:</p>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-white shadow-lg rounded-lg overflow-hidden">
+                <thead className="bg-blue-600 text-white">
+                  <tr>
+                    <th className="px-6 py-4 text-left">Feature</th>
+                    <th className="px-6 py-4 text-left">Jobber/HCP Cost</th>
+                    <th className="px-6 py-4 text-left">Your Real Cost</th>
+                    <th className="px-6 py-4 text-left">Annual Savings</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">Software Base</td>
+                    <td className="px-6 py-4">$300/mo</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">$89/mo</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">$2,532/year</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">SMS (500 msgs/mo)</td>
+                    <td className="px-6 py-4">Included*</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">FREE</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">$600/year</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">Email (1,000/mo)</td>
+                    <td className="px-6 py-4">Included*</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">FREE</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">$300/year</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">Maps/Routing</td>
+                    <td className="px-6 py-4">Included*</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">FREE</td>
+                    <td className="px-6 py-4 text-green-600 font-bold">$600/year</td>
+                  </tr>
+                  <tr className="bg-blue-50 font-bold text-lg">
+                    <td className="px-6 py-4">TOTAL</td>
+                    <td className="px-6 py-4 text-red-600">$3,600/year</td>
+                    <td className="px-6 py-4 text-green-600">$1,068/year</td>
+                    <td className="px-6 py-4 text-green-600 text-2xl">💰 $2,532/year</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-          <div className="mt-12 bg-blue-50 rounded-xl p-8 border-l-4 border-blue-600">
-            <p className="text-xl font-bold text-gray-900 mb-4">That's $2,532 you could spend on:</p>
-            <ul className="space-y-2 text-lg text-gray-700">
-              <li>✅ Marketing to get more jobs</li>
-              <li>✅ Better tools for your crew</li>
-              <li>✅ Your family</li>
-              <li>✅ Actually growing your business</li>
-            </ul>
+            <div className="mt-8 text-center text-sm text-gray-600">
+              <p>*Included = You're paying for it, they just hide the cost</p>
+            </div>
           </div>
         </div>
       </section>
