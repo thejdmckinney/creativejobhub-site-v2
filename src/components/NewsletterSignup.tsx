@@ -83,7 +83,7 @@ export default function NewsletterSignup({ className = '', inline = false }: New
             placeholder="Enter your email address"
             required
             disabled={status === 'loading'}
-            className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400 disabled:bg-gray-200"
+            className="flex-1 px-4 py-3 rounded-lg bg-white text-gray-900 placeholder-gray-500 border-2 border-transparent focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400 disabled:bg-gray-200 shadow-md"
           />
           <button
             type="submit"
