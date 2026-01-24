@@ -109,7 +109,7 @@ export default function BringYourOwnTools() {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 The Old Way <span className="text-sm font-normal text-gray-600">(Jobber, Housecall Pro)</span>
               </h3>
-              <div className="space-y-3 font-mono text-sm">
+              <div className="space-y-3 text-sm">
                 <div className="font-bold text-lg text-red-600">Monthly Software Fee: $300+</div>
                 <div className="pl-4">├─ SMS (their Twilio account): Included*</div>
                 <div className="pl-4">├─ Email (their email service): Included*</div>
@@ -124,7 +124,7 @@ export default function BringYourOwnTools() {
               <h3 className="text-2xl font-bold text-blue-900 mb-6">
                 The Creative Job Hub Way
               </h3>
-              <div className="space-y-3 font-mono text-sm">
+              <div className="space-y-3 text-sm">
                 <div className="font-bold text-lg text-green-600">Monthly Software Fee: $89</div>
                 <div className="pl-4">├─ Your Twilio Account: $0 (free tier)</div>
                 <div className="pl-4">├─ Your Resend Account: $0 (free tier)</div>
