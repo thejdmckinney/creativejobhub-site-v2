@@ -86,11 +86,11 @@ export default function BlogPost() {
 
         {/* Featured Image */}
         {post.featuredImage && (
-          <div className="relative w-full h-96 bg-gray-100">
+          <div className="relative w-full bg-gray-100">
             <img 
               src={post.featuredImage}
               alt={post.title}
-              className="w-full h-full object-cover"
+              className="w-full h-auto"
             />
           </div>
         )}
