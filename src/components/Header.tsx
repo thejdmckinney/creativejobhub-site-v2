@@ -5,6 +5,7 @@ import logo from '../assets/CJH_Circle_Logo.png';
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [industriesOpen, setIndustriesOpen] = useState(false);
+  const [resourcesOpen, setResourcesOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
@@ -61,29 +62,61 @@ export default function Header() {
               )}
             </div>
             
-            <Link to="/how-it-works" className="text-gray-700 hover:text-blue-600">
-              How It Works
-            </Link>
             <Link to="/bring-your-own-tools" className="text-gray-700 hover:text-blue-600 font-semibold">
               BYOT
             </Link>
-            <Link to="/blog" className="text-gray-700 hover:text-blue-600">
-              Blog
-            </Link>
+            
             <Link to="/competitors" className="text-gray-700 hover:text-blue-600">
               Competitors
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600">
-              Contact
-            </Link>
-            <a 
-              href="https://support.creativejobhub.com/en/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-blue-600"
+            
+            {/* Resources Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setResourcesOpen(true)}
+              onMouseLeave={() => setResourcesOpen(false)}
             >
-              Help
-            </a>
+              <button className="text-gray-700 hover:text-blue-600 flex items-center gap-1 py-2">
+                Resources
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              
+              {resourcesOpen && (
+                <div className="absolute top-full left-0 pt-2 w-56">
+                  <div className="bg-white rounded-lg shadow-lg border border-gray-200 py-2">
+                    <Link 
+                      to="/how-it-works" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      How It Works
+                    </Link>
+                    <Link 
+                      to="/blog" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Blog
+                    </Link>
+                    <Link 
+                      to="/contact" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Contact
+                    </Link>
+                    <a 
+                      href="https://support.creativejobhub.com/en/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Help Center
+                    </a>
+                  </div>
+                </div>
+              )}
+            </div>
+            
             <Link to="/login" className="text-gray-700 hover:text-blue-600">
               Login
             </Link>
@@ -198,26 +231,13 @@ export default function Header() {
               </div>
               
               <Link
-                to="/how-it-works"
-                className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                How It Works
-              </Link>
-              <Link
                 to="/bring-your-own-tools"
                 className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md font-semibold"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Bring Your Own Tools
               </Link>
-              <Link
-                to="/blog"
-                className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Blog
-              </Link>
+              
               <Link
                 to="/competitors"
                 className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
@@ -225,22 +245,44 @@ export default function Header() {
               >
                 Competitors
               </Link>
-              <Link
-                to="/contact"
-                className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Contact
-              </Link>
-              <a
-                href="https://support.creativejobhub.com/en/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Help Center
-              </a>
+              
+              {/* Resources submenu in mobile */}
+              <div className="px-4 py-2">
+                <div className="text-gray-900 font-semibold mb-2">Resources</div>
+                <div className="pl-4 space-y-2">
+                  <Link
+                    to="/how-it-works"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    How It Works
+                  </Link>
+                  <Link
+                    to="/blog"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Blog
+                  </Link>
+                  <Link
+                    to="/contact"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Contact
+                  </Link>
+                  <a
+                    href="https://support.creativejobhub.com/en/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Help Center
+                  </a>
+                </div>
+              </div>
+              
               <Link
                 to="/login"
                 className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
