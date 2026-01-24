@@ -27,6 +27,7 @@ import StripeSetup from './pages/setup-guides/StripeSetup';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Studio from './pages/Studio';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
+          <Route path="contact" element={<Contact />} />
           {/* Blog Routes */}
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />

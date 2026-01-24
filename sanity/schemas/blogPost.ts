@@ -106,6 +106,9 @@ export const blogPost = defineType({
             },
           ],
         },
+        {
+          type: 'callToAction',
+        },
       ],
     }),
     defineField({

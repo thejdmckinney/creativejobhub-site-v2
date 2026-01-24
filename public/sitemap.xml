@@ -40,6 +40,14 @@
     <priority>0.8</priority>
   </url>
   
+  <!-- Contact -->
+  <url>
+    <loc>https://www.creativejobhub.com/contact</loc>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
   <!-- Setup Guides -->
   <url>
     <loc>https://www.creativejobhub.com/setup-guides</loc>

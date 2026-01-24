@@ -101,6 +101,11 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li>
+                <Link to="/contact" className="hover:text-white">
+                  Contact Form
+                </Link>
+              </li>
+              <li>
                 <a href="mailto:support@creativejobhub.com" className="hover:text-white">
                   support@creativejobhub.com
                 </a>
