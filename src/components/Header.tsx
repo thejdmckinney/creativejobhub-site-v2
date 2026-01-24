@@ -67,6 +67,9 @@ export default function Header() {
             <Link to="/bring-your-own-tools" className="text-gray-700 hover:text-blue-600 font-semibold">
               BYOT
             </Link>
+            <Link to="/blog" className="text-gray-700 hover:text-blue-600">
+              Blog
+            </Link>
             <Link to="/competitors" className="text-gray-700 hover:text-blue-600">
               Competitors
             </Link>
@@ -204,6 +207,13 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Bring Your Own Tools
+              </Link>
+              <Link
+                to="/blog"
+                className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link
                 to="/competitors"

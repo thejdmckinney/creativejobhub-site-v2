@@ -24,12 +24,18 @@ import TwilioSetup from './pages/setup-guides/TwilioSetup';
 import ResendSetup from './pages/setup-guides/ResendSetup';
 import MapboxSetup from './pages/setup-guides/MapboxSetup';
 import StripeSetup from './pages/setup-guides/StripeSetup';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
+import Studio from './pages/Studio';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <Routes>
+        {/* Studio Route - Outside MainLayout for full screen */}
+        <Route path="/studio/*" element={<Studio />} />
+        
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="pricing" element={<Pricing />} />
@@ -48,6 +54,9 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
+          {/* Blog Routes */}
+          <Route path="blog" element={<Blog />} />
+          <Route path="blog/:slug" element={<BlogPost />} />
           {/* Setup Guides */}
           <Route path="setup-guides" element={<SetupGuidesIndex />} />
           <Route path="setup-guides/twilio" element={<TwilioSetup />} />
@@ -57,6 +66,8 @@ function App() {
           {/* Catch-all 404 route */}
           <Route path="*" element={<NotFound />} />
         </Route>
+        {/* Studio Route - Outside MainLayout for full screen */}
+        <Route path="/studio" element={<Studio />} />
       </Routes>
     </Router>
   );
