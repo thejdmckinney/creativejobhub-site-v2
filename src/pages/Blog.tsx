@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import NewsletterSignup from '../components/NewsletterSignup';
 import { getAllPosts, type BlogPost } from '../utils/blog';
 
 export default function Blog() {
@@ -90,6 +91,11 @@ export default function Blog() {
               ))}
             </div>
           )}
+        </section>
+
+        {/* Newsletter Section */}
+        <section className="max-w-4xl mx-auto px-6 py-12">
+          <NewsletterSignup />
         </section>
 
         {/* CTA Section */}
