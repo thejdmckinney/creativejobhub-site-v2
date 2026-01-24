@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { PortableText } from '@portabletext/react';
 import SEO from '../components/SEO';
 import CTAButton from '../components/CTAButton';
+import Comments from '../components/Comments';
 import { getPostBySlug, type BlogPost } from '../utils/blog';
 
 export default function BlogPost() {
@@ -172,6 +173,13 @@ export default function BlogPost() {
               Start Free Trial →
             </Link>
           </div>
+
+          {/* Comments Section */}
+          <Comments 
+            url={`https://creativejobhub.com/blog/${post.slug.current}`}
+            identifier={post._id}
+            title={post.title}
+          />
         </div>
       </article>
     </>

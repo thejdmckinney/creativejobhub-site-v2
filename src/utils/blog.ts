@@ -2,6 +2,7 @@ import { client } from '../../sanity/lib/client';
 import type { PortableTextBlock } from '@portabletext/react';
 
 export interface BlogPost {
+  _id: string;
   slug: string;
   title: string;
   description: string;
@@ -17,6 +18,7 @@ export interface BlogPost {
 // Fetch all posts from Sanity
 export async function getAllPosts(): Promise<BlogPost[]> {
   const query = `*[_type == "post"] | order(publishedAt desc) {
+    _id,
     "slug": slug.current,
     title,
     description,
@@ -41,6 +43,7 @@ export async function getAllPosts(): Promise<BlogPost[]> {
 // Get a single post by slug
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   const query = `*[_type == "post" && slug.current == $slug][0] {
+    _id,
     "slug": slug.current,
     title,
     description,
@@ -73,6 +76,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
 // Get posts by category
 export async function getPostsByCategory(category: string): Promise<BlogPost[]> {
   const query = `*[_type == "post" && category == $category] | order(publishedAt desc) {
+    _id,
     "slug": slug.current,
     title,
     description,
