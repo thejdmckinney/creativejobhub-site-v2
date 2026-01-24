@@ -36,6 +36,69 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       `,
     });
 
+    // Send Slack notification (if webhook URL is configured)
+    if (process.env.SLACK_WEBHOOK_URL) {
+      try {
+        await fetch(process.env.SLACK_WEBHOOK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            text: '🔔 New Contact Form Submission',
+            blocks: [
+              {
+                type: 'header',
+                text: {
+                  type: 'plain_text',
+                  text: '📨 New Contact Form Submission',
+                  emoji: true,
+                },
+              },
+              {
+                type: 'section',
+                fields: [
+                  {
+                    type: 'mrkdwn',
+                    text: `*Name:*\n${name}`,
+                  },
+                  {
+                    type: 'mrkdwn',
+                    text: `*Email:*\n${email}`,
+                  },
+                  ...(phone ? [{
+                    type: 'mrkdwn',
+                    text: `*Phone:*\n${phone}`,
+                  }] : []),
+                  ...(company ? [{
+                    type: 'mrkdwn',
+                    text: `*Company:*\n${company}`,
+                  }] : []),
+                ],
+              },
+              {
+                type: 'section',
+                text: {
+                  type: 'mrkdwn',
+                  text: `*Message:*\n${message}`,
+                },
+              },
+              {
+                type: 'context',
+                elements: [
+                  {
+                    type: 'mrkdwn',
+                    text: `Submitted from creativejobhub.com | Reply to: ${email}`,
+                  },
+                ],
+              },
+            ],
+          }),
+        });
+      } catch (slackError) {
+        // Don't fail the whole request if Slack fails
+        console.error('Slack notification failed:', slackError);
+      }
+    }
+
     return res.status(200).json({ success: true });
   } catch (error: any) {
     console.error('Contact form error:', error);
