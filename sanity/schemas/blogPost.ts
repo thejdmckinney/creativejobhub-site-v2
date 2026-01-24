@@ -41,12 +41,13 @@ export const blogPost = defineType({
       type: 'string',
       options: {
         list: [
-          { title: 'Software Tips', value: 'Software Tips' },
-          { title: 'Business Growth', value: 'Business Growth' },
-          { title: 'Integrations', value: 'Integrations' },
+          { title: 'Field Service Software', value: 'Field Service Software' },
+          { title: 'Contractor Business Tips', value: 'Contractor Business Tips' },
+          { title: 'Technology & Tools', value: 'Technology & Tools' },
           { title: 'Cost Savings', value: 'Cost Savings' },
-          { title: 'Industry News', value: 'Industry News' },
-          { title: 'Customer Stories', value: 'Customer Stories' },
+          { title: 'Product Updates', value: 'Product Updates' },
+          { title: 'Case Studies', value: 'Case Studies' },
+          { title: 'Field Notes', value: 'Field Notes' },
         ],
       },
       validation: (Rule) => Rule.required(),
