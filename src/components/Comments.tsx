@@ -12,6 +12,8 @@ export default function Comments({ url, identifier, title }: CommentsProps) {
   useEffect(() => {
     // Only load Disqus once
     if (disqusLoaded.current) return;
+    
+    console.log('Loading Disqus with config:', { url, identifier, title });
     disqusLoaded.current = true;
 
     // Configure Disqus with the recommended variables
@@ -19,6 +21,7 @@ export default function Comments({ url, identifier, title }: CommentsProps) {
       this.page.url = url;
       this.page.identifier = identifier;
       this.page.title = title;
+      console.log('Disqus config function called with:', this.page);
     };
 
     // Load the Disqus script
@@ -26,6 +29,8 @@ export default function Comments({ url, identifier, title }: CommentsProps) {
     const s = d.createElement('script');
     s.src = 'https://creativejobhub-com.disqus.com/embed.js';
     s.setAttribute('data-timestamp', String(+new Date()));
+    s.onload = () => console.log('Disqus script loaded successfully');
+    s.onerror = (e) => console.error('Disqus script failed to load:', e);
     (d.head || d.body).appendChild(s);
   }, []); // Empty dependency array - only run once
 
