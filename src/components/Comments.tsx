@@ -8,35 +8,30 @@ interface CommentsProps {
 
 export default function Comments({ url, identifier, title }: CommentsProps) {
   useEffect(() => {
-    // Clear any existing Disqus
-    const disqusThread = document.getElementById('disqus_thread');
-    if (disqusThread) {
-      disqusThread.innerHTML = '';
-    }
-
-    // Configure Disqus
-    (window as any).disqus_config = function() {
+    // Configure Disqus with the recommended variables
+    (window as any).disqus_config = function () {
       this.page.url = url;
       this.page.identifier = identifier;
       this.page.title = title;
     };
 
-    // Load Disqus script
-    const script = document.createElement('script');
-    script.src = 'https://creativejobhub-com.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', String(+new Date()));
-    script.async = true;
-    
-    const firstScript = document.getElementsByTagName('script')[0];
-    if (firstScript && firstScript.parentNode) {
-      firstScript.parentNode.insertBefore(script, firstScript);
-    }
+    // Load the Disqus script (DON'T EDIT BELOW THIS LINE)
+    const d = document;
+    const s = d.createElement('script');
+    s.src = 'https://creativejobhub-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', String(+new Date()));
+    (d.head || d.body).appendChild(s);
 
+    // Cleanup function
     return () => {
-      // Cleanup
-      if (script.parentNode) {
-        script.parentNode.removeChild(script);
+      const disqusThread = document.getElementById('disqus_thread');
+      if (disqusThread) {
+        disqusThread.innerHTML = '';
       }
+      // Remove all Disqus-related scripts on unmount
+      const scripts = document.querySelectorAll('script[src*="disqus"]');
+      scripts.forEach(script => script.remove());
+      
       delete (window as any).disqus_config;
       delete (window as any).DISQUS;
     };
