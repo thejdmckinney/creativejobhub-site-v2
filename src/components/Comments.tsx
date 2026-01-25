@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface CommentsProps {
   url: string;
@@ -7,7 +7,13 @@ interface CommentsProps {
 }
 
 export default function Comments({ url, identifier, title }: CommentsProps) {
+  const disqusLoaded = useRef(false);
+
   useEffect(() => {
+    // Only load Disqus once
+    if (disqusLoaded.current) return;
+    disqusLoaded.current = true;
+
     // Configure Disqus with the recommended variables
     (window as any).disqus_config = function () {
       this.page.url = url;
@@ -15,27 +21,13 @@ export default function Comments({ url, identifier, title }: CommentsProps) {
       this.page.title = title;
     };
 
-    // Load the Disqus script (DON'T EDIT BELOW THIS LINE)
+    // Load the Disqus script
     const d = document;
     const s = d.createElement('script');
     s.src = 'https://creativejobhub-com.disqus.com/embed.js';
     s.setAttribute('data-timestamp', String(+new Date()));
     (d.head || d.body).appendChild(s);
-
-    // Cleanup function
-    return () => {
-      const disqusThread = document.getElementById('disqus_thread');
-      if (disqusThread) {
-        disqusThread.innerHTML = '';
-      }
-      // Remove all Disqus-related scripts on unmount
-      const scripts = document.querySelectorAll('script[src*="disqus"]');
-      scripts.forEach(script => script.remove());
-      
-      delete (window as any).disqus_config;
-      delete (window as any).DISQUS;
-    };
-  }, [url, identifier, title]);
+  }, []); // Empty dependency array - only run once
 
   return (
     <div className="mt-12 pt-8 border-t border-gray-200">
