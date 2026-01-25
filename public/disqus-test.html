@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Disqus Test</title>
+</head>
+<body>
+    <h1>Disqus Test Page</h1>
+    <p>If Disqus is working, you should see a comment box below:</p>
+    
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://creativejobhub.com/disqus-test.html';
+            this.page.identifier = 'disqus-test';
+            this.page.title = 'Disqus Test';
+        };
+        
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://creativejobhub-com.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
