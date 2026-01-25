@@ -16,6 +16,21 @@ export default function Comments({ url, identifier, title }: CommentsProps) {
     console.log('Loading Disqus with config:', { url, identifier, title });
     disqusLoaded.current = true;
 
+    // Add CSS to isolate Disqus from problematic color values
+    const style = document.createElement('style');
+    style.textContent = `
+      #disqus_thread {
+        all: initial;
+        display: block;
+        color: #000;
+        background: #fff;
+      }
+      #disqus_thread * {
+        color: initial;
+      }
+    `;
+    document.head.appendChild(style);
+
     // Configure Disqus with the recommended variables
     (window as any).disqus_config = function () {
       this.page.url = url;
@@ -37,7 +52,7 @@ export default function Comments({ url, identifier, title }: CommentsProps) {
   return (
     <div className="mt-12 pt-8 border-t border-gray-200">
       <h3 className="text-2xl font-bold text-gray-900 mb-6">Comments</h3>
-      <div id="disqus_thread"></div>
+      <div id="disqus_thread" style={{ colorScheme: 'normal' }}></div>
       <noscript>
         Please enable JavaScript to view the{' '}
         <a href="https://disqus.com/?ref_noscript">
