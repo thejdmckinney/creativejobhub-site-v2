@@ -175,11 +175,7 @@ export default function BlogPost() {
           </div>
 
           {/* Comments Section */}
-          <Comments 
-            url={`https://creativejobhub.com/blog/${post.slug}`}
-            identifier={`blog-${post.slug}`}
-            title={post.title}
-          />
+          <Comments postSlug={post.slug} />
         </div>
       </article>
     </>
