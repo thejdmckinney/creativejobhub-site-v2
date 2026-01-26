@@ -28,6 +28,8 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Studio from './pages/Studio';
 import Contact from './pages/Contact';
+import TermsOfService from './pages/TermsOfService';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -56,6 +58,9 @@ function App() {
           <Route path="signup" element={<Signup />} />
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
           <Route path="contact" element={<Contact />} />
+          {/* Legal Pages */}
+          <Route path="terms-of-service" element={<TermsOfService />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
           {/* Blog Routes */}
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
