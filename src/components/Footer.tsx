@@ -90,12 +90,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="hover:text-white">
+                <Link to="/privacy-policy" className="hover:text-white">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/terms" className="hover:text-white">
+                <Link to="/terms-of-service" className="hover:text-white">
                   Terms of Service
                 </Link>
               </li>
