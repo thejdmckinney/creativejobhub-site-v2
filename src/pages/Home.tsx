@@ -72,6 +72,7 @@ export default function Home() {
                 src={heroBanner} 
                 alt="Creative Job Hub - Field Service Management Software" 
                 className="w-full h-full object-cover"
+                loading="eager"
               />
             </div>
           </div>
@@ -127,6 +128,7 @@ export default function Home() {
                 src={integrationsImage} 
                 alt="Creative Job Hub Integrations - Stripe, QuickBooks, Twilio" 
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             <div className="space-y-4 text-lg">

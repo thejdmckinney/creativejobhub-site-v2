@@ -38,6 +38,7 @@ export default function VsJobber() {
               src={vsJobberImage} 
               alt="Creative Job Hub vs Jobber Comparison" 
               className="w-full rounded-lg shadow-2xl"
+              loading="lazy"
             />
           </div>
         </div>

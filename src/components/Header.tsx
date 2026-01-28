@@ -13,7 +13,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="Creative Job Hub" className="h-10 w-10" />
+            <img src={logo} alt="Creative Job Hub" className="h-10 w-10" loading="eager" />
             <span className="text-xl font-bold text-blue-600">Creative Job Hub</span>
           </Link>
 

@@ -41,6 +41,7 @@ export default function VsHousecallPro() {
               src={vsHousecallProImage} 
               alt="Creative Job Hub vs Housecall Pro Comparison" 
               className="w-full rounded-lg shadow-2xl"
+              loading="lazy"
             />
           </div>
 

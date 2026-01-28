@@ -55,6 +55,7 @@ export default function PoolServiceSoftware() {
                 src={poolServiceImage} 
                 alt="Pool Service Software - Creative Job Hub" 
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
           </div>

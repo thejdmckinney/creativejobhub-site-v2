@@ -55,6 +55,7 @@ export default function HandymanSoftware() {
                 src={handymanImage} 
                 alt="Handyman Business Software - Creative Job Hub" 
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
           </div>

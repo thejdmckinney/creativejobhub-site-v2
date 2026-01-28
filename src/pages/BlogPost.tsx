@@ -92,6 +92,7 @@ export default function BlogPost() {
               src={post.featuredImage}
               alt={post.title}
               className="w-full h-auto rounded-lg shadow-lg"
+              loading="eager"
             />
           </div>
         )}
@@ -111,8 +112,9 @@ export default function BlogPost() {
                       <div className="my-8">
                         <img 
                           src={imageUrl}
-                          alt={value.alt || ''}
+                          alt={value.alt || 'Blog post image'}
                           className="w-full rounded-lg"
+                          loading="lazy"
                         />
                         {value.alt && (
                           <p className="text-sm text-gray-500 text-center mt-2">

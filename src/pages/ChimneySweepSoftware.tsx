@@ -42,6 +42,7 @@ export default function ChimneySweepSoftware() {
               src={csiaInspectionImage} 
               alt="CSIA Inspection Checklist and Creosote Tracking in Creative Job Hub Mobile App" 
               className="w-full rounded-lg shadow-2xl border-4 border-gray-200"
+              loading="lazy"
             />
             <p className="text-center text-gray-600 mt-4 text-sm">
               Complete CSIA inspections and log creosote readings right from your mobile device
