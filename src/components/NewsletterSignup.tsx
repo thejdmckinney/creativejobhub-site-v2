@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
+import { trackNewsletterSignup } from '../utils/analytics';
 
 interface NewsletterSignupProps {
   className?: string;
@@ -29,6 +30,7 @@ export default function NewsletterSignup({ className = '', inline = false }: New
         setStatus('success');
         setMessage(data.message || 'Thanks! Check your email to confirm your subscription.');
         setEmail('');
+        trackNewsletterSignup(email); // Track conversion
       } else {
         setStatus('error');
         setMessage(data.error || 'Something went wrong. Please try again.');

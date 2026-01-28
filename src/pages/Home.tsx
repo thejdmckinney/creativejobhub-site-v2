@@ -4,6 +4,7 @@ import StarRating from '../components/StarRating';
 import OrganizationSchema from '../components/OrganizationSchema';
 import FAQSchema from '../components/FAQSchema';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
+import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/home-page-image.png';
 import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
 
@@ -61,7 +62,11 @@ export default function Home() {
                 <StarRating />
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <Link to="/signup" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center">
+                <Link 
+                  to="/signup" 
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center"
+                  onClick={() => trackTrialSignup('hero')}
+                >
                   Start Your 14-Day Free Trial
                 </Link>
                 <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">

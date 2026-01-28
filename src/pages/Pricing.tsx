@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
+import { trackPricingView } from '../utils/analytics';
 
 export default function Pricing() {
+  useEffect(() => {
+    trackPricingView();
+  }, []);
+
   return (
     <div className="bg-white">
       <SEO 
