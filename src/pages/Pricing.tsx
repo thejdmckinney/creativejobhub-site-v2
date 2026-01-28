@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
 
 export default function Pricing() {
   return (
@@ -10,6 +11,7 @@ export default function Pricing() {
         description="Simple, transparent pricing. $89/month includes unlimited users, jobs, estimates, invoices, mobile apps, QuickBooks sync, and 24/7 support. No hidden fees. Try free for 14 days."
         keywords="field service pricing, contractor software pricing, affordable field service software, unlimited users"
       />
+      <SoftwareApplicationSchema />
       
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
