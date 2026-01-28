@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
+import ProductSchema from '../components/ProductSchema';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import { trackPricingView } from '../utils/analytics';
 
@@ -19,6 +20,7 @@ export default function Pricing() {
         keywords="field service pricing, contractor software pricing, affordable field service software, unlimited users"
       />
       <SoftwareApplicationSchema />
+      <ProductSchema />
       <BreadcrumbSchema items={[
         { name: 'Home', url: 'https://creativejobhub.com' },
         { name: 'Pricing', url: 'https://creativejobhub.com/pricing' }
