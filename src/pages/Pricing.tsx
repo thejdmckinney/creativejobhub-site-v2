@@ -4,8 +4,44 @@ import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
 import ProductSchema from '../components/ProductSchema';
+import FAQSchema from '../components/FAQSchema';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import { trackPricingView } from '../utils/analytics';
+
+const faqs = [
+  {
+    question: "What if I have 10 employees?",
+    answer: "Same price. $89/month. We don't charge per user."
+  },
+  {
+    question: "Are there any contracts?",
+    answer: "Nope. Month-to-month. Cancel anytime with one click."
+  },
+  {
+    question: "Do you charge per text message?",
+    answer: "No. Unlimited texts included."
+  },
+  {
+    question: "What about payment processing fees?",
+    answer: "Standard rates (2.9% + $0.30 per transaction). We don't mark them up like some platforms do."
+  },
+  {
+    question: "Will the price ever increase?",
+    answer: "Not for you. If you sign up at $89/month, that's your price. We might adjust pricing for new customers in the future, but existing customers are grandfathered in."
+  },
+  {
+    question: "What if I need to add features later?",
+    answer: "Everything's already included. There's nothing to add."
+  },
+  {
+    question: "Is there a setup fee?",
+    answer: "No. No setup fees, no training fees, no hidden fees."
+  },
+  {
+    question: "Can I really cancel anytime?",
+    answer: "Yes. One click in your account settings. No hoops, no 'are you sure?' guilt trips, no having to email support."
+  }
+];
 
 export default function Pricing() {
   useEffect(() => {
@@ -21,6 +57,7 @@ export default function Pricing() {
       />
       <SoftwareApplicationSchema />
       <ProductSchema />
+      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: 'https://creativejobhub.com' },
         { name: 'Pricing', url: 'https://creativejobhub.com/pricing' }

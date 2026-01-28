@@ -4,6 +4,7 @@ import StarRating from '../components/StarRating';
 import OrganizationSchema from '../components/OrganizationSchema';
 import FAQSchema from '../components/FAQSchema';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
+import LocalBusinessSchema from '../components/LocalBusinessSchema';
 import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/home-page-image.png';
 import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
@@ -47,6 +48,7 @@ export default function Home() {
       <OrganizationSchema />
       <FAQSchema faqs={faqs} />
       <SoftwareApplicationSchema />
+      <LocalBusinessSchema />
       
       <section className="bg-gradient-to-b from-blue-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

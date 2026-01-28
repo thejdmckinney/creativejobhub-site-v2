@@ -1,8 +1,28 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import FAQSchema from '../components/FAQSchema';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import vsJobberImage from '../assets/cjh-vs-jobber.png';
+
+const faqs = [
+  {
+    question: "How hard is it to switch from Jobber?",
+    answer: "Not hard at all. You can export your customer data from Jobber and import it into Creative Job Hub. Most contractors are fully switched in a day or two."
+  },
+  {
+    question: "Will I lose my customer data?",
+    answer: "Nope. You own your data. Export it from Jobber, import to Creative Job Hub. All your customers, job history, and notes come with you."
+  },
+  {
+    question: "What about my team? Will they need retraining?",
+    answer: "Creative Job Hub is actually simpler than Jobber. If your team can use Jobber, they'll pick up Creative Job Hub in an hour. Plus, we have video tutorials."
+  },
+  {
+    question: "Can I try it before canceling Jobber?",
+    answer: "Yes! Start your 14-day free trial. Run both systems side-by-side if you want. No charge for 14 days."
+  }
+];
 
 export default function VsJobber() {
   return (
@@ -12,6 +32,7 @@ export default function VsJobber() {
         description="Detailed comparison: Creative Job Hub vs Jobber. Get the same features for $89/month instead of $219/month. Save $1,560 per year with better support and no user fees."
         keywords="Jobber alternative, Creative Job Hub vs Jobber, Jobber comparison, cheaper than Jobber"
       />
+      <FAQSchema faqs={faqs} />
       
       <Breadcrumbs 
         items={[
