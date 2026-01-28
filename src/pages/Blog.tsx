@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import NewsletterSignup from '../components/NewsletterSignup';
+import RelatedPages from '../components/RelatedPages';
 import { getAllPosts, type BlogPost } from '../utils/blog';
 
 export default function Blog() {
@@ -103,6 +104,49 @@ export default function Blog() {
         <section className="max-w-4xl mx-auto px-6 py-12">
           <NewsletterSignup />
         </section>
+
+        {/* Related Pages */}
+        <RelatedPages
+          title="Explore More Resources"
+          pages={[
+            {
+              title: "How It Works",
+              description: "See the complete workflow from lead capture to getting paid.",
+              path: "/how-it-works",
+              icon: "🔄"
+            },
+            {
+              title: "Pricing Plans",
+              description: "$89/month for everything. No per-user fees or hidden costs.",
+              path: "/pricing",
+              icon: "💰"
+            },
+            {
+              title: "Chimney Sweep Software",
+              description: "Industry-specific features for chimney sweep contractors.",
+              path: "/chimney-sweep-software",
+              icon: "🏠"
+            },
+            {
+              title: "Handyman Software",
+              description: "Manage multiple trades and skills in one system.",
+              path: "/handyman-software",
+              icon: "🔧"
+            },
+            {
+              title: "Why I Built This",
+              description: "The story behind Creative Job Hub and the BYOT philosophy.",
+              path: "/why-i-built-this",
+              icon: "💡"
+            },
+            {
+              title: "Compare Competitors",
+              description: "See how we stack up against Jobber, ServiceTitan, and others.",
+              path: "/competitors",
+              icon: "⚖️"
+            }
+          ]}
+        />
 
         {/* CTA Section */}
         <section className="bg-blue-600 text-white py-12">

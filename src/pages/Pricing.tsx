@@ -6,6 +6,7 @@ import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
 import ProductSchema from '../components/ProductSchema';
 import FAQSchema from '../components/FAQSchema';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import RelatedPages from '../components/RelatedPages';
 import { trackPricingView } from '../utils/analytics';
 
 const faqs = [
@@ -405,6 +406,49 @@ export default function Pricing() {
           </p>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Explore More"
+        pages={[
+          {
+            title: "How It Works",
+            description: "See the complete 6-step workflow from lead capture to payment collection.",
+            path: "/how-it-works",
+            icon: "🔄"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See how we stack up against Jobber, Housecall Pro, ServiceTitan, and others.",
+            path: "/competitors",
+            icon: "⚖️"
+          },
+          {
+            title: "Bring Your Own Tools",
+            description: "Learn how we integrate with Stripe, QuickBooks, Twilio, and more without markups.",
+            path: "/bring-your-own-tools",
+            icon: "🔧"
+          },
+          {
+            title: "Industry Solutions",
+            description: "Specialized features for chimney sweeps, handymen, pool service, and more.",
+            path: "/chimney-sweep-software",
+            icon: "🏠"
+          },
+          {
+            title: "Why I Built This",
+            description: "The story of a frustrated contractor who built better software.",
+            path: "/why-i-built-this",
+            icon: "💡"
+          },
+          {
+            title: "Blog & Resources",
+            description: "Tips, guides, and updates for field service contractors.",
+            path: "/blog",
+            icon: "📚"
+          }
+        ]}
+      />
     </div>
   );
 }

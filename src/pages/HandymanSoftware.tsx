@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
+import RelatedPages from '../components/RelatedPages';
 import handymanImage from '../assets/handyman-business-software.png';
 
 export default function HandymanSoftware() {
@@ -306,6 +307,49 @@ export default function HandymanSoftware() {
           </div>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Explore More Solutions"
+        pages={[
+          {
+            title: "See Pricing",
+            description: "$89/month for everything. No per-user fees or hidden costs.",
+            path: "/pricing",
+            icon: "💰"
+          },
+          {
+            title: "Chimney Sweep Software",
+            description: "Industry-specific features for chimney sweep contractors.",
+            path: "/chimney-sweep-software",
+            icon: "🏠"
+          },
+          {
+            title: "Pool Service Software",
+            description: "Chemical tracking, route optimization, and water testing tools.",
+            path: "/pool-service-software",
+            icon: "🏊"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See how we compare to Jobber, ServiceTitan, and others.",
+            path: "/competitors",
+            icon: "⚖️"
+          },
+          {
+            title: "How It Works",
+            description: "Learn about our complete workflow from lead to payment.",
+            path: "/how-it-works",
+            icon: "🔄"
+          },
+          {
+            title: "Blog & Resources",
+            description: "Tips, guides, and updates for field service contractors.",
+            path: "/blog",
+            icon: "📚"
+          }
+        ]}
+      />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">

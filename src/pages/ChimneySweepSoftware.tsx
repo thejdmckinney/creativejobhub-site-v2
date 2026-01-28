@@ -3,6 +3,7 @@ import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import RelatedPages from '../components/RelatedPages';
 import csiaInspectionImage from '../assets/csia-inspection-checklist.png';
 
 export default function ChimneySweepSoftware() {
@@ -301,6 +302,49 @@ export default function ChimneySweepSoftware() {
           </div>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Explore More Solutions"
+        pages={[
+          {
+            title: "See Pricing",
+            description: "$89/month for everything. No per-user fees or hidden costs.",
+            path: "/pricing",
+            icon: "💰"
+          },
+          {
+            title: "Handyman Software",
+            description: "Software for multi-trade contractors managing various services.",
+            path: "/handyman-software",
+            icon: "🔧"
+          },
+          {
+            title: "Pool Service Software",
+            description: "Chemical tracking, route optimization, and water testing tools.",
+            path: "/pool-service-software",
+            icon: "🏊"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See how we compare to Jobber, ServiceTitan, and others.",
+            path: "/competitors",
+            icon: "⚖️"
+          },
+          {
+            title: "How It Works",
+            description: "Learn about our complete workflow from lead to payment.",
+            path: "/how-it-works",
+            icon: "🔄"
+          },
+          {
+            title: "Blog & Resources",
+            description: "Tips, guides, and updates for field service contractors.",
+            path: "/blog",
+            icon: "📚"
+          }
+        ]}
+      />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">

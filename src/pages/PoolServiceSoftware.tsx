@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
+import RelatedPages from '../components/RelatedPages';
 import poolServiceImage from '../assets/pool-software-image.png';
 
 export default function PoolServiceSoftware() {
@@ -306,6 +307,49 @@ export default function PoolServiceSoftware() {
           </div>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Explore More Solutions"
+        pages={[
+          {
+            title: "See Pricing",
+            description: "$89/month for everything. No per-user fees or hidden costs.",
+            path: "/pricing",
+            icon: "💰"
+          },
+          {
+            title: "Chimney Sweep Software",
+            description: "Industry-specific features for chimney sweep contractors.",
+            path: "/chimney-sweep-software",
+            icon: "🏠"
+          },
+          {
+            title: "Handyman Software",
+            description: "Software for multi-trade contractors managing various services.",
+            path: "/handyman-software",
+            icon: "🔧"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See how we compare to Jobber, ServiceTitan, and others.",
+            path: "/competitors",
+            icon: "⚖️"
+          },
+          {
+            title: "How It Works",
+            description: "Learn about our complete workflow from lead to payment.",
+            path: "/how-it-works",
+            icon: "🔄"
+          },
+          {
+            title: "Blog & Resources",
+            description: "Tips, guides, and updates for field service contractors.",
+            path: "/blog",
+            icon: "📚"
+          }
+        ]}
+      />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">

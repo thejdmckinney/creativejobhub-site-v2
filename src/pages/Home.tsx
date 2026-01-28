@@ -5,6 +5,7 @@ import OrganizationSchema from '../components/OrganizationSchema';
 import FAQSchema from '../components/FAQSchema';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
 import LocalBusinessSchema from '../components/LocalBusinessSchema';
+import RelatedPages from '../components/RelatedPages';
 import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/home-page-image.png';
 import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
@@ -196,6 +197,49 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Learn More About Creative Job Hub"
+        pages={[
+          {
+            title: "See Pricing",
+            description: "$89/month for everything. No per-user fees, no hidden costs, no games.",
+            path: "/pricing",
+            icon: "💰"
+          },
+          {
+            title: "How It Works",
+            description: "6-step workflow from lead capture to getting paid. Simple and effective.",
+            path: "/how-it-works",
+            icon: "🔄"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See how we compare to Jobber, Housecall Pro, ServiceTitan, and others.",
+            path: "/competitors",
+            icon: "⚖️"
+          },
+          {
+            title: "Chimney Sweep Software",
+            description: "CSIA inspection checklists and creosote tracking built right in.",
+            path: "/chimney-sweep-software",
+            icon: "🏠"
+          },
+          {
+            title: "Handyman Software",
+            description: "Manage multiple trades in one system. Track skills and schedule the right tech.",
+            path: "/handyman-software",
+            icon: "🔧"
+          },
+          {
+            title: "Pool Service Software",
+            description: "Chemical tracking, water testing, route optimization, and more.",
+            path: "/pool-service-software",
+            icon: "🏊"
+          }
+        ]}
+      />
 
       <section className="py-20 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
