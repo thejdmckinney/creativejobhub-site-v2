@@ -42,7 +42,10 @@ export default function SEO({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content="Creative Job Hub" />
+      <meta property="og:locale" content="en_US" />
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -50,6 +53,9 @@ export default function SEO({
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:image:alt" content="Creative Job Hub - Field Service Management Software" />
+      <meta name="twitter:site" content="@creativejobhub" />
+      <meta name="twitter:creator" content="@creativejobhub" />
       
       {/* Additional Meta Tags */}
       <meta name="robots" content="index, follow" />
