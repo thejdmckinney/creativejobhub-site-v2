@@ -155,6 +155,15 @@ export default function BlogPost() {
                       {children}
                     </blockquote>
                   ),
+                  normal: ({ children }) => <p className="mb-4">{children}</p>,
+                },
+                list: {
+                  bullet: ({ children }) => <ul className="list-disc list-outside ml-6 mb-4 space-y-2">{children}</ul>,
+                  number: ({ children }) => <ol className="list-decimal list-outside ml-6 mb-4 space-y-2">{children}</ol>,
+                },
+                listItem: {
+                  bullet: ({ children }) => <li className="pl-2">{children}</li>,
+                  number: ({ children }) => <li className="pl-2">{children}</li>,
                 },
               }}
             />
