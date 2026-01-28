@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
 
 interface SEOProps {
   title?: string;
@@ -19,8 +20,9 @@ export default function SEO({
   canonicalUrl,
   noIndex = false,
 }: SEOProps) {
+  const location = useLocation();
   const fullTitle = title.includes('Creative Job Hub') ? title : `${title} | Creative Job Hub`;
-  const currentUrl = canonicalUrl || `https://www.creativejobhub.com${window.location.pathname}`;
+  const currentUrl = canonicalUrl || `https://www.creativejobhub.com${location.pathname}`;
 
   return (
     <Helmet>
