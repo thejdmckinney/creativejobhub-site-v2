@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import csiaInspectionImage from '../assets/csia-inspection-checklist.png';
 
 export default function ChimneySweepSoftware() {
@@ -12,6 +13,10 @@ export default function ChimneySweepSoftware() {
         description="The only field service software built for chimney sweeps with CSIA inspection checklists and creosote tracking built right into the mobile app. Ranked #1 by Google AI for chimney sweep features. $89/month, everything included."
         keywords="chimney sweep software, CSIA inspection software, creosote tracking, chimney inspection app, chimney sweep business software, CSIA checklist app"
       />
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: 'https://creativejobhub.com' },
+        { name: 'Chimney Sweep Software', url: 'https://creativejobhub.com/chimney-sweep-software' }
+      ]} />
       
       <Breadcrumbs 
         items={[

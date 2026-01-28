@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import NewsletterSignup from '../components/NewsletterSignup';
 import { getAllPosts, type BlogPost } from '../utils/blog';
 
@@ -24,6 +25,10 @@ export default function Blog() {
         description="Expert tips for field service contractors, product updates, customer success stories, and insights on saving money with BYOT integrations."
         keywords="field service blog, contractor tips, fsm software updates, integration guides, byot philosophy, customer stories"
       />
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: 'https://creativejobhub.com' },
+        { name: 'Blog', url: 'https://creativejobhub.com/blog' }
+      ]} />
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
