@@ -592,17 +592,64 @@ export default function VsJobber() {
                 </p>
               </div>
               <div className="p-6">
-                <img 
-                  src={aiPricingImage} 
-                  alt="AI pricing analysis showing competitive pricing recommendations for service items" 
-                  className="w-full rounded-lg shadow-lg border border-gray-200"
-                  loading="lazy"
-                />
-                <div className="mt-4 bg-purple-50 border-l-4 border-purple-500 p-4">
-                  <p className="text-gray-700">
-                    <strong className="text-purple-700">🚀 Jobber doesn't have this:</strong> Our AI analyzes your market and suggests optimal pricing to maximize profit without losing customers. 
-                    Stop guessing—let AI keep your pricing competitive. <strong>This feature alone could pay for your entire subscription.</strong>
-                  </p>
+                <div className="grid md:grid-cols-2 gap-8 items-center">
+                  {/* Image - Left Side */}
+                  <div>
+                    <img 
+                      src={aiPricingImage} 
+                      alt="AI pricing analysis showing competitive pricing recommendations for service items" 
+                      className="w-full rounded-lg shadow-lg border border-gray-200"
+                      loading="lazy"
+                    />
+                  </div>
+                  
+                  {/* Description - Right Side */}
+                  <div className="space-y-6">
+                    <div>
+                      <h4 className="text-xl font-bold text-gray-900 mb-3">How It Works:</h4>
+                      <ol className="space-y-3 text-gray-700">
+                        <li className="flex items-start gap-2">
+                          <span className="text-purple-600 font-bold">1.</span>
+                          <span>Open any service in your price book</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-purple-600 font-bold">2.</span>
+                          <span>Click the <strong>AI Pricing</strong> button</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-purple-600 font-bold">3.</span>
+                          <span>Get 3 pricing strategies instantly:</span>
+                        </li>
+                      </ol>
+                      <ul className="ml-6 mt-2 space-y-2 text-gray-700">
+                        <li className="flex items-center gap-2">
+                          <span className="text-blue-500">💰</span>
+                          <strong>Competitive:</strong> Beat local competition
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <span className="text-green-500">📊</span>
+                          <strong>Market Rate:</strong> Match industry standard
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <span className="text-purple-500">👑</span>
+                          <strong>Premium:</strong> Position as high-end service
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="bg-purple-50 border-l-4 border-purple-500 p-4">
+                      <p className="text-gray-700">
+                        <strong className="text-purple-700">🚀 Jobber doesn't have this:</strong> Our AI analyzes your market, location, and service type to recommend optimal pricing. 
+                        Stop leaving money on the table or pricing yourself out of jobs. <strong>This feature alone could increase your revenue by 15-20%.</strong>
+                      </p>
+                    </div>
+
+                    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                      <p className="text-sm text-gray-700">
+                        <strong>💡 Pro Tip:</strong> Most contractors underprice their services by 20-30%. AI Pricing helps you charge what you're actually worth while staying competitive.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
