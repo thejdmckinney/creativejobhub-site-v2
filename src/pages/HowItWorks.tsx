@@ -1,6 +1,30 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
+import FAQSchema from '../components/FAQSchema';
+
+const faqs = [
+  {
+    question: "How long does it take to set up Creative Job Hub?",
+    answer: "Most contractors are up and running in under 20 minutes. The setup wizard walks you through adding your services, rates, and team members. You can import existing customer data via CSV. No technical skills required—if you can use email, you can set this up."
+  },
+  {
+    question: "Do I need to train my team to use it?",
+    answer: "The mobile app is designed to be intuitive. Most field technicians start using it effectively within their first job. We provide quick video tutorials, and our support team offers free onboarding calls if needed. The interface follows familiar patterns from apps your team already uses."
+  },
+  {
+    question: "Can I customize the workflow to match my business?",
+    answer: "Yes. You can customize service categories, estimate templates, invoice branding, job statuses, and more. Add custom fields specific to your trade (like HVAC system types or pool chemical readings). Set up automated workflows that match your exact process—from lead capture to final payment."
+  },
+  {
+    question: "What if I'm not tech-savvy?",
+    answer: "Creative Job Hub is built for contractors, not IT experts. Everything uses plain language, not tech jargon. We offer free one-on-one setup assistance, video tutorials, and responsive support. Many of our customers had never used field service software before—and they're thriving now."
+  },
+  {
+    question: "How do customers receive their estimates and invoices?",
+    answer: "Customers receive professional-looking estimates and invoices via text message or email, instantly. They can view, approve, and pay online from any device. You can also print or download PDFs for customers who prefer paper copies. Your branding appears on all documents."
+  }
+];
 
 export default function HowItWorks() {
   return (
@@ -387,6 +411,8 @@ export default function HowItWorks() {
           </div>
         </div>
       </section>
+
+      <FAQSchema faqs={faqs} />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">

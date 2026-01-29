@@ -7,20 +7,36 @@ import vsJobberImage from '../assets/cjh-vs-jobber.png';
 
 const faqs = [
   {
-    question: "How hard is it to switch from Jobber?",
-    answer: "Not hard at all. You can export your customer data from Jobber and import it into Creative Job Hub. Most contractors are fully switched in a day or two."
+    question: "How hard is it to switch from Jobber to Creative Job Hub?",
+    answer: "Switching is straightforward and takes about 2 hours total. Export your customer data from Jobber as CSV files (Settings → Export Data), then import directly into Creative Job Hub. Most contractors complete the entire migration in an afternoon. We provide step-by-step guides and free support during your transition. You can even run both systems in parallel during your 14-day trial to ensure everything transfers correctly before canceling Jobber."
   },
   {
-    question: "Will I lose my customer data?",
-    answer: "Nope. You own your data. Export it from Jobber, import to Creative Job Hub. All your customers, job history, and notes come with you."
+    question: "Will I lose my customer data, job history, or invoices when switching?",
+    answer: "No, you won't lose anything. You own your data in Jobber, and you can export everything: customers, properties, job history, notes, invoices, and estimates. Creative Job Hub's import tool maps your Jobber fields automatically, preserving all your historical data. Your customers won't notice any change—their information, preferences, and history come with you seamlessly."
   },
   {
-    question: "What about my team? Will they need retraining?",
-    answer: "Creative Job Hub is actually simpler than Jobber. If your team can use Jobber, they'll pick up Creative Job Hub in an hour. Plus, we have video tutorials."
+    question: "What about my team? Will they need extensive retraining?",
+    answer: "Creative Job Hub is actually simpler and more intuitive than Jobber. If your team can navigate Jobber, they'll pick up Creative Job Hub in about an hour. The mobile app is clean and straightforward—no bloated menus or confusing navigation. We provide video tutorials, quick-start guides, and live support to get your team up to speed quickly. Many contractors report their team prefers Creative Job Hub because it's faster and less cluttered."
   },
   {
-    question: "Can I try it before canceling Jobber?",
-    answer: "Yes! Start your 14-day free trial. Run both systems side-by-side if you want. No charge for 14 days."
+    question: "Can I try Creative Job Hub before canceling my Jobber subscription?",
+    answer: "Absolutely! Start your 14-day free trial with no credit card required. Import your Jobber data and run both systems side-by-side if you want. Test everything: create estimates, schedule jobs, process payments, run your actual business on Creative Job Hub while keeping Jobber as a safety net. Only cancel Jobber once you're 100% confident. Most contractors know within 3-4 days that Creative Job Hub is the better choice."
+  },
+  {
+    question: "Does Creative Job Hub really include GPS tracking, unlimited users, and unlimited texts?",
+    answer: "Yes, everything is included at $89/month—no tiers, no add-ons, no games. GPS tracking, unlimited team members, unlimited text messages, automated workflows, service plans, custom forms, marketing campaigns, QuickBooks sync, mobile apps, online booking, payment processing, and industry-specific tools (pool, chimney, HVAC). What you see is what you get. No surprise charges ever."
+  },
+  {
+    question: "What if I have 10+ employees? Is Creative Job Hub still $89/month?",
+    answer: "Yes. $89/month flat whether you have 1 employee or 100. No per-user fees, no volume discounts needed—just one simple price. This is a massive advantage as your business grows. On Jobber, 10 users costs $579/month ($6,948/year). On Creative Job Hub, it's still $89/month ($1,068/year). You save $5,880 annually with a 10-person team—and the savings compound as you hire more."
+  },
+  {
+    question: "How does Creative Job Hub compare to Jobber's mobile app?",
+    answer: "Our mobile app (iOS and Android) is built specifically for field techs who need to work fast. It's faster, cleaner, and has fewer steps than Jobber's app. Techs can clock in, view job details, complete checklists, capture photos, collect payments, and generate invoices—all offline if needed. Data syncs automatically when back online. The interface is intuitive enough that most techs start using it effectively on their first job without formal training."
+  },
+  {
+    question: "What happens to my Jobber integrations (QuickBooks, Google Calendar, etc.)?",
+    answer: "Creative Job Hub integrates with QuickBooks Online for accounting sync, Google Calendar for scheduling, Stripe for payment processing, Mailchimp for email marketing, and Zapier for connecting to 5,000+ other apps. If you're using a specific integration in Jobber, check our integrations page or contact us—we'll let you know if it's supported or in development. Most popular integrations are already built-in."
   }
 ];
 
@@ -28,9 +44,9 @@ export default function VsJobber() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs Jobber - Save $1,560/Year"
-        description="Detailed comparison: Creative Job Hub vs Jobber. Get the same features for $89/month instead of $219/month. Save $1,560 per year with better support and no user fees."
-        keywords="Jobber alternative, Creative Job Hub vs Jobber, Jobber comparison, cheaper than Jobber"
+        title="Jobber Alternative: Get All Features for $89/Month | Creative Job Hub"
+        description="Tired of Jobber's per-user fees? Creative Job Hub offers all features—GPS tracking, unlimited texts, automated workflows—at $89/month flat. Save $3,240/year. See why contractors are making the switch."
+        keywords="Jobber alternative, alternative to Jobber, best Jobber alternatives, cheaper than Jobber, Jobber vs Creative Job Hub, Jobber competitor, switch from Jobber, Jobber pricing alternative"
       />
       <FAQSchema faqs={faqs} />
       
@@ -47,10 +63,10 @@ export default function VsJobber() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
-              Creative Job Hub vs Jobber
+              The #1 Jobber Alternative: Creative Job Hub
             </h1>
             <p className="text-2xl text-gray-600 mb-6">
-              Same features. Half the price. No hidden fees.
+              All the features. No per-user fees. Save $3,240+ per year.
             </p>
             <StarRating />
           </div>
@@ -61,6 +77,74 @@ export default function VsJobber() {
               className="w-full rounded-lg shadow-2xl"
               loading="lazy"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Why Look for Jobber Alternatives */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+            Why Contractors Are Looking for Jobber Alternatives
+          </h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Jobber is a solid field service platform, but thousands of contractors are searching for alternatives every month. Here's why:
+            </p>
+            
+            <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">💸 The Per-User Fee Trap</h3>
+              <p className="text-gray-700 mb-4">
+                Jobber's pricing model punishes growth. Start with 1 user at $199/month, then watch your bill balloon: 
+                <strong> $279/month for 3 users, $359/month for 5 users, $519/month for 9 users.</strong> That's $6,228/year 
+                just for 9 team members—before any add-ons.
+              </p>
+              <p className="text-gray-700">
+                The math is brutal: hire 2 employees to grow your business, and Jobber charges you $960 more per year. 
+                That's not scaling—that's being penalized for success.
+              </p>
+            </div>
+
+            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">🔒 Tiered Pricing Locks Away Essential Features</h3>
+              <p className="text-gray-700 mb-4">
+                Jobber's Connect plan ($199/month) sounds reasonable until you realize what's missing:
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                <li><strong>No GPS tracking</strong> - Can't see where your team is without upgrading to Grow ($299/mo)</li>
+                <li><strong>No automated workflows</strong> - Manual busywork unless you pay for Grow tier</li>
+                <li><strong>No service plans/recurring billing</strong> - Can't set up maintenance contracts on Connect</li>
+                <li><strong>Limited custom forms</strong> - Want industry-specific checklists? Upgrade required</li>
+              </ul>
+              <p className="text-gray-700">
+                Most contractors end up on the Grow plan ($299/month base) just to get features that should be standard. 
+                That's $3,588/year before adding team members.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">💬 Add-On Fees for "Basic" Features</h3>
+              <p className="text-gray-700 mb-4">
+                Even on the Grow plan, Jobber charges extra for features you'd expect to be included:
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li><strong>Text messaging: $30/month</strong> - Want to send appointment reminders via text? That'll be $360/year extra</li>
+                <li><strong>Additional phone numbers: $5-10/month each</strong> - Multi-location businesses pay more</li>
+                <li><strong>Advanced reporting: Higher tiers only</strong> - Can't analyze profitability without upgrading further</li>
+              </ul>
+            </div>
+
+            <div className="bg-purple-50 border-l-4 border-purple-500 p-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">🔧 Generic Software for Specific Industries</h3>
+              <p className="text-gray-700 mb-4">
+                Jobber is built to serve everyone, which means it's optimized for no one. Pool service contractors can't track chemical levels. 
+                Chimney sweeps can't use CSIA inspection templates. HVAC techs can't log refrigerant usage efficiently.
+              </p>
+              <p className="text-gray-700">
+                You end up building workarounds in custom fields or maintaining separate spreadsheets—defeating the purpose of having 
+                field service software in the first place.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -129,6 +213,140 @@ export default function VsJobber() {
           <div className="text-center mt-8">
             <p className="text-5xl font-bold text-green-600 mb-2">Save $3,240/year</p>
             <p className="text-xl text-gray-600">That's a truck payment. Or a vacation. Or actual profit.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Real Cost Calculator - Multiple Scenarios */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
+            Real-World Cost Comparison: Your Business Size
+          </h2>
+          <p className="text-xl text-center text-gray-600 mb-12">
+            See how much you'll save based on your actual team size and needs
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Solo/Small (1-2 people) */}
+            <div className="bg-gray-50 rounded-lg p-6 border-2 border-gray-300">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Solo/Small Team</h3>
+              <p className="text-center text-gray-600 mb-6">1-2 people</p>
+              
+              <div className="space-y-4 mb-6">
+                <div className="bg-white rounded p-4">
+                  <p className="font-bold text-gray-900 mb-2">Jobber Connect:</p>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>Base plan: $199/mo</li>
+                    <li>1 extra user: $40/mo</li>
+                    <li>Text messaging: $30/mo</li>
+                    <li className="pt-2 border-t font-bold text-red-600">Total: $269/mo</li>
+                  </ul>
+                </div>
+
+                <div className="bg-green-50 rounded p-4 border-2 border-green-500">
+                  <p className="font-bold text-gray-900 mb-2">Creative Job Hub:</p>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>Everything: $89/mo</li>
+                    <li>Unlimited users: $0</li>
+                    <li>Unlimited texts: $0</li>
+                    <li className="pt-2 border-t font-bold text-green-600">Total: $89/mo</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-green-100 rounded-lg p-4 text-center">
+                <p className="text-sm text-gray-600">Annual Savings</p>
+                <p className="text-3xl font-bold text-green-600">$2,160</p>
+                <p className="text-xs text-gray-500 mt-1">That's 2 months of salary for a helper</p>
+              </div>
+            </div>
+
+            {/* Growing (3-5 people) */}
+            <div className="bg-gray-50 rounded-lg p-6 border-4 border-orange-500 relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold">
+                MOST POPULAR
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Growing Business</h3>
+              <p className="text-center text-gray-600 mb-6">3-5 people</p>
+              
+              <div className="space-y-4 mb-6">
+                <div className="bg-white rounded p-4">
+                  <p className="font-bold text-gray-900 mb-2">Jobber Grow:</p>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>Base plan (3 users): $299/mo</li>
+                    <li>2 extra users: $80/mo</li>
+                    <li>Text messaging: $30/mo</li>
+                    <li className="pt-2 border-t font-bold text-red-600">Total: $409/mo</li>
+                  </ul>
+                </div>
+
+                <div className="bg-green-50 rounded p-4 border-2 border-green-500">
+                  <p className="font-bold text-gray-900 mb-2">Creative Job Hub:</p>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>Everything: $89/mo</li>
+                    <li>Unlimited users: $0</li>
+                    <li>Unlimited texts: $0</li>
+                    <li className="pt-2 border-t font-bold text-green-600">Total: $89/mo</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-green-100 rounded-lg p-4 text-center">
+                <p className="text-sm text-gray-600">Annual Savings</p>
+                <p className="text-3xl font-bold text-green-600">$3,840</p>
+                <p className="text-xs text-gray-500 mt-1">That's a new work truck down payment</p>
+              </div>
+            </div>
+
+            {/* Established (6-10 people) */}
+            <div className="bg-gray-50 rounded-lg p-6 border-2 border-gray-300">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Established</h3>
+              <p className="text-center text-gray-600 mb-6">6-10 people</p>
+              
+              <div className="space-y-4 mb-6">
+                <div className="bg-white rounded p-4">
+                  <p className="font-bold text-gray-900 mb-2">Jobber Grow:</p>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>Base plan (3 users): $299/mo</li>
+                    <li>7 extra users: $280/mo</li>
+                    <li>Text messaging: $30/mo</li>
+                    <li className="pt-2 border-t font-bold text-red-600">Total: $609/mo</li>
+                  </ul>
+                </div>
+
+                <div className="bg-green-50 rounded p-4 border-2 border-green-500">
+                  <p className="font-bold text-gray-900 mb-2">Creative Job Hub:</p>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>Everything: $89/mo</li>
+                    <li>Unlimited users: $0</li>
+                    <li>Unlimited texts: $0</li>
+                    <li className="pt-2 border-t font-bold text-green-600">Total: $89/mo</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-green-100 rounded-lg p-4 text-center">
+                <p className="text-sm text-gray-600">Annual Savings</p>
+                <p className="text-3xl font-bold text-green-600">$6,240</p>
+                <p className="text-xs text-gray-500 mt-1">That's enough to hire another employee</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 bg-gradient-to-br from-orange-500 to-red-500 text-white rounded-lg p-8 text-center">
+            <h3 className="text-3xl font-bold mb-4">
+              The More You Grow, The More Jobber Costs—But We Don't
+            </h3>
+            <p className="text-xl text-orange-100 mb-6">
+              Creative Job Hub is $89/month whether you have 1 employee or 100. Scale without fear.
+            </p>
+            <Link 
+              to="/signup"
+              className="inline-block bg-white text-orange-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
+            >
+              Calculate Your Savings - Start Free Trial
+            </Link>
           </div>
         </div>
       </section>
@@ -398,32 +616,165 @@ export default function VsJobber() {
         </div>
       </section>
 
+      {/* Migration Guide */}
+      <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
+            How to Switch from Jobber to Creative Job Hub
+          </h2>
+          <p className="text-xl text-center text-gray-600 mb-12">
+            Most contractors complete the switch in under 2 hours. Here's exactly how to do it:
+          </p>
+
+          <div className="space-y-8">
+            <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-blue-500">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-500 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 text-xl font-bold">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Export Your Data from Jobber</h3>
+                  <p className="text-gray-700 mb-4">
+                    In Jobber, go to <strong>Settings → Export Data</strong>. Download CSV files for:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                    <li><strong>Clients</strong> - All customer information, addresses, phone numbers, emails</li>
+                    <li><strong>Properties</strong> - Service locations (if different from client addresses)</li>
+                    <li><strong>Jobs</strong> - Job history, notes, dates, amounts</li>
+                    <li><strong>Invoices</strong> - Billing history and payment status</li>
+                    <li><strong>Quotes/Estimates</strong> - All pending and approved estimates</li>
+                  </ul>
+                  <p className="text-gray-700 font-semibold">
+                    ⏱️ Time required: 15 minutes
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-green-500">
+              <div className="flex items-start gap-4">
+                <div className="bg-green-500 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 text-xl font-bold">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Set Up Your Creative Job Hub Account</h3>
+                  <p className="text-gray-700 mb-4">
+                    Sign up for your 14-day free trial at creativejobhub.com/signup. The setup wizard will guide you through:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                    <li><strong>Business information</strong> - Company name, logo, contact details</li>
+                    <li><strong>Service categories</strong> - What types of jobs you do (or use industry templates)</li>
+                    <li><strong>Pricing templates</strong> - Your standard rates and packages</li>
+                    <li><strong>Team members</strong> - Add unlimited users (no extra cost!)</li>
+                  </ul>
+                  <p className="text-gray-700 font-semibold">
+                    ⏱️ Time required: 20 minutes
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-purple-500">
+              <div className="flex items-start gap-4">
+                <div className="bg-purple-500 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 text-xl font-bold">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Import Your Jobber Data</h3>
+                  <p className="text-gray-700 mb-4">
+                    In Creative Job Hub, go to <strong>Settings → Import Data</strong>. Upload your CSV files:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                    <li><strong>Customer import</strong> - Map Jobber fields to Creative Job Hub fields (we auto-detect most)</li>
+                    <li><strong>Job history</strong> - Import past jobs to maintain customer history</li>
+                    <li><strong>Review and confirm</strong> - Preview your data before finalizing</li>
+                  </ul>
+                  <p className="bg-yellow-50 border-l-4 border-yellow-400 p-4 text-gray-700 mb-4">
+                    <strong>💡 Pro tip:</strong> Import customers first, then jobs. This ensures job records link to the correct customers.
+                  </p>
+                  <p className="text-gray-700 font-semibold">
+                    ⏱️ Time required: 30 minutes
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-orange-500">
+              <div className="flex items-start gap-4">
+                <div className="bg-orange-500 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 text-xl font-bold">
+                  4
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Train Your Team & Go Live</h3>
+                  <p className="text-gray-700 mb-4">
+                    Get your team up to speed in under an hour:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                    <li><strong>Mobile app setup</strong> - Download Creative Job Hub app (iOS/Android), log in, done</li>
+                    <li><strong>Quick training</strong> - Watch 5-minute video tutorials for key features</li>
+                    <li><strong>Run parallel for a week</strong> - Keep Jobber active while team learns (optional)</li>
+                    <li><strong>Cancel Jobber</strong> - Once confident, cancel your Jobber subscription</li>
+                  </ul>
+                  <p className="bg-green-50 border-l-4 border-green-400 p-4 text-gray-700 mb-4">
+                    <strong>✅ Support included:</strong> Free onboarding call, live chat, and email support during your transition. 
+                    We'll help you get it right.
+                  </p>
+                  <p className="text-gray-700 font-semibold">
+                    ⏱️ Time required: 45 minutes + ongoing training
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 bg-white rounded-lg p-8 shadow-lg border-2 border-green-500">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+              💰 Total Migration Time: ~2 Hours
+            </h3>
+            <p className="text-xl text-center text-gray-700 mb-6">
+              Save $3,240+ per year. That's <strong>$1,620 per hour</strong> of migration work. Best hourly rate you'll ever earn.
+            </p>
+            <div className="text-center">
+              <Link 
+                to="/signup"
+                className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
+              >
+                Start Your Free 14-Day Trial
+              </Link>
+              <p className="text-gray-500 mt-3">No credit card required • Import your Jobber data in minutes</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Switching from Jobber? Questions Answered.
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
+            Switching from Jobber? Your Questions Answered
           </h2>
+          <p className="text-xl text-center text-gray-600 mb-12">
+            Everything you need to know about making the switch with confidence
+          </p>
           <div className="space-y-6">
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">How hard is it to switch from Jobber?</h3>
-              <p className="text-gray-700">Not hard at all. You can export your customer data from Jobber and import it into Creative Job Hub. Most contractors are fully switched in a day or two.</p>
-            </div>
+            {faqs.map((faq, index) => (
+              <div key={index} className="border-b border-gray-200 pb-6 last:border-b-0">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{faq.question}</h3>
+                <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
 
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Will I lose my customer data?</h3>
-              <p className="text-gray-700">Nope. You own your data. Export it from Jobber, import to Creative Job Hub. All your customers, job history, and notes come with you.</p>
-            </div>
-
-            <div className="border-b border-gray-200 pb-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">What about my team? Will they need retraining?</h3>
-              <p className="text-gray-700">Creative Job Hub is actually simpler than Jobber. If your team can use Jobber, they'll pick up Creative Job Hub in an hour. Plus, we have video tutorials.</p>
-            </div>
-
-            <div className="pb-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Can I try it before canceling Jobber?</h3>
-              <p className="text-gray-700">Yes! Start your 14-day free trial. Run both systems side-by-side if you want. No charge for 14 days.</p>
-            </div>
+          <div className="mt-12 bg-blue-50 rounded-lg p-8 text-center">
+            <p className="text-xl text-gray-900 mb-4">
+              <strong>Still have questions?</strong> Talk to a real person who understands your business.
+            </p>
+            <p className="text-gray-700">
+              Email Jeremy directly:{' '}
+              <a href="mailto:jeremy@creativejobhub.com" className="text-blue-600 font-semibold hover:underline">
+                jeremy@creativejobhub.com
+              </a>
+            </p>
           </div>
         </div>
       </section>

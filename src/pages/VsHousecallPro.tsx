@@ -2,9 +2,29 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
+import FAQSchema from '../components/FAQSchema';
 import vsHousecallProImage from '../assets/cjh-vs-housecall-pro.png';
 
 export default function VsHousecallPro() {
+  const faqs = [
+    {
+      question: "Is switching from Housecall Pro difficult?",
+      answer: "Not at all. Export your customer list from Housecall Pro as a CSV file, import it into Creative Job Hub (takes about 10 minutes), and you're ready to go. Most contractors are fully switched within 2-3 days."
+    },
+    {
+      question: "Will I lose my customer data when switching?",
+      answer: "No. Housecall Pro allows you to export all your customer data, job history, and notes. We'll help you import everything into Creative Job Hub so you don't lose any information."
+    },
+    {
+      question: "Do you really include unlimited users at $89/month?",
+      answer: "Yes! $89/month covers unlimited users, unlimited jobs, and all features. No per-user fees. Whether you have 2 techs or 20, the price stays the same."
+    },
+    {
+      question: "What if Housecall Pro's mobile app works better for my team?",
+      answer: "Our mobile app is built with modern React Native technology and works great. But if you prefer Housecall Pro's mobile experience during your 14-day trial, we offer a full refund - no questions asked."
+    }
+  ];
+
   return (
     <div className="bg-white">
       <SEO 
@@ -367,6 +387,8 @@ export default function VsHousecallPro() {
           </div>
         </div>
       </section>
+
+      <FAQSchema faqs={faqs} />
 
       {/* Final CTA */}
       <section className="py-20 bg-gradient-to-br from-orange-500 to-orange-600 text-white">

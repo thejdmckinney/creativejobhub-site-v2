@@ -2,6 +2,7 @@ import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import ContactPageSchema from '../components/ContactPageSchema';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -63,6 +64,7 @@ export default function Contact() {
         description="Have questions about Creative Job Hub? Contact our team for support, sales inquiries, or to learn more about our field service management software."
         keywords="contact creative job hub, field service software support, sales inquiry, customer service"
       />
+      <ContactPageSchema />
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}

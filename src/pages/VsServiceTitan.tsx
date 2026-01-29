@@ -2,6 +2,26 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
+import FAQSchema from '../components/FAQSchema';
+
+const faqs = [
+  {
+    question: "Is Creative Job Hub really comparable to ServiceTitan?",
+    answer: "Yes, for small to mid-sized contractors. You get the core features—job management, scheduling, estimates, invoicing, payment processing, customer database, mobile app, reporting—without the enterprise complexity or pricing. ServiceTitan is built for 50+ employee operations; we're optimized for 1-20 person teams who need powerful tools, not corporate overhead."
+  },
+  {
+    question: "Why is ServiceTitan so expensive?",
+    answer: "ServiceTitan targets large enterprises with complex needs, multiple locations, and extensive customization requirements. Their pricing includes implementation fees, training, dedicated account managers, and enterprise-grade infrastructure. That's valuable for 50+ employee companies, but overkill for most contractors. Creative Job Hub delivers the same core functionality at $89/month—no setup fees, no training costs, no contracts."
+  },
+  {
+    question: "Can I switch from ServiceTitan without losing data?",
+    answer: "Yes. Export your customer data, job history, and pricing from ServiceTitan as CSV files, then import into Creative Job Hub. The process takes about 30 minutes. We provide step-by-step migration guides and free support to help you transition smoothly. You won't lose any historical data or customer information."
+  },
+  {
+    question: "What features does ServiceTitan have that Creative Job Hub doesn't?",
+    answer: "ServiceTitan offers advanced enterprise features like call center integration, marketing automation campaigns, franchise management, and multi-location inventory tracking. If you run a large operation with multiple locations and need those specific tools, ServiceTitan might be worth the cost. For most contractors, Creative Job Hub provides everything needed to run efficiently at a fraction of the price."
+  }
+];
 
 export default function VsServiceTitan() {
   return (
@@ -447,6 +467,8 @@ export default function VsServiceTitan() {
           </div>
         </div>
       </section>
+
+      <FAQSchema faqs={faqs} />
 
       {/* Final CTA */}
       <section className="py-20 bg-gradient-to-br from-orange-500 to-orange-600 text-white">

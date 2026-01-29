@@ -3,10 +3,34 @@ import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 import RelatedPages from '../components/RelatedPages';
 import csiaInspectionImage from '../assets/csia-inspection-checklist.png';
 
 export default function ChimneySweepSoftware() {
+  const faqs = [
+    {
+      question: "Does the software include CSIA inspection checklists?",
+      answer: "Yes! CSIA Level 1 and Level 2 inspection checklists are built directly into the mobile app. Your techs can complete inspections in the field with guided checklists that ensure nothing gets missed."
+    },
+    {
+      question: "Can I track creosote build-up over time?",
+      answer: "Absolutely. Every chimney service logs creosote levels (light, moderate, heavy) with photo documentation. The system automatically tracks history and alerts you when chimneys are due for cleaning based on their creosote build-up patterns."
+    },
+    {
+      question: "Will this work for both residential and commercial chimney sweeps?",
+      answer: "Yes. Whether you service residential fireplaces or commercial restaurant flues, the software handles both. You can customize service types, pricing, and inspection forms for different chimney types."
+    },
+    {
+      question: "How much does it cost for chimney sweep businesses?",
+      answer: "$89/month for everything. Unlimited users, unlimited jobs, CSIA checklists included. No setup fees, no per-user charges. Same flat price whether you're a solo sweep or running a team of 10."
+    },
+    {
+      question: "Can I generate CSIA-compliant inspection reports?",
+      answer: "Yes. After completing an inspection, you can instantly generate PDF reports that follow CSIA standards. Reports include all checklist items, photos, creosote levels, and recommendations. Email them directly to customers from the app."
+    }
+  ];
+
   return (
     <div className="bg-white">
       <SEO 
@@ -345,6 +369,8 @@ export default function ChimneySweepSoftware() {
           }
         ]}
       />
+
+      <FAQSchema faqs={faqs} />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
