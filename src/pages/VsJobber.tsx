@@ -1,3 +1,4 @@
+// Jobber Alternative Page - Comprehensive comparison with UI screenshots
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import FAQSchema from '../components/FAQSchema';
