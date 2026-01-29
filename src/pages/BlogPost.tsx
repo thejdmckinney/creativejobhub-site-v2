@@ -166,19 +166,33 @@ export default function BlogPost() {
                 },
                 list: {
                   bullet: ({ children }) => (
-                    <ul className="list-disc list-inside ml-4 mb-6 space-y-3 text-gray-700 text-lg">
+                    <ul 
+                      className="list-disc list-inside ml-4 mb-6 space-y-3 text-gray-700 text-lg"
+                      style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginBottom: '1.5rem' }}
+                    >
                       {children}
                     </ul>
                   ),
                   number: ({ children }) => (
-                    <ol className="list-decimal list-inside ml-4 mb-6 space-y-3 text-gray-700 text-lg">
+                    <ol 
+                      className="list-decimal list-inside ml-4 mb-6 space-y-3 text-gray-700 text-lg"
+                      style={{ listStyleType: 'decimal', paddingLeft: '1.5rem', marginBottom: '1.5rem' }}
+                    >
                       {children}
                     </ol>
                   ),
                 },
                 listItem: {
-                  bullet: ({ children }) => <li className="leading-relaxed">{children}</li>,
-                  number: ({ children }) => <li className="leading-relaxed">{children}</li>,
+                  bullet: ({ children }) => (
+                    <li className="leading-relaxed" style={{ display: 'list-item' }}>
+                      {children}
+                    </li>
+                  ),
+                  number: ({ children }) => (
+                    <li className="leading-relaxed" style={{ display: 'list-item' }}>
+                      {children}
+                    </li>
+                  ),
                 },
               }}
             />
