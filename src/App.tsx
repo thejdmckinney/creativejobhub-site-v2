@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import MainLayout from './layouts/MainLayout';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
@@ -41,6 +42,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <SpeedInsights />
       <Routes>
         {/* Studio Route - Outside MainLayout for full screen */}
         <Route path="/studio/*" element={<Studio />} />
