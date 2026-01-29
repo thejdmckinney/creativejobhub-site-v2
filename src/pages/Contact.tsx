@@ -60,8 +60,8 @@ export default function Contact() {
   return (
     <>
       <SEO 
-        title="Contact Us - Get in Touch with Creative Job Hub"
-        description="Have questions about Creative Job Hub? Contact our team for support, sales inquiries, or to learn more about our field service management software."
+        title="Contact Creative Job Hub | Talk to Our Team"
+        description="Have questions about Creative Job Hub? Contact our team for support, sales inquiries, or general information."
         keywords="contact creative job hub, field service software support, sales inquiry, customer service"
       />
       <ContactPageSchema />

@@ -9,7 +9,7 @@ export default function HandymanSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Handyman Software - Manage Multiple Trades in One System"
+        title="Handyman Software | Job Management for Handyman Businesses"
         description="Field service software built for multi-trade handyman businesses. Manage plumbing, electrical, HVAC, and more trades in one system. Track skills, schedule the right tech, and grow your business. $89/month, everything included."
         keywords="handyman software, multi-trade software, handyman business software, handyman scheduling software, multi-service contractor software, handyman invoicing"
       />

@@ -34,7 +34,7 @@ export default function PaintingSoftware() {
   const relatedPages = [
     {
       title: 'Landscaping Software',
-      description: 'Built for landscapers and lawn care professionals',
+      description: 'Manage lawn care, landscaping, and irrigation businesses',
       path: '/landscaping-software',
       icon: '🌿'
     },
@@ -55,7 +55,7 @@ export default function PaintingSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Painting Contractor Software - Estimates, Scheduling & Job Management | $89/mo"
+        title="Painting Contractor Software | Creative Job Hub"
         description="The best painting contractor software for managing residential and commercial projects. Track color selections, materials, and multi-day jobs. $89/month flat pricing."
         keywords="painting contractor software, painter software, painting business software, painting estimating software, house painting software, commercial painting software"
       />

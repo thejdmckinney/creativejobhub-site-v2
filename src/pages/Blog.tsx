@@ -22,8 +22,8 @@ export default function Blog() {
   return (
     <>
       <SEO 
-        title="Blog - Tips, Updates & Stories from Creative Job Hub"
-        description="Expert tips for field service contractors, product updates, customer success stories, and insights on saving money with BYOT integrations."
+        title="Creative Job Hub Blog | Tips for Service Business Growth"
+        description="Read expert tips on job management, scheduling, customer communication, and growing your service business."
         keywords="field service blog, contractor tips, fsm software updates, integration guides, byot philosophy, customer stories"
       />
       <BreadcrumbSchema items={[

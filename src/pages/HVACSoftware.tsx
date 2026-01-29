@@ -55,7 +55,7 @@ export default function HVACSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="HVAC Software - Service Management for Heating & Cooling Contractors | $89/mo"
+        title="HVAC Software | Job Management for HVAC Companies"
         description="The best HVAC software for managing service calls, maintenance contracts, and installations. Track refrigerant, equipment warranties, and seasonal tune-ups. $89/month flat pricing."
         keywords="HVAC software, HVAC service software, heating and cooling software, HVAC contractor software, HVAC business software, air conditioning software"
       />

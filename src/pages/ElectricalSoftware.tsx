@@ -55,7 +55,7 @@ export default function ElectricalSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Electrical Contractor Software - Manage Jobs, Permits & Inspections | $89/mo"
+        title="Electrical Contractor Software | Creative Job Hub"
         description="The best electrical contractor software for managing service calls, installations, and commercial projects. Track permits, code compliance, and circuit loads. $89/month flat pricing."
         keywords="electrical contractor software, electrician software, electrical business software, electrician app, electrical estimating software, electrical service software"
       />

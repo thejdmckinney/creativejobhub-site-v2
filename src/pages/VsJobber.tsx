@@ -49,8 +49,8 @@ export default function VsJobber() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Jobber Alternative: Get All Features for $89/Month | Creative Job Hub"
-        description="Tired of Jobber's per-user fees? Creative Job Hub offers all features—GPS tracking, unlimited texts, automated workflows—at $89/month flat. Save $3,240/year. See why contractors are making the switch."
+        title="Creative Job Hub vs Jobber | The Best Jobber Alternative"
+        description="Compare Creative Job Hub vs Jobber. See how features, pricing, and flexibility stack up for service businesses."
         keywords="Jobber alternative, alternative to Jobber, best Jobber alternatives, cheaper than Jobber, Jobber vs Creative Job Hub, Jobber competitor, switch from Jobber, Jobber pricing alternative"
       />
       <FAQSchema faqs={faqs} />

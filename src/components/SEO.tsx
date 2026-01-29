@@ -12,8 +12,8 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = 'Creative Job Hub - Field Service Management Software for Creative Professionals',
-  description = 'The all-in-one field service management software built specifically for creative contractors. Schedule jobs, create estimates, manage clients, and get paid faster. Try free for 14 days.',
+  title = 'How Creative Job Hub Works | Job Management Made Simple',
+  description = 'See how Creative Job Hub helps service businesses manage jobs, schedules, customers, and payments in one simple platform.',
   keywords = 'field service management, contractor software, job management, hvac software, plumbing software, electrical software, landscaping software, scheduling software, estimate software, invoice software',
   ogImage = 'https://www.creativejobhub.com/cjh-og-image.png',
   ogType = 'website',

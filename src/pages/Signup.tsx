@@ -132,8 +132,8 @@ export default function Signup() {
   return (
     <div className="bg-gradient-to-b from-blue-50 to-white min-h-screen py-16">
       <SEO 
-        title="Start Your Free Trial - 14 Days Free"
-        description="Start your 14-day free trial of Creative Job Hub. Full access to all features. Cancel anytime. Join hundreds of contractors saving time and money."
+        title="Sign Up for Creative Job Hub | Start Managing Jobs Today"
+        description="Create your Creative Job Hub account and start managing jobs, teams, and customers in minutes. Get started today."
         keywords="free trial, field service software trial, contractor software signup"
       />
       

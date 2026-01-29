@@ -28,8 +28,8 @@ export default function VsHousecallPro() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs Housecall Pro - Save $1,188/Year"
-        description="Compare Creative Job Hub vs Housecall Pro. Get unlimited users for $89/month vs $188/month. Save $1,188 per year with better mobile apps and faster support."
+        title="Creative Job Hub vs Housecall Pro | Side-by-Side Review"
+        description="Compare Creative Job Hub vs Housecall Pro. Find the best job management software for your service business."
         keywords="Housecall Pro alternative, Creative Job Hub vs Housecall Pro, Housecall Pro comparison"
       />
       

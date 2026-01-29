@@ -27,8 +27,8 @@ export default function VsServiceTitan() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs ServiceTitan - Save $5,000+/Year"
-        description="Enterprise features without enterprise pricing. Get the same functionality as ServiceTitan for $89/month instead of $500+/month. Perfect for growing contractors."
+        title="Creative Job Hub vs ServiceTitan | Which is Better?"
+        description="Creative Job Hub vs ServiceTitan comparison. Explore features, pricing, and the best fit for your service business."
         keywords="ServiceTitan alternative, affordable ServiceTitan, Creative Job Hub vs ServiceTitan"
       />
       

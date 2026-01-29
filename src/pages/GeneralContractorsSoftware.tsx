@@ -55,7 +55,7 @@ export default function GeneralContractorsSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="General Contractor Software - All Trades, One Platform | $89/mo"
+        title="General Contractor Software | Creative Job Hub"
         description="Field service software for ALL contractor types: remodeling, roofing, carpentry, flooring, drywall, masonry, fencing, decking, and more. Manage projects, crews, and subcontractors. $89/month flat."
         keywords="general contractor software, contractor management software, construction software, field service software, contractor app, remodeling software, roofing software"
       />

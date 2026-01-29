@@ -42,8 +42,8 @@ export default function Home() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub - Field Service Management Software for Creative Professionals"
-        description="The all-in-one field service management software built specifically for creative contractors. Schedule jobs, create estimates, manage clients, and get paid faster. $89/month, everything included. Try free for 14 days."
+        title="Creative Job Hub | Job Management Software for Service Businesses"
+        description="All-in-one job management software for service businesses. Schedule jobs, manage teams, send invoices, and grow with Creative Job Hub"
         keywords="field service management software, contractor software, hvac software, plumbing software, electrical software, landscaping software, job scheduling, estimates, invoicing, QuickBooks integration"
       />
       <OrganizationSchema />
