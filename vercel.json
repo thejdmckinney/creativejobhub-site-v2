@@ -4,20 +4,6 @@
   "framework": "vite",
   "trailingSlash": false,
   "cleanUrls": true,
-  "routes": [
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
-    },
-    {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "redirects": [
     {
       "source": "/:path*",
