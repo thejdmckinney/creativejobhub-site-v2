@@ -250,7 +250,7 @@ export default function HandymanSoftware() {
             >
               Start Your 14-Day Free Trial
             </Link>
-            <p className="text-gray-600 mt-4 text-sm">No credit card required. Cancel anytime.</p>
+            <p className="text-gray-600 mt-4 text-sm">Cancel anytime.</p>
           </div>
         </div>
       </section>
@@ -358,7 +358,7 @@ export default function HandymanSoftware() {
             Ready to Run Your Handyman Business Better?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Start your free 14-day trial. No credit card required. Set up takes 5 minutes.
+            Start your free 14-day trial. Set up takes 5 minutes.
           </p>
           <StarRating />
           <div className="mt-8">

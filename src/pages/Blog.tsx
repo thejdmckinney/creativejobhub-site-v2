@@ -153,7 +153,7 @@ export default function Blog() {
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Try Creative Job Hub?</h2>
             <p className="text-xl text-blue-100 mb-8">
-              Start your 14-day free trial. No credit card required.
+              Start your 14-day free trial.
             </p>
             <Link
               to="/signup"

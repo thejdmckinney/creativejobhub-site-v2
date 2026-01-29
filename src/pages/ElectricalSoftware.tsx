@@ -244,7 +244,6 @@ export default function ElectricalSoftware() {
             >
               Start Free 14-Day Trial
             </Link>
-            <p className="text-gray-500 mt-4">No credit card required</p>
           </div>
         </div>
       </section>
@@ -285,7 +284,7 @@ export default function ElectricalSoftware() {
           >
             Start Your Free Trial
           </Link>
-          <p className="text-orange-100 mt-4">14 days free • No credit card • Cancel anytime</p>
+          <p className="text-orange-100 mt-4">14 days free • Cancel anytime</p>
         </div>
       </section>
     </div>

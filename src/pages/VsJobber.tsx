@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "Can I try Creative Job Hub before canceling my Jobber subscription?",
-    answer: "Absolutely! Start your 14-day free trial with no credit card required. Import your Jobber data and run both systems side-by-side if you want. Test everything: create estimates, schedule jobs, process payments, run your actual business on Creative Job Hub while keeping Jobber as a safety net. Only cancel Jobber once you're 100% confident. Most contractors know within 3-4 days that Creative Job Hub is the better choice."
+    answer: "Absolutely! Start your 14-day free trial. Import your Jobber data and run both systems side-by-side if you want. Test everything: create estimates, schedule jobs, process payments, run your actual business on Creative Job Hub while keeping Jobber as a safety net. Only cancel Jobber once you're 100% confident. Most contractors know within 3-4 days that Creative Job Hub is the better choice."
   },
   {
     question: "Does Creative Job Hub really include GPS tracking, unlimited users, and unlimited texts?",
@@ -720,7 +720,7 @@ export default function VsJobber() {
               to="/signup"
               className="inline-block bg-white text-green-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
             >
-              Start Free 14-Day Trial - No Credit Card
+              Start Free 14-Day Trial
             </Link>
             <p className="text-green-100 mt-4 text-sm">
               Import your Jobber data in minutes • Cancel Jobber after you see the difference
@@ -931,7 +931,7 @@ export default function VsJobber() {
               >
                 Start Your Free 14-Day Trial
               </Link>
-              <p className="text-gray-500 mt-3">No credit card required • Import your Jobber data in minutes</p>
+              <p className="text-gray-500 mt-3">Import your Jobber data in minutes</p>
             </div>
           </div>
         </div>

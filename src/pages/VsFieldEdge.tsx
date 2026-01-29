@@ -348,7 +348,7 @@ export default function VsFieldEdge() {
                 <h3 className="text-2xl font-bold text-gray-900">Sign Up (2 minutes)</h3>
               </div>
               <p className="text-gray-700 ml-16">
-                Start your free trial. No credit card required. You can test everything before making any decisions.
+                Start your free trial. You can test everything before making any decisions.
               </p>
             </div>
 
@@ -427,7 +427,7 @@ export default function VsFieldEdge() {
             Start Your 14-Day Free Trial
           </Link>
           <p className="text-gray-500">
-            No credit card required. Switch in minutes.
+            Switch in minutes.
           </p>
         </div>
       </section>

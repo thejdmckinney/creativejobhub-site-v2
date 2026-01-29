@@ -132,8 +132,8 @@ export default function Signup() {
   return (
     <div className="bg-gradient-to-b from-blue-50 to-white min-h-screen py-16">
       <SEO 
-        title="Start Your Free Trial - 14 Days, No Credit Card Required"
-        description="Start your 14-day free trial of Creative Job Hub. No credit card required. Full access to all features. Cancel anytime. Join hundreds of contractors saving time and money."
+        title="Start Your Free Trial - 14 Days Free"
+        description="Start your 14-day free trial of Creative Job Hub. Full access to all features. Cancel anytime. Join hundreds of contractors saving time and money."
         keywords="free trial, field service software trial, contractor software signup"
       />
       

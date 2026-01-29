@@ -19,7 +19,7 @@ export default function Home() {
     },
     {
       question: "Is there a free trial?",
-      answer: "Yes! We offer a 14-day free trial with full access to all features. No credit card required to start."
+      answer: "Yes! We offer a 14-day free trial with full access to all features."
     },
     {
       question: "Does it work offline?",
