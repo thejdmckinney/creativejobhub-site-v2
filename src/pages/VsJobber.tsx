@@ -4,6 +4,10 @@ import FAQSchema from '../components/FAQSchema';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import vsJobberImage from '../assets/cjh-vs-jobber.png';
+import aiPricingImage from '../assets/Ai-pricing-analysis.png';
+import clientDetailsImage from '../assets/client-details.png';
+import dashboardImage from '../assets/dashboard-view.png';
+import jobDetailsImage from '../assets/job-details.png';
 
 const faqs = [
   {
@@ -535,6 +539,144 @@ export default function VsJobber() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* See Creative Job Hub in Action - Screenshots */}
+      <section className="py-16 bg-gradient-to-b from-white to-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              See Creative Job Hub in Action
+            </h2>
+            <p className="text-2xl text-gray-600">
+              Clean, modern UI that's actually <span className="text-green-600 font-bold">easier to use</span> than Jobber—and <span className="text-green-600 font-bold">70% cheaper</span>
+            </p>
+          </div>
+
+          {/* Dashboard View */}
+          <div className="mb-16">
+            <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
+              <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-6">
+                <h3 className="text-2xl font-bold text-white mb-2">📊 Dashboard: Everything at a Glance</h3>
+                <p className="text-blue-100">
+                  See your day's schedule, revenue, and key metrics instantly. No cluttered interface—just the info you need.
+                </p>
+              </div>
+              <div className="p-6">
+                <img 
+                  src={dashboardImage} 
+                  alt="Creative Job Hub dashboard showing clean layout with daily schedule, revenue metrics, and job overview" 
+                  className="w-full rounded-lg shadow-lg border border-gray-200"
+                  loading="lazy"
+                />
+                <div className="mt-4 bg-green-50 border-l-4 border-green-500 p-4">
+                  <p className="text-gray-700">
+                    <strong className="text-green-700">✓ Better than Jobber:</strong> Our dashboard loads 2x faster and shows exactly what you need without overwhelming you with data. 
+                    Jobber's dashboard feels cluttered and slow. Ours is clean and lightning-fast—at <strong>$89/month vs Jobber's $199+</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* AI Pricing Analysis */}
+          <div className="mb-16">
+            <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
+              <div className="bg-gradient-to-r from-purple-600 to-purple-700 p-6">
+                <h3 className="text-2xl font-bold text-white mb-2">🤖 AI Pricing Analysis: Never Underprice Again</h3>
+                <p className="text-purple-100">
+                  Click the AI button on any price book item and get instant recommendations: Competitive, Market Rate, or Premium pricing.
+                </p>
+              </div>
+              <div className="p-6">
+                <img 
+                  src={aiPricingImage} 
+                  alt="AI pricing analysis showing competitive pricing recommendations for service items" 
+                  className="w-full rounded-lg shadow-lg border border-gray-200"
+                  loading="lazy"
+                />
+                <div className="mt-4 bg-purple-50 border-l-4 border-purple-500 p-4">
+                  <p className="text-gray-700">
+                    <strong className="text-purple-700">🚀 Jobber doesn't have this:</strong> Our AI analyzes your market and suggests optimal pricing to maximize profit without losing customers. 
+                    Stop guessing—let AI keep your pricing competitive. <strong>This feature alone could pay for your entire subscription.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Client Details */}
+          <div className="mb-16">
+            <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
+              <div className="bg-gradient-to-r from-green-600 to-green-700 p-6">
+                <h3 className="text-2xl font-bold text-white mb-2">👤 Client Management: Everything in One Place</h3>
+                <p className="text-green-100">
+                  All client info, job history, notes, and communication in a clean, organized layout. No more hunting through tabs.
+                </p>
+              </div>
+              <div className="p-6">
+                <img 
+                  src={clientDetailsImage} 
+                  alt="Client details page showing comprehensive customer information, job history, and contact details in organized layout" 
+                  className="w-full rounded-lg shadow-lg border border-gray-200"
+                  loading="lazy"
+                />
+                <div className="mt-4 bg-green-50 border-l-4 border-green-500 p-4">
+                  <p className="text-gray-700">
+                    <strong className="text-green-700">✓ Cleaner than Jobber:</strong> Our client details page is thoughtfully designed with everything you need visible without scrolling endlessly. 
+                    Jobber's client interface is cluttered with unnecessary tabs and buried information. We made it simple—and <strong>saved you $110-$270/month</strong> in the process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Job Details */}
+          <div className="mb-8">
+            <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
+              <div className="bg-gradient-to-r from-orange-600 to-orange-700 p-6">
+                <h3 className="text-2xl font-bold text-white mb-2">📋 Job Details: Clean, Fast, Complete</h3>
+                <p className="text-orange-100">
+                  Every detail about a job in one clean view. Schedule, assign, invoice, and track—all without the bloat.
+                </p>
+              </div>
+              <div className="p-6">
+                <img 
+                  src={jobDetailsImage} 
+                  alt="Job details page showing streamlined job information, scheduling, and status tracking" 
+                  className="w-full rounded-lg shadow-lg border border-gray-200"
+                  loading="lazy"
+                />
+                <div className="mt-4 bg-orange-50 border-l-4 border-orange-500 p-4">
+                  <p className="text-gray-700">
+                    <strong className="text-orange-700">✓ Faster workflow:</strong> Our job details screen is designed for speed. No unnecessary clicks, no hidden menus, no confusion. 
+                    Everything is exactly where you expect it. Jobber's job interface requires multiple clicks to do simple tasks. 
+                    We streamlined it—and <strong>you get this superior UI for $89/month while Jobber charges $199-$299/month</strong> for a more complicated interface.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom CTA */}
+          <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-8 text-center text-white">
+            <h3 className="text-3xl font-bold mb-4">
+              Better Software. Cleaner Interface. 70% Less Cost.
+            </h3>
+            <p className="text-xl text-green-100 mb-6">
+              See for yourself why contractors are ditching Jobber's cluttered, expensive platform for Creative Job Hub's clean, affordable solution.
+            </p>
+            <Link 
+              to="/signup"
+              className="inline-block bg-white text-green-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
+            >
+              Start Free 14-Day Trial - No Credit Card
+            </Link>
+            <p className="text-green-100 mt-4 text-sm">
+              Import your Jobber data in minutes • Cancel Jobber after you see the difference
+            </p>
           </div>
         </div>
       </section>
