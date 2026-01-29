@@ -15,6 +15,12 @@ import VsServiceM8 from './pages/VsServiceM8';
 import ChimneySweepSoftware from './pages/ChimneySweepSoftware';
 import HandymanSoftware from './pages/HandymanSoftware';
 import PoolServiceSoftware from './pages/PoolServiceSoftware';
+import PlumbingSoftware from './pages/PlumbingSoftware';
+import HVACSoftware from './pages/HVACSoftware';
+import ElectricalSoftware from './pages/ElectricalSoftware';
+import LandscapingSoftware from './pages/LandscapingSoftware';
+import PaintingSoftware from './pages/PaintingSoftware';
+import GeneralContractorsSoftware from './pages/GeneralContractorsSoftware';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import NotFound from './pages/NotFound';
@@ -54,6 +60,12 @@ function App() {
           <Route path="chimney-sweep-software" element={<ChimneySweepSoftware />} />
           <Route path="handyman-software" element={<HandymanSoftware />} />
           <Route path="pool-service-software" element={<PoolServiceSoftware />} />
+          <Route path="plumbing-software" element={<PlumbingSoftware />} />
+          <Route path="hvac-software" element={<HVACSoftware />} />
+          <Route path="electrical-software" element={<ElectricalSoftware />} />
+          <Route path="landscaping-software" element={<LandscapingSoftware />} />
+          <Route path="painting-software" element={<PaintingSoftware />} />
+          <Route path="general-contractors-software" element={<GeneralContractorsSoftware />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />

@@ -40,10 +40,34 @@ export default function Header() {
                 <div className="absolute top-full left-0 pt-2 w-56">
                   <div className="bg-white rounded-lg shadow-lg border border-gray-200 py-2">
                     <Link 
-                      to="/chimney-sweep-software" 
+                      to="/plumbing-software" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      Chimney Sweep Software
+                      Plumbing Software
+                    </Link>
+                    <Link 
+                      to="/hvac-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      HVAC Software
+                    </Link>
+                    <Link 
+                      to="/electrical-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Electrical Software
+                    </Link>
+                    <Link 
+                      to="/landscaping-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Landscaping Software
+                    </Link>
+                    <Link 
+                      to="/painting-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Painting Software
                     </Link>
                     <Link 
                       to="/handyman-software" 
@@ -52,10 +76,23 @@ export default function Header() {
                       Handyman Software
                     </Link>
                     <Link 
+                      to="/chimney-sweep-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Chimney Sweep Software
+                    </Link>
+                    <Link 
                       to="/pool-service-software" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
                       Pool Service Software
+                    </Link>
+                    <div className="border-t border-gray-200 my-2"></div>
+                    <Link 
+                      to="/general-contractors-software" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-semibold"
+                    >
+                      General Contractors
                     </Link>
                   </div>
                 </div>
@@ -207,11 +244,39 @@ export default function Header() {
                 <div className="text-gray-900 font-semibold mb-2">Industries</div>
                 <div className="pl-4 space-y-2">
                   <Link
-                    to="/chimney-sweep-software"
+                    to="/plumbing-software"
                     className="block text-gray-600 hover:text-blue-600 py-1"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    Chimney Sweep Software
+                    Plumbing Software
+                  </Link>
+                  <Link
+                    to="/hvac-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    HVAC Software
+                  </Link>
+                  <Link
+                    to="/electrical-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Electrical Software
+                  </Link>
+                  <Link
+                    to="/landscaping-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Landscaping Software
+                  </Link>
+                  <Link
+                    to="/painting-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Painting Software
                   </Link>
                   <Link
                     to="/handyman-software"
@@ -221,11 +286,26 @@ export default function Header() {
                     Handyman Software
                   </Link>
                   <Link
+                    to="/chimney-sweep-software"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Chimney Sweep Software
+                  </Link>
+                  <Link
                     to="/pool-service-software"
                     className="block text-gray-600 hover:text-blue-600 py-1"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Pool Service Software
+                  </Link>
+                  <div className="border-t border-gray-200 my-2"></div>
+                  <Link
+                    to="/general-contractors-software"
+                    className="block text-gray-700 hover:text-blue-600 py-1 font-semibold"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    General Contractors
                   </Link>
                 </div>
               </div>
