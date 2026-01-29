@@ -30,8 +30,8 @@ export default function HowItWorks() {
   return (
     <div className="bg-white">
       <SEO 
-        title="How It Works - 6-Step Workflow"
-        description="See how Creative Job Hub streamlines your entire workflow: capture leads, create smart estimates, schedule jobs, complete work in the field, get paid fast, and delight customers. Try free for 14 days."
+        title="How Creative Job Hub Works | Job Management Made Simple"
+        description="See how Creative Job Hub helps service businesses manage jobs, schedules, customers, and payments in one simple platform."
         keywords="field service workflow, contractor workflow, job management process, service business workflow"
       />
       
