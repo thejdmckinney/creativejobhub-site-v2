@@ -222,6 +222,182 @@ export default function VsFieldEdge() {
         </div>
       </section>
 
+      {/* What FieldEdge Users Complain About */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+            What FieldEdge Users Complain About
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">🕰️ Outdated Interface</h3>
+              <p className="text-gray-700 mb-4">
+                "The software looks like it's from 2010. Clunky menus, confusing navigation. Takes forever to train new employees."
+              </p>
+              <p className="font-semibold text-green-700">
+                ✓ Creative Job Hub: Modern, intuitive interface designed for 2026
+              </p>
+            </div>
+
+            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">📱 Poor Mobile Experience</h3>
+              <p className="text-gray-700 mb-4">
+                "Mobile app constantly crashes. Techs in the field can't update jobs. Have to wait until they're back in the office."
+              </p>
+              <p className="font-semibold text-green-700">
+                ✓ Creative Job Hub: Native mobile apps that actually work
+              </p>
+            </div>
+
+            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">💬 Slow Customer Support</h3>
+              <p className="text-gray-700 mb-4">
+                "Takes 2-3 days to get a response. Live chat is never available. When problems happen, we're stuck."
+              </p>
+              <p className="font-semibold text-green-700">
+                ✓ Creative Job Hub: Same-day support, built by contractors who understand
+              </p>
+            </div>
+
+            <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">💰 Hidden Setup Fees</h3>
+              <p className="text-gray-700 mb-4">
+                "Quoted $169/month but paid $800 in setup fees, training costs, and data migration charges."
+              </p>
+              <p className="font-semibold text-green-700">
+                ✓ Creative Job Hub: $0 setup fees, free migration assistance
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Contractors Switch */}
+      <section className="py-16 bg-blue-600 text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center mb-12">
+            Why Contractors Are Switching from FieldEdge
+          </h2>
+          <div className="space-y-6 text-xl">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">💰</span>
+              <div>
+                <h3 className="font-bold mb-2">Save $960/Year Immediately</h3>
+                <p className="text-blue-100">
+                  $89/month vs $169/month. That's real money back in your pocket with no feature compromises.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🚀</span>
+              <div>
+                <h3 className="font-bold mb-2">Actually Modern Software</h3>
+                <p className="text-blue-100">
+                  Built in 2024, not 2010. Clean interface, fast performance, designed for how you actually work today.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">📱</span>
+              <div>
+                <h3 className="font-bold mb-2">Mobile Apps That Work</h3>
+                <p className="text-blue-100">
+                  Techs can actually update jobs from the field. No more waiting to get back to the office.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">💬</span>
+              <div>
+                <h3 className="font-bold mb-2">Support That Responds</h3>
+                <p className="text-blue-100">
+                  Built by a contractor who answers questions same-day. No 3-day wait times or useless chatbots.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🔧</span>
+              <div>
+                <h3 className="font-bold mb-2">Bring Your Own Tools</h3>
+                <p className="text-blue-100">
+                  Already use QuickBooks or Stripe? Keep them. We integrate instead of forcing you to switch.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Migration Guide */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+            Switching from FieldEdge is Easy
+          </h2>
+          
+          <div className="space-y-8">
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold">
+                  1
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Sign Up (2 minutes)</h3>
+              </div>
+              <p className="text-gray-700 ml-16">
+                Start your free trial. No credit card required. You can test everything before making any decisions.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold">
+                  2
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Import Your Data (10 minutes)</h3>
+              </div>
+              <p className="text-gray-700 ml-16">
+                Export customer list from FieldEdge as CSV. Import into Creative Job Hub. We'll help if you get stuck.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold">
+                  3
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Connect Your Tools (5 minutes)</h3>
+              </div>
+              <p className="text-gray-700 ml-16">
+                Link your QuickBooks, Stripe, Twilio, and other tools. Keep using what works for you.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold">
+                  4
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Run Both for 14 Days</h3>
+              </div>
+              <p className="text-gray-700 ml-16">
+                Use both systems in parallel. When you're confident Creative Job Hub works better, cancel FieldEdge.
+              </p>
+            </div>
+
+            <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6">
+              <h3 className="text-xl font-bold text-green-900 mb-3">💡 Pro Tip</h3>
+              <p className="text-gray-700">
+                Most contractors switch completely within 1 week. The interface is so much easier that training time is minimal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonial */}
       <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
