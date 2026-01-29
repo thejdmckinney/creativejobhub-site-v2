@@ -15,6 +15,12 @@ export default function BlogPost() {
     async function fetchPost() {
       if (slug) {
         const fetchedPost = await getPostBySlug(slug);
+        
+        // Debug: Log the content structure
+        if (fetchedPost?.content) {
+          console.log('Blog content structure:', JSON.stringify(fetchedPost.content, null, 2));
+        }
+        
         setPost(fetchedPost);
         setLoading(false);
       }
