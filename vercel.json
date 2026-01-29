@@ -4,6 +4,7 @@
   "framework": "vite",
   "trailingSlash": false,
   "cleanUrls": true,
+  "crons": [],
   "redirects": [
     {
       "source": "/:path*",
@@ -27,6 +28,12 @@
       "destination": "/index.html"
     }
   ],
+  "functions": {
+    "api/**/*.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",
