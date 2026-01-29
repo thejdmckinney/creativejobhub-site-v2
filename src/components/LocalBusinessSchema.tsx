@@ -5,7 +5,7 @@ export default function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Creative Job Hub",
-    "image": "https://creativejobhub.com/cjh-og-image.png",
+    "image": "https://www.creativejobhub.com/cjh-og-image.png",
     "description": "Field service management software built by contractors for contractors. All-in-one solution for scheduling, estimates, invoicing, mobile apps, and more.",
     "address": {
       "@type": "PostalAddress",
@@ -18,7 +18,7 @@ export default function LocalBusinessSchema() {
       "latitude": "32.7767",
       "longitude": "-96.7970"
     },
-    "url": "https://creativejobhub.com",
+    "url": "https://www.creativejobhub.com",
     "telephone": "+1-469-218-6800",
     "email": "support@creativejobhub.com",
     "priceRange": "$89",

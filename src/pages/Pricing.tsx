@@ -60,8 +60,8 @@ export default function Pricing() {
       <ProductSchema />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://creativejobhub.com' },
-        { name: 'Pricing', url: 'https://creativejobhub.com/pricing' }
+        { name: 'Home', url: 'https://www.creativejobhub.com' },
+        { name: 'Pricing', url: 'https://www.creativejobhub.com/pricing' }
       ]} />
       
       {/* Hero Section */}

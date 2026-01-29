@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://creativejobhub.com/sitemap.xml
+Sitemap: https://www.creativejobhub.com/sitemap.xml
 
 # Disallow admin or test pages (if any)
 Disallow: /admin/

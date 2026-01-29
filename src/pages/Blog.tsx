@@ -27,8 +27,8 @@ export default function Blog() {
         keywords="field service blog, contractor tips, fsm software updates, integration guides, byot philosophy, customer stories"
       />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://creativejobhub.com' },
-        { name: 'Blog', url: 'https://creativejobhub.com/blog' }
+        { name: 'Home', url: 'https://www.creativejobhub.com' },
+        { name: 'Blog', url: 'https://www.creativejobhub.com/blog' }
       ]} />
 
       <div className="min-h-screen bg-gray-50">

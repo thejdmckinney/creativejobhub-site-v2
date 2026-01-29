@@ -220,7 +220,7 @@ export default function TermsOfService() {
                   </p>
                   <p className="text-gray-700 mb-2">
                     <strong>Website:</strong>{' '}
-                    <a href="https://creativejobhub.com" className="text-blue-600 hover:text-blue-700">
+                    <a href="https://www.creativejobhub.com" className="text-blue-600 hover:text-blue-700">
                       creativejobhub.com
                     </a>
                   </p>

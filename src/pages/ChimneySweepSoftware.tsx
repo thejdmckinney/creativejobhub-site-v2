@@ -39,8 +39,8 @@ export default function ChimneySweepSoftware() {
         keywords="chimney sweep software, CSIA inspection software, creosote tracking, chimney inspection app, chimney sweep business software, CSIA checklist app"
       />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://creativejobhub.com' },
-        { name: 'Chimney Sweep Software', url: 'https://creativejobhub.com/chimney-sweep-software' }
+        { name: 'Home', url: 'https://www.creativejobhub.com' },
+        { name: 'Chimney Sweep Software', url: 'https://www.creativejobhub.com/chimney-sweep-software' }
       ]} />
       
       <Breadcrumbs 

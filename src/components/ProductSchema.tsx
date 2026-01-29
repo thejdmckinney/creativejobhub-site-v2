@@ -12,7 +12,7 @@ export default function ProductSchema() {
     },
     "offers": {
       "@type": "Offer",
-      "url": "https://creativejobhub.com/pricing",
+      "url": "https://www.creativejobhub.com/pricing",
       "priceCurrency": "USD",
       "price": "89.00",
       "priceValidUntil": "2026-12-31",
