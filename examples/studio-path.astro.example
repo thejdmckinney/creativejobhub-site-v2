@@ -1,0 +1,36 @@
+---
+// Sanity Studio route - catches all /studio/* paths
+// This allows the Sanity Studio React app to run as a client-side app
+import StudioWrapper from '../../components/StudioWrapper';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanity Studio - Creative Job Hub</title>
+    
+    <!-- Prevent search engines from indexing the studio -->
+    <meta name="robots" content="noindex, nofollow" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <style>
+      /* Reset margins/padding for full-screen studio */
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+      The Studio component must run client-side only since it's a full React app.
+      client:only="react" tells Astro to skip server-side rendering entirely.
+    -->
+    <StudioWrapper client:only="react" />
+  </body>
+</html>

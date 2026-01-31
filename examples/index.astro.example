@@ -1,0 +1,147 @@
+---
+// Example: Converting the Home page from React to Astro
+import MainLayout from '../layouts/MainLayout.astro';
+import StarRating from '../components/StarRating';
+import OrganizationSchema from '../components/OrganizationSchema';
+import FAQSchema from '../components/FAQSchema';
+import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
+import LocalBusinessSchema from '../components/LocalBusinessSchema';
+import RelatedPages from '../components/RelatedPages';
+
+// Import images
+import heroBanner from '../assets/home-page-image.png';
+import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
+
+// FAQ data for Schema.org markup
+const faqs = [
+  {
+    question: "How much does Creative Job Hub cost?",
+    answer: "$89 per month with everything included - unlimited users, unlimited jobs, QuickBooks integration, mobile apps, GPS tracking, and 24/7 support. No hidden fees or per-user charges."
+  },
+  {
+    question: "Is there a free trial?",
+    answer: "Yes! We offer a 14-day free trial with full access to all features."
+  },
+  {
+    question: "Does it work offline?",
+    answer: "Yes. The mobile app works offline so your technicians can complete jobs in basements, remote areas, or anywhere without internet. Data syncs automatically when connection is restored."
+  },
+  {
+    question: "Can I import my existing customer data?",
+    answer: "Yes. We can import your customer list, job history, and pricing from spreadsheets or most other field service software. Our team handles the migration for free."
+  },
+  {
+    question: "Does it integrate with QuickBooks?",
+    answer: "Yes. Creative Job Hub syncs directly with QuickBooks Online. Invoices, payments, and expenses transfer automatically - no duplicate data entry."
+  },
+  {
+    question: "What industries is Creative Job Hub built for?",
+    answer: "We're built for field service contractors including HVAC, plumbing, electrical, chimney sweeps, handymen, pool service, landscaping, and other service businesses. If you go to customer locations, we're for you."
+  }
+];
+
+const title = "Creative Job Hub | Job Management Software for Service Businesses";
+const description = "All-in-one job management software for service businesses. Schedule jobs, manage teams, send invoices, and grow with Creative Job Hub";
+const keywords = "field service management software, contractor software, hvac software, plumbing software, electrical software, landscaping software, job scheduling, estimates, invoicing, QuickBooks integration";
+---
+
+<MainLayout title={title} description={description} keywords={keywords}>
+  <!-- Schema.org structured data components (keep as React for functionality) -->
+  <OrganizationSchema client:only="react" />
+  <FAQSchema faqs={faqs} client:only="react" />
+  <SoftwareApplicationSchema client:only="react" />
+  <LocalBusinessSchema client:only="react" />
+  
+  <div class="bg-white">
+    <section class="bg-gradient-to-b from-blue-50 to-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 class="text-5xl font-bold text-gray-900 mb-6">
+              Field Service Software That Doesn't Cost More Than Your Truck Payment
+            </h1>
+            <p class="text-xl text-gray-600 mb-8">
+              $89/month. Everything included. Built by a contractor who got tired of $400/month software bills.
+            </p>
+            <div class="mb-8">
+              <StarRating client:load />
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 mb-8">
+              <a 
+                href="/signup" 
+                class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center"
+              >
+                Start Your 14-Day Free Trial
+              </a>
+              <button class="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+                Watch 2-Min Demo
+              </button>
+            </div>
+          </div>
+          <div class="rounded-lg overflow-hidden shadow-2xl">
+            <img 
+              src={heroBanner.src}
+              alt="Creative Job Hub - Field Service Management Software" 
+              class="w-full h-full object-cover"
+              loading="eager"
+              width={heroBanner.width}
+              height={heroBanner.height}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">
+          Why Most Field Service Software Sucks
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <div class="text-4xl mb-4">💸</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Hidden Pricing</h3>
+            <p class="text-gray-600">
+              "Starting at $50/user" actually means $400/month for a 5-person team. 
+              Plus setup fees. Plus integrations. Plus support. We charge $89/month. Period.
+            </p>
+          </div>
+          
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <div class="text-4xl mb-4">🤯</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Too Complicated</h3>
+            <p class="text-gray-600">
+              Most platforms require a PhD to use. We built Creative Job Hub for actual contractors 
+              who need to schedule a job, not read a 200-page manual.
+            </p>
+          </div>
+          
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <div class="text-4xl mb-4">🔒</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Vendor Lock-In</h3>
+            <p class="text-gray-600">
+              They own your data. Export costs extra. Cancel and lose everything. 
+              Your data is yours. Export anytime. Cancel anytime. No questions asked.
+            </p>
+          </div>
+          
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <div class="text-4xl mb-4">📞</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Terrible Support</h3>
+            <p class="text-gray-600">
+              "Submit a ticket and wait 3-5 business days." We're contractors who built this software. 
+              Real people answer the phone. Same day responses. Actually helpful.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add more sections as needed... -->
+    
+  </div>
+</MainLayout>
+
+<style>
+  /* Add any page-specific styles here if needed */
+</style>

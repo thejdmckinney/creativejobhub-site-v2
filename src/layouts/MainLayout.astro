@@ -1,0 +1,111 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  keywords?: string;
+  ogImage?: string;
+  ogType?: string;
+  noIndex?: boolean;
+  canonicalUrl?: string;
+}
+
+const { 
+  title, 
+  description, 
+  keywords = 'field service management, contractor software, job management, hvac software, plumbing software, electrical software, landscaping software, scheduling software, estimate software, invoice software',
+  ogImage = 'https://www.creativejobhub.com/cjh-og-image.png',
+  ogType = 'website',
+  noIndex = false,
+  canonicalUrl
+} = Astro.props;
+
+// Create full title if it doesn't already include the site name
+const fullTitle = title.includes('Creative Job Hub') ? title : `${title} | Creative Job Hub`;
+
+// Generate canonical URL
+const canonical = canonicalUrl || new URL(Astro.url.pathname, Astro.site).href;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>{fullTitle}</title>
+    <meta name="title" content={fullTitle} />
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    {noIndex && <meta name="robots" content="noindex, nofollow" />}
+    {!noIndex && <meta name="robots" content="index, follow" />}
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href={canonical} />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Creative Job Hub" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonical} />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content="Creative Job Hub - Field Service Management Software" />
+    <meta name="twitter:site" content="@creativejobhub" />
+    <meta name="twitter:creator" content="@creativejobhub" />
+    
+    <!-- Additional Meta Tags -->
+    <meta name="language" content="English" />
+    <meta name="author" content="Creative Job Hub" />
+    
+    <!-- Mobile App Capable -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Creative Job Hub" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2563eb" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://cdn.sanity.io" />
+    
+    <!-- Vercel Speed Insights -->
+    <script>
+      import { injectSpeedInsights } from '@vercel/speed-insights';
+      injectSpeedInsights();
+    </script>
+  </head>
+  <body class="antialiased">
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    
+    <!-- Scroll to top functionality -->
+    <script>
+      // Scroll to top on navigation
+      document.addEventListener('astro:page-load', () => {
+        window.scrollTo({ top: 0, behavior: 'instant' });
+      });
+    </script>
+  </body>
+</html>

@@ -3,12 +3,21 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
+import { createClient } from '@sanity/client';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// All routes to prerender
-const routes = [
+// Initialize Sanity client
+const sanityClient = createClient({
+  projectId: 'bb2zybf9',
+  dataset: 'production',
+  useCdn: true,
+  apiVersion: '2024-01-01',
+});
+
+// Static routes to prerender
+const staticRoutes = [
   '/',
   '/pricing',
   '/how-it-works',
@@ -38,9 +47,33 @@ const routes = [
   '/privacy-policy',
 ];
 
+async function getAllRoutes() {
+  // Fetch blog post slugs from Sanity
+  try {
+    const posts = await sanityClient.fetch(`
+      *[_type == "blogPost" && defined(slug.current)] {
+        "slug": slug.current
+      }
+    `);
+    
+    const blogRoutes = posts.map(post => `/blog/${post.slug}`);
+    console.log(`📝 Found ${posts.length} blog posts to prerender\n`);
+    
+    return [...staticRoutes, ...blogRoutes];
+  } catch (error) {
+    console.warn('⚠️  Could not fetch blog posts from Sanity:', error.message);
+    console.log('Continuing with static routes only...\n');
+    return staticRoutes;
+  }
+}
+
 async function prerender() {
   const distPath = path.join(__dirname, 'dist');
   const PORT = 3333;
+  
+  // Get all routes (static + dynamic blog posts)
+  const routes = await getAllRoutes();
+  console.log(`🎯 Prerendering ${routes.length} total routes...\n`);
   
   // Start sirv server for SPA
   console.log(`🚀 Starting sirv server on http://localhost:${PORT}...\n`);
@@ -65,11 +98,20 @@ async function prerender() {
       
       // Navigate to the route
       await page.goto(`http://localhost:${PORT}${route}`, {
-        waitUntil: 'networkidle0',
-        timeout: 30000
+        waitUntil: 'networkidle2',
+        timeout: 60000
       });
       
-      // Wait for React Helmet to update the meta tags
+      // Wait for React to fully render content
+      await page.waitForFunction(
+        () => {
+          const root = document.getElementById('root');
+          return root && root.children.length > 0;
+        },
+        { timeout: 30000 }
+      );
+      
+      // Wait for React Helmet to update meta tags
       await new Promise(resolve => setTimeout(resolve, 2000));
       
       // Get the rendered HTML with updated meta tags

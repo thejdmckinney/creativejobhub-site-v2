@@ -1,0 +1,187 @@
+---
+// Example: Dynamic blog post page
+import MainLayout from '../../layouts/MainLayout.astro';
+import { sanityClient } from '../../lib/client';
+import { PortableText } from '@portabletext/react';
+import type { SanityDocument } from '@sanity/client';
+
+interface BlogPost extends SanityDocument {
+  title: string;
+  excerpt: string;
+  body: any;
+  publishedAt: string;
+  mainImageUrl: string;
+  author: {
+    name: string;
+    image: string;
+  };
+  seo?: {
+    metaTitle?: string;
+    metaDescription?: string;
+  };
+}
+
+// This function tells Astro which blog post pages to generate at BUILD time
+export async function getStaticPaths() {
+  const posts = await sanityClient.fetch(`
+    *[_type == "blogPost"] {
+      "slug": slug.current
+    }
+  `);
+  
+  return posts.map((post: any) => ({
+    params: { slug: post.slug },
+  }));
+}
+
+// Get the current post data based on the URL slug
+const { slug } = Astro.params;
+
+const post: BlogPost = await sanityClient.fetch(`
+  *[_type == "blogPost" && slug.current == $slug][0] {
+    title,
+    excerpt,
+    body,
+    publishedAt,
+    "mainImageUrl": mainImage.asset->url,
+    author->{
+      name,
+      "image": image.asset->url
+    },
+    seo
+  }
+`, { slug });
+
+// Handle 404 if post doesn't exist
+if (!post) {
+  return Astro.redirect('/404');
+}
+
+// Use SEO fields if available, otherwise fall back to post title/excerpt
+const title = post.seo?.metaTitle || post.title;
+const description = post.seo?.metaDescription || post.excerpt;
+const ogImage = post.mainImageUrl || 'https://www.creativejobhub.com/cjh-og-image.png';
+---
+
+<MainLayout 
+  title={title} 
+  description={description} 
+  ogImage={ogImage}
+  ogType="article"
+>
+  <article class="bg-white">
+    <!-- Hero Section -->
+    <section class="relative">
+      {post.mainImageUrl && (
+        <img 
+          src={post.mainImageUrl} 
+          alt={post.title}
+          class="w-full h-96 object-cover"
+          loading="eager"
+        />
+      )}
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-8">
+        <div class="max-w-4xl mx-auto">
+          <h1 class="text-5xl font-bold text-white mb-4 drop-shadow-lg">
+            {post.title}
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Post Content -->
+    <section class="py-12">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Meta Information -->
+        <div class="flex items-center justify-between mb-8 pb-8 border-b">
+          <div class="flex items-center gap-4">
+            {post.author?.image && (
+              <img 
+                src={post.author.image} 
+                alt={post.author.name}
+                class="w-12 h-12 rounded-full"
+              />
+            )}
+            <div>
+              {post.author && (
+                <p class="font-semibold text-gray-900">
+                  {post.author.name}
+                </p>
+              )}
+              <time class="text-gray-500 text-sm">
+                {new Date(post.publishedAt).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </time>
+            </div>
+          </div>
+          
+          <!-- Share buttons could go here -->
+        </div>
+
+        <!-- Post Body (Portable Text) -->
+        <div class="prose prose-lg max-w-none">
+          <PortableText 
+            value={post.body} 
+            client:load 
+          />
+        </div>
+
+        <!-- Call to Action -->
+        <div class="mt-12 p-8 bg-blue-50 rounded-lg">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">
+            Ready to streamline your field service business?
+          </h3>
+          <p class="text-gray-600 mb-6">
+            Join hundreds of contractors who use Creative Job Hub to manage their jobs, 
+            schedules, and customers in one simple platform.
+          </p>
+          <a 
+            href="/signup" 
+            class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold inline-block transition-colors"
+          >
+            Start Your 14-Day Free Trial
+          </a>
+        </div>
+
+        <!-- Back to Blog Link -->
+        <div class="mt-12 text-center">
+          <a 
+            href="/blog" 
+            class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center"
+          >
+            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to Blog
+          </a>
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <!-- Article Schema.org structured data -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.excerpt,
+    "image": post.mainImageUrl,
+    "datePublished": post.publishedAt,
+    "author": {
+      "@type": "Person",
+      "name": post.author?.name || "Creative Job Hub Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Creative Job Hub",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.creativejobhub.com/logo.png"
+      }
+    }
+  })} />
+</MainLayout>

@@ -1,0 +1,150 @@
+---
+// Simple Astro header component (no React needed for static navigation)
+---
+
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="/" class="flex items-center">
+          <img 
+            src="/logo.svg" 
+            alt="Creative Job Hub" 
+            class="h-8 w-auto"
+          />
+          <span class="ml-2 text-xl font-bold text-gray-900">
+            Creative Job Hub
+          </span>
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex md:space-x-8">
+        <a 
+          href="/how-it-works" 
+          class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+        >
+          How It Works
+        </a>
+        <a 
+          href="/pricing" 
+          class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+        >
+          Pricing
+        </a>
+        
+        <!-- Competitors Dropdown -->
+        <div class="relative group">
+          <button class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors flex items-center">
+            Competitors
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div class="py-1">
+              <a href="/vs-jobber" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">vs Jobber</a>
+              <a href="/vs-housecall-pro" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">vs Housecall Pro</a>
+              <a href="/vs-servicetitan" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">vs ServiceTitan</a>
+              <a href="/vs-fieldedge" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">vs FieldEdge</a>
+              <a href="/vs-servicem8" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">vs ServiceM8</a>
+            </div>
+          </div>
+        </div>
+
+        <a 
+          href="/blog" 
+          class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+        >
+          Blog
+        </a>
+        <a 
+          href="/contact" 
+          class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+        >
+          Contact
+        </a>
+      </div>
+
+      <!-- CTA Buttons -->
+      <div class="hidden md:flex md:items-center md:space-x-4">
+        <a 
+          href="/login" 
+          class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-medium transition-colors"
+        >
+          Login
+        </a>
+        <a 
+          href="/signup" 
+          class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg text-sm font-semibold transition-colors"
+        >
+          Start Free Trial
+        </a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button 
+          type="button" 
+          class="mobile-menu-button text-gray-700 hover:text-blue-600 focus:outline-none"
+          aria-label="Toggle menu"
+        >
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-menu hidden md:hidden pb-4">
+      <div class="space-y-1">
+        <a href="/how-it-works" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md">
+          How It Works
+        </a>
+        <a href="/pricing" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md">
+          Pricing
+        </a>
+        <a href="/competitors" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md">
+          Competitors
+        </a>
+        <a href="/blog" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md">
+          Blog
+        </a>
+        <a href="/contact" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md">
+          Contact
+        </a>
+        <a href="/login" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md">
+          Login
+        </a>
+        <a href="/signup" class="block px-3 py-2 text-base font-medium bg-orange-500 text-white hover:bg-orange-600 rounded-md text-center">
+          Start Free Trial
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<script>
+  // Mobile menu toggle
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuButton = document.querySelector('.mobile-menu-button');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    menuButton?.addEventListener('click', () => {
+      mobileMenu?.classList.toggle('hidden');
+    });
+  });
+</script>
+
+<style>
+  /* Dropdown hover styles */
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+  
+  .group:hover .group-hover\:visible {
+    visibility: visible;
+  }
+</style>

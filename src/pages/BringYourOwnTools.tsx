@@ -6,8 +6,8 @@ export default function BringYourOwnTools() {
   return (
     <>
       <SEO 
-        title="Stop Paying $300/Month for Tools That Should Be Free"
-        description="Creative Job Hub shows you how to connect industry-leading tools like Twilio, Resend, Mapbox, and Stripe to your business - for free. No markups. No middlemen. Just honest pricing and real control."
+        title="Bring Your Own Tools | Creative Job Hub Integrations"
+        description="Use Creative Job Hub with tools you already love. Connect your workflows and run your business your way."
         keywords="field service software pricing, twilio integration, stripe integration, mapbox integration, contractor software savings, byot, bring your own tools, fsm software cost"
       />
 
