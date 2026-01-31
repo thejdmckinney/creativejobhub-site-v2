@@ -8,8 +8,6 @@ import FAQAccordion from '../components/FAQAccordion';
 import IndustryTabs from '../components/IndustryTabs';
 import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/home-page-image.png';
-import propertiesDetailsMobile from '../assets/Properties-details.png';
-import analyticsMobile from '../assets/analytics.png';
 
 export default function Home() {
   // FAQ data for Schema.org markup and display
@@ -270,45 +268,18 @@ export default function Home() {
                 See What's Actually Happening in Your Business
               </h3>
               
-              <div className="grid lg:grid-cols-2 gap-8 items-start">
-                {/* Left Side - Text Content */}
+              <div className="grid md:grid-cols-3 gap-8">
                 <div>
-                  <div className="space-y-6">
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-2 text-lg">Revenue Insights</h4>
-                      <p className="text-gray-600">Track daily revenue, outstanding invoices, and payment trends. See which services generate the most profit and make data-driven pricing decisions.</p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-2 text-lg">Tech Performance</h4>
-                      <p className="text-gray-600">See which techs close the most jobs and generate the most revenue. Track completion rates, customer ratings, and identify top performers.</p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-2 text-lg">Customer History</h4>
-                      <p className="text-gray-600">Complete service history, photos, and notes for every customer. Access property details, past invoices, and service preferences instantly from your mobile app.</p>
-                    </div>
-                  </div>
+                  <h4 className="font-semibold text-gray-900 mb-2 text-lg">Revenue Insights</h4>
+                  <p className="text-gray-600">Track daily revenue, outstanding invoices, and payment trends. See which services generate the most profit and make data-driven pricing decisions.</p>
                 </div>
-
-                {/* Right Side - Mobile Screenshots */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <img 
-                      src={analyticsMobile} 
-                      alt="Creative Job Hub mobile app analytics dashboard showing revenue metrics and business insights" 
-                      className="w-full rounded-lg shadow-xl border border-gray-200"
-                      loading="lazy"
-                    />
-                    <p className="text-xs text-gray-500 text-center mt-2">Analytics Dashboard</p>
-                  </div>
-                  <div>
-                    <img 
-                      src={propertiesDetailsMobile} 
-                      alt="Creative Job Hub mobile app property details showing customer history and service records" 
-                      className="w-full rounded-lg shadow-xl border border-gray-200"
-                      loading="lazy"
-                    />
-                    <p className="text-xs text-gray-500 text-center mt-2">Property Details</p>
-                  </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2 text-lg">Tech Performance</h4>
+                  <p className="text-gray-600">See which techs close the most jobs and generate the most revenue. Track completion rates, customer ratings, and identify top performers.</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2 text-lg">Customer History</h4>
+                  <p className="text-gray-600">Complete service history, photos, and notes for every customer. Access property details, past invoices, and service preferences instantly from your mobile app.</p>
                 </div>
               </div>
             </div>
