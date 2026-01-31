@@ -8,7 +8,6 @@ import FAQAccordion from '../components/FAQAccordion';
 import IndustryTabs from '../components/IndustryTabs';
 import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/home-page-image.png';
-import jobPageMobile from '../assets/job-page.png';
 import propertiesDetailsMobile from '../assets/Properties-details.png';
 import analyticsMobile from '../assets/analytics.png';
 
@@ -172,8 +171,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Scheduling Block */}
-            <div id="scheduling" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">�</div>
+            <div id="scheduling" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
+              <div className="text-4xl mb-4">📅</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Stop Double-Booking Your Best Techs
               </h3>
@@ -203,7 +202,7 @@ export default function Home() {
             </div>
 
             {/* Team Management Block */}
-            <div id="team-management" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
+            <div id="team-management" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
               <div className="text-4xl mb-4">👥</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Know Where Your Team Is and What They're Doing
@@ -234,47 +233,34 @@ export default function Home() {
             </div>
 
             {/* Invoicing & Payments Block */}
-            <div id="invoicing" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
-              <div className="flex flex-col lg:flex-row gap-6">
-                <div className="flex-1">
-                  <div className="text-4xl mb-4">💰</div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                    Get Paid Faster, Not Net-30 Slower
-                  </h3>
-                  <ul className="space-y-3 mb-6">
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                      </svg>
-                      <span className="text-gray-700">Accept credit cards on-site via mobile app</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                      </svg>
-                      <span className="text-gray-700">Funds deposited in 1-2 business days</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                      </svg>
-                      <span className="text-gray-700">Auto-sync to QuickBooks - zero data entry</span>
-                    </li>
-                  </ul>
-                  <a href="#invoicing" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
-                    Learn more →
-                  </a>
-                </div>
-                <div className="w-48 flex-shrink-0">
-                  <img 
-                    src={jobPageMobile} 
-                    alt="Creative Job Hub mobile app showing job details and payment collection interface" 
-                    className="w-full rounded-lg shadow-xl border border-gray-200"
-                    loading="lazy"
-                  />
-                  <p className="text-xs text-gray-500 text-center mt-2">Mobile App</p>
-                </div>
-              </div>
+            <div id="invoicing" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
+              <div className="text-4xl mb-4">💰</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Get Paid Faster, Not Net-30 Slower
+              </h3>
+              <ul className="space-y-3 mb-6">
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Accept credit cards on-site via mobile app</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Funds deposited in 1-2 business days</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Auto-sync to QuickBooks - zero data entry</span>
+                </li>
+              </ul>
+              <a href="#invoicing" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
+                Learn more →
+              </a>
             </div>
 
             {/* Operations Visibility Block */}
