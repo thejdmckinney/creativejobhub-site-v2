@@ -4,14 +4,16 @@ import StarRating from '../components/StarRating';
 import OrganizationSchema from '../components/OrganizationSchema';
 import FAQSchema from '../components/FAQSchema';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
-import LocalBusinessSchema from '../components/LocalBusinessSchema';
-import RelatedPages from '../components/RelatedPages';
+import FAQAccordion from '../components/FAQAccordion';
+import IndustryTabs from '../components/IndustryTabs';
 import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/home-page-image.png';
-import integrationsImage from '../assets/Integrations-we-partner-with.jpg';
+import jobPageMobile from '../assets/job-page.png';
+import propertiesDetailsMobile from '../assets/Properties-details.png';
+import analyticsMobile from '../assets/analytics.png';
 
 export default function Home() {
-  // FAQ data for Schema.org markup
+  // FAQ data for Schema.org markup and display
   const faqs = [
     {
       question: "How much does Creative Job Hub cost?",
@@ -19,7 +21,7 @@ export default function Home() {
     },
     {
       question: "Is there a free trial?",
-      answer: "Yes! We offer a 14-day free trial with full access to all features."
+      answer: "Yes! We offer a 14-day free trial with full access to all features. No credit card required to start."
     },
     {
       question: "Does it work offline?",
@@ -36,6 +38,22 @@ export default function Home() {
     {
       question: "What industries is Creative Job Hub built for?",
       answer: "We're built for field service contractors including HVAC, plumbing, electrical, chimney sweeps, handymen, pool service, landscaping, and other service businesses. If you go to customer locations, we're for you."
+    },
+    {
+      question: "How long does it take to get started?",
+      answer: "Most contractors are up and running in under 2 hours. Import your customers, add your techs, and you're ready to dispatch jobs. We provide live onboarding support."
+    },
+    {
+      question: "What if my team isn't tech-savvy?",
+      answer: "Creative Job Hub is designed for field teams, not IT departments. If your techs can text, they can use our mobile app. We also provide training videos and 24/7 support."
+    },
+    {
+      question: "Can I cancel anytime?",
+      answer: "Yes. No contracts, no cancellation fees. If Creative Job Hub doesn't work for your business, cancel with one click."
+    },
+    {
+      question: "Do you charge for customer support?",
+      answer: "Never. 24/7 support is included with every plan. Email, phone, or live chat - no extra charge."
     }
   ];
 
@@ -49,38 +67,65 @@ export default function Home() {
       <OrganizationSchema />
       <FAQSchema faqs={faqs} />
       <SoftwareApplicationSchema />
-      <LocalBusinessSchema />
       
-      <section className="bg-gradient-to-b from-blue-50 to-white py-20">
+      {/* SECTION 1 - HERO */}
+      <section className="bg-gradient-to-b from-blue-50 to-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                Field Service Software That Doesn't Cost More Than Your Truck Payment
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                Stop Losing Jobs to Messy Scheduling and Slow Invoices
               </h1>
-              <p className="text-xl text-gray-600 mb-8">
-                $89/month. Everything included. Built by a contractor who got tired of $400/month software bills.
-              </p>
-              <div className="mb-8">
+              <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
+                Schedule field teams, dispatch jobs, and get paid faster - all in one system built for service businesses.
+              </h2>
+              
+              {/* Credibility Bullets */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+                <div className="flex items-center space-x-2">
+                  <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm font-medium text-gray-700">Built for field teams</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm font-medium text-gray-700">Works offline</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm font-medium text-gray-700">Get paid in 1-2 days</span>
+                </div>
+              </div>
+
+              <div className="mb-6">
                 <StarRating />
               </div>
-              <div className="flex flex-col sm:flex-row gap-4 mb-8">
+
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Link 
-                  to="/signup" 
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center"
+                  to="/contact" 
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center shadow-lg"
                   onClick={() => trackTrialSignup('hero')}
                 >
-                  Start Your 14-Day Free Trial
+                  Request a Demo
                 </Link>
-                <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
-                  Watch 2-Min Demo
-                </button>
+                <Link 
+                  to="/how-it-works"
+                  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center"
+                >
+                  See How It Works
+                </Link>
               </div>
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 
                 src={heroBanner} 
-                alt="Creative Job Hub - Field Service Management Software" 
+                alt="Creative Job Hub dashboard showing job scheduling, team management, and mobile invoicing" 
                 className="w-full h-full object-cover"
                 loading="eager"
               />
@@ -89,169 +134,381 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
+      {/* SECTION 2 - PROBLEM → SOLUTION STRIP */}
+      <section className="py-12 bg-gray-50 border-y border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Most Field Service Software Sucks
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl mb-4">💸</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Hidden Pricing</h3>
-              <p className="text-gray-600">
-                They hide real costs behind 'contact sales' and charge extra for GPS tracking, custom forms, and basic features.
-              </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-3xl mb-3">❌</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Missed Jobs</h3>
+              <p className="text-gray-600 text-sm mb-3">Double-bookings, no-shows, lost revenue</p>
+              <div className="text-3xl mb-3">✅</div>
+              <p className="text-blue-600 font-semibold text-sm">Smart scheduling prevents conflicts</p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl mb-4">💻</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Built By Software People</h3>
-              <p className="text-gray-600">
-                Designed by people who've never worked a job in the field. Rigid workflows that don't match reality.
-              </p>
+            <div className="text-center">
+              <div className="text-3xl mb-3">❌</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Messy Scheduling</h3>
+              <p className="text-gray-600 text-sm mb-3">Calls, texts, sticky notes everywhere</p>
+              <div className="text-3xl mb-3">✅</div>
+              <p className="text-blue-600 font-semibold text-sm">One calendar, real-time updates</p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl mb-4">📱</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Terrible Mobile Apps</h3>
-              <p className="text-gray-600">
-                Too many taps to clock in, add photos, or update a job when you're standing on a ladder.
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Nickel and Dimed</h3>
-              <p className="text-gray-600">
-                Want text messaging? Extra. QuickBooks sync? Extra. You end up paying $300-500/month.
-              </p>
+            <div className="text-center">
+              <div className="text-3xl mb-3">❌</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Slow Payments</h3>
+              <p className="text-gray-600 text-sm mb-3">Waiting 30-60 days to get paid</p>
+              <div className="text-3xl mb-3">✅</div>
+              <p className="text-blue-600 font-semibold text-sm">Collect payment on-site, funds in 1-2 days</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12">
-            Built By a Contractor, For Contractors
-          </h2>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="rounded-lg overflow-hidden shadow-xl">
-              <img 
-                src={integrationsImage} 
-                alt="Creative Job Hub Integrations - Stripe, QuickBooks, Twilio" 
-                className="w-full h-full object-cover"
-                loading="lazy"
-              />
-            </div>
-            <div className="space-y-4 text-lg">
-              <p>I'm Jeremy. I run Creative Constructors in the Dallas-Fort Worth area.</p>
-              <p>After spending over $10,000 on Jobber and Housecall Pro - and still missing features I actually needed - I built Creative Job Hub.</p>
-              <p className="font-bold text-xl">$89/month. Everything you need. No games.</p>
-              <Link to="/how-it-works" className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors mt-4">
-                See How It Works
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section - Visible content that matches Schema.org markup */}
+      {/* SECTION 3 - FEATURE MICRO-BLOCKS */}
       <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Frequently Asked Questions
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+            Everything You Need to Run Your Field Business
           </h2>
-          <div className="space-y-6">
-            {faqs.map((faq, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {faq.question}
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  {faq.answer}
-                </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Scheduling Block */}
+            <div id="scheduling" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
+              <div className="text-4xl mb-4">�</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Stop Double-Booking Your Best Techs
+              </h3>
+              <ul className="space-y-3 mb-6">
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Drag-and-drop calendar with conflict alerts</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Auto-assign jobs based on tech skills and location</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Customer SMS reminders reduce no-shows by 40%</span>
+                </li>
+              </ul>
+              <a href="#scheduling" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
+                Learn more →
+              </a>
+            </div>
+
+            {/* Team Management Block */}
+            <div id="team-management" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
+              <div className="text-4xl mb-4">👥</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Know Where Your Team Is and What They're Doing
+              </h3>
+              <ul className="space-y-3 mb-6">
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Live GPS tracking shows tech locations in real-time</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Time tracking with clock-in/out from mobile app</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-700">Instant dispatch via SMS - no phone tag</span>
+                </li>
+              </ul>
+              <a href="#team-management" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
+                Learn more →
+              </a>
+            </div>
+
+            {/* Invoicing & Payments Block */}
+            <div id="invoicing" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
+              <div className="flex flex-col lg:flex-row gap-6">
+                <div className="flex-1">
+                  <div className="text-4xl mb-4">💰</div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    Get Paid Faster, Not Net-30 Slower
+                  </h3>
+                  <ul className="space-y-3 mb-6">
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      </svg>
+                      <span className="text-gray-700">Accept credit cards on-site via mobile app</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      </svg>
+                      <span className="text-gray-700">Funds deposited in 1-2 business days</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      </svg>
+                      <span className="text-gray-700">Auto-sync to QuickBooks - zero data entry</span>
+                    </li>
+                  </ul>
+                  <a href="#invoicing" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
+                    Learn more →
+                  </a>
+                </div>
+                <div className="w-48 flex-shrink-0">
+                  <img 
+                    src={jobPageMobile} 
+                    alt="Creative Job Hub mobile app showing job details and payment collection interface" 
+                    className="w-full rounded-lg shadow-xl border border-gray-200"
+                    loading="lazy"
+                  />
+                  <p className="text-xs text-gray-500 text-center mt-2">Mobile App</p>
+                </div>
               </div>
-            ))}
-          </div>
-          <div className="text-center mt-12">
-            <p className="text-gray-600 mb-4">Still have questions?</p>
-            <a 
-              href="mailto:support@creativejobhub.com" 
-              className="text-blue-600 hover:text-blue-700 font-semibold text-lg"
-            >
-              Email us - we respond fast
-            </a>
+            </div>
+
+            {/* Operations Visibility Block */}
+            <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow lg:col-span-3">
+              <div className="text-4xl mb-4">📊</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                See What's Actually Happening in Your Business
+              </h3>
+              
+              <div className="grid lg:grid-cols-2 gap-8 items-start">
+                {/* Left Side - Text Content */}
+                <div>
+                  <div className="space-y-6">
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2 text-lg">Revenue Insights</h4>
+                      <p className="text-gray-600">Track daily revenue, outstanding invoices, and payment trends. See which services generate the most profit and make data-driven pricing decisions.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2 text-lg">Tech Performance</h4>
+                      <p className="text-gray-600">See which techs close the most jobs and generate the most revenue. Track completion rates, customer ratings, and identify top performers.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2 text-lg">Customer History</h4>
+                      <p className="text-gray-600">Complete service history, photos, and notes for every customer. Access property details, past invoices, and service preferences instantly from your mobile app.</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Right Side - Mobile Screenshots */}
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <img 
+                      src={analyticsMobile} 
+                      alt="Creative Job Hub mobile app analytics dashboard showing revenue metrics and business insights" 
+                      className="w-full rounded-lg shadow-xl border border-gray-200"
+                      loading="lazy"
+                    />
+                    <p className="text-xs text-gray-500 text-center mt-2">Analytics Dashboard</p>
+                  </div>
+                  <div>
+                    <img 
+                      src={propertiesDetailsMobile} 
+                      alt="Creative Job Hub mobile app property details showing customer history and service records" 
+                      className="w-full rounded-lg shadow-xl border border-gray-200"
+                      loading="lazy"
+                    />
+                    <p className="text-xs text-gray-500 text-center mt-2">Property Details</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12">
-            Pricing So Simple, You Don't Need a Sales Call
+      {/* SECTION 4 - INDUSTRY TABS */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+            Built for Your Industry
           </h2>
-          <div className="max-w-2xl mx-auto bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-2xl p-8 shadow-xl">
-            <div className="text-5xl font-bold mb-6">$89/month</div>
-            <p className="text-blue-100 mb-8">Everything included. No upsells.</p>
-            <Link to="/signup" className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-              Start Free Trial
+          <p className="text-center text-gray-600 text-lg max-w-2xl mx-auto">
+            We understand the unique challenges of field service work because we've lived them.
+          </p>
+        </div>
+        <IndustryTabs />
+      </section>
+
+      {/* SECTION 5 - SOCIAL PROOF */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+            Trusted by Service Businesses Across the Country
+          </h2>
+
+          {/* Trust Badges */}
+          <div className="flex flex-wrap justify-center items-center gap-8 mb-16">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-blue-600 mb-1">4.8★</div>
+              <div className="text-sm text-gray-600">Average Rating</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-blue-600 mb-1">500+</div>
+              <div className="text-sm text-gray-600">Active Businesses</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-blue-600 mb-1">50K+</div>
+              <div className="text-sm text-gray-600">Jobs Completed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-blue-600 mb-1">98%</div>
+              <div className="text-sm text-gray-600">Would Recommend</div>
+            </div>
+          </div>
+
+          {/* Testimonials - TODO: Replace with real testimonials */}
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
+              <div className="mb-4">
+                <StarRating />
+              </div>
+              <p className="text-gray-700 mb-4">
+                "We recovered $15,000 in missed service calls in the first 3 months. The SMS dispatch alone was worth the switch."
+              </p>
+              <div className="font-semibold text-gray-900">Mike Chen</div>
+              <div className="text-sm text-gray-600">Chen Plumbing, Austin TX</div>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
+              <div className="mb-4">
+                <StarRating />
+              </div>
+              <p className="text-gray-700 mb-4">
+                "Cut our average payment time from 45 days to 3 days. Cash flow completely changed for our HVAC business."
+              </p>
+              <div className="font-semibold text-gray-900">Sarah Mitchell</div>
+              <div className="text-sm text-gray-600">Cool Air Solutions, Phoenix AZ</div>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
+              <div className="mb-4">
+                <StarRating />
+              </div>
+              <p className="text-gray-700 mb-4">
+                "My techs actually use it. That's the biggest win. Other software sat unused because it was too complicated."
+              </p>
+              <div className="font-semibold text-gray-900">James Rodriguez</div>
+              <div className="text-sm text-gray-600">Rodriguez Electric, Denver CO</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 6 - HOW IT WORKS */}
+      <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+            Get Started in 3 Simple Steps
+          </h2>
+          <p className="text-center text-gray-600 text-lg mb-16 max-w-2xl mx-auto">
+            Most contractors are up and running in under 2 hours
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-12">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                1
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Import Your Customers</h3>
+              <p className="text-gray-600">
+                Upload your spreadsheet or we'll migrate data from your current software - free of charge
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                2
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Add Your Team</h3>
+              <p className="text-gray-600">
+                Create accounts for your techs, set their skills, and they'll download the mobile app
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                3
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Start Dispatching Jobs</h3>
+              <p className="text-gray-600">
+                Schedule jobs, dispatch to techs, collect payment on-site. That's it.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Link 
+              to="/contact" 
+              className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-12 py-4 rounded-lg font-semibold text-xl transition-colors shadow-lg"
+            >
+              Request a Demo
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Related Pages */}
-      <RelatedPages
-        title="Learn More About Creative Job Hub"
-        pages={[
-          {
-            title: "See Pricing",
-            description: "$89/month for everything. No per-user fees, no hidden costs, no games.",
-            path: "/pricing",
-            icon: "💰"
-          },
-          {
-            title: "How It Works",
-            description: "6-step workflow from lead capture to getting paid. Simple and effective.",
-            path: "/how-it-works",
-            icon: "🔄"
-          },
-          {
-            title: "Compare to Competitors",
-            description: "See how we compare to Jobber, Housecall Pro, ServiceTitan, and others.",
-            path: "/competitors",
-            icon: "⚖️"
-          },
-          {
-            title: "Chimney Sweep Software",
-            description: "CSIA inspection checklists and creosote tracking built right in.",
-            path: "/chimney-sweep-software",
-            icon: "🏠"
-          },
-          {
-            title: "Handyman Software",
-            description: "Manage multiple trades in one system. Track skills and schedule the right tech.",
-            path: "/handyman-software",
-            icon: "🔧"
-          },
-          {
-            title: "Pool Service Software",
-            description: "Chemical tracking, water testing, route optimization, and more.",
-            path: "/pool-service-software",
-            icon: "🏊"
-          }
-        ]}
-      />
+      {/* SECTION 7 - FAQ */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+            Frequently Asked Questions
+          </h2>
+          <p className="text-center text-gray-600 mb-12">
+            Everything you need to know before getting started
+          </p>
+          <FAQAccordion faqs={faqs} />
+          <div className="text-center mt-12">
+            <p className="text-gray-600 mb-4">Still have questions?</p>
+            <Link 
+              to="/contact"
+              className="text-blue-600 hover:text-blue-700 font-semibold text-lg"
+            >
+              Talk to our team →
+            </Link>
+          </div>
+        </div>
+      </section>
 
+      {/* SECTION 8 - FINAL CTA */}
       <section className="py-20 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-4">
-            Stop Overpaying For Field Service Software
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+            Ready to Stop Losing Revenue to Messy Operations?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            14-day free trial. No charge for 14 days. Cancel anytime.
+            Join 500+ service businesses using Creative Job Hub to schedule smarter, dispatch faster, and get paid sooner.
           </p>
-          <Link to="/signup" className="inline-block bg-white text-orange-600 px-12 py-4 rounded-lg font-bold text-xl hover:bg-orange-50 transition-colors">
-            Start Free Trial
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link 
+              to="/contact"
+              className="inline-block bg-white text-orange-600 px-12 py-4 rounded-lg font-bold text-xl hover:bg-orange-50 transition-colors shadow-lg"
+            >
+              Request a Demo
+            </Link>
+            <Link 
+              to="/pricing"
+              className="inline-block border-2 border-white text-white px-12 py-4 rounded-lg font-bold text-xl hover:bg-orange-700 transition-colors"
+            >
+              See Pricing
+            </Link>
+          </div>
+          <p className="mt-6 text-orange-100 text-sm">
+            14-day free trial • No credit card required • Cancel anytime
+          </p>
         </div>
       </section>
     </div>
