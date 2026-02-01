@@ -37,6 +37,9 @@ import Studio from './pages/Studio';
 import Contact from './pages/Contact';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import SchedulingFeatures from './pages/SchedulingFeatures';
+import TeamManagement from './pages/TeamManagement';
+import InvoicingPayments from './pages/InvoicingPayments';
 
 function App() {
   return (
@@ -72,6 +75,9 @@ function App() {
           <Route path="signup" element={<Signup />} />
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="scheduling" element={<SchedulingFeatures />} />
+          <Route path="team-management" element={<TeamManagement />} />
+          <Route path="invoicing-payments" element={<InvoicingPayments />} />
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />

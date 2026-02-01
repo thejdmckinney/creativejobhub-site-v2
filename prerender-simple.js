@@ -117,6 +117,21 @@ const routes = [
     description: 'Use Creative Job Hub with tools you already love. Connect your workflows and run your business your way.',
   },
   {
+    path: '/scheduling',
+    title: 'Smart Scheduling Features | Creative Job Hub',
+    description: 'Stop double-booking with drag-and-drop scheduling, instant conflict alerts, emergency dispatch, and auto-assignment. Smart scheduling that keeps your techs productive.',
+  },
+  {
+    path: '/team-management',
+    title: 'Team Management Features | Creative Job Hub',
+    description: 'Real-time GPS tracking, job status updates, and team performance insights. Know exactly where your team is and what they\'re doing with live field visibility.',
+  },
+  {
+    path: '/invoicing-payments',
+    title: 'Get Paid Faster with Creative Job Hub | Invoicing & Payments',
+    description: 'Collect payment on-site with tap-to-pay, send professional invoices instantly, and get paid the same day. No more Net 30—get your money when the job is done.',
+  },
+  {
     path: '/blog',
     title: 'Creative Job Hub Blog | Tips for Service Business Growth',
     description: 'Read expert tips on job management, scheduling, customer communication, and growing your service business.',

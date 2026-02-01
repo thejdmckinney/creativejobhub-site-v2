@@ -194,9 +194,9 @@ export default function Home() {
                   <span className="text-gray-700">Customer SMS reminders reduce no-shows by 40%</span>
                 </li>
               </ul>
-              <a href="#scheduling" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
+              <Link to="/scheduling" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
                 Learn more →
-              </a>
+              </Link>
             </div>
 
             {/* Team Management Block */}
@@ -225,9 +225,9 @@ export default function Home() {
                   <span className="text-gray-700">Instant dispatch via SMS - no phone tag</span>
                 </li>
               </ul>
-              <a href="#team-management" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
+              <Link to="/team-management" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
                 Learn more →
-              </a>
+              </Link>
             </div>
 
             {/* Invoicing & Payments Block */}
@@ -256,9 +256,9 @@ export default function Home() {
                   <span className="text-gray-700">Auto-sync to QuickBooks - zero data entry</span>
                 </li>
               </ul>
-              <a href="#invoicing" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
+              <Link to="/invoicing-payments" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
                 Learn more →
-              </a>
+              </Link>
             </div>
 
             {/* Operations Visibility Block */}
