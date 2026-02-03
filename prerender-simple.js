@@ -16,18 +16,21 @@ const routes = [
     title: 'Creative Job Hub | Job Management Software for Service Businesses',
     description: 'All-in-one job management software for service businesses. Schedule jobs, manage teams, send invoices, and grow with Creative Job Hub',
     h1: 'The Job Management Software Built for Service Businesses',
+    content: 'Creative Job Hub is the all-in-one job management software built specifically for service businesses. Schedule jobs and dispatch techs with drag-and-drop simplicity. Track your team in real-time with GPS and live job updates. Send professional estimates and invoices from your phone. Get paid faster with mobile payment processing. Manage customers, track job history, and grow your business with powerful reporting. Simple pricing at $89/month with everything included. No hidden fees, no per-user charges. Try Creative Job Hub free for 14 days.',
   },
   {
     path: '/pricing',
     title: 'Creative Job Hub Pricing | $89/Month, Everything Included',
     description: 'Simple, transparent pricing. $89/month includes unlimited users, jobs, estimates, invoices, mobile apps, QuickBooks sync, and 24/7 support. No hidden fees. Try free for 14 days.',
     h1: 'Simple, Transparent Pricing',
+    content: 'Creative Job Hub costs $89 per month with everything included. Unlimited users, unlimited jobs, unlimited customers. Mobile apps for iOS and Android included. QuickBooks integration included. Online booking included. Customer portal included. 24/7 support included. No setup fees, no contracts, no hidden charges. Try free for 14 days with no credit card required. Cancel anytime.',
   },
   {
     path: '/how-it-works',
     title: 'How Creative Job Hub Works | Job Management Made Simple',
     description: 'See how Creative Job Hub helps service businesses manage jobs, schedules, customers, and payments in one simple platform.',
     h1: 'How Creative Job Hub Works',
+    content: 'Creative Job Hub simplifies job management for service businesses in four easy steps. First, schedule jobs with drag-and-drop calendar. Second, dispatch technicians with mobile apps and GPS tracking. Third, complete jobs on-site with digital forms, photos, and signatures. Fourth, invoice customers and collect payment immediately. Manage your entire business from one simple platform.',
   },
   {
     path: '/competitors',
@@ -46,12 +49,14 @@ const routes = [
     title: 'Creative Job Hub vs Jobber | The Best Jobber Alternative',
     description: 'Compare Creative Job Hub vs Jobber head-to-head. See why contractors are switching to save $2,000+ per year with better features at a lower price.',
     h1: 'Creative Job Hub vs Jobber',
+    content: 'Creative Job Hub vs Jobber comparison. Creative Job Hub costs $89/month flat with unlimited users. Jobber starts at $49/month but adds $30 per additional user, quickly reaching $200-300/month for small teams. Both offer scheduling, dispatching, invoicing, and mobile apps. Creative Job Hub includes QuickBooks sync and online booking at no extra cost. Jobber charges extra for these features. Save $2,000+ per year by switching to Creative Job Hub while getting more features included.',
   },
   {
     path: '/vs-housecall-pro',
     title: 'Creative Job Hub vs Housecall Pro | Side-by-Side Review',
     description: 'Compare Creative Job Hub vs Housecall Pro. See why contractors are switching to save $2,400+ per year with more features at a fraction of the cost.',
     h1: 'Creative Job Hub vs Housecall Pro',
+    content: 'Creative Job Hub vs Housecall Pro comparison. Creative Job Hub costs $89/month with everything included and unlimited users. Housecall Pro starts at $49/month but requires multiple add-ons and charges per user, reaching $250-400/month for typical setups. Both platforms offer scheduling, mobile apps, and payment processing. Creative Job Hub includes all features in base price. Housecall Pro charges extra for marketing tools, online booking, and integrations. Contractors save $2,400+ per year with Creative Job Hub.',
   },
   {
     path: '/vs-servicetitan',
@@ -100,18 +105,21 @@ const routes = [
     title: 'Plumbing Software - Schedule, Invoice & Get Paid Faster | $89/mo',
     description: 'The best plumbing software for managing service calls, emergency jobs, recurring maintenance, and invoicing. Built for plumbers who need simple, powerful tools. $89/month flat, unlimited plumbers.',
     h1: 'Plumbing Software',
+    content: 'Plumbing software built for service calls, emergency dispatch, and recurring maintenance. Schedule plumbers efficiently with drag-and-drop calendar. Dispatch emergency calls to nearest available plumber. Track parts and materials used on each job. Send estimates and invoices from mobile app. Collect payment on-site. Manage water heater installations, drain cleaning, pipe repairs, and maintenance contracts. $89/month flat pricing with unlimited plumbers.',
   },
   {
     path: '/hvac-software',
     title: 'HVAC Software | Job Management for HVAC Companies',
     description: 'HVAC business management software designed for small contractors. Schedule maintenance, track jobs, and grow your business.',
     h1: 'HVAC Software',
+    content: 'HVAC software for managing service calls, installations, and preventive maintenance contracts. Schedule HVAC technicians efficiently. Track equipment serviced and parts used. Manage seasonal maintenance agreements. Send service reminders to customers automatically. Create professional estimates for new system installations. Invoice and collect payment on-site. Perfect for heating and cooling contractors. $89/month with everything included.',
   },
   {
     path: '/electrical-software',
     title: 'Electrical Contractor Software | Creative Job Hub',
     description: 'The best electrical contractor software for managing service calls, installations, and commercial projects. Track permits, code compliance, and circuit loads. $89/month flat pricing.',
     h1: 'Electrical Contractor Software',
+    content: 'Electrical contractor software for service calls, installations, and commercial electrical projects. Schedule electricians and track job progress. Manage permits and inspections. Document circuit loads and panel upgrades. Track materials and equipment used. Create detailed estimates for rewiring jobs. Invoice customers and collect payment. Perfect for residential and commercial electrical contractors. $89/month flat pricing.',
   },
   {
     path: '/landscaping-software',
@@ -142,18 +150,21 @@ const routes = [
     title: 'Smart Scheduling Features | Creative Job Hub',
     description: 'Stop double-booking with drag-and-drop scheduling, instant conflict alerts, emergency dispatch, and auto-assignment. Smart scheduling that keeps your techs productive.',
     h1: 'Stop Double-Booking Your Best Techs',
+    content: 'Smart scheduling with drag-and-drop calendar. Instant conflict alerts prevent double-booking. Emergency dispatch finds available technicians fast. Auto-assignment matches jobs to the right techs based on skills, location, and availability. Color-coded calendar shows job status at a glance. Mobile app sync keeps everyone updated in real-time. Recurring job automation saves hours every week.',
   },
   {
     path: '/team-management',
     title: 'Team Management Features | Creative Job Hub',
     description: 'Real-time GPS tracking, job status updates, and team performance insights. Know exactly where your team is and what they\'re doing with live field visibility.',
     h1: 'Know Where Your Team Is And What They\'re Doing',
+    content: 'Real-time GPS tracking shows technician locations on live map. Job status updates show who is en route, on site, or completed. Live field visibility eliminates phone tag and guessing. Performance insights track completion rates, customer ratings, and revenue per tech. Clock in and out with geofencing. Photo documentation proves work completed. Digital timesheets eliminate manual entry.',
   },
   {
     path: '/invoicing-payments',
     title: 'Get Paid Faster with Creative Job Hub | Invoicing & Payments',
     description: 'Collect payment on-site with tap-to-pay, send professional invoices instantly, and get paid the same day. No more Net 30—get your money when the job is done.',
     h1: 'Get Paid Faster, Not Net-30 Slower',
+    content: 'Collect payment on-site with tap-to-pay credit card processing. Send professional invoices instantly from mobile app. Get paid same day, not Net 30. Automatic payment reminders reduce late payments. Online payment portal makes it easy for customers to pay. QuickBooks sync eliminates double data entry. Track outstanding invoices and cash flow in real-time. Accept credit cards, ACH, checks, and cash.',
   },
   {
     path: '/blog',
@@ -201,10 +212,16 @@ function injectMetaTags(html, route) {
   
   html = html.replace('</head>', `${ogTags}\n  </head>`);
   
-  // Inject H1 tag into body (for SEO crawlers that don't execute JavaScript)
+  // Inject H1 tag and content into body (for SEO crawlers that don't execute JavaScript)
   if (route.h1) {
-    const h1Tag = `<div id="root"><h1 style="position:absolute;left:-9999px;">${route.h1}</h1>`;
-    html = html.replace('<div id="root">', h1Tag);
+    let bodyContent = `<div id="root"><h1 style="position:absolute;left:-9999px;">${route.h1}</h1>`;
+    
+    // Add content snippet if available
+    if (route.content) {
+      bodyContent += `<div style="position:absolute;left:-9999px;">${route.content}</div>`;
+    }
+    
+    html = html.replace('<div id="root">', bodyContent);
   }
   
   return html;
