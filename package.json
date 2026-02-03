@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node prerender-simple.js",
+    "build": "tsc -b && vite build && node prerender-puppeteer.js",
+    "build:simple": "tsc -b && vite build && node prerender-simple.js",
     "build:no-prerender": "tsc -b && vite build",
-    "prerender": "node prerender-simple.js",
+    "prerender": "node prerender-puppeteer.js",
+    "prerender:simple": "node prerender-simple.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
