@@ -7,8 +7,8 @@ export default function VsWorkiz() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs Workiz | Job Management Comparison"
-        description="Compare Creative Job Hub vs Workiz. Get more features for $89/month vs $238/month. Save $1,788 per year with unlimited users and better integrations."
+        title="Workiz Charges $238/Month for 5 Users. We Charge $89 for Unlimited."
+        description="Same features. Better mobile app. Unlimited users vs Workiz's $238/month (5 users). Save $1,788/year and get QuickBooks sync included. Switch in 2 hours."
         keywords="Workiz alternative, Creative Job Hub vs Workiz, Workiz comparison"
       />
       

@@ -9,8 +9,8 @@ export default function HandymanSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Handyman Software | Job Management for Handyman Businesses"
-        description="Field service software built for multi-trade handyman businesses. Manage plumbing, electrical, HVAC, and more trades in one system. Track skills, schedule the right tech, and grow your business. $89/month, everything included."
+        title="Handyman Software That Lets You Charge Different Rates for Different Trades"
+        description="Plumbing jobs pay $125/hr. Drywall pays $85/hr. Your software should know that. Track labor by trade, bill accordingly, and stop leaving money on the table. $89/month, unlimited users."
         keywords="handyman software, multi-trade software, handyman business software, handyman scheduling software, multi-service contractor software, handyman invoicing"
       />
       

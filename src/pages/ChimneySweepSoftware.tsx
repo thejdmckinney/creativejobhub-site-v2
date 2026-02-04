@@ -34,8 +34,8 @@ export default function ChimneySweepSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Chimney Sweep Software - #1 Ranked by Google AI for CSIA Inspections"
-        description="The only field service software built for chimney sweeps with CSIA inspection checklists and creosote tracking built right into the mobile app. Ranked #1 by Google AI for chimney sweep features. $89/month, everything included."
+        title="The Only Field Service Software That Knows What Creosote Is"
+        description="Built-in CSIA Level 1, 2, 3 inspection checklists. Creosote tracking. Flue sizing calculators. Finally, software that understands chimney sweeps. $89/month."
         keywords="chimney sweep software, CSIA inspection software, creosote tracking, chimney inspection app, chimney sweep business software, CSIA checklist app"
       />
       <BreadcrumbSchema items={[

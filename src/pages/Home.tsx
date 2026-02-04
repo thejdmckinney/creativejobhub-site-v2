@@ -57,8 +57,8 @@ export default function Home() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub | Job Management Software for Service Businesses"
-        description="All-in-one job management software for service businesses. Schedule jobs, manage teams, send invoices, and grow with Creative Job Hub"
+        title="Field Service Software That Doesn't Cost More Than Your Truck Payment"
+        description="Jobber wants $3,600/year. ServiceTitan wants $10,000+. We charge $89/month for everything. Built by a contractor who got tired of being ripped off."
         keywords="field service management software, contractor software, hvac software, plumbing software, electrical software, landscaping software, job scheduling, estimates, invoicing, QuickBooks integration"
       />
       <OrganizationSchema />

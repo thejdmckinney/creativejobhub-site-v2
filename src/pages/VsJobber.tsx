@@ -49,8 +49,8 @@ export default function VsJobber() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs Jobber | The Best Jobber Alternative"
-        description="Compare Creative Job Hub vs Jobber. See how features, pricing, and flexibility stack up for service businesses."
+        title="Jobber Charges $50 Per User. We Charge $89 for Unlimited Users. Seriously."
+        description="5 users on Jobber = $250/month ($3,000/year). 50 users on Creative Job Hub = $89/month ($1,068/year). Why are you still using Jobber?"
         keywords="Jobber alternative, alternative to Jobber, best Jobber alternatives, cheaper than Jobber, Jobber vs Creative Job Hub, Jobber competitor, switch from Jobber, Jobber pricing alternative"
       />
       <FAQSchema faqs={faqs} />

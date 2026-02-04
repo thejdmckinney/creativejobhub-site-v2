@@ -6,8 +6,8 @@ export default function WhyIBuiltThis() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Why I Built This - The Story Behind Creative Job Hub"
-        description="The story of how a contractor built Creative Job Hub after getting frustrated with overpriced, feature-locked software. Real contractor, real problems, real solutions."
+        title="I Burned $10K on Field Service Software. Then I Built My Own for $89/Month."
+        description="Jobber wanted $300/month. Housecall Pro nickel-and-dimed me. ServiceTitan laughed at my 3-person team. So I learned to code and built Creative Job Hub. Here's why."
         keywords="contractor software story, why Creative Job Hub, field service software founder"
       />
       

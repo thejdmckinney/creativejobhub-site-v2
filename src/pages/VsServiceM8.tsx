@@ -7,8 +7,8 @@ export default function VsServiceM8() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs ServiceM8 - Save $480/Year"
-        description="Get enterprise features for small business pricing. Creative Job Hub offers more customization and unlimited users for $89/month vs $129/month."
+        title="ServiceM8: $129/Month Per User. Us: $89/Month Total."
+        description="Add 5 users on ServiceM8 = $645/month. Add 50 users on Creative Job Hub = $89/month. Per-user pricing doesn't scale. We do. Try free for 14 days."
         keywords="ServiceM8 alternative, Creative Job Hub vs ServiceM8, ServiceM8 comparison"
       />
       

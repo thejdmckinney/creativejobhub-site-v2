@@ -6,8 +6,8 @@ export default function BringYourOwnTools() {
   return (
     <>
       <SEO 
-        title="Bring Your Own Tools | Creative Job Hub Integrations"
-        description="Use Creative Job Hub with tools you already love. Connect your workflows and run your business your way."
+        title="Field Service Software Companies Are Reselling $10 Tools for $100"
+        description="Twilio costs $0.0079 per text. They charge you $0.05. Stripe takes 2.9%. They take 3.5%. We let you use your own accounts. Keep the savings."
         keywords="field service software pricing, twilio integration, stripe integration, mapbox integration, contractor software savings, byot, bring your own tools, fsm software cost"
       />
 

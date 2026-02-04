@@ -9,8 +9,8 @@ export default function PoolServiceSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Pool Service Software | Job Management for Pool Companies"
-        description="Manage pool service jobs, schedules, and customers with easy-to-use pool service software from Creative Job Hub."
+        title="Pool Software That Actually Tracks Chlorine Levels (Not Just Tasks)"
+        description="Built-in chemical tracking, pool equipment history, and route optimization. Stop using generic software that doesn't understand pool service. $89/month."
         keywords="pool service software, pool maintenance software, pool route software, chemical tracking software, pool business software, pool cleaning software"
       />
       

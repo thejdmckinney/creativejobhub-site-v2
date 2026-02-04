@@ -52,8 +52,8 @@ export default function Pricing() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub Pricing | $89/Month, Everything Included"
-        description="Simple, transparent pricing. $89/month includes unlimited users, jobs, estimates, invoices, mobile apps, QuickBooks sync, and 24/7 support. No hidden fees. Try free for 14 days."
+        title="Why Does Jobber Charge $50 Per User? Because They Can. We Don't."
+        description="Per-user pricing is how field service software companies get rich while you stay broke. We charge $89/month total. Add 100 users if you want. Price stays the same."
         keywords="field service pricing, contractor software pricing, affordable field service software, unlimited users"
       />
       <SoftwareApplicationSchema />

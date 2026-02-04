@@ -7,8 +7,8 @@ export default function VsFieldEdge() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs FieldEdge - Save $960/Year"
-        description="Modern software that doesn't feel stuck in 2010. Get better features for $89/month vs $169/month. Save $960 per year with faster support and a better mobile app."
+        title="Your Techs Hate FieldEdge's Mobile App. Try Ours Instead."
+        description="FieldEdge's mobile app has a 2.3-star rating. Slow, buggy, crashes constantly. Creative Job Hub: 4.8 stars, works offline, $80/month cheaper. Switch today."
         keywords="FieldEdge alternative, Creative Job Hub vs FieldEdge, modern field service software"
       />
       

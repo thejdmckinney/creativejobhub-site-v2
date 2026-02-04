@@ -27,8 +27,8 @@ export default function VsServiceTitan() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs ServiceTitan | Which is Better?"
-        description="Creative Job Hub vs ServiceTitan comparison. Explore features, pricing, and the best fit for your service business."
+        title="ServiceTitan Costs More Than a New Truck. We Cost $89/Month."
+        description="ServiceTitan's pricing starts at $9,000/year + implementation fees. That's a down payment on a Ford F-250. Or you could pay $89/month and buy the truck instead."
         keywords="ServiceTitan alternative, affordable ServiceTitan, Creative Job Hub vs ServiceTitan"
       />
       
