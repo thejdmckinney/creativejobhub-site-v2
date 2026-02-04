@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "",
   "outputDirectory": "dist",
-  "framework": "vite",
+  "framework": null,
   "redirects": [
     {
       "source": "/:path*",

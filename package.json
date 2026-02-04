@@ -5,13 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node prerender-simple.js",
-    "build:full": "tsc -b && vite build && node prerender-puppeteer.js",
-    "build:no-prerender": "tsc -b && vite build",
-    "prerender": "node prerender-simple.js",
-    "prerender:full": "node prerender-puppeteer.js",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "tsc -b && vite build && node prerender-puppeteer.js",
+    "build:simple": "tsc -b && vite build && node prerender-simple.js",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@portabletext/react": "^6.0.2",
@@ -19,6 +16,7 @@
     "@sanity/image-url": "^2.0.3",
     "@supabase/supabase-js": "^2.91.1",
     "@vercel/speed-insights": "^1.3.1",
+    "next": "^16.1.6",
     "next-sanity": "^12.0.14",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
