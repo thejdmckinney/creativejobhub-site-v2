@@ -1,10 +1,25 @@
-import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Detect if we're running on Vercel or locally
+const isVercel = process.env.VERCEL === '1' || process.env.CI === 'true';
+
+// Import the appropriate puppeteer version
+let puppeteer;
+let chromium;
+
+if (isVercel) {
+  // Use puppeteer-core with chromium for Vercel
+  puppeteer = await import('puppeteer-core');
+  chromium = await import('@sparticuz/chromium');
+} else {
+  // Use regular puppeteer for local development
+  puppeteer = await import('puppeteer');
+}
 
 // Define all routes
 const routes = [
@@ -74,6 +89,22 @@ async function prerenderPage(browser, url, route) {
     
     // Give React Helmet time to update meta tags
     await new Promise(resolve => setTimeout(resolve, 1000));
+    
+    // Remove duplicate meta tags (keep only React Helmet's versions)
+    await page.evaluate(() => {
+      // Remove all meta tags WITHOUT data-rh="true" attribute when there are duplicates
+      const allMetas = document.querySelectorAll('meta[name="description"], meta[name="title"], meta[name="keywords"]');
+      allMetas.forEach(meta => {
+        if (!meta.hasAttribute('data-rh')) {
+          // Only remove if there's a React Helmet version of the same tag
+          const name = meta.getAttribute('name');
+          const rhVersion = document.querySelector(`meta[name="${name}"][data-rh="true"]`);
+          if (rhVersion) {
+            meta.remove();
+          }
+        }
+      });
+    });
     
     // Get the fully rendered HTML
     const html = await page.content();
