@@ -130,6 +130,12 @@ export default function Header() {
                       How It Works
                     </Link>
                     <Link 
+                      to="/why-i-built-this" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      Why I Built This
+                    </Link>
+                    <Link 
                       to="/blog" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
@@ -336,6 +342,13 @@ export default function Header() {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     How It Works
+                  </Link>
+                  <Link
+                    to="/why-i-built-this"
+                    className="block text-gray-600 hover:text-blue-600 py-1"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Why I Built This
                   </Link>
                   <Link
                     to="/blog"
