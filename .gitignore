@@ -10,6 +10,12 @@ lerna-debug.log*
 node_modules
 dist-ssr
 *.local
+.cache
+
+# Next.js files (from abandoned migration)
+app/
+next.config.js
+.next/
 
 # Editor directories and files
 .vscode/*

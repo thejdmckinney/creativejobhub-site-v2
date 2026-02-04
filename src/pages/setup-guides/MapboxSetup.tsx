@@ -9,6 +9,7 @@ export default function MapboxSetup() {
         title="Mapbox Setup Guide - Free Maps & Routing for Contractors"
         description="Set up Mapbox for professional route optimization and job mapping. Free for up to 100,000 map loads/month. Perfect for contractors."
         keywords="mapbox setup, route optimization, contractor mapping, field service maps"
+        noIndex={true}
       />
       
       <SetupGuideGate guideName="Mapbox Maps & Routing">

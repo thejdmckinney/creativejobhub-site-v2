@@ -50,6 +50,14 @@ const routes = [
   '/blog',
   '/terms-of-service',
   '/privacy-policy',
+  '/why-i-built-this',
+  '/signup',
+  '/login',
+  '/setup-guides',
+  '/setup-guides/stripe',
+  '/setup-guides/mapbox',
+  '/setup-guides/twilio',
+  '/setup-guides/resend',
 ];
 
 // Start a local server for pre-rendering

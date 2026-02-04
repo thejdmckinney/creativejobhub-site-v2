@@ -135,6 +135,7 @@ export default function Signup() {
         title="Sign Up for Creative Job Hub | Start Managing Jobs Today"
         description="Create your Creative Job Hub account and start managing jobs, teams, and customers in minutes. Get started today."
         keywords="free trial, field service software trial, contractor software signup"
+        noIndex={true}
       />
       
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -9,6 +9,7 @@ export default function SetupGuidesIndex() {
         title="Setup Guides - Connect Your Own Tools & Save Money"
         description="Step-by-step guides to connect Twilio, Resend, Mapbox, Stripe, and Slack to Creative Job Hub. Free tier for everything!"
         keywords="setup guides, integration tutorials, twilio setup, stripe setup, mapbox setup"
+        noIndex={true}
       />
       
       <SetupGuideGate guideName="All Integration Guides">

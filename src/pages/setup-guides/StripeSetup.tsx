@@ -9,6 +9,7 @@ export default function StripeSetup() {
         title="Stripe Setup Guide - Accept Payments Directly to Your Bank"
         description="Set up Stripe to accept credit card payments. Standard 2.9% + $0.30 per transaction. Money goes directly to YOUR bank account."
         keywords="stripe setup, payment processing, contractor payments, credit card processing"
+        noIndex={true}
       />
       
       <SetupGuideGate guideName="Stripe Payment Processing">

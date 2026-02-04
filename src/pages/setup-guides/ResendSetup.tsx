@@ -9,6 +9,7 @@ export default function ResendSetup() {
         title="Resend Email Setup Guide - Professional Transactional Emails"
         description="Step-by-step guide to set up Resend for professional business emails, invoices, and estimates. Free for up to 3,000 emails/month."
         keywords="resend setup, transactional email, business email, email api, smtp"
+        noIndex={true}
       />
       
       <SetupGuideGate guideName="Resend Email">

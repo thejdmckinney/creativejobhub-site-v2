@@ -9,6 +9,7 @@ export default function TwilioSetup() {
         title="Twilio Setup Guide - Free SMS & Calling for Your Business"
         description="Step-by-step guide to set up Twilio for professional business texting and calling. Free for most contractors. Takes 5 minutes."
         keywords="twilio setup, business sms, contractor texting, twilio api, sms integration"
+        noIndex={true}
       />
       
       <SetupGuideGate guideName="Twilio SMS & Calling">

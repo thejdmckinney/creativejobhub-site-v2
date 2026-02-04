@@ -15,6 +15,7 @@ export default function Login() {
         title="Login - Creative Job Hub"
         description="Login to your Creative Job Hub account to manage jobs, create estimates, schedule work, and grow your contracting business."
         keywords="login, field service login, contractor portal"
+        noIndex={true}
       />
       
       <div className="max-w-md w-full">
