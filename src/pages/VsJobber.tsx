@@ -75,14 +75,6 @@ export default function VsJobber() {
             </p>
             <StarRating />
           </div>
-          <div className="max-w-4xl mx-auto">
-            <img 
-              src={vsJobberImage} 
-              alt="Crew Ops Pro vs Jobber Comparison" 
-              className="w-full rounded-lg shadow-2xl"
-              loading="lazy"
-            />
-          </div>
         </div>
       </section>
 
@@ -150,6 +142,16 @@ export default function VsJobber() {
                 field service software in the first place.
               </p>
             </div>
+          </div>
+          
+          {/* Comparison Image */}
+          <div className="mt-12 max-w-2xl mx-auto">
+            <img 
+              src={vsJobberImage} 
+              alt="Crew Ops Pro vs Jobber Comparison" 
+              className="w-full rounded-lg shadow-lg"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
