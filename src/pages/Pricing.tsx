@@ -93,7 +93,7 @@ export default function Pricing() {
               </p>
               <div className="flex items-center gap-4 mb-8">
                 <StarRating />
-                <span className="text-blue-100">4.9/5 from 280+ contractors</span>
+                <span className="text-white">4.9/5 from 280+ contractors</span>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link 
