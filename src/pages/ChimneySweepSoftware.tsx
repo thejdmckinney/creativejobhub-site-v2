@@ -5,7 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 import RelatedPages from '../components/RelatedPages';
-import csiaInspectionImage from '../assets/csia-inspection-checklist.png';
+import csiaInspectionImage from '../assets/crewopspro-chimneysweep.png';
 
 export default function ChimneySweepSoftware() {
   const faqs = [

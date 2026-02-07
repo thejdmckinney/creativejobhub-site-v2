@@ -3,7 +3,7 @@ import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedPages from '../components/RelatedPages';
-import poolServiceImage from '../assets/pool-software-image.png';
+import poolServiceImage from '../assets/crewopspro-pool-service.png';
 
 export default function PoolServiceSoftware() {
   return (

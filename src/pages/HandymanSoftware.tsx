@@ -3,7 +3,7 @@ import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedPages from '../components/RelatedPages';
-import handymanImage from '../assets/handyman-business-software.png';
+import handymanImage from '../assets/crewopspro-handyman.png';
 
 export default function HandymanSoftware() {
   return (
