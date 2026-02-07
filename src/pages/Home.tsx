@@ -7,7 +7,7 @@ import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
 import FAQAccordion from '../components/FAQAccordion';
 import IndustryTabs from '../components/IndustryTabs';
 import { trackTrialSignup } from '../utils/analytics';
-import heroBanner from '../assets/home-page-image.png';
+import heroBanner from '../assets/crewopspro-banner.png';
 
 export default function Home() {
   // FAQ data for Schema.org markup and display
