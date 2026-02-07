@@ -3,7 +3,7 @@ import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import FAQSchema from '../components/FAQSchema';
-import vsHousecallProImage from '../assets/cjh-vs-housecall-pro.png';
+import vsHousecallProImage from '../assets/crewopspro-vs-housecall-pro.png';
 
 export default function VsHousecallPro() {
   const faqs = [
