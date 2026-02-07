@@ -15,7 +15,7 @@ export default function SEO({
   title = 'How Crew Ops Pro Works | Job Management Made Simple',
   description = 'See how Crew Ops Pro helps service businesses manage jobs, schedules, customers, and payments in one simple platform.',
   keywords = 'field service management, contractor software, job management, hvac software, plumbing software, electrical software, landscaping software, scheduling software, estimate software, invoice software',
-  ogImage = 'https://www.crewopspro.com/cjh-og-image.png',
+  ogImage = 'https://www.crewopspro.com/crewopspro-og-image.png',
   ogType = 'website',
   canonicalUrl,
   noIndex = false,
