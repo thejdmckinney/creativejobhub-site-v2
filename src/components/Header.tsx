@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import logo from '../assets/CJH_Circle_Logo.png';
+import logo from '../assets/new-crewopspro-logo-only.png';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,8 +13,8 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="Creative Job Hub" className="h-10 w-10" loading="eager" />
-            <span className="text-xl font-bold text-blue-600">Creative Job Hub</span>
+            <img src={logo} alt="Crew Ops Pro" className="h-10 w-10" loading="eager" />
+            <span className="text-xl font-bold text-blue-600">Crew Ops Pro</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -148,7 +148,7 @@ export default function Header() {
                       Contact
                     </Link>
                     <a 
-                      href="https://support.creativejobhub.com/en/" 
+                      href="https://support.crewopspro.com/en/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
@@ -365,7 +365,7 @@ export default function Header() {
                     Contact
                   </Link>
                   <a
-                    href="https://support.creativejobhub.com/en/"
+                    href="https://support.crewopspro.com/en/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-gray-600 hover:text-blue-600 py-1"

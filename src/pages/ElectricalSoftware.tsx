@@ -55,14 +55,14 @@ export default function ElectricalSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Electrical Contractor Software | Creative Job Hub"
+        title="Electrical Contractor Software | Crew Ops Pro"
         description="The best electrical contractor software for managing service calls, installations, and commercial projects. Track permits, code compliance, and circuit loads. $89/month flat pricing."
         keywords="electrical contractor software, electrician software, electrical business software, electrician app, electrical estimating software, electrical service software"
       />
       <SoftwareApplicationSchema />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'Electrical Software', url: 'https://www.creativejobhub.com/electrical-software' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'Electrical Software', url: 'https://www.crewopspro.com/electrical-software' }
       ]} />
       
       <Breadcrumbs 
@@ -109,7 +109,7 @@ export default function ElectricalSoftware() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Electricians Choose Creative Job Hub
+            Why Electricians Choose Crew Ops Pro
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -276,7 +276,7 @@ export default function ElectricalSoftware() {
             Ready to Run Your Electrical Business Better?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Join electricians who switched from paper work orders and complicated software to Creative Job Hub.
+            Join electricians who switched from paper work orders and complicated software to Crew Ops Pro.
           </p>
           <Link 
             to="/signup"

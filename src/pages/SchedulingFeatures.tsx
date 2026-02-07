@@ -6,7 +6,7 @@ export default function SchedulingFeatures() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Smart Scheduling Features | Creative Job Hub"
+        title="Smart Scheduling Features | Crew Ops Pro"
         description="Drag-and-drop calendar, emergency dispatch, conflict alerts, and auto-assignment. Stop double-booking and manage your field team efficiently."
         keywords="job scheduling software, drag and drop calendar, emergency dispatch, field service scheduling, technician scheduling"
       />
@@ -26,7 +26,7 @@ export default function SchedulingFeatures() {
           <div className="rounded-lg overflow-hidden shadow-2xl border border-gray-200 max-w-5xl mx-auto">
             <img 
               src={schedulingPageImage} 
-              alt="Creative Job Hub scheduling calendar showing drag-and-drop interface, tech assignments, and job timeline" 
+              alt="Crew Ops Pro scheduling calendar showing drag-and-drop interface, tech assignments, and job timeline" 
               className="w-full"
               loading="eager"
             />
@@ -366,7 +366,7 @@ export default function SchedulingFeatures() {
               <h3 className="text-xl font-bold text-gray-900 mb-3">24 Hours Before</h3>
               <div className="bg-blue-50 rounded-lg p-4 text-sm">
                 <p className="text-gray-700">
-                  "Hi Sarah! Reminder: Mike from Creative Job Hub will arrive tomorrow at 2:00 PM for your HVAC service. Reply CONFIRM or call us at (555) 123-4567."
+                  "Hi Sarah! Reminder: Mike from Crew Ops Pro will arrive tomorrow at 2:00 PM for your HVAC service. Reply CONFIRM or call us at (555) 123-4567."
                 </p>
               </div>
             </div>
@@ -386,7 +386,7 @@ export default function SchedulingFeatures() {
               <h3 className="text-xl font-bold text-gray-900 mb-3">Job Complete</h3>
               <div className="bg-purple-50 rounded-lg p-4 text-sm">
                 <p className="text-gray-700">
-                  "Thanks for choosing Creative Job Hub! Your invoice is ready: [link]. Rate your experience: [link]"
+                  "Thanks for choosing Crew Ops Pro! Your invoice is ready: [link]. Rate your experience: [link]"
                 </p>
               </div>
             </div>
@@ -401,7 +401,7 @@ export default function SchedulingFeatures() {
             Ready to Stop Double-Booking?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            See how Creative Job Hub's smart scheduling can transform your field operations.
+            See how Crew Ops Pro's smart scheduling can transform your field operations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

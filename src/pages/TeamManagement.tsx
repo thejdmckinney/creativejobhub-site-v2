@@ -6,7 +6,7 @@ export default function TeamManagement() {
   return (
     <div className="bg-white min-h-screen">
       <SEO 
-        title="Team Management Features | Creative Job Hub"
+        title="Team Management Features | Crew Ops Pro"
         description="Real-time GPS tracking, job status updates, and team performance insights. Know exactly where your team is and what they're doing."
         keywords="team management software, GPS tracking, field team management"
       />

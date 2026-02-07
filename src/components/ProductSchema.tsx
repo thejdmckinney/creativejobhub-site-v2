@@ -4,15 +4,15 @@ export default function ProductSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Creative Job Hub - Field Service Management Software",
+    "name": "Crew Ops Pro - Field Service Management Software",
     "description": "All-in-one field service management software for contractors. Includes job scheduling, estimates, invoicing, mobile apps, QuickBooks integration, GPS tracking, and more. Unlimited users included.",
     "brand": {
       "@type": "Brand",
-      "name": "Creative Job Hub"
+      "name": "Crew Ops Pro"
     },
     "offers": {
       "@type": "Offer",
-      "url": "https://www.creativejobhub.com/pricing",
+      "url": "https://www.crewopspro.com/pricing",
       "priceCurrency": "USD",
       "price": "89.00",
       "priceValidUntil": "2026-12-31",
@@ -20,7 +20,7 @@ export default function ProductSchema() {
       "itemCondition": "https://schema.org/NewCondition",
       "seller": {
         "@type": "Organization",
-        "name": "Creative Job Hub"
+        "name": "Crew Ops Pro"
       },
       "priceSpecification": {
         "@type": "UnitPriceSpecification",

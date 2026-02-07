@@ -9,14 +9,14 @@ export default function VsWorkiz() {
       <SEO 
         title="Workiz Charges $238/Month for 5 Users. We Charge $89 for Unlimited."
         description="Same features. Better mobile app. Unlimited users vs Workiz's $238/month (5 users). Save $1,788/year and get QuickBooks sync included. Switch in 2 hours."
-        keywords="Workiz alternative, Creative Job Hub vs Workiz, Workiz comparison"
+        keywords="Workiz alternative, Crew Ops Pro vs Workiz, Workiz comparison"
       />
       
       <Breadcrumbs 
         items={[
           { label: 'Home', path: '/' },
           { label: 'Competitors', path: '/competitors' },
-          { label: 'Creative Job Hub vs Workiz' }
+          { label: 'Crew Ops Pro vs Workiz' }
         ]} 
       />
       
@@ -25,7 +25,7 @@ export default function VsWorkiz() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Creative Job Hub vs Workiz
+              Crew Ops Pro vs Workiz
             </h1>
             <p className="text-2xl text-gray-600 mb-4">
               Save $1,692/year with better mobile experience
@@ -56,7 +56,7 @@ export default function VsWorkiz() {
               <div className="absolute -top-4 right-4 bg-orange-500 text-white px-4 py-1 rounded-full font-bold text-sm">
                 BEST VALUE
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Crew Ops Pro</h3>
               <div className="text-4xl font-bold text-green-600 mb-4">$89/month</div>
               <div className="space-y-2 text-gray-700 mb-6">
                 <p>• All features included</p>
@@ -97,7 +97,7 @@ export default function VsWorkiz() {
                 <tr className="bg-gray-50 border-b-2 border-gray-200">
                   <th className="text-left p-4 font-bold text-gray-900">Feature</th>
                   <th className="text-center p-4 font-bold text-gray-900">Workiz</th>
-                  <th className="text-center p-4 font-bold text-blue-600">Creative Job Hub</th>
+                  <th className="text-center p-4 font-bold text-blue-600">Crew Ops Pro</th>
                 </tr>
               </thead>
               <tbody>
@@ -147,7 +147,7 @@ export default function VsWorkiz() {
                 "The mobile app is slow and unintuitive. My techs constantly complain about how many screens they have to tap through to complete a job. It's frustrating when you're on a ladder or your hands are dirty."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Built by a contractor who uses it daily in the field
+                ✓ Crew Ops Pro: Built by a contractor who uses it daily in the field
               </p>
             </div>
 
@@ -157,7 +157,7 @@ export default function VsWorkiz() {
                 "Can't customize forms or workflows the way we need. Everything is rigid and generic. Our pool service business needs specific fields and Workiz doesn't let us add them easily."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Fully customizable forms and workflows
+                ✓ Crew Ops Pro: Fully customizable forms and workflows
               </p>
             </div>
 
@@ -167,7 +167,7 @@ export default function VsWorkiz() {
                 "Started at $150/month, but ended up at $250 after adding team members and basic features that should be included. Text messaging costs extra. Extra users cost extra. It adds up fast."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Everything included, unlimited users
+                ✓ Crew Ops Pro: Everything included, unlimited users
               </p>
             </div>
 
@@ -177,7 +177,7 @@ export default function VsWorkiz() {
                 "Takes forever to load on mobile data. When you're between jobs and trying to update info quickly, waiting 10-15 seconds for screens to load is unacceptable. Kills productivity."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Lightning-fast mobile performance
+                ✓ Crew Ops Pro: Lightning-fast mobile performance
               </p>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function VsWorkiz() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Contractors Are Switching to Creative Job Hub
+            Why Contractors Are Switching to Crew Ops Pro
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -271,12 +271,12 @@ export default function VsWorkiz() {
               </div>
             </div>
 
-            {/* Creative Job Hub */}
+            {/* Crew Ops Pro */}
             <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg shadow-lg p-8 text-white relative">
               <div className="absolute -top-4 right-4 bg-orange-500 text-white px-4 py-2 rounded-full font-bold">
                 SAVE $1,692/YR
               </div>
-              <h3 className="text-2xl font-bold mb-6 text-center">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">Crew Ops Pro</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center pb-3 border-b border-blue-400">
                   <span className="text-blue-100">Complete Plan</span>
@@ -358,7 +358,7 @@ export default function VsWorkiz() {
             </div>
 
             <div className="bg-green-50 rounded-lg p-8 border-2 border-green-500">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Creative Job Hub Mobile</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Crew Ops Pro Mobile</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">⚡</span>

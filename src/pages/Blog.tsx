@@ -22,20 +22,20 @@ export default function Blog() {
   return (
     <>
       <SEO 
-        title="Creative Job Hub Blog | Tips for Service Business Growth"
+        title="Crew Ops Pro Blog | Tips for Service Business Growth"
         description="Read expert tips on job management, scheduling, customer communication, and growing your service business."
         keywords="field service blog, contractor tips, fsm software updates, integration guides, byot philosophy, customer stories"
       />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'Blog', url: 'https://www.creativejobhub.com/blog' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'Blog', url: 'https://www.crewopspro.com/blog' }
       ]} />
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h1 className="text-5xl font-bold mb-4">Creative Job Hub Blog</h1>
+            <h1 className="text-5xl font-bold mb-4">Crew Ops Pro Blog</h1>
             <p className="text-xl text-blue-100">
               Tips, updates, and stories to help you grow your business
             </p>
@@ -135,7 +135,7 @@ export default function Blog() {
             },
             {
               title: "Why I Built This",
-              description: "The story behind Creative Job Hub and the BYOT philosophy.",
+              description: "The story behind Crew Ops Pro and the BYOT philosophy.",
               path: "/why-i-built-this",
               icon: "💡"
             },
@@ -151,7 +151,7 @@ export default function Blog() {
         {/* CTA Section */}
         <section className="bg-blue-600 text-white py-12">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold mb-4">Ready to Try Creative Job Hub?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ready to Try Crew Ops Pro?</h2>
             <p className="text-xl text-blue-100 mb-8">
               Start your 14-day free trial.
             </p>

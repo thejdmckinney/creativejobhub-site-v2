@@ -132,8 +132,8 @@ export default function Signup() {
   return (
     <div className="bg-gradient-to-b from-blue-50 to-white min-h-screen py-16">
       <SEO 
-        title="Sign Up for Creative Job Hub | Start Managing Jobs Today"
-        description="Create your Creative Job Hub account and start managing jobs, teams, and customers in minutes. Get started today."
+        title="Sign Up for Crew Ops Pro | Start Managing Jobs Today"
+        description="Create your Crew Ops Pro account and start managing jobs, teams, and customers in minutes. Get started today."
         keywords="free trial, field service software trial, contractor software signup"
         noIndex={true}
       />
@@ -209,7 +209,7 @@ export default function Signup() {
                 value={formData.email}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="jeremy@creativejobhub.com"
+                placeholder="jeremy@crewopspro.com"
               />
             </div>
 
@@ -298,8 +298,8 @@ export default function Signup() {
         <div className="mt-12 text-center">
           <p className="text-gray-600">
             Questions?{' '}
-            <a href="mailto:jeremy@creativejobhub.com" className="text-blue-600 hover:underline font-semibold">
-              Email jeremy@creativejobhub.com
+            <a href="mailto:jeremy@crewopspro.com" className="text-blue-600 hover:underline font-semibold">
+              Email jeremy@crewopspro.com
             </a>
           </p>
         </div>

@@ -8,15 +8,15 @@ export default function VsFieldEdge() {
     <div className="bg-white">
       <SEO 
         title="Your Techs Hate FieldEdge's Mobile App. Try Ours Instead."
-        description="FieldEdge's mobile app has a 2.3-star rating. Slow, buggy, crashes constantly. Creative Job Hub: 4.8 stars, works offline, $80/month cheaper. Switch today."
-        keywords="FieldEdge alternative, Creative Job Hub vs FieldEdge, modern field service software"
+        description="FieldEdge's mobile app has a 2.3-star rating. Slow, buggy, crashes constantly. Crew Ops Pro: 4.8 stars, works offline, $80/month cheaper. Switch today."
+        keywords="FieldEdge alternative, Crew Ops Pro vs FieldEdge, modern field service software"
       />
       
       <Breadcrumbs 
         items={[
           { label: 'Home', path: '/' },
           { label: 'Competitors', path: '/competitors' },
-          { label: 'Creative Job Hub vs FieldEdge' }
+          { label: 'Crew Ops Pro vs FieldEdge' }
         ]} 
       />
       
@@ -25,7 +25,7 @@ export default function VsFieldEdge() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Creative Job Hub vs FieldEdge
+              Crew Ops Pro vs FieldEdge
             </h1>
             <p className="text-2xl text-gray-600 mb-4">
               Save $960/year with modern software
@@ -56,7 +56,7 @@ export default function VsFieldEdge() {
               <div className="absolute -top-4 right-4 bg-orange-500 text-white px-4 py-1 rounded-full font-bold text-sm">
                 BEST VALUE
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Crew Ops Pro</h3>
               <div className="text-4xl font-bold text-green-600 mb-4">$89/month</div>
               <div className="space-y-2 text-gray-700 mb-6">
                 <p>• Modern, clean interface</p>
@@ -97,7 +97,7 @@ export default function VsFieldEdge() {
                 <tr className="bg-gray-50 border-b-2 border-gray-200">
                   <th className="text-left p-4 font-bold text-gray-900">Feature</th>
                   <th className="text-center p-4 font-bold text-gray-900">FieldEdge</th>
-                  <th className="text-center p-4 font-bold text-blue-600">Creative Job Hub</th>
+                  <th className="text-center p-4 font-bold text-blue-600">Crew Ops Pro</th>
                 </tr>
               </thead>
               <tbody>
@@ -167,7 +167,7 @@ export default function VsFieldEdge() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Contractors Switch to Creative Job Hub
+            Why Contractors Switch to Crew Ops Pro
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -235,7 +235,7 @@ export default function VsFieldEdge() {
                 "The software looks like it's from 2010. Clunky menus, confusing navigation. Takes forever to train new employees."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Modern, intuitive interface designed for 2026
+                ✓ Crew Ops Pro: Modern, intuitive interface designed for 2026
               </p>
             </div>
 
@@ -245,7 +245,7 @@ export default function VsFieldEdge() {
                 "Mobile app constantly crashes. Techs in the field can't update jobs. Have to wait until they're back in the office."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Native mobile apps that actually work
+                ✓ Crew Ops Pro: Native mobile apps that actually work
               </p>
             </div>
 
@@ -255,7 +255,7 @@ export default function VsFieldEdge() {
                 "Takes 2-3 days to get a response. Live chat is never available. When problems happen, we're stuck."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Same-day support, built by contractors who understand
+                ✓ Crew Ops Pro: Same-day support, built by contractors who understand
               </p>
             </div>
 
@@ -265,7 +265,7 @@ export default function VsFieldEdge() {
                 "Quoted $169/month but paid $800 in setup fees, training costs, and data migration charges."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: $0 setup fees, free migration assistance
+                ✓ Crew Ops Pro: $0 setup fees, free migration assistance
               </p>
             </div>
           </div>
@@ -360,7 +360,7 @@ export default function VsFieldEdge() {
                 <h3 className="text-2xl font-bold text-gray-900">Import Your Data (10 minutes)</h3>
               </div>
               <p className="text-gray-700 ml-16">
-                Export customer list from FieldEdge as CSV. Import into Creative Job Hub. We'll help if you get stuck.
+                Export customer list from FieldEdge as CSV. Import into Crew Ops Pro. We'll help if you get stuck.
               </p>
             </div>
 
@@ -384,7 +384,7 @@ export default function VsFieldEdge() {
                 <h3 className="text-2xl font-bold text-gray-900">Run Both for 14 Days</h3>
               </div>
               <p className="text-gray-700 ml-16">
-                Use both systems in parallel. When you're confident Creative Job Hub works better, cancel FieldEdge.
+                Use both systems in parallel. When you're confident Crew Ops Pro works better, cancel FieldEdge.
               </p>
             </div>
 
@@ -403,7 +403,7 @@ export default function VsFieldEdge() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-6xl mb-6">💬</div>
           <blockquote className="text-2xl font-medium mb-6">
-            "We were paying FieldEdge $169/month for software that looked ancient and barely worked on mobile. Switched to Creative Job Hub and immediately saved $80/month while getting better features and actually good support."
+            "We were paying FieldEdge $169/month for software that looked ancient and barely worked on mobile. Switched to Crew Ops Pro and immediately saved $80/month while getting better features and actually good support."
           </blockquote>
           <p className="text-xl text-blue-100">
             — Mike R., Residential Remodeling

@@ -4,7 +4,7 @@ export default function SoftwareApplicationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Creative Job Hub",
+    "name": "Crew Ops Pro",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web, iOS, Android",
     "offers": {
@@ -13,7 +13,7 @@ export default function SoftwareApplicationSchema() {
       "priceCurrency": "USD",
       "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
-      "url": "https://www.creativejobhub.com/pricing"
+      "url": "https://www.crewopspro.com/pricing"
     },
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -23,8 +23,8 @@ export default function SoftwareApplicationSchema() {
       "worstRating": "1"
     },
     "description": "The all-in-one field service management software built specifically for creative contractors. Schedule jobs, create estimates, manage clients, and get paid faster. $89/month, everything included.",
-    "url": "https://www.creativejobhub.com",
-    "screenshot": "https://www.creativejobhub.com/src/assets/home-page-image.png",
+    "url": "https://www.crewopspro.com",
+    "screenshot": "https://www.crewopspro.com/src/assets/home-page-image.png",
     "softwareVersion": "2.0",
     "releaseNotes": "Enhanced mobile app with offline mode, QuickBooks Online integration, GPS tracking, and automated invoicing.",
     "featureList": [
@@ -43,15 +43,15 @@ export default function SoftwareApplicationSchema() {
     ],
     "author": {
       "@type": "Organization",
-      "name": "Creative Job Hub",
-      "url": "https://www.creativejobhub.com"
+      "name": "Crew Ops Pro",
+      "url": "https://www.crewopspro.com"
     },
     "provider": {
       "@type": "Organization",
-      "name": "Creative Job Hub",
-      "url": "https://www.creativejobhub.com",
+      "name": "Crew Ops Pro",
+      "url": "https://www.crewopspro.com",
       "telephone": "+1-469-218-6800",
-      "email": "support@creativejobhub.com"
+      "email": "support@crewopspro.com"
     }
   };
 

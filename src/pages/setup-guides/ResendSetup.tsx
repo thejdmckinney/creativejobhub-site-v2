@@ -47,7 +47,7 @@ export default function ResendSetup() {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-blue-600 font-bold">✓</span>
-                  <span>A domain name for your business (e.g., creativejobhub.com)</span>
+                  <span>A domain name for your business (e.g., crewopspro.com)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-600 font-bold">✓</span>
@@ -156,7 +156,7 @@ export default function ResendSetup() {
                 <div className="bg-gray-100 rounded-lg p-4">
                   <ol className="space-y-2 text-gray-700 list-decimal list-inside">
                     <li>Click "Create API Key"</li>
-                    <li>Name it "Creative Job Hub"</li>
+                    <li>Name it "Crew Ops Pro"</li>
                     <li>Select "Full Access"</li>
                     <li>Copy the key (you'll only see it once!)</li>
                   </ol>
@@ -173,13 +173,13 @@ export default function ResendSetup() {
             <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full font-bold">5</div>
-                <h2 className="text-2xl font-bold text-gray-900">Connect to Creative Job Hub</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Connect to Crew Ops Pro</h2>
               </div>
               
               <div className="space-y-4">
                 <div className="bg-gray-100 rounded-lg p-4">
                   <ol className="space-y-3 text-gray-700 list-decimal list-inside">
-                    <li>Go to Creative Job Hub → <strong>Settings</strong> → <strong>Integrations</strong></li>
+                    <li>Go to Crew Ops Pro → <strong>Settings</strong> → <strong>Integrations</strong></li>
                     <li>Click <strong>"Connect Resend"</strong></li>
                     <li>Paste your API Key</li>
                     <li>Enter your "From" email (e.g., team@yourcompany.com)</li>
@@ -242,7 +242,7 @@ export default function ResendSetup() {
             <div className="mt-8 text-center">
               <p className="text-gray-600 mb-4">Stuck on DNS records? We can help!</p>
               <a 
-                href="https://support.creativejobhub.com/en/" 
+                href="https://support.crewopspro.com/en/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-900 transition-colors"

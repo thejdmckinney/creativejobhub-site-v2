@@ -55,14 +55,14 @@ export default function PaintingSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Painting Contractor Software | Creative Job Hub"
+        title="Painting Contractor Software | Crew Ops Pro"
         description="The best painting contractor software for managing residential and commercial projects. Track color selections, materials, and multi-day jobs. $89/month flat pricing."
         keywords="painting contractor software, painter software, painting business software, painting estimating software, house painting software, commercial painting software"
       />
       <SoftwareApplicationSchema />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'Painting Software', url: 'https://www.creativejobhub.com/painting-software' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'Painting Software', url: 'https://www.crewopspro.com/painting-software' }
       ]} />
       
       <Breadcrumbs 
@@ -109,7 +109,7 @@ export default function PaintingSoftware() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Painting Contractors Choose Creative Job Hub
+            Why Painting Contractors Choose Crew Ops Pro
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -276,7 +276,7 @@ export default function PaintingSoftware() {
             Ready to Simplify Your Painting Business?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Join painting contractors who switched from paper estimates and spreadsheets to Creative Job Hub.
+            Join painting contractors who switched from paper estimates and spreadsheets to Crew Ops Pro.
           </p>
           <Link 
             to="/signup"

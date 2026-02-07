@@ -149,7 +149,7 @@ export default function TwilioSetup() {
               
               <div className="space-y-4">
                 <p className="text-gray-700">
-                  Once you're in your Twilio dashboard, you need to find your API credentials. These are like passwords that let Creative Job Hub send messages on your behalf.
+                  Once you're in your Twilio dashboard, you need to find your API credentials. These are like passwords that let Crew Ops Pro send messages on your behalf.
                 </p>
                 
                 <div className="bg-gray-100 rounded-lg p-4">
@@ -173,12 +173,12 @@ export default function TwilioSetup() {
             <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full font-bold">5</div>
-                <h2 className="text-2xl font-bold text-gray-900">Connect to Creative Job Hub</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Connect to Crew Ops Pro</h2>
               </div>
               
               <div className="space-y-4">
                 <p className="text-gray-700">
-                  Now head over to your Creative Job Hub account:
+                  Now head over to your Crew Ops Pro account:
                 </p>
                 
                 <div className="bg-gray-100 rounded-lg p-4">
@@ -274,7 +274,7 @@ export default function TwilioSetup() {
             <div className="mt-8 text-center">
               <p className="text-gray-600 mb-4">Need help? We're here for you!</p>
               <a 
-                href="https://support.creativejobhub.com/en/" 
+                href="https://support.crewopspro.com/en/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-900 transition-colors"

@@ -47,7 +47,7 @@ export default function Competitors() {
     <div className="bg-white">
       <SEO 
         title="Competitors - Compare Field Service Software"
-        description="Compare Creative Job Hub vs Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, and ServiceM8. See why contractors are switching to save $2,000-$5,000 per year."
+        description="Compare Crew Ops Pro vs Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, and ServiceM8. See why contractors are switching to save $2,000-$5,000 per year."
         keywords="field service software comparison, Jobber alternative, ServiceTitan alternative, Housecall Pro alternative"
       />
       
@@ -62,7 +62,7 @@ export default function Competitors() {
       <section className="bg-gradient-to-b from-blue-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Why Contractors Choose Creative Job Hub Over The Competition
+            Why Contractors Choose Crew Ops Pro Over The Competition
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
             We're not trying to be everything to everyone. We're focused on one thing: helping small to mid-size field service businesses run better, without the enterprise price tag.
@@ -83,7 +83,7 @@ export default function Competitors() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            The Creative Job Hub Difference
+            The Crew Ops Pro Difference
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
@@ -178,7 +178,7 @@ export default function Competitors() {
               <thead>
                 <tr className="border-b-2 border-gray-200">
                   <th className="text-left p-4 font-bold text-gray-900">Feature</th>
-                  <th className="text-center p-4 font-bold text-blue-600">Creative Job Hub</th>
+                  <th className="text-center p-4 font-bold text-blue-600">Crew Ops Pro</th>
                   <th className="text-center p-4 font-bold text-gray-600">Competitors</th>
                 </tr>
               </thead>
@@ -226,7 +226,7 @@ export default function Competitors() {
 
           <div className="mt-8 text-center">
             <p className="text-2xl font-bold text-gray-900 mb-4">
-              Save $4,332 per year with Creative Job Hub
+              Save $4,332 per year with Crew Ops Pro
             </p>
             <p className="text-lg text-gray-600">
               That's enough to buy a new truck, hire help, or just keep more money in your pocket.
@@ -244,7 +244,7 @@ export default function Competitors() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-50 p-8 rounded-lg">
               <p className="text-lg text-gray-600 mb-4 italic">
-                "I was paying Jobber $350/month and still didn't have the features I needed. Creative Job Hub gave me everything for $89. No brainer."
+                "I was paying Jobber $350/month and still didn't have the features I needed. Crew Ops Pro gave me everything for $89. No brainer."
               </p>
               <p className="font-semibold text-gray-900">- Mike, HVAC Contractor</p>
             </div>
@@ -277,7 +277,7 @@ export default function Competitors() {
             Stop Overpaying For Field Service Software
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Try Creative Job Hub free for 14 days. No charge for 14 days. See why contractors are making the switch.
+            Try Crew Ops Pro free for 14 days. No charge for 14 days. See why contractors are making the switch.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

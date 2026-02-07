@@ -5,7 +5,7 @@ import FAQSchema from '../components/FAQSchema';
 
 const faqs = [
   {
-    question: "How long does it take to set up Creative Job Hub?",
+    question: "How long does it take to set up Crew Ops Pro?",
     answer: "Most contractors are up and running in under 20 minutes. The setup wizard walks you through adding your services, rates, and team members. You can import existing customer data via CSV. No technical skills required—if you can use email, you can set this up."
   },
   {
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: "What if I'm not tech-savvy?",
-    answer: "Creative Job Hub is built for contractors, not IT experts. Everything uses plain language, not tech jargon. We offer free one-on-one setup assistance, video tutorials, and responsive support. Many of our customers had never used field service software before—and they're thriving now."
+    answer: "Crew Ops Pro is built for contractors, not IT experts. Everything uses plain language, not tech jargon. We offer free one-on-one setup assistance, video tutorials, and responsive support. Many of our customers had never used field service software before—and they're thriving now."
   },
   {
     question: "How do customers receive their estimates and invoices?",
@@ -30,8 +30,8 @@ export default function HowItWorks() {
   return (
     <div className="bg-white">
       <SEO 
-        title="How Creative Job Hub Works | Job Management Made Simple"
-        description="See how Creative Job Hub helps service businesses manage jobs, schedules, customers, and payments in one simple platform."
+        title="How Crew Ops Pro Works | Job Management Made Simple"
+        description="See how Crew Ops Pro helps service businesses manage jobs, schedules, customers, and payments in one simple platform."
         keywords="field service workflow, contractor workflow, job management process, service business workflow"
       />
       
@@ -39,10 +39,10 @@ export default function HowItWorks() {
       <section className="bg-gradient-to-b from-blue-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            How Creative Job Hub Works
+            How Crew Ops Pro Works
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
-            From booking to payment, Creative Job Hub handles everything. Here's how we help you run your field service business better.
+            From booking to payment, Crew Ops Pro handles everything. Here's how we help you run your field service business better.
           </p>
           <div className="mb-8">
             <StarRating />
@@ -421,7 +421,7 @@ export default function HowItWorks() {
             Ready to Streamline Your Business?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Join contractors who are saving time and making more money with Creative Job Hub.
+            Join contractors who are saving time and making more money with Crew Ops Pro.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

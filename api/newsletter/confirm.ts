@@ -145,7 +145,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   // Send thank you email
   await resend.emails.send({
-    from: 'Creative Job Hub <noreply@creativejobhub.com>',
+    from: 'Creative Job Hub <noreply@crewopspro.com>',
     to: subscriber.email,
     subject: '🎉 Welcome to Creative Job Hub Newsletter!',
     html: `

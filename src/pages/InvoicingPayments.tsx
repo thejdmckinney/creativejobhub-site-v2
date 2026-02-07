@@ -6,7 +6,7 @@ export default function InvoicingPayments() {
   return (
     <div className="bg-white min-h-screen">
       <SEO 
-        title="Get Paid Faster with Creative Job Hub | Invoicing & Payments"
+        title="Get Paid Faster with Crew Ops Pro | Invoicing & Payments"
         description="Collect payment on-site with tap-to-pay, send professional invoices instantly, and get paid the same day."
         keywords="invoicing software, payment processing, tap to pay"
       />

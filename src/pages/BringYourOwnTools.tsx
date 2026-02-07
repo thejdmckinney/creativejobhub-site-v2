@@ -18,7 +18,7 @@ export default function BringYourOwnTools() {
             Stop Paying $300/Month for Tools That Should Be <span className="text-yellow-300">Free</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100">
-            Creative Job Hub shows you how to connect industry-leading tools to your business - for free. No markups. No middlemen. Just honest pricing and real control.
+            Crew Ops Pro shows you how to connect industry-leading tools to your business - for free. No markups. No middlemen. Just honest pricing and real control.
           </p>
           <a 
             href="#real-math" 
@@ -119,10 +119,10 @@ export default function BringYourOwnTools() {
               </div>
             </div>
 
-            {/* Creative Job Hub Way */}
+            {/* Crew Ops Pro Way */}
             <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-600 shadow-lg">
               <h3 className="text-2xl font-bold text-blue-900 mb-6">
-                The Creative Job Hub Way
+                The Crew Ops Pro Way
               </h3>
               <div className="space-y-3 text-sm">
                 <div className="font-bold text-lg text-green-600">Monthly Software Fee: $89</div>
@@ -336,7 +336,7 @@ export default function BringYourOwnTools() {
 
           <div className="bg-white/10 backdrop-blur rounded-xl p-8 mb-8">
             <p className="text-lg mb-6">
-              I built Creative Job Hub after spending <strong className="text-yellow-300">$10,000+</strong> on overpriced field service software. I was paying Jobber $300/month and realized they were just marking up tools I could use myself.
+              I built Crew Ops Pro after spending <strong className="text-yellow-300">$10,000+</strong> on overpriced field service software. I was paying Jobber $300/month and realized they were just marking up tools I could use myself.
             </p>
             <p className="text-lg mb-6">
               So I built something different:
@@ -407,7 +407,7 @@ export default function BringYourOwnTools() {
                 "Do I HAVE to set these up?"
               </h3>
               <p className="text-gray-700">
-                Nope. Creative Job Hub works great without any integrations. But if you want SMS, email, advanced mapping, etc., this is how you get those features without the markup.
+                Nope. Crew Ops Pro works great without any integrations. But if you want SMS, email, advanced mapping, etc., this is how you get those features without the markup.
               </p>
             </div>
 
@@ -416,7 +416,7 @@ export default function BringYourOwnTools() {
                 "Can I switch my existing Twilio/Stripe accounts over?"
               </h3>
               <p className="text-gray-700">
-                Absolutely! If you're already using these tools with another software, you can bring them to Creative Job Hub. Your data, your control.
+                Absolutely! If you're already using these tools with another software, you can bring them to Crew Ops Pro. Your data, your control.
               </p>
             </div>
           </div>
@@ -433,7 +433,7 @@ export default function BringYourOwnTools() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-blue-50 rounded-xl p-6 border-l-4 border-blue-600">
               <p className="text-gray-700 mb-4">
-                "I was paying Jobber $340/month. Set up my own Twilio in 5 minutes and switched to Creative Job Hub. Now I'm at $89/month with MORE features. Feels like I found a cheat code."
+                "I was paying Jobber $340/month. Set up my own Twilio in 5 minutes and switched to Crew Ops Pro. Now I'm at $89/month with MORE features. Feels like I found a cheat code."
               </p>
               <p className="font-bold text-gray-900">— Mike R., Plumbing Contractor</p>
             </div>
@@ -476,7 +476,7 @@ export default function BringYourOwnTools() {
               to="/signup" 
               className="inline-block px-8 py-4 bg-yellow-400 text-blue-900 font-bold text-lg rounded-lg hover:bg-yellow-300 transition-colors"
             >
-              Start With Just Creative Job Hub - $89/mo
+              Start With Just Crew Ops Pro - $89/mo
             </Link>
             <Link 
               to="/signup" 

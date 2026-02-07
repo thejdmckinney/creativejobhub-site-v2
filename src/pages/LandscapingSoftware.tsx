@@ -61,8 +61,8 @@ export default function LandscapingSoftware() {
       />
       <SoftwareApplicationSchema />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'Landscaping Software', url: 'https://www.creativejobhub.com/landscaping-software' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'Landscaping Software', url: 'https://www.crewopspro.com/landscaping-software' }
       ]} />
       
       <Breadcrumbs 
@@ -109,7 +109,7 @@ export default function LandscapingSoftware() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Landscapers Choose Creative Job Hub
+            Why Landscapers Choose Crew Ops Pro
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -276,7 +276,7 @@ export default function LandscapingSoftware() {
             Ready to Grow Your Landscaping Business?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Join landscapers who switched from paper schedules and complicated software to Creative Job Hub.
+            Join landscapers who switched from paper schedules and complicated software to Crew Ops Pro.
           </p>
           <Link 
             to="/signup"

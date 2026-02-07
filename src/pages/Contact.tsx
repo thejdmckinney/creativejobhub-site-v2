@@ -60,8 +60,8 @@ export default function Contact() {
   return (
     <>
       <SEO 
-        title="Contact Creative Job Hub | Talk to Our Team"
-        description="Have questions about Creative Job Hub? Contact our team for support, sales inquiries, or general information."
+        title="Contact Crew Ops Pro | Talk to Our Team"
+        description="Have questions about Crew Ops Pro? Contact our team for support, sales inquiries, or general information."
         keywords="contact creative job hub, field service software support, sales inquiry, customer service"
       />
       <ContactPageSchema />
@@ -96,7 +96,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                    <p className="text-gray-600">support@creativejobhub.com</p>
+                    <p className="text-gray-600">support@crewopspro.com</p>
                   </div>
                 </div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
                     <h3 className="font-semibold text-gray-900 mb-1">Support</h3>
                     <p className="text-gray-600">
                       <a 
-                        href="https://support.creativejobhub.com/en/" 
+                        href="https://support.crewopspro.com/en/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-700"
@@ -137,7 +137,7 @@ export default function Contact() {
               <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6">
                 <h3 className="font-semibold text-gray-900 mb-2">Prefer to Talk?</h3>
                 <p className="text-gray-600 mb-4">
-                  Schedule a demo or book a call with our team to see how Creative Job Hub can transform your business.
+                  Schedule a demo or book a call with our team to see how Crew Ops Pro can transform your business.
                 </p>
                 <Link
                   to="/signup"

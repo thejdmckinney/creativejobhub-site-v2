@@ -5,8 +5,8 @@ export default function TermsOfService() {
   return (
     <>
       <Helmet>
-        <title>Terms of Service - Creative Job Hub</title>
-        <meta name="description" content="Terms of Service for Creative Job Hub field service management software." />
+        <title>Terms of Service - Crew Ops Pro</title>
+        <meta name="description" content="Terms of Service for Crew Ops Pro field service management software." />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -30,14 +30,14 @@ export default function TermsOfService() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
                 <p className="text-gray-700 mb-4">
-                  Welcome to Creative Job Hub. By accessing or using our website and services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
+                  Welcome to Crew Ops Pro. By accessing or using our website and services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
                 </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Description of Service</h2>
                 <p className="text-gray-700 mb-4">
-                  Creative Job Hub provides field service management software designed for contractors and service professionals. Our platform includes features for:
+                  Crew Ops Pro provides field service management software designed for contractors and service professionals. Our platform includes features for:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-gray-700">
                   <li>Job scheduling and management</li>
@@ -109,7 +109,7 @@ export default function TermsOfService() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Intellectual Property</h2>
                 <p className="text-gray-700 mb-4">
-                  The Creative Job Hub platform, including all content, features, and functionality, is owned by Creative Job Hub and is protected by copyright, trademark, and other intellectual property laws.
+                  The Crew Ops Pro platform, including all content, features, and functionality, is owned by Crew Ops Pro and is protected by copyright, trademark, and other intellectual property laws.
                 </p>
                 <p className="text-gray-700 mb-4">
                   <strong>Your Content:</strong> You retain all rights to the data and content you upload to our platform. By using our service, you grant us a limited license to use, store, and display your content solely for the purpose of providing our services to you.
@@ -155,7 +155,7 @@ export default function TermsOfService() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Indemnification</h2>
                 <p className="text-gray-700 mb-4">
-                  You agree to indemnify, defend, and hold harmless Creative Job Hub and its officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
+                  You agree to indemnify, defend, and hold harmless Crew Ops Pro and its officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-gray-700">
                   <li>Your use of the service</li>
@@ -214,20 +214,20 @@ export default function TermsOfService() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <p className="text-gray-700 mb-2">
                     <strong>Email:</strong>{' '}
-                    <a href="mailto:support@creativejobhub.com" className="text-blue-600 hover:text-blue-700">
-                      support@creativejobhub.com
+                    <a href="mailto:support@crewopspro.com" className="text-blue-600 hover:text-blue-700">
+                      support@crewopspro.com
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">
                     <strong>Website:</strong>{' '}
-                    <a href="https://www.creativejobhub.com" className="text-blue-600 hover:text-blue-700">
-                      creativejobhub.com
+                    <a href="https://www.crewopspro.com" className="text-blue-600 hover:text-blue-700">
+                      crewopspro.com
                     </a>
                   </p>
                   <p className="text-gray-700">
                     <strong>Contact Form:</strong>{' '}
                     <Link to="/contact" className="text-blue-600 hover:text-blue-700">
-                      creativejobhub.com/contact
+                      crewopspro.com/contact
                     </Link>
                   </p>
                 </div>
@@ -243,13 +243,13 @@ export default function TermsOfService() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">19. Entire Agreement</h2>
                 <p className="text-gray-700 mb-4">
-                  These Terms, together with our Privacy Policy, constitute the entire agreement between you and Creative Job Hub regarding the use of our service.
+                  These Terms, together with our Privacy Policy, constitute the entire agreement between you and Crew Ops Pro regarding the use of our service.
                 </p>
               </section>
 
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <p className="text-gray-600 text-center">
-                  By using Creative Job Hub, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+                  By using Crew Ops Pro, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
                 </p>
               </div>
             </div>

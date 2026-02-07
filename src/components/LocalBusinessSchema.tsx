@@ -4,8 +4,8 @@ export default function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Creative Job Hub",
-    "image": "https://www.creativejobhub.com/cjh-og-image.png",
+    "name": "Crew Ops Pro",
+    "image": "https://www.crewopspro.com/cjh-og-image.png",
     "description": "Field service management software built by contractors for contractors. All-in-one solution for scheduling, estimates, invoicing, mobile apps, and more.",
     "address": {
       "@type": "PostalAddress",
@@ -18,9 +18,9 @@ export default function LocalBusinessSchema() {
       "latitude": "32.7767",
       "longitude": "-96.7970"
     },
-    "url": "https://www.creativejobhub.com",
+    "url": "https://www.crewopspro.com",
     "telephone": "+1-469-218-6800",
-    "email": "support@creativejobhub.com",
+    "email": "support@crewopspro.com",
     "priceRange": "$89",
     "openingHoursSpecification": [
       {

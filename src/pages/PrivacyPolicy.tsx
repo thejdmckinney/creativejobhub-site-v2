@@ -5,8 +5,8 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy - Creative Job Hub</title>
-        <meta name="description" content="Privacy Policy for Creative Job Hub. Learn how we collect, use, and protect your personal information." />
+        <title>Privacy Policy - Crew Ops Pro</title>
+        <meta name="description" content="Privacy Policy for Crew Ops Pro. Learn how we collect, use, and protect your personal information." />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -30,10 +30,10 @@ export default function PrivacyPolicy() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
                 <p className="text-gray-700 mb-4">
-                  Welcome to Creative Job Hub. We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our field service management platform.
+                  Welcome to Crew Ops Pro. We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our field service management platform.
                 </p>
                 <p className="text-gray-700 mb-4">
-                  By using Creative Job Hub, you agree to the collection and use of information in accordance with this policy.
+                  By using Crew Ops Pro, you agree to the collection and use of information in accordance with this policy.
                 </p>
               </section>
 
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
                 </ul>
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">2.3 Third-Party Information</h3>
-                <p className="text-gray-700 mb-4">We may receive information from third-party services you connect to Creative Job Hub:</p>
+                <p className="text-gray-700 mb-4">We may receive information from third-party services you connect to Crew Ops Pro:</p>
                 <ul className="list-disc pl-6 mb-4 text-gray-700">
                   <li>Google Calendar integration</li>
                   <li>QuickBooks or other accounting software</li>
@@ -132,7 +132,7 @@ export default function PrivacyPolicy() {
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">4.2 Business Transfers</h3>
                 <p className="text-gray-700 mb-4">
-                  If Creative Job Hub is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction. We will notify you via email and/or a prominent notice on our website of any change in ownership.
+                  If Crew Ops Pro is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction. We will notify you via email and/or a prominent notice on our website of any change in ownership.
                 </p>
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">4.3 Legal Requirements</h3>
@@ -223,8 +223,8 @@ export default function PrivacyPolicy() {
 
                 <p className="text-gray-700 mb-4">
                   To exercise any of these rights, please contact us at{' '}
-                  <a href="mailto:privacy@creativejobhub.com" className="text-blue-600 hover:text-blue-700 underline">
-                    privacy@creativejobhub.com
+                  <a href="mailto:privacy@crewopspro.com" className="text-blue-600 hover:text-blue-700 underline">
+                    privacy@crewopspro.com
                   </a>
                 </p>
               </section>
@@ -253,7 +253,7 @@ export default function PrivacyPolicy() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Children's Privacy</h2>
                 <p className="text-gray-700 mb-4">
-                  Creative Job Hub is not intended for use by anyone under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.
+                  Crew Ops Pro is not intended for use by anyone under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.
                 </p>
               </section>
 
@@ -318,26 +318,26 @@ export default function PrivacyPolicy() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <p className="text-gray-700 mb-2">
                     <strong>Privacy Team Email:</strong>{' '}
-                    <a href="mailto:privacy@creativejobhub.com" className="text-blue-600 hover:text-blue-700">
-                      privacy@creativejobhub.com
+                    <a href="mailto:privacy@crewopspro.com" className="text-blue-600 hover:text-blue-700">
+                      privacy@crewopspro.com
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">
                     <strong>General Support:</strong>{' '}
-                    <a href="mailto:support@creativejobhub.com" className="text-blue-600 hover:text-blue-700">
-                      support@creativejobhub.com
+                    <a href="mailto:support@crewopspro.com" className="text-blue-600 hover:text-blue-700">
+                      support@crewopspro.com
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">
                     <strong>Website:</strong>{' '}
-                    <a href="https://www.creativejobhub.com" className="text-blue-600 hover:text-blue-700">
-                      creativejobhub.com
+                    <a href="https://www.crewopspro.com" className="text-blue-600 hover:text-blue-700">
+                      crewopspro.com
                     </a>
                   </p>
                   <p className="text-gray-700">
                     <strong>Contact Form:</strong>{' '}
                     <Link to="/contact" className="text-blue-600 hover:text-blue-700">
-                      creativejobhub.com/contact
+                      crewopspro.com/contact
                     </Link>
                   </p>
                 </div>
@@ -345,7 +345,7 @@ export default function PrivacyPolicy() {
 
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <p className="text-gray-600 text-center">
-                  By using Creative Job Hub, you acknowledge that you have read and understood this Privacy Policy.
+                  By using Crew Ops Pro, you acknowledge that you have read and understood this Privacy Policy.
                 </p>
               </div>
             </div>

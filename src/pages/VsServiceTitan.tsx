@@ -6,20 +6,20 @@ import FAQSchema from '../components/FAQSchema';
 
 const faqs = [
   {
-    question: "Is Creative Job Hub really comparable to ServiceTitan?",
+    question: "Is Crew Ops Pro really comparable to ServiceTitan?",
     answer: "Yes, for small to mid-sized contractors. You get the core features—job management, scheduling, estimates, invoicing, payment processing, customer database, mobile app, reporting—without the enterprise complexity or pricing. ServiceTitan is built for 50+ employee operations; we're optimized for 1-20 person teams who need powerful tools, not corporate overhead."
   },
   {
     question: "Why is ServiceTitan so expensive?",
-    answer: "ServiceTitan targets large enterprises with complex needs, multiple locations, and extensive customization requirements. Their pricing includes implementation fees, training, dedicated account managers, and enterprise-grade infrastructure. That's valuable for 50+ employee companies, but overkill for most contractors. Creative Job Hub delivers the same core functionality at $89/month—no setup fees, no training costs, no contracts."
+    answer: "ServiceTitan targets large enterprises with complex needs, multiple locations, and extensive customization requirements. Their pricing includes implementation fees, training, dedicated account managers, and enterprise-grade infrastructure. That's valuable for 50+ employee companies, but overkill for most contractors. Crew Ops Pro delivers the same core functionality at $89/month—no setup fees, no training costs, no contracts."
   },
   {
     question: "Can I switch from ServiceTitan without losing data?",
-    answer: "Yes. Export your customer data, job history, and pricing from ServiceTitan as CSV files, then import into Creative Job Hub. The process takes about 30 minutes. We provide step-by-step migration guides and free support to help you transition smoothly. You won't lose any historical data or customer information."
+    answer: "Yes. Export your customer data, job history, and pricing from ServiceTitan as CSV files, then import into Crew Ops Pro. The process takes about 30 minutes. We provide step-by-step migration guides and free support to help you transition smoothly. You won't lose any historical data or customer information."
   },
   {
-    question: "What features does ServiceTitan have that Creative Job Hub doesn't?",
-    answer: "ServiceTitan offers advanced enterprise features like call center integration, marketing automation campaigns, franchise management, and multi-location inventory tracking. If you run a large operation with multiple locations and need those specific tools, ServiceTitan might be worth the cost. For most contractors, Creative Job Hub provides everything needed to run efficiently at a fraction of the price."
+    question: "What features does ServiceTitan have that Crew Ops Pro doesn't?",
+    answer: "ServiceTitan offers advanced enterprise features like call center integration, marketing automation campaigns, franchise management, and multi-location inventory tracking. If you run a large operation with multiple locations and need those specific tools, ServiceTitan might be worth the cost. For most contractors, Crew Ops Pro provides everything needed to run efficiently at a fraction of the price."
   }
 ];
 
@@ -29,14 +29,14 @@ export default function VsServiceTitan() {
       <SEO 
         title="ServiceTitan Costs More Than a New Truck. We Cost $89/Month."
         description="ServiceTitan's pricing starts at $9,000/year + implementation fees. That's a down payment on a Ford F-250. Or you could pay $89/month and buy the truck instead."
-        keywords="ServiceTitan alternative, affordable ServiceTitan, Creative Job Hub vs ServiceTitan"
+        keywords="ServiceTitan alternative, affordable ServiceTitan, Crew Ops Pro vs ServiceTitan"
       />
       
       <Breadcrumbs 
         items={[
           { label: 'Home', path: '/' },
           { label: 'Competitors', path: '/competitors' },
-          { label: 'Creative Job Hub vs ServiceTitan' }
+          { label: 'Crew Ops Pro vs ServiceTitan' }
         ]} 
       />
       
@@ -45,7 +45,7 @@ export default function VsServiceTitan() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Creative Job Hub vs ServiceTitan
+              Crew Ops Pro vs ServiceTitan
             </h1>
             <p className="text-2xl text-gray-600 mb-4">
               Save $4,932/year without the enterprise complexity
@@ -77,7 +77,7 @@ export default function VsServiceTitan() {
               <div className="absolute -top-4 right-4 bg-orange-500 text-white px-4 py-1 rounded-full font-bold text-sm">
                 BEST VALUE
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Crew Ops Pro</h3>
               <div className="text-4xl font-bold text-green-600 mb-4">$89/month</div>
               <div className="space-y-2 text-gray-700 mb-6">
                 <p>• All features included</p>
@@ -156,7 +156,7 @@ export default function VsServiceTitan() {
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold text-gray-900 mb-3">Creative Job Hub Is Better If You:</h4>
+                <h4 className="font-bold text-gray-900 mb-3">Crew Ops Pro Is Better If You:</h4>
                 <ul className="space-y-2 text-gray-700">
                   <li>✓ Have 1-20 trucks</li>
                   <li>✓ Owner-operated or small team</li>
@@ -183,7 +183,7 @@ export default function VsServiceTitan() {
                 <tr className="bg-gray-50 border-b-2 border-gray-200">
                   <th className="text-left p-4 font-bold text-gray-900">Feature</th>
                   <th className="text-center p-4 font-bold text-gray-900">ServiceTitan</th>
-                  <th className="text-center p-4 font-bold text-blue-600">Creative Job Hub</th>
+                  <th className="text-center p-4 font-bold text-blue-600">Crew Ops Pro</th>
                 </tr>
               </thead>
               <tbody>
@@ -234,7 +234,7 @@ export default function VsServiceTitan() {
                 "They quoted me $650/month for my 3-truck operation. That's $7,800/year! I don't even have an office staff. The math just doesn't work for small businesses like mine."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: $89/mo = save $6,732/year
+                ✓ Crew Ops Pro: $89/mo = save $6,732/year
               </p>
             </div>
 
@@ -244,7 +244,7 @@ export default function VsServiceTitan() {
                 "Took 6 weeks to get it configured and another 2 weeks training my guys. Lost jobs because we couldn't quote fast enough during setup. Not worth it for a small team."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Up and running in minutes
+                ✓ Crew Ops Pro: Up and running in minutes
               </p>
             </div>
 
@@ -254,7 +254,7 @@ export default function VsServiceTitan() {
                 "Has features we'll never use. My technicians just need to see their schedule, navigate to jobs, and collect payment. ServiceTitan felt like using a 747 cockpit to drive a pickup truck."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Simple tools that do the job
+                ✓ Crew Ops Pro: Simple tools that do the job
               </p>
             </div>
 
@@ -264,7 +264,7 @@ export default function VsServiceTitan() {
                 "They wanted a 2-year contract. What if it doesn't work out? What if my business changes? Too much risk for a small operation to commit $15,000+ upfront."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: No contracts, cancel anytime
+                ✓ Crew Ops Pro: No contracts, cancel anytime
               </p>
             </div>
           </div>
@@ -306,9 +306,9 @@ export default function VsServiceTitan() {
               </div>
             </div>
 
-            {/* Creative Job Hub */}
+            {/* Crew Ops Pro */}
             <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg shadow-lg p-8 text-white border-t-4 border-orange-500">
-              <h3 className="text-2xl font-bold mb-6 text-center">Choose Creative Job Hub If...</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">Choose Crew Ops Pro If...</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">🏠</span>
@@ -349,7 +349,7 @@ export default function VsServiceTitan() {
                 <tr className="border-b-2 border-gray-300">
                   <th className="text-left p-4 text-gray-900">Timeframe</th>
                   <th className="text-right p-4 text-gray-900">ServiceTitan</th>
-                  <th className="text-right p-4 text-blue-600">Creative Job Hub</th>
+                  <th className="text-right p-4 text-blue-600">Crew Ops Pro</th>
                   <th className="text-right p-4 text-green-600">You Save</th>
                 </tr>
               </thead>
@@ -410,7 +410,7 @@ export default function VsServiceTitan() {
                 ))}
               </div>
               <p className="text-xl text-gray-700 italic mb-6">
-                "We almost signed with ServiceTitan at $725/month. Thank god we found Creative Job Hub first. We're getting everything we need for $89/month. That's $7,632 saved every year. Over 3 years, that's $22,896 - enough to buy a brand new service van. Best decision I made this year."
+                "We almost signed with ServiceTitan at $725/month. Thank god we found Crew Ops Pro first. We're getting everything we need for $89/month. That's $7,632 saved every year. Over 3 years, that's $22,896 - enough to buy a brand new service van. Best decision I made this year."
               </p>
               <div>
                 <p className="font-bold text-gray-900">— Robert K., HVAC Owner</p>
@@ -431,7 +431,7 @@ export default function VsServiceTitan() {
           <div className="space-y-6">
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">
-                Is Creative Job Hub too "simple" compared to ServiceTitan?
+                Is Crew Ops Pro too "simple" compared to ServiceTitan?
               </h3>
               <p className="text-gray-600">
                 Not at all. We have all the core features you need: scheduling, GPS, invoicing, payments, customer portal, QuickBooks sync, and more. We just don't have the enterprise features you'll never use (like call center routing for 100+ agents). Simple doesn't mean limited - it means focused on what matters.
@@ -440,10 +440,10 @@ export default function VsServiceTitan() {
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">
-                Can I grow with Creative Job Hub or will I outgrow it?
+                Can I grow with Crew Ops Pro or will I outgrow it?
               </h3>
               <p className="text-gray-600">
-                You can grow from 1 truck to 20+ trucks on Creative Job Hub. Most contractors doing under $5M/year will never outgrow it. If you grow into a $10M+ enterprise operation, congrats! At that point ServiceTitan might make sense. But that's years away for most businesses.
+                You can grow from 1 truck to 20+ trucks on Crew Ops Pro. Most contractors doing under $5M/year will never outgrow it. If you grow into a $10M+ enterprise operation, congrats! At that point ServiceTitan might make sense. But that's years away for most businesses.
               </p>
             </div>
 
@@ -458,7 +458,7 @@ export default function VsServiceTitan() {
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">
-                How can Creative Job Hub be so much cheaper?
+                How can Crew Ops Pro be so much cheaper?
               </h3>
               <p className="text-gray-600">
                 We don't have a massive sales team, expensive marketing, or bloated enterprise features. We're built by a contractor, for contractors. We focus on what you actually need and price it fairly. No venture capital pressure to overcharge. No salespeople earning commissions. Just honest pricing for honest work.

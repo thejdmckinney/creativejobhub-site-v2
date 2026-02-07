@@ -133,12 +133,12 @@ export default function StripeSetup() {
                 <div>
                   <div className="flex items-center gap-3 mb-3">
                     <div className="flex items-center justify-center w-8 h-8 bg-blue-600 text-white rounded-full font-bold text-sm">4</div>
-                    <h3 className="text-xl font-bold text-gray-900">Connect to Creative Job Hub</h3>
+                    <h3 className="text-xl font-bold text-gray-900">Connect to Crew Ops Pro</h3>
                   </div>
                   <div className="ml-11">
                     <div className="bg-gray-100 rounded-lg p-4">
                       <ol className="space-y-2 text-gray-700 text-sm list-decimal list-inside">
-                        <li>Go to Creative Job Hub → Settings → Integrations</li>
+                        <li>Go to Crew Ops Pro → Settings → Integrations</li>
                         <li>Click "Connect Stripe"</li>
                         <li>Paste your Publishable Key</li>
                         <li>Paste your Secret Key</li>
@@ -168,7 +168,7 @@ export default function StripeSetup() {
                   </ul>
                 </div>
                 <p className="text-gray-700 italic">
-                  This is the same rate whether you use Creative Job Hub, Jobber, or any other software. The difference? We don't add our own fee on top!
+                  This is the same rate whether you use Crew Ops Pro, Jobber, or any other software. The difference? We don't add our own fee on top!
                 </p>
               </div>
             </div>

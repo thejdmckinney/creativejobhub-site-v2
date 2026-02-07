@@ -8,15 +8,15 @@ export default function VsServiceM8() {
     <div className="bg-white">
       <SEO 
         title="ServiceM8: $129/Month Per User. Us: $89/Month Total."
-        description="Add 5 users on ServiceM8 = $645/month. Add 50 users on Creative Job Hub = $89/month. Per-user pricing doesn't scale. We do. Try free for 14 days."
-        keywords="ServiceM8 alternative, Creative Job Hub vs ServiceM8, ServiceM8 comparison"
+        description="Add 5 users on ServiceM8 = $645/month. Add 50 users on Crew Ops Pro = $89/month. Per-user pricing doesn't scale. We do. Try free for 14 days."
+        keywords="ServiceM8 alternative, Crew Ops Pro vs ServiceM8, ServiceM8 comparison"
       />
       
       <Breadcrumbs 
         items={[
           { label: 'Home', path: '/' },
           { label: 'Competitors', path: '/competitors' },
-          { label: 'Creative Job Hub vs ServiceM8' }
+          { label: 'Crew Ops Pro vs ServiceM8' }
         ]} 
       />
       
@@ -25,7 +25,7 @@ export default function VsServiceM8() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Creative Job Hub vs ServiceM8
+              Crew Ops Pro vs ServiceM8
             </h1>
             <p className="text-2xl text-gray-600 mb-4">
               Save $480/year with more powerful features
@@ -56,7 +56,7 @@ export default function VsServiceM8() {
               <div className="absolute -top-4 right-4 bg-orange-500 text-white px-4 py-1 rounded-full font-bold text-sm">
                 BEST VALUE
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Crew Ops Pro</h3>
               <div className="text-4xl font-bold text-green-600 mb-4">$89/month</div>
               <div className="space-y-2 text-gray-700 mb-6">
                 <p>• Advanced automation</p>
@@ -97,7 +97,7 @@ export default function VsServiceM8() {
                 <tr className="bg-gray-50 border-b-2 border-gray-200">
                   <th className="text-left p-4 font-bold text-gray-900">Feature</th>
                   <th className="text-center p-4 font-bold text-gray-900">ServiceM8</th>
-                  <th className="text-center p-4 font-bold text-blue-600">Creative Job Hub</th>
+                  <th className="text-center p-4 font-bold text-blue-600">Crew Ops Pro</th>
                 </tr>
               </thead>
               <tbody>
@@ -168,7 +168,7 @@ export default function VsServiceM8() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Contractors Switch to Creative Job Hub
+            Why Contractors Switch to Crew Ops Pro
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -236,7 +236,7 @@ export default function VsServiceM8() {
                 "Started at $129/month for 2 users. Now I have 6 staff and paying $389/month. Costs doubled as we grew."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Unlimited users at $89/month flat
+                ✓ Crew Ops Pro: Unlimited users at $89/month flat
               </p>
             </div>
 
@@ -246,7 +246,7 @@ export default function VsServiceM8() {
                 "Built for Australian market. US contractors hit roadblocks with invoicing, taxes, and local integrations."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Built specifically for US contractors
+                ✓ Crew Ops Pro: Built specifically for US contractors
               </p>
             </div>
 
@@ -256,7 +256,7 @@ export default function VsServiceM8() {
                 "When I lose signal in rural areas, can't access job details or customer info. Dead in the water."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Full offline mode with auto-sync
+                ✓ Crew Ops Pro: Full offline mode with auto-sync
               </p>
             </div>
 
@@ -266,7 +266,7 @@ export default function VsServiceM8() {
                 "Generic forms for everything. I run a pool service - need chemical tracking. ServiceM8 doesn't have it."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Pool, chimney, handyman tools built-in
+                ✓ Crew Ops Pro: Pool, chimney, handyman tools built-in
               </p>
             </div>
           </div>
@@ -358,7 +358,7 @@ export default function VsServiceM8() {
                 <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold">
                   2
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Import Into Creative Job Hub</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Import Into Crew Ops Pro</h3>
               </div>
               <p className="text-gray-700 ml-16">
                 Upload your CSV file. We'll map the fields automatically. Review and import - done in 5 minutes.
@@ -392,7 +392,7 @@ export default function VsServiceM8() {
             <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6">
               <h3 className="text-xl font-bold text-green-900 mb-3">💡 Pro Tip for ServiceM8 Users</h3>
               <p className="text-gray-700">
-                Keep ServiceM8 running for 1 week while you test Creative Job Hub. Cancel ServiceM8 once you're confident. No overlap fees.
+                Keep ServiceM8 running for 1 week while you test Crew Ops Pro. Cancel ServiceM8 once you're confident. No overlap fees.
               </p>
             </div>
           </div>
@@ -404,7 +404,7 @@ export default function VsServiceM8() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-6xl mb-6">💬</div>
           <blockquote className="text-2xl font-medium mb-6">
-            "ServiceM8 worked fine when it was just me and one helper. But as we grew to 5 people, the per-user costs added up fast. Switched to Creative Job Hub and cut our software bill in half while getting better automation features."
+            "ServiceM8 worked fine when it was just me and one helper. But as we grew to 5 people, the per-user costs added up fast. Switched to Crew Ops Pro and cut our software bill in half while getting better automation features."
           </blockquote>
           <p className="text-xl text-blue-100">
             — Carlos D., Landscaping & Lawn Care

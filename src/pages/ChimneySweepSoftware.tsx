@@ -39,8 +39,8 @@ export default function ChimneySweepSoftware() {
         keywords="chimney sweep software, CSIA inspection software, creosote tracking, chimney inspection app, chimney sweep business software, CSIA checklist app"
       />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'Chimney Sweep Software', url: 'https://www.creativejobhub.com/chimney-sweep-software' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'Chimney Sweep Software', url: 'https://www.crewopspro.com/chimney-sweep-software' }
       ]} />
       
       <Breadcrumbs 
@@ -70,7 +70,7 @@ export default function ChimneySweepSoftware() {
           <div className="max-w-4xl mx-auto mb-12">
             <img 
               src={csiaInspectionImage} 
-              alt="CSIA Inspection Checklist and Creosote Tracking in Creative Job Hub Mobile App" 
+              alt="CSIA Inspection Checklist and Creosote Tracking in Crew Ops Pro Mobile App" 
               className="w-full rounded-lg shadow-2xl border-4 border-gray-200"
               loading="lazy"
             />
@@ -100,7 +100,7 @@ export default function ChimneySweepSoftware() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">
-            Why Chimney Sweeps Choose Creative Job Hub
+            Why Chimney Sweeps Choose Crew Ops Pro
           </h2>
           <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             We're not generic field service software trying to serve everyone. We built features specifically for chimney professionals.
@@ -258,7 +258,7 @@ export default function ChimneySweepSoftware() {
               <thead>
                 <tr className="bg-gray-100">
                   <th className="text-left p-4 font-semibold text-gray-900">Feature</th>
-                  <th className="text-center p-4 font-semibold text-blue-600">Creative Job Hub</th>
+                  <th className="text-center p-4 font-semibold text-blue-600">Crew Ops Pro</th>
                   <th className="text-center p-4 font-semibold text-gray-600">Jobber</th>
                   <th className="text-center p-4 font-semibold text-gray-600">Housecall Pro</th>
                 </tr>
@@ -391,7 +391,7 @@ export default function ChimneySweepSoftware() {
             </Link>
           </div>
           <p className="text-gray-600 mt-6">
-            Questions? <a href="mailto:support@creativejobhub.com" className="text-blue-600 hover:text-blue-700">Contact us</a> - we're here to help.
+            Questions? <a href="mailto:support@crewopspro.com" className="text-blue-600 hover:text-blue-700">Contact us</a> - we're here to help.
           </p>
         </div>
       </section>

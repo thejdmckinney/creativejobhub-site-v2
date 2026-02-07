@@ -11,7 +11,7 @@ export default function GeneralContractorsSoftware() {
   const faqs = [
     {
       question: "What types of contractors can use this software?",
-      answer: "All types! Remodeling, roofing, carpentry, flooring, drywall, masonry, fencing, decking, siding, gutters, insulation, tile work, concrete, framing, and more. If you run a field service business, Creative Job Hub handles it. One software for all your trades."
+      answer: "All types! Remodeling, roofing, carpentry, flooring, drywall, masonry, fencing, decking, siding, gutters, insulation, tile work, concrete, framing, and more. If you run a field service business, Crew Ops Pro handles it. One software for all your trades."
     },
     {
       question: "Can I manage multiple projects and crews at once?",
@@ -55,14 +55,14 @@ export default function GeneralContractorsSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="General Contractor Software | Creative Job Hub"
+        title="General Contractor Software | Crew Ops Pro"
         description="Field service software for ALL contractor types: remodeling, roofing, carpentry, flooring, drywall, masonry, fencing, decking, and more. Manage projects, crews, and subcontractors. $89/month flat."
         keywords="general contractor software, contractor management software, construction software, field service software, contractor app, remodeling software, roofing software"
       />
       <SoftwareApplicationSchema />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'General Contractors', url: 'https://www.creativejobhub.com/general-contractors-software' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'General Contractors', url: 'https://www.crewopspro.com/general-contractors-software' }
       ]} />
       
       <Breadcrumbs 
@@ -112,14 +112,14 @@ export default function GeneralContractorsSoftware() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why General Contractors Choose Creative Job Hub
+            Why General Contractors Choose Crew Ops Pro
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-5xl mb-4">🛠️</div>
               <h3 className="text-xl font-semibold mb-2">Works for All Trades</h3>
               <p className="text-gray-600">
-                One platform that handles every type of contracting work. Whether you're doing kitchen remodels, roof replacements, or custom carpentry, Creative Job Hub adapts to your business.
+                One platform that handles every type of contracting work. Whether you're doing kitchen remodels, roof replacements, or custom carpentry, Crew Ops Pro adapts to your business.
               </p>
             </div>
             <div className="text-center">
@@ -147,7 +147,7 @@ export default function GeneralContractorsSoftware() {
             We Support Every Type of Contractor
           </h2>
           <p className="text-xl text-center text-gray-600 mb-12">
-            No matter what trade you're in, Creative Job Hub has you covered
+            No matter what trade you're in, Crew Ops Pro has you covered
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-4 rounded-lg shadow-md text-center">
@@ -357,7 +357,7 @@ export default function GeneralContractorsSoftware() {
             Ready to Simplify Your Contracting Business?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Join contractors across all trades who switched from spreadsheets and complicated software to Creative Job Hub.
+            Join contractors across all trades who switched from spreadsheets and complicated software to Crew Ops Pro.
           </p>
           <Link 
             to="/signup"

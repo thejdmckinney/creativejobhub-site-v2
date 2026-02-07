@@ -2,22 +2,22 @@ import { Helmet } from 'react-helmet-async';
 
 /**
  * Organization Schema Markup
- * Tells Google about Creative Job Hub as a software company
+ * Tells Google about Crew Ops Pro as a software company
  * This enables rich results, knowledge panels, and brand recognition
  */
 export default function OrganizationSchema() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": ["Organization", "SoftwareApplication"],
-    "@id": "https://www.creativejobhub.com/#organization",
-    "name": "Creative Job Hub",
-    "legalName": "Creative Job Hub LLC",
-    "url": "https://www.creativejobhub.com",
-    "logo": "https://www.creativejobhub.com/cjh-og-image.png",
+    "@id": "https://www.crewopspro.com/#organization",
+    "name": "Crew Ops Pro",
+    "legalName": "Crew Ops Pro LLC",
+    "url": "https://www.crewopspro.com",
+    "logo": "https://www.crewopspro.com/cjh-og-image.png",
     "description": "Field service management software for contractors. Scheduling, estimates, invoicing, QuickBooks integration. Built by a contractor for contractors.",
     "foundingDate": "2025",
     "slogan": "Field Service Software That Doesn't Cost More Than Your Truck Payment",
-    "email": "support@creativejobhub.com",
+    "email": "support@crewopspro.com",
     "telephone": "+1-682-466-2130", // Replace with real phone number
     
     // Software Application Details
@@ -29,7 +29,7 @@ export default function OrganizationSchema() {
       "priceCurrency": "USD",
       "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
-      "url": "https://www.creativejobhub.com/pricing"
+      "url": "https://www.crewopspro.com/pricing"
     },
     
     // Aggregate Rating from your 433 reviews
@@ -52,7 +52,7 @@ export default function OrganizationSchema() {
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "Customer Support",
-      "email": "support@creativejobhub.com",
+      "email": "support@crewopspro.com",
       "availableLanguage": "English"
     }
   };

@@ -19,8 +19,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // Send email via Resend
     await resend.emails.send({
-      from: 'Contact Form <noreply@creativejobhub.com>', // Update with your verified domain
-      to: ['jeremy@creativejobhub.com'], // Your email address
+      from: 'Contact Form <noreply@crewopspro.com>', // Update with your verified domain
+      to: ['jeremy@crewopspro.com'], // Your email address
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `

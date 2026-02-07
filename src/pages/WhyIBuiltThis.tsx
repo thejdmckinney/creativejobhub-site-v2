@@ -7,8 +7,8 @@ export default function WhyIBuiltThis() {
     <div className="bg-white">
       <SEO 
         title="I Burned $10K on Field Service Software. Then I Built My Own for $89/Month."
-        description="Jobber wanted $300/month. Housecall Pro nickel-and-dimed me. ServiceTitan laughed at my 3-person team. So I learned to code and built Creative Job Hub. Here's why."
-        keywords="contractor software story, why Creative Job Hub, field service software founder"
+        description="Jobber wanted $300/month. Housecall Pro nickel-and-dimed me. ServiceTitan laughed at my 3-person team. So I learned to code and built Crew Ops Pro. Here's why."
+        keywords="contractor software story, why Crew Ops Pro, field service software founder"
       />
       
       {/* Hero Section */}
@@ -80,7 +80,7 @@ export default function WhyIBuiltThis() {
               That's when I realized: <span className="font-semibold">These platforms are built by software people for generic businesses. Not by contractors for contractors.</span>
             </p>
 
-            <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">So I Built Creative Job Hub</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">So I Built Crew Ops Pro</h2>
 
             <p className="text-xl text-gray-700 mb-6">
               I built the software I wish I had from day one. Something that:
@@ -136,7 +136,7 @@ export default function WhyIBuiltThis() {
             </p>
 
             <p className="text-xl text-gray-700 mb-6">
-              Creative Job Hub includes a <span className="font-semibold">Marketing Campaign Manager</span> with:
+              Crew Ops Pro includes a <span className="font-semibold">Marketing Campaign Manager</span> with:
             </p>
 
             <ul className="space-y-3 mb-8 text-xl text-gray-700">
@@ -167,7 +167,7 @@ export default function WhyIBuiltThis() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">Built By Someone Who Actually Uses It</h2>
 
             <p className="text-xl text-gray-700 mb-6">
-              I use Creative Job Hub every single day to run Creative Constructors. If something doesn't work in the field, I fix it. If a feature is missing, I add it.
+              I use Crew Ops Pro every single day to run Creative Constructors. If something doesn't work in the field, I fix it. If a feature is missing, I add it.
             </p>
 
             <p className="text-xl text-gray-700 mb-6">
@@ -239,8 +239,8 @@ export default function WhyIBuiltThis() {
           </Link>
           <p className="text-blue-100">
             Questions? Email me directly:{' '}
-            <a href="mailto:jeremy@creativejobhub.com" className="text-white font-semibold hover:underline">
-              jeremy@creativejobhub.com
+            <a href="mailto:jeremy@crewopspro.com" className="text-white font-semibold hover:underline">
+              jeremy@crewopspro.com
             </a>
           </p>
         </div>

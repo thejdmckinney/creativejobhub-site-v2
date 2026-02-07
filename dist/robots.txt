@@ -1,9 +1,9 @@
-# robots.txt for Creative Job Hub
+# robots.txt for Crew Ops Pro
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.creativejobhub.com/sitemap.xml
+Sitemap: https://www.crewopspro.com/sitemap.xml
 
 # Disallow admin or test pages (if any)
 Disallow: /admin/

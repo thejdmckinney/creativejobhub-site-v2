@@ -52,7 +52,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     // Note: Resend batch endpoint allows sending to multiple recipients
     const { error: sendError } = await resend.batch.send(
       emails.map(email => ({
-        from: 'Creative Job Hub <noreply@creativejobhub.com>',
+        from: 'Creative Job Hub <noreply@crewopspro.com>',
         to: email,
         subject: subject,
         html: `

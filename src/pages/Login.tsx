@@ -6,14 +6,14 @@ import StarRating from '../components/StarRating';
 export default function Login() {
   useEffect(() => {
     // Redirect to the app login page
-    window.location.href = 'https://app.creativejobhub.com/auth';
+    window.location.href = 'https://app.crewopspro.com/auth';
   }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <SEO 
-        title="Login - Creative Job Hub"
-        description="Login to your Creative Job Hub account to manage jobs, create estimates, schedule work, and grow your contracting business."
+        title="Login - Crew Ops Pro"
+        description="Login to your Crew Ops Pro account to manage jobs, create estimates, schedule work, and grow your contracting business."
         keywords="login, field service login, contractor portal"
         noIndex={true}
       />
@@ -35,7 +35,7 @@ export default function Login() {
         <div className="bg-white rounded-lg shadow-lg p-8">
           <div className="text-center mb-8">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              Login to Creative Job Hub
+              Login to Crew Ops Pro
             </h1>
             <p className="text-gray-600 mb-6">
               Redirecting you to the app login...
@@ -53,7 +53,7 @@ export default function Login() {
                 If you're not redirected automatically,
               </p>
               <a
-                href="https://app.creativejobhub.com/auth"
+                href="https://app.crewopspro.com/auth"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
               >
                 Click here to login

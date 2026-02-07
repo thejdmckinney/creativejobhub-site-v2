@@ -204,7 +204,7 @@ export default function BlogPost() {
               Ready to streamline your field service business?
             </h3>
             <p className="text-blue-100 mb-6">
-              Creative Job Hub is built by contractors, for contractors. Start your free trial today.
+              Crew Ops Pro is built by contractors, for contractors. Start your free trial today.
             </p>
             <Link 
               to="/signup"

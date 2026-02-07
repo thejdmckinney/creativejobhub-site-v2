@@ -12,36 +12,36 @@ import jobDetailsImage from '../assets/job-details.png';
 
 const faqs = [
   {
-    question: "How hard is it to switch from Jobber to Creative Job Hub?",
-    answer: "Switching is straightforward and takes about 2 hours total. Export your customer data from Jobber as CSV files (Settings → Export Data), then import directly into Creative Job Hub. Most contractors complete the entire migration in an afternoon. We provide step-by-step guides and free support during your transition. You can even run both systems in parallel during your 14-day trial to ensure everything transfers correctly before canceling Jobber."
+    question: "How hard is it to switch from Jobber to Crew Ops Pro?",
+    answer: "Switching is straightforward and takes about 2 hours total. Export your customer data from Jobber as CSV files (Settings → Export Data), then import directly into Crew Ops Pro. Most contractors complete the entire migration in an afternoon. We provide step-by-step guides and free support during your transition. You can even run both systems in parallel during your 14-day trial to ensure everything transfers correctly before canceling Jobber."
   },
   {
     question: "Will I lose my customer data, job history, or invoices when switching?",
-    answer: "No, you won't lose anything. You own your data in Jobber, and you can export everything: customers, properties, job history, notes, invoices, and estimates. Creative Job Hub's import tool maps your Jobber fields automatically, preserving all your historical data. Your customers won't notice any change—their information, preferences, and history come with you seamlessly."
+    answer: "No, you won't lose anything. You own your data in Jobber, and you can export everything: customers, properties, job history, notes, invoices, and estimates. Crew Ops Pro's import tool maps your Jobber fields automatically, preserving all your historical data. Your customers won't notice any change—their information, preferences, and history come with you seamlessly."
   },
   {
     question: "What about my team? Will they need extensive retraining?",
-    answer: "Creative Job Hub is actually simpler and more intuitive than Jobber. If your team can navigate Jobber, they'll pick up Creative Job Hub in about an hour. The mobile app is clean and straightforward—no bloated menus or confusing navigation. We provide video tutorials, quick-start guides, and live support to get your team up to speed quickly. Many contractors report their team prefers Creative Job Hub because it's faster and less cluttered."
+    answer: "Crew Ops Pro is actually simpler and more intuitive than Jobber. If your team can navigate Jobber, they'll pick up Crew Ops Pro in about an hour. The mobile app is clean and straightforward—no bloated menus or confusing navigation. We provide video tutorials, quick-start guides, and live support to get your team up to speed quickly. Many contractors report their team prefers Crew Ops Pro because it's faster and less cluttered."
   },
   {
-    question: "Can I try Creative Job Hub before canceling my Jobber subscription?",
-    answer: "Absolutely! Start your 14-day free trial. Import your Jobber data and run both systems side-by-side if you want. Test everything: create estimates, schedule jobs, process payments, run your actual business on Creative Job Hub while keeping Jobber as a safety net. Only cancel Jobber once you're 100% confident. Most contractors know within 3-4 days that Creative Job Hub is the better choice."
+    question: "Can I try Crew Ops Pro before canceling my Jobber subscription?",
+    answer: "Absolutely! Start your 14-day free trial. Import your Jobber data and run both systems side-by-side if you want. Test everything: create estimates, schedule jobs, process payments, run your actual business on Crew Ops Pro while keeping Jobber as a safety net. Only cancel Jobber once you're 100% confident. Most contractors know within 3-4 days that Crew Ops Pro is the better choice."
   },
   {
-    question: "Does Creative Job Hub really include GPS tracking, unlimited users, and unlimited texts?",
+    question: "Does Crew Ops Pro really include GPS tracking, unlimited users, and unlimited texts?",
     answer: "Yes, everything is included at $89/month—no tiers, no add-ons, no games. GPS tracking, unlimited team members, unlimited text messages, automated workflows, service plans, custom forms, marketing campaigns, QuickBooks sync, mobile apps, online booking, payment processing, and industry-specific tools (pool, chimney, HVAC). What you see is what you get. No surprise charges ever."
   },
   {
-    question: "What if I have 10+ employees? Is Creative Job Hub still $89/month?",
-    answer: "Yes. $89/month flat whether you have 1 employee or 100. No per-user fees, no volume discounts needed—just one simple price. This is a massive advantage as your business grows. On Jobber, 10 users costs $579/month ($6,948/year). On Creative Job Hub, it's still $89/month ($1,068/year). You save $5,880 annually with a 10-person team—and the savings compound as you hire more."
+    question: "What if I have 10+ employees? Is Crew Ops Pro still $89/month?",
+    answer: "Yes. $89/month flat whether you have 1 employee or 100. No per-user fees, no volume discounts needed—just one simple price. This is a massive advantage as your business grows. On Jobber, 10 users costs $579/month ($6,948/year). On Crew Ops Pro, it's still $89/month ($1,068/year). You save $5,880 annually with a 10-person team—and the savings compound as you hire more."
   },
   {
-    question: "How does Creative Job Hub compare to Jobber's mobile app?",
+    question: "How does Crew Ops Pro compare to Jobber's mobile app?",
     answer: "Our mobile app (iOS and Android) is built specifically for field techs who need to work fast. It's faster, cleaner, and has fewer steps than Jobber's app. Techs can clock in, view job details, complete checklists, capture photos, collect payments, and generate invoices—all offline if needed. Data syncs automatically when back online. The interface is intuitive enough that most techs start using it effectively on their first job without formal training."
   },
   {
     question: "What happens to my Jobber integrations (QuickBooks, Google Calendar, etc.)?",
-    answer: "Creative Job Hub integrates with QuickBooks Online for accounting sync, Google Calendar for scheduling, Stripe for payment processing, Mailchimp for email marketing, and Zapier for connecting to 5,000+ other apps. If you're using a specific integration in Jobber, check our integrations page or contact us—we'll let you know if it's supported or in development. Most popular integrations are already built-in."
+    answer: "Crew Ops Pro integrates with QuickBooks Online for accounting sync, Google Calendar for scheduling, Stripe for payment processing, Mailchimp for email marketing, and Zapier for connecting to 5,000+ other apps. If you're using a specific integration in Jobber, check our integrations page or contact us—we'll let you know if it's supported or in development. Most popular integrations are already built-in."
   }
 ];
 
@@ -50,8 +50,8 @@ export default function VsJobber() {
     <div className="bg-white">
       <SEO 
         title="Jobber Charges $50 Per User. We Charge $89 for Unlimited Users. Seriously."
-        description="5 users on Jobber = $250/month ($3,000/year). 50 users on Creative Job Hub = $89/month ($1,068/year). Why are you still using Jobber?"
-        keywords="Jobber alternative, alternative to Jobber, best Jobber alternatives, cheaper than Jobber, Jobber vs Creative Job Hub, Jobber competitor, switch from Jobber, Jobber pricing alternative"
+        description="5 users on Jobber = $250/month ($3,000/year). 50 users on Crew Ops Pro = $89/month ($1,068/year). Why are you still using Jobber?"
+        keywords="Jobber alternative, alternative to Jobber, best Jobber alternatives, cheaper than Jobber, Jobber vs Crew Ops Pro, Jobber competitor, switch from Jobber, Jobber pricing alternative"
       />
       <FAQSchema faqs={faqs} />
       
@@ -59,7 +59,7 @@ export default function VsJobber() {
         items={[
           { label: 'Home', path: '/' },
           { label: 'Competitors', path: '/competitors' },
-          { label: 'Creative Job Hub vs Jobber' }
+          { label: 'Crew Ops Pro vs Jobber' }
         ]} 
       />
       
@@ -68,7 +68,7 @@ export default function VsJobber() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
-              The #1 Jobber Alternative: Creative Job Hub
+              The #1 Jobber Alternative: Crew Ops Pro
             </h1>
             <p className="text-2xl text-gray-600 mb-6">
               All the features. No per-user fees. Save $3,240+ per year.
@@ -78,7 +78,7 @@ export default function VsJobber() {
           <div className="max-w-4xl mx-auto">
             <img 
               src={vsJobberImage} 
-              alt="Creative Job Hub vs Jobber Comparison" 
+              alt="Crew Ops Pro vs Jobber Comparison" 
               className="w-full rounded-lg shadow-2xl"
               loading="lazy"
             />
@@ -190,12 +190,12 @@ export default function VsJobber() {
               <p className="text-center text-sm text-gray-500">* Based on typical usage</p>
             </div>
 
-            {/* Creative Job Hub */}
+            {/* Crew Ops Pro */}
             <div className="bg-green-50 rounded-lg p-8 border-4 border-green-500 relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-6 py-2 rounded-full font-bold">
                 BEST VALUE
               </div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">Creative Job Hub</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">Crew Ops Pro</h3>
               <div className="space-y-4 text-lg text-gray-700 mb-6">
                 <div className="flex justify-between">
                   <span>Everything included:</span>
@@ -250,7 +250,7 @@ export default function VsJobber() {
                 </div>
 
                 <div className="bg-green-50 rounded p-4 border-2 border-green-500">
-                  <p className="font-bold text-gray-900 mb-2">Creative Job Hub:</p>
+                  <p className="font-bold text-gray-900 mb-2">Crew Ops Pro:</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>Everything: $89/mo</li>
                     <li>Unlimited users: $0</li>
@@ -287,7 +287,7 @@ export default function VsJobber() {
                 </div>
 
                 <div className="bg-green-50 rounded p-4 border-2 border-green-500">
-                  <p className="font-bold text-gray-900 mb-2">Creative Job Hub:</p>
+                  <p className="font-bold text-gray-900 mb-2">Crew Ops Pro:</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>Everything: $89/mo</li>
                     <li>Unlimited users: $0</li>
@@ -321,7 +321,7 @@ export default function VsJobber() {
                 </div>
 
                 <div className="bg-green-50 rounded p-4 border-2 border-green-500">
-                  <p className="font-bold text-gray-900 mb-2">Creative Job Hub:</p>
+                  <p className="font-bold text-gray-900 mb-2">Crew Ops Pro:</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>Everything: $89/mo</li>
                     <li>Unlimited users: $0</li>
@@ -344,7 +344,7 @@ export default function VsJobber() {
               The More You Grow, The More Jobber Costs—But We Don't
             </h3>
             <p className="text-xl text-orange-100 mb-6">
-              Creative Job Hub is $89/month whether you have 1 employee or 100. Scale without fear.
+              Crew Ops Pro is $89/month whether you have 1 employee or 100. Scale without fear.
             </p>
             <Link 
               to="/signup"
@@ -368,7 +368,7 @@ export default function VsJobber() {
               <thead className="bg-gray-100">
                 <tr>
                   <th className="px-6 py-4 text-left text-lg font-bold text-gray-900">Feature</th>
-                  <th className="px-6 py-4 text-center text-lg font-bold text-blue-600">Creative Job Hub</th>
+                  <th className="px-6 py-4 text-center text-lg font-bold text-blue-600">Crew Ops Pro</th>
                   <th className="px-6 py-4 text-center text-lg font-bold text-gray-600">Jobber</th>
                 </tr>
               </thead>
@@ -457,7 +457,7 @@ export default function VsJobber() {
                 "Started at $199/month. Added 3 employees and now I'm at $319/month just for the base plan."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Unlimited users at $89/month
+                ✓ Crew Ops Pro: Unlimited users at $89/month
               </p>
             </div>
 
@@ -467,7 +467,7 @@ export default function VsJobber() {
                 "GPS tracking and automated workflows are locked behind the Grow plan. Had to upgrade just to track my team."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: All features included
+                ✓ Crew Ops Pro: All features included
               </p>
             </div>
 
@@ -477,7 +477,7 @@ export default function VsJobber() {
                 "Text reminders are $30/month on top of everything else. Why isn't this included?"
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Unlimited texts included
+                ✓ Crew Ops Pro: Unlimited texts included
               </p>
             </div>
 
@@ -487,7 +487,7 @@ export default function VsJobber() {
                 "I run a pool service company. No chemical tracking, no pool profiles. Just generic forms."
               </p>
               <p className="font-semibold text-green-700">
-                ✓ Creative Job Hub: Pool & chimney tools built-in
+                ✓ Crew Ops Pro: Pool & chimney tools built-in
               </p>
             </div>
           </div>
@@ -506,7 +506,7 @@ export default function VsJobber() {
               <div>
                 <p className="font-bold mb-2">They're Tired of Per-User Fees</p>
                 <p className="text-blue-100">
-                  "I hired 2 employees and my Jobber bill went from $199 to $279. Creative Job Hub stayed at $89."
+                  "I hired 2 employees and my Jobber bill went from $199 to $279. Crew Ops Pro stayed at $89."
                 </p>
               </div>
             </div>
@@ -526,7 +526,7 @@ export default function VsJobber() {
               <div>
                 <p className="font-bold mb-2">They Need Industry-Specific Tools</p>
                 <p className="text-blue-100">
-                  "Jobber doesn't have chemical tracking for my pool routes or CSIA compliance for chimney inspections. Creative Job Hub does."
+                  "Jobber doesn't have chemical tracking for my pool routes or CSIA compliance for chimney inspections. Crew Ops Pro does."
                 </p>
               </div>
             </div>
@@ -544,12 +544,12 @@ export default function VsJobber() {
         </div>
       </section>
 
-      {/* See Creative Job Hub in Action - Screenshots */}
+      {/* See Crew Ops Pro in Action - Screenshots */}
       <section className="py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              See Creative Job Hub in Action
+              See Crew Ops Pro in Action
             </h2>
             <p className="text-2xl text-gray-600">
               Clean, modern UI that's actually <span className="text-green-600 font-bold">easier to use</span> than Jobber—and <span className="text-green-600 font-bold">70% cheaper</span>
@@ -568,7 +568,7 @@ export default function VsJobber() {
               <div className="p-6">
                 <img 
                   src={dashboardImage} 
-                  alt="Creative Job Hub dashboard showing clean layout with daily schedule, revenue metrics, and job overview" 
+                  alt="Crew Ops Pro dashboard showing clean layout with daily schedule, revenue metrics, and job overview" 
                   className="w-full rounded-lg shadow-lg border border-gray-200"
                   loading="lazy"
                 />
@@ -714,7 +714,7 @@ export default function VsJobber() {
               Better Software. Cleaner Interface. 70% Less Cost.
             </h3>
             <p className="text-xl text-green-100 mb-6">
-              See for yourself why contractors are ditching Jobber's cluttered, expensive platform for Creative Job Hub's clean, affordable solution.
+              See for yourself why contractors are ditching Jobber's cluttered, expensive platform for Crew Ops Pro's clean, affordable solution.
             </p>
             <Link 
               to="/signup"
@@ -764,9 +764,9 @@ export default function VsJobber() {
               </div>
             </div>
 
-            {/* Creative Job Hub */}
+            {/* Crew Ops Pro */}
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Crew Ops Pro</h3>
               <div className="bg-green-50 rounded-lg p-6 border-4 border-green-500 h-full flex flex-col justify-center">
                 <p className="text-4xl font-bold text-gray-900 mb-4 text-center">$89/month</p>
                 <p className="text-center text-gray-600 mb-6">Everything. No tiers. No games.</p>
@@ -810,7 +810,7 @@ export default function VsJobber() {
       <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
-            How to Switch from Jobber to Creative Job Hub
+            How to Switch from Jobber to Crew Ops Pro
           </h2>
           <p className="text-xl text-center text-gray-600 mb-12">
             Most contractors complete the switch in under 2 hours. Here's exactly how to do it:
@@ -847,9 +847,9 @@ export default function VsJobber() {
                   2
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Set Up Your Creative Job Hub Account</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Set Up Your Crew Ops Pro Account</h3>
                   <p className="text-gray-700 mb-4">
-                    Sign up for your 14-day free trial at creativejobhub.com/signup. The setup wizard will guide you through:
+                    Sign up for your 14-day free trial at crewopspro.com/signup. The setup wizard will guide you through:
                   </p>
                   <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
                     <li><strong>Business information</strong> - Company name, logo, contact details</li>
@@ -872,10 +872,10 @@ export default function VsJobber() {
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-3">Import Your Jobber Data</h3>
                   <p className="text-gray-700 mb-4">
-                    In Creative Job Hub, go to <strong>Settings → Import Data</strong>. Upload your CSV files:
+                    In Crew Ops Pro, go to <strong>Settings → Import Data</strong>. Upload your CSV files:
                   </p>
                   <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
-                    <li><strong>Customer import</strong> - Map Jobber fields to Creative Job Hub fields (we auto-detect most)</li>
+                    <li><strong>Customer import</strong> - Map Jobber fields to Crew Ops Pro fields (we auto-detect most)</li>
                     <li><strong>Job history</strong> - Import past jobs to maintain customer history</li>
                     <li><strong>Review and confirm</strong> - Preview your data before finalizing</li>
                   </ul>
@@ -900,7 +900,7 @@ export default function VsJobber() {
                     Get your team up to speed in under an hour:
                   </p>
                   <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
-                    <li><strong>Mobile app setup</strong> - Download Creative Job Hub app (iOS/Android), log in, done</li>
+                    <li><strong>Mobile app setup</strong> - Download Crew Ops Pro app (iOS/Android), log in, done</li>
                     <li><strong>Quick training</strong> - Watch 5-minute video tutorials for key features</li>
                     <li><strong>Run parallel for a week</strong> - Keep Jobber active while team learns (optional)</li>
                     <li><strong>Cancel Jobber</strong> - Once confident, cancel your Jobber subscription</li>
@@ -961,8 +961,8 @@ export default function VsJobber() {
             </p>
             <p className="text-gray-700">
               Email Jeremy directly:{' '}
-              <a href="mailto:jeremy@creativejobhub.com" className="text-blue-600 font-semibold hover:underline">
-                jeremy@creativejobhub.com
+              <a href="mailto:jeremy@crewopspro.com" className="text-blue-600 font-semibold hover:underline">
+                jeremy@crewopspro.com
               </a>
             </p>
           </div>
@@ -994,7 +994,7 @@ export default function VsJobber() {
           </div>
           <p className="text-orange-100">
             Questions about switching?{' '}
-            <a href="mailto:jeremy@creativejobhub.com" className="text-white font-semibold hover:underline">
+            <a href="mailto:jeremy@crewopspro.com" className="text-white font-semibold hover:underline">
               Email me directly
             </a>
           </p>

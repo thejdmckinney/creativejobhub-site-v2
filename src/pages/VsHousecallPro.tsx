@@ -9,11 +9,11 @@ export default function VsHousecallPro() {
   const faqs = [
     {
       question: "Is switching from Housecall Pro difficult?",
-      answer: "Not at all. Export your customer list from Housecall Pro as a CSV file, import it into Creative Job Hub (takes about 10 minutes), and you're ready to go. Most contractors are fully switched within 2-3 days."
+      answer: "Not at all. Export your customer list from Housecall Pro as a CSV file, import it into Crew Ops Pro (takes about 10 minutes), and you're ready to go. Most contractors are fully switched within 2-3 days."
     },
     {
       question: "Will I lose my customer data when switching?",
-      answer: "No. Housecall Pro allows you to export all your customer data, job history, and notes. We'll help you import everything into Creative Job Hub so you don't lose any information."
+      answer: "No. Housecall Pro allows you to export all your customer data, job history, and notes. We'll help you import everything into Crew Ops Pro so you don't lose any information."
     },
     {
       question: "Do you really include unlimited users at $89/month?",
@@ -28,16 +28,16 @@ export default function VsHousecallPro() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Creative Job Hub vs Housecall Pro | Side-by-Side Review"
-        description="Compare Creative Job Hub vs Housecall Pro. Find the best job management software for your service business."
-        keywords="Housecall Pro alternative, Creative Job Hub vs Housecall Pro, Housecall Pro comparison"
+        title="Crew Ops Pro vs Housecall Pro | Side-by-Side Review"
+        description="Compare Crew Ops Pro vs Housecall Pro. Find the best job management software for your service business."
+        keywords="Housecall Pro alternative, Crew Ops Pro vs Housecall Pro, Housecall Pro comparison"
       />
       
       <Breadcrumbs 
         items={[
           { label: 'Home', path: '/' },
           { label: 'Competitors', path: '/competitors' },
-          { label: 'Creative Job Hub vs Housecall Pro' }
+          { label: 'Crew Ops Pro vs Housecall Pro' }
         ]} 
       />
       
@@ -46,7 +46,7 @@ export default function VsHousecallPro() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Creative Job Hub vs Housecall Pro
+              Crew Ops Pro vs Housecall Pro
             </h1>
             <p className="text-2xl text-gray-600 mb-4">
               Save $1,920/year and get better features
@@ -59,7 +59,7 @@ export default function VsHousecallPro() {
           <div className="max-w-4xl mx-auto mb-12">
             <img 
               src={vsHousecallProImage} 
-              alt="Creative Job Hub vs Housecall Pro Comparison" 
+              alt="Crew Ops Pro vs Housecall Pro Comparison" 
               className="w-full rounded-lg shadow-2xl"
               loading="lazy"
             />
@@ -85,7 +85,7 @@ export default function VsHousecallPro() {
               <div className="absolute -top-4 right-4 bg-orange-500 text-white px-4 py-1 rounded-full font-bold text-sm">
                 BEST VALUE
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Crew Ops Pro</h3>
               <div className="text-4xl font-bold text-green-600 mb-4">$89/month</div>
               <div className="space-y-2 text-gray-700 mb-6">
                 <p>• All features included</p>
@@ -126,7 +126,7 @@ export default function VsHousecallPro() {
                 <tr className="bg-gray-50 border-b-2 border-gray-200">
                   <th className="text-left p-4 font-bold text-gray-900">Feature</th>
                   <th className="text-center p-4 font-bold text-gray-900">Housecall Pro</th>
-                  <th className="text-center p-4 font-bold text-blue-600">Creative Job Hub</th>
+                  <th className="text-center p-4 font-bold text-blue-600">Crew Ops Pro</th>
                 </tr>
               </thead>
               <tbody>
@@ -176,7 +176,7 @@ export default function VsHousecallPro() {
                 "Started at $169/mo but ended up paying over $300 with all the add-ons we needed. Marketing automation should be standard, not a $50/month extra."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Everything included in $89/mo
+                ✓ Crew Ops Pro: Everything included in $89/mo
               </p>
             </div>
 
@@ -186,7 +186,7 @@ export default function VsHousecallPro() {
                 "The mobile app is slow and crashes frequently. Takes too many taps to do simple things when I'm on a ladder or in the truck."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Built for field use, fast and intuitive
+                ✓ Crew Ops Pro: Built for field use, fast and intuitive
               </p>
             </div>
 
@@ -196,7 +196,7 @@ export default function VsHousecallPro() {
                 "Adding team members costs extra every month. Went from $169 to $249 just by hiring 2 people. That's $960/year more for the same features."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Unlimited users at no extra cost
+                ✓ Crew Ops Pro: Unlimited users at no extra cost
               </p>
             </div>
 
@@ -206,7 +206,7 @@ export default function VsHousecallPro() {
                 "Doesn't have specialized features for my pool service business. Had to create workarounds for chemical tracking and maintenance schedules."
               </p>
               <p className="text-sm font-semibold text-green-600">
-                ✓ Creative Job Hub: Industry-specific tools built-in
+                ✓ Crew Ops Pro: Industry-specific tools built-in
               </p>
             </div>
           </div>
@@ -217,7 +217,7 @@ export default function VsHousecallPro() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why Contractors Are Switching to Creative Job Hub
+            Why Contractors Are Switching to Crew Ops Pro
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -300,12 +300,12 @@ export default function VsHousecallPro() {
               </div>
             </div>
 
-            {/* Creative Job Hub */}
+            {/* Crew Ops Pro */}
             <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg shadow-lg p-8 text-white relative">
               <div className="absolute -top-4 right-4 bg-orange-500 text-white px-4 py-2 rounded-full font-bold">
                 SAVE $2,100/YR
               </div>
-              <h3 className="text-2xl font-bold mb-6 text-center">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">Crew Ops Pro</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center pb-3 border-b border-blue-400">
                   <span className="text-blue-100">Complete Plan</span>

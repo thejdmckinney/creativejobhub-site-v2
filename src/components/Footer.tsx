@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://support.creativejobhub.com/en/" 
+                  href="https://support.crewopspro.com/en/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-white"
@@ -112,13 +112,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:support@creativejobhub.com" className="hover:text-white">
-                  support@creativejobhub.com
+                <a href="mailto:support@crewopspro.com" className="hover:text-white">
+                  support@crewopspro.com
                 </a>
               </li>
               <li>
-                <a href="mailto:jeremy@creativejobhub.com" className="hover:text-white">
-                  jeremy@creativejobhub.com
+                <a href="mailto:jeremy@crewopspro.com" className="hover:text-white">
+                  jeremy@crewopspro.com
                 </a>
               </li>
               <li className="text-gray-400">Dallas-Fort Worth, TX</li>
@@ -201,7 +201,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm">
-          © 2025 Creative Job Hub. Built by contractors, for contractors.
+          © 2025 Crew Ops Pro. Built by contractors, for contractors.
         </div>
       </div>
     </footer>

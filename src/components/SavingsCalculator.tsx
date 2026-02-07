@@ -35,7 +35,7 @@ export default function SavingsCalculator() {
   const resendOverageCost = !emailInFreeTier ? 20 : 0; // $20/mo for next tier
   const mapboxOverageCost = !mapsInFreeTier ? 25 : 0; // $25/mo for next tier
 
-  // Total Creative Job Hub cost
+  // Total Crew Ops Pro cost
   const cjhMonthlyCost = 89 + twilioOverageCost + resendOverageCost + mapboxOverageCost;
   
   // Current software cost
@@ -52,7 +52,7 @@ export default function SavingsCalculator() {
           💰 Calculate Your Savings
         </h3>
         <p className="text-gray-600">
-          See exactly how much you'll save by switching to Creative Job Hub
+          See exactly how much you'll save by switching to Crew Ops Pro
         </p>
       </div>
 
@@ -150,11 +150,11 @@ export default function SavingsCalculator() {
           <p className="text-xs text-gray-500 mt-4 italic">*Hidden in your monthly fee</p>
         </div>
 
-        {/* Creative Job Hub Cost */}
+        {/* Crew Ops Pro Cost */}
         <div className="bg-white rounded-xl p-6 shadow-md border-2 border-green-400">
           <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
             <span className="text-2xl">✅</span>
-            Creative Job Hub Cost
+            Crew Ops Pro Cost
           </h4>
           <div className="space-y-3">
             <div className="flex justify-between items-center pb-2 border-b">

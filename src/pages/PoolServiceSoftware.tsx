@@ -54,7 +54,7 @@ export default function PoolServiceSoftware() {
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 
                 src={poolServiceImage} 
-                alt="Pool Service Software - Creative Job Hub" 
+                alt="Pool Service Software - Crew Ops Pro" 
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -370,7 +370,7 @@ export default function PoolServiceSoftware() {
             </Link>
           </div>
           <p className="text-gray-600 mt-6">
-            Questions? <a href="mailto:support@creativejobhub.com" className="text-blue-600 hover:text-blue-700">Contact us</a> - we're here to help.
+            Questions? <a href="mailto:support@crewopspro.com" className="text-blue-600 hover:text-blue-700">Contact us</a> - we're here to help.
           </p>
         </div>
       </section>

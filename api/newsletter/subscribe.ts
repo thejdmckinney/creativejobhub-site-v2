@@ -95,7 +95,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       const resendUrl = `https://${req.headers.host}/api/newsletter/confirm?token=${resendToken}`;
       
       await resend.emails.send({
-        from: 'Creative Job Hub <noreply@creativejobhub.com>',
+        from: 'Creative Job Hub <noreply@crewopspro.com>',
         to: email,
         subject: 'Confirm Your Newsletter Subscription',
         html: generateConfirmationEmail(resendUrl),
@@ -125,7 +125,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // Send confirmation email via Resend
     const { error: emailError } = await resend.emails.send({
-      from: 'Creative Job Hub <noreply@creativejobhub.com>',
+      from: 'Creative Job Hub <noreply@crewopspro.com>',
       to: email,
       subject: 'Confirm Your Newsletter Subscription',
       html: generateConfirmationEmail(confirmUrl),

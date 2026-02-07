@@ -60,8 +60,8 @@ export default function Pricing() {
       <ProductSchema />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'Pricing', url: 'https://www.creativejobhub.com/pricing' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'Pricing', url: 'https://www.crewopspro.com/pricing' }
       ]} />
       
       {/* Hero Section */}
@@ -208,42 +208,42 @@ export default function Pricing() {
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <div className="text-3xl text-red-500 mb-3">❌</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Per-user fees</h3>
-              <p className="text-gray-700 font-semibold mb-1">$0 extra at Creative Job Hub</p>
+              <p className="text-gray-700 font-semibold mb-1">$0 extra at Crew Ops Pro</p>
               <p className="text-sm text-gray-500">Competitors: $20-50/user/month</p>
             </div>
 
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <div className="text-3xl text-red-500 mb-3">❌</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">GPS tracking</h3>
-              <p className="text-gray-700 font-semibold mb-1">$0 extra at Creative Job Hub</p>
+              <p className="text-gray-700 font-semibold mb-1">$0 extra at Crew Ops Pro</p>
               <p className="text-sm text-gray-500">Competitors: Higher tier required</p>
             </div>
 
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <div className="text-3xl text-red-500 mb-3">❌</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Text messaging</h3>
-              <p className="text-gray-700 font-semibold mb-1">$0 extra at Creative Job Hub</p>
+              <p className="text-gray-700 font-semibold mb-1">$0 extra at Crew Ops Pro</p>
               <p className="text-sm text-gray-500">Competitors: $0.02-0.05/message</p>
             </div>
 
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <div className="text-3xl text-red-500 mb-3">❌</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">QuickBooks integration</h3>
-              <p className="text-gray-700 font-semibold mb-1">$0 extra at Creative Job Hub</p>
+              <p className="text-gray-700 font-semibold mb-1">$0 extra at Crew Ops Pro</p>
               <p className="text-sm text-gray-500">Competitors: $50-100/month</p>
             </div>
 
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <div className="text-3xl text-red-500 mb-3">❌</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Custom forms</h3>
-              <p className="text-gray-700 font-semibold mb-1">$0 extra at Creative Job Hub</p>
+              <p className="text-gray-700 font-semibold mb-1">$0 extra at Crew Ops Pro</p>
               <p className="text-sm text-gray-500">Competitors: Higher tier required</p>
             </div>
 
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <div className="text-3xl text-red-500 mb-3">❌</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">API access</h3>
-              <p className="text-gray-700 font-semibold mb-1">$0 extra at Creative Job Hub</p>
+              <p className="text-gray-700 font-semibold mb-1">$0 extra at Crew Ops Pro</p>
               <p className="text-sm text-gray-500">Competitors: Enterprise only</p>
             </div>
           </div>
@@ -285,9 +285,9 @@ export default function Pricing() {
               <p className="text-center text-2xl font-bold text-gray-900">$4,308/year</p>
             </div>
 
-            {/* Creative Job Hub */}
+            {/* Crew Ops Pro */}
             <div className="bg-green-50 border-2 border-green-500 rounded-lg p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Creative Job Hub</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Crew Ops Pro</h3>
               <div className="space-y-3 text-gray-700 mb-6">
                 <div className="flex justify-between">
                   <span>Everything:</span>
@@ -400,8 +400,8 @@ export default function Pricing() {
 
           <p className="text-orange-100">
             Questions? Email me:{' '}
-            <a href="mailto:jeremy@creativejobhub.com" className="text-white font-semibold hover:underline">
-              jeremy@creativejobhub.com
+            <a href="mailto:jeremy@crewopspro.com" className="text-white font-semibold hover:underline">
+              jeremy@crewopspro.com
             </a>
           </p>
         </div>

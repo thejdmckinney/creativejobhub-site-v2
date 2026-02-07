@@ -66,7 +66,7 @@ export default function MapboxSetup() {
                     <p className="text-gray-700">After signup, you'll see your dashboard with a "Default public token"</p>
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-4">
                       <p className="text-sm font-semibold text-blue-900">💡 Pro Tip:</p>
-                      <p className="text-sm text-blue-800">Create a new token specifically for Creative Job Hub. Click "Create a token" and name it "Creative Job Hub Production"</p>
+                      <p className="text-sm text-blue-800">Create a new token specifically for Crew Ops Pro. Click "Create a token" and name it "Crew Ops Pro Production"</p>
                     </div>
                   </div>
                 </div>
@@ -75,12 +75,12 @@ export default function MapboxSetup() {
                 <div>
                   <div className="flex items-center gap-3 mb-3">
                     <div className="flex items-center justify-center w-8 h-8 bg-blue-600 text-white rounded-full font-bold text-sm">3</div>
-                    <h3 className="text-xl font-bold text-gray-900">Connect to Creative Job Hub</h3>
+                    <h3 className="text-xl font-bold text-gray-900">Connect to Crew Ops Pro</h3>
                   </div>
                   <div className="ml-11">
                     <div className="bg-gray-100 rounded-lg p-4">
                       <ol className="space-y-2 text-gray-700 list-decimal list-inside">
-                        <li>Go to Creative Job Hub → Settings → Integrations</li>
+                        <li>Go to Crew Ops Pro → Settings → Integrations</li>
                         <li>Click "Connect Mapbox"</li>
                         <li>Paste your access token</li>
                         <li>Click "Test Connection"</li>

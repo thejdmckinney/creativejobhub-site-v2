@@ -13,7 +13,7 @@ export default function Home() {
   // FAQ data for Schema.org markup and display
   const faqs = [
     {
-      question: "How much does Creative Job Hub cost?",
+      question: "How much does Crew Ops Pro cost?",
       answer: "$89 per month with everything included - unlimited users, unlimited jobs, QuickBooks integration, mobile apps, GPS tracking, and 24/7 support. No hidden fees or per-user charges."
     },
     {
@@ -30,10 +30,10 @@ export default function Home() {
     },
     {
       question: "Does it integrate with QuickBooks?",
-      answer: "Yes. Creative Job Hub syncs directly with QuickBooks Online. Invoices, payments, and expenses transfer automatically - no duplicate data entry."
+      answer: "Yes. Crew Ops Pro syncs directly with QuickBooks Online. Invoices, payments, and expenses transfer automatically - no duplicate data entry."
     },
     {
-      question: "What industries is Creative Job Hub built for?",
+      question: "What industries is Crew Ops Pro built for?",
       answer: "We're built for field service contractors including HVAC, plumbing, electrical, chimney sweeps, handymen, pool service, landscaping, and other service businesses. If you go to customer locations, we're for you."
     },
     {
@@ -42,11 +42,11 @@ export default function Home() {
     },
     {
       question: "What if my team isn't tech-savvy?",
-      answer: "Creative Job Hub is designed for field teams, not IT departments. If your techs can text, they can use our mobile app. We also provide training videos and 24/7 support."
+      answer: "Crew Ops Pro is designed for field teams, not IT departments. If your techs can text, they can use our mobile app. We also provide training videos and 24/7 support."
     },
     {
       question: "Can I cancel anytime?",
-      answer: "Yes. No contracts, no cancellation fees. If Creative Job Hub doesn't work for your business, cancel with one click."
+      answer: "Yes. No contracts, no cancellation fees. If Crew Ops Pro doesn't work for your business, cancel with one click."
     },
     {
       question: "Do you charge for customer support?",
@@ -122,7 +122,7 @@ export default function Home() {
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 
                 src={heroBanner} 
-                alt="Creative Job Hub dashboard showing job scheduling, team management, and mobile invoicing" 
+                alt="Crew Ops Pro dashboard showing job scheduling, team management, and mobile invoicing" 
                 className="w-full h-full object-cover"
                 loading="eager"
               />
@@ -447,7 +447,7 @@ export default function Home() {
             Ready to Stop Losing Revenue to Messy Operations?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Join 500+ service businesses using Creative Job Hub to schedule smarter, dispatch faster, and get paid sooner.
+            Join 500+ service businesses using Crew Ops Pro to schedule smarter, dispatch faster, and get paid sooner.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

@@ -61,8 +61,8 @@ export default function HVACSoftware() {
       />
       <SoftwareApplicationSchema />
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://www.creativejobhub.com' },
-        { name: 'HVAC Software', url: 'https://www.creativejobhub.com/hvac-software' }
+        { name: 'Home', url: 'https://www.crewopspro.com' },
+        { name: 'HVAC Software', url: 'https://www.crewopspro.com/hvac-software' }
       ]} />
       
       <Breadcrumbs 
@@ -109,7 +109,7 @@ export default function HVACSoftware() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Why HVAC Contractors Choose Creative Job Hub
+            Why HVAC Contractors Choose Crew Ops Pro
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -276,7 +276,7 @@ export default function HVACSoftware() {
             Ready to Run Your HVAC Business Better?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Join HVAC contractors who switched from paper service tickets and complicated software to Creative Job Hub.
+            Join HVAC contractors who switched from paper service tickets and complicated software to Crew Ops Pro.
           </p>
           <Link 
             to="/signup"
