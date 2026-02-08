@@ -6,6 +6,7 @@ import FAQSchema from '../components/FAQSchema';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
 import FAQAccordion from '../components/FAQAccordion';
 import IndustryTabs from '../components/IndustryTabs';
+import CalculateSavingsButton from '../components/CalculateSavingsButton';
 import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/crewopspro-home-page.png';
 
@@ -111,13 +112,12 @@ export default function Home() {
                 >
                   Request a Demo
                 </Link>
-                <Link 
-                  to="/how-it-works"
-                  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block text-center"
-                >
-                  See How It Works
-                </Link>
+                <CalculateSavingsButton variant="outline" size="lg" />
               </div>
+              
+              <p className="text-sm text-gray-500 mt-4">
+                💰 See how much you'll save compared to Jobber
+              </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 

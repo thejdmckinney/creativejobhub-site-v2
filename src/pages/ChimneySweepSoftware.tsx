@@ -6,6 +6,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 import RelatedPages from '../components/RelatedPages';
+import CalculateSavingsButton from '../components/CalculateSavingsButton';
 import csiaInspectionImage from '../assets/crewopspro-chimneysweep.png';
 
 export default function ChimneySweepSoftware() {
@@ -97,12 +98,7 @@ export default function ChimneySweepSoftware() {
             >
               Start Your 14-Day Free Trial
             </Link>
-            <Link 
-              to="/how-it-works" 
-              className="bg-white text-blue-600 hover:bg-blue-50 px-10 py-5 rounded-lg font-semibold text-xl transition-colors text-center shadow-xl"
-            >
-              See How It Works
-            </Link>
+            <CalculateSavingsButton variant="outline" size="lg" className="bg-white text-blue-600 border-white hover:bg-blue-50" />
           </div>
           <p className="text-center text-blue-200">No credit card required • Set up in 5 minutes • Cancel anytime</p>
         </div>

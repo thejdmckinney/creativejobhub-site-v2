@@ -3,6 +3,7 @@ import SEO from '../components/SEO';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedPages from '../components/RelatedPages';
+import CalculateSavingsButton from '../components/CalculateSavingsButton';
 import handymanImage from '../assets/crewopspro-handyman.png';
 
 export default function HandymanSoftware() {
@@ -42,12 +43,7 @@ export default function HandymanSoftware() {
                 >
                   Start Your 14-Day Free Trial
                 </Link>
-                <Link 
-                  to="/pricing" 
-                  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors text-center"
-                >
-                  See Pricing
-                </Link>
+                <CalculateSavingsButton variant="outline" size="lg" />
               </div>
             </div>
             
