@@ -181,72 +181,82 @@ export default function HandymanSoftware() {
           <p className="text-xl text-gray-600 mb-8">
             No per-user fees. No hidden costs. Add 5 techs or 50 techs - same price.
           </p>
-          <div className="bg-white border-4 border-blue-600 rounded-2xl shadow-2xl p-12 mb-8">
-            <div className="text-6xl font-bold text-gray-900 mb-4">$89</div>
-            <div className="text-2xl text-gray-600 mb-6">per month</div>
-            <ul className="text-left space-y-3 mb-8">
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+          <div className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 rounded-2xl shadow-2xl p-12 mb-8 overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-3xl">
+            {/* Animated background elements */}
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full -mr-32 -mt-32 animate-pulse"></div>
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-orange-400 opacity-10 rounded-full -ml-24 -mb-24 animate-bounce" style={{ animationDuration: '3s' }}></div>
+            
+            {/* Content */}
+            <div className="relative z-10">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold mb-4 animate-pulse">
+                🔥 MOST POPULAR
+              </div>
+              <div className="text-6xl font-bold text-white mb-2 animate-fade-in">$89</div>
+              <div className="text-2xl text-blue-100 mb-8">per month</div>
+              <ul className="text-left space-y-3 mb-8">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700"><strong>Unlimited technicians</strong> - no per-user fees</span>
+                <span className="text-white"><strong>Unlimited technicians</strong> - no per-user fees</span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700"><strong>Multi-trade skill tracking</strong></span>
+                <span className="text-white"><strong>Multi-trade skill tracking</strong></span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">Unlimited jobs & estimates</span>
+                <span className="text-white">Unlimited jobs & estimates</span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">Scheduling & dispatch</span>
+                <span className="text-white">Scheduling & dispatch</span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">Invoicing & payments</span>
+                <span className="text-white">Invoicing & payments</span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">QuickBooks integration</span>
+                <span className="text-white">QuickBooks integration</span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">iOS & Android apps</span>
+                <span className="text-white">iOS & Android apps</span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">Customer portal</span>
+                <span className="text-white">Customer portal</span>
               </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start group">
+                <svg className="w-6 h-6 text-orange-400 mr-3 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">24/7 support</span>
+                <span className="text-white">24/7 support</span>
               </li>
             </ul>
             <Link 
               to="/signup" 
-              className="block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+              className="block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:shadow-lg hover:scale-105"
             >
               Start Your 14-Day Free Trial
             </Link>
-            <p className="text-gray-600 mt-4 text-sm">Cancel anytime.</p>
+            <p className="text-blue-100 mt-4 text-sm">Cancel anytime.</p>
+            </div>
           </div>
         </div>
       </section>
