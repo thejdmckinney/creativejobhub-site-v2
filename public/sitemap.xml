@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.crewopspro.com/</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,7 +11,7 @@
   <!-- How It Works -->
   <url>
     <loc>https://www.crewopspro.com/how-it-works</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -19,7 +19,7 @@
   <!-- Pricing -->
   <url>
     <loc>https://www.crewopspro.com/pricing</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -27,7 +27,7 @@
   <!-- Bring Your Own Tools -->
   <url>
     <loc>https://www.crewopspro.com/bring-your-own-tools</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -35,7 +35,7 @@
   <!-- Blog -->
   <url>
     <loc>https://www.crewopspro.com/blog</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -43,7 +43,7 @@
   <!-- Contact -->
   <url>
     <loc>https://www.crewopspro.com/contact</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -51,21 +51,21 @@
   <!-- Feature Pages -->
   <url>
     <loc>https://www.crewopspro.com/scheduling</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/team-management</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/invoicing-payments</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -73,35 +73,35 @@
   <!-- Setup Guides -->
   <url>
     <loc>https://www.crewopspro.com/setup-guides</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/setup-guides/twilio</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/setup-guides/resend</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/setup-guides/mapbox</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/setup-guides/stripe</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -109,63 +109,63 @@
   <!-- Industry Pages -->
   <url>
     <loc>https://www.crewopspro.com/chimney-sweep-software</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/handyman-software</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/pool-service-software</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/plumbing-software</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/hvac-software</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/electrical-software</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/landscaping-software</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/painting-software</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/general-contractors-software</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -173,7 +173,7 @@
   <!-- Competitors Overview -->
   <url>
     <loc>https://www.crewopspro.com/competitors</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -181,42 +181,42 @@
   <!-- Competitor Comparisons -->
   <url>
     <loc>https://www.crewopspro.com/vs-jobber</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/vs-housecall-pro</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/vs-servicetitan</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/vs-workiz</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/vs-fieldedge</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/vs-servicem8</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -224,7 +224,7 @@
   <!-- Why I Built This -->
   <url>
     <loc>https://www.crewopspro.com/why-i-built-this</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -232,7 +232,7 @@
   <!-- Signup -->
   <url>
     <loc>https://www.crewopspro.com/signup</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -240,7 +240,7 @@
   <!-- Login -->
   <url>
     <loc>https://www.crewopspro.com/login</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -248,14 +248,14 @@
   <!-- Legal Pages -->
   <url>
     <loc>https://www.crewopspro.com/terms-of-service</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/privacy-policy</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
