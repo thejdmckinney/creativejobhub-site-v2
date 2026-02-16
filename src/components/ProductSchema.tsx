@@ -6,6 +6,11 @@ export default function ProductSchema() {
     "@type": "Product",
     "name": "Crew Ops Pro - Field Service Management Software",
     "description": "All-in-one field service management software for contractors. Includes job scheduling, estimates, invoicing, mobile apps, QuickBooks integration, GPS tracking, and more. Unlimited users included.",
+    "image": [
+      "https://www.crewopspro.com/src/assets/crewopspro-home-page.png",
+      "https://www.crewopspro.com/src/assets/dashboard-view.png",
+      "https://www.crewopspro.com/src/assets/scheduling-page.png"
+    ],
     "brand": {
       "@type": "Brand",
       "name": "Crew Ops Pro"
