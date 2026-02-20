@@ -128,8 +128,8 @@ const session = await stripe.checkout.sessions.create({
     businessName: businessName,
     phone: phone,
   },
-  success_url: 'https://app.creativejobhub.com/activate/{CHECKOUT_SESSION_ID}',
-  cancel_url: 'https://creativejobhub.com/signup?cancelled=true',
+  success_url: 'https://app.crewopspro.com/activate/{CHECKOUT_SESSION_ID}',
+  cancel_url: 'https://www.crewopspro.com/signup?cancelled=true',
 });
 
 return { url: session.url };
@@ -341,8 +341,8 @@ Implement trial expiration and upgrade flow:
        - customer_email: user.email
        - line_items: [{ price: "price_1Sm1a261oqunaxa7Qdy6bb7c", quantity: 1 }]
        - mode: "subscription"
-       - success_url: "https://app.creativejobhub.com/success?session_id={CHECKOUT_SESSION_ID}"
-       - cancel_url: "https://app.creativejobhub.com/dashboard"
+       - success_url: "https://app.crewopspro.com/activate/{CHECKOUT_SESSION_ID}"
+       - cancel_url: "https://app.crewopspro.com/dashboard"
      * Return the checkout session URL
 
 4. CREATE UPGRADE BUTTON HANDLER:
