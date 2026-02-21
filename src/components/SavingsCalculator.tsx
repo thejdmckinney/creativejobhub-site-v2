@@ -219,12 +219,12 @@ export default function SavingsCalculator() {
               <div className="text-gray-700">Google Ads clicks</div>
             </div>
             <div className="bg-white rounded-lg p-3">
-              <div className="font-bold text-blue-600">{Math.floor(annualSavings / 800)}</div>
-              <div className="text-gray-700">New trucks</div>
+              <div className="font-bold text-blue-600">{Math.floor(annualSavings / 3000)}</div>
+              <div className="text-gray-700">New power tools</div>
             </div>
             <div className="bg-white rounded-lg p-3">
               <div className="font-bold text-blue-600">{Math.floor(annualSavings / 200)}</div>
-              <div className="text-gray-700">Tool purchases</div>
+              <div className="text-gray-700">Tank fills (gas)</div>
             </div>
             <div className="bg-white rounded-lg p-3">
               <div className="font-bold text-blue-600">{Math.floor(annualSavings / 100)}</div>
