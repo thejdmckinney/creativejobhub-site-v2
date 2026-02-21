@@ -6,6 +6,8 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [industriesOpen, setIndustriesOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
+  const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
+  const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
@@ -235,8 +237,17 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
-            <nav className="flex flex-col space-y-4">
+          <div className="md:hidden py-4 border-t border-gray-200 max-h-[calc(100vh-6rem)] overflow-y-auto">
+            <nav className="flex flex-col space-y-2">
+              {/* CTA at the top for visibility */}
+              <Link
+                to="/signup"
+                className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-3 rounded-lg font-semibold text-center transition-colors mx-4 mb-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Start Free Trial
+              </Link>
+              
               <Link
                 to="/pricing"
                 className="text-gray-700 hover:text-blue-600 px-4 py-2 hover:bg-gray-50 rounded-md"
@@ -245,75 +256,90 @@ export default function Header() {
                 Pricing
               </Link>
               
-              {/* Industries submenu in mobile */}
-              <div className="px-4 py-2">
-                <div className="text-gray-900 font-semibold mb-2">Industries</div>
-                <div className="pl-4 space-y-2">
-                  <Link
-                    to="/chimney-sweep-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
+              {/* Collapsible Industries submenu in mobile */}
+              <div>
+                <button
+                  onClick={() => setMobileIndustriesOpen(!mobileIndustriesOpen)}
+                  className="w-full text-left text-gray-900 font-semibold px-4 py-2 hover:bg-gray-50 rounded-md flex items-center justify-between"
+                >
+                  <span>Industries</span>
+                  <svg 
+                    className={`w-5 h-5 transition-transform ${mobileIndustriesOpen ? 'rotate-180' : ''}`} 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
                   >
-                    Chimney Sweep Software
-                  </Link>
-                  <Link
-                    to="/handyman-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Handyman Software
-                  </Link>
-                  <Link
-                    to="/pool-service-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Pool Service Software
-                  </Link>
-                  <Link
-                    to="/plumbing-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Plumbing Software
-                  </Link>
-                  <Link
-                    to="/hvac-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    HVAC Software
-                  </Link>
-                  <Link
-                    to="/electrical-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Electrical Software
-                  </Link>
-                  <Link
-                    to="/landscaping-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Landscaping Software
-                  </Link>
-                  <Link
-                    to="/painting-software"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Painting Software
-                  </Link>
-                  <div className="border-t border-gray-200 my-2"></div>
-                  <Link
-                    to="/general-contractors-software"
-                    className="block text-gray-700 hover:text-blue-600 py-1 font-semibold"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    General Contractors
-                  </Link>
-                </div>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {mobileIndustriesOpen && (
+                  <div className="pl-4 pr-4 py-2 space-y-1 bg-gray-50">
+                    <Link
+                      to="/chimney-sweep-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Chimney Sweep
+                    </Link>
+                    <Link
+                      to="/handyman-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Handyman
+                    </Link>
+                    <Link
+                      to="/pool-service-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Pool Service
+                    </Link>
+                    <Link
+                      to="/plumbing-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Plumbing
+                    </Link>
+                    <Link
+                      to="/hvac-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      HVAC
+                    </Link>
+                    <Link
+                      to="/electrical-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Electrical
+                    </Link>
+                    <Link
+                      to="/landscaping-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Landscaping
+                    </Link>
+                    <Link
+                      to="/painting-software"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Painting
+                    </Link>
+                    <div className="border-t border-gray-200 my-2"></div>
+                    <Link
+                      to="/general-contractors-software"
+                      className="block text-gray-700 hover:text-blue-600 py-2 px-4 rounded hover:bg-white font-semibold"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      General Contractors
+                    </Link>
+                  </div>
+                )}
               </div>
               
               <Link
@@ -332,48 +358,63 @@ export default function Header() {
                 Competitors
               </Link>
               
-              {/* Resources submenu in mobile */}
-              <div className="px-4 py-2">
-                <div className="text-gray-900 font-semibold mb-2">Resources</div>
-                <div className="pl-4 space-y-2">
-                  <Link
-                    to="/how-it-works"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
+              {/* Collapsible Resources submenu in mobile */}
+              <div>
+                <button
+                  onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
+                  className="w-full text-left text-gray-900 font-semibold px-4 py-2 hover:bg-gray-50 rounded-md flex items-center justify-between"
+                >
+                  <span>Resources</span>
+                  <svg 
+                    className={`w-5 h-5 transition-transform ${mobileResourcesOpen ? 'rotate-180' : ''}`} 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
                   >
-                    How It Works
-                  </Link>
-                  <Link
-                    to="/why-i-built-this"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Why I Built This
-                  </Link>
-                  <Link
-                    to="/blog"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Blog
-                  </Link>
-                  <Link
-                    to="/contact"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Contact
-                  </Link>
-                  <a
-                    href="https://support.crewopspro.com/en/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-gray-600 hover:text-blue-600 py-1"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Help Center
-                  </a>
-                </div>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {mobileResourcesOpen && (
+                  <div className="pl-4 pr-4 py-2 space-y-1 bg-gray-50">
+                    <Link
+                      to="/how-it-works"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      How It Works
+                    </Link>
+                    <Link
+                      to="/why-i-built-this"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Why I Built This
+                    </Link>
+                    <Link
+                      to="/blog"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Blog
+                    </Link>
+                    <Link
+                      to="/contact"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Contact
+                    </Link>
+                    <a
+                      href="https://support.crewopspro.com/en/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Help Center
+                    </a>
+                  </div>
+                )}
               </div>
               
               <Link
@@ -382,13 +423,6 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Login
-              </Link>
-              <Link
-                to="/signup"
-                className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-3 rounded-lg font-semibold text-center transition-colors mx-4"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Start Free Trial
               </Link>
             </nav>
           </div>
