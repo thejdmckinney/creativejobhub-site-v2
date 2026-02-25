@@ -11,6 +11,54 @@ interface IndustryData {
 
 const industries: IndustryData[] = [
   {
+    id: 'handyman',
+    name: 'Handyman',
+    headline: 'Handle Every Type of Job Without Switching Tools',
+    pains: [
+      'Every job is different - hard to standardize',
+      'Clients call for "one more thing" constantly',
+      'Tracking inventory across job types is chaos'
+    ],
+    capabilities: [
+      'Custom service templates for common job types',
+      'Add line items on-site with mobile app',
+      'Simple inventory tracking for frequently used items'
+    ],
+    proofSnippet: 'Handymen capture 91% of upsell opportunities'
+  },
+  {
+    id: 'chimney',
+    name: 'Chimney Sweep',
+    headline: 'CSIA Compliance + Scheduling in One System',
+    pains: [
+      'CSIA inspection checklists on paper get lost',
+      'Seasonal demand spikes are hard to manage',
+      'Before/after photos scattered across phones'
+    ],
+    capabilities: [
+      'Digital CSIA inspection forms with required fields',
+      'Booking widget handles seasonal rush automatically',
+      'Photo gallery attaches to customer record permanently'
+    ],
+    proofSnippet: 'Sweeps complete inspections 30% faster'
+  },
+  {
+    id: 'pool',
+    name: 'Pool Service',
+    headline: 'Automate Routes, Track Chemicals, Get Paid Weekly',
+    pains: [
+      'Weekly routes need perfect consistency',
+      'Chemical levels and equipment notes get lost',
+      'Weekly billing is tedious and error-prone'
+    ],
+    capabilities: [
+      'Recurring routes auto-schedule every week',
+      'Custom fields track pH, chlorine, equipment status',
+      'Automated weekly invoicing with autopay option'
+    ],
+    proofSnippet: 'Pool techs reduce billing time by 75%'
+  },
+  {
     id: 'plumbers',
     name: 'Plumbers',
     headline: 'Stop Losing Emergency Calls to Competitors',
@@ -105,54 +153,6 @@ const industries: IndustryData[] = [
       'Punch list feature catches touch-ups before final payment'
     ],
     proofSnippet: 'Painting contractors boost margins by 12%'
-  },
-  {
-    id: 'handyman',
-    name: 'Handyman',
-    headline: 'Handle Every Type of Job Without Switching Tools',
-    pains: [
-      'Every job is different - hard to standardize',
-      'Clients call for "one more thing" constantly',
-      'Tracking inventory across job types is chaos'
-    ],
-    capabilities: [
-      'Custom service templates for common job types',
-      'Add line items on-site with mobile app',
-      'Simple inventory tracking for frequently used items'
-    ],
-    proofSnippet: 'Handymen capture 91% of upsell opportunities'
-  },
-  {
-    id: 'pool',
-    name: 'Pool Service',
-    headline: 'Automate Routes, Track Chemicals, Get Paid Weekly',
-    pains: [
-      'Weekly routes need perfect consistency',
-      'Chemical levels and equipment notes get lost',
-      'Weekly billing is tedious and error-prone'
-    ],
-    capabilities: [
-      'Recurring routes auto-schedule every week',
-      'Custom fields track pH, chlorine, equipment status',
-      'Automated weekly invoicing with autopay option'
-    ],
-    proofSnippet: 'Pool techs reduce billing time by 75%'
-  },
-  {
-    id: 'chimney',
-    name: 'Chimney Sweep',
-    headline: 'CSIA Compliance + Scheduling in One System',
-    pains: [
-      'CSIA inspection checklists on paper get lost',
-      'Seasonal demand spikes are hard to manage',
-      'Before/after photos scattered across phones'
-    ],
-    capabilities: [
-      'Digital CSIA inspection forms with required fields',
-      'Booking widget handles seasonal rush automatically',
-      'Photo gallery attaches to customer record permanently'
-    ],
-    proofSnippet: 'Sweeps complete inspections 30% faster'
   }
 ];
 

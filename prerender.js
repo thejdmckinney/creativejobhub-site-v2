@@ -45,6 +45,7 @@ const staticRoutes = [
   '/contact',
   '/terms-of-service',
   '/privacy-policy',
+  '/outreach-hub',
 ];
 
 async function getAllRoutes() {
