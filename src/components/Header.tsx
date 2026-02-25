@@ -4,10 +4,12 @@ import logo from '../assets/new-crewopspro-logo-only.png';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [featuresOpen, setFeaturesOpen] = useState(false);
   const [industriesOpen, setIndustriesOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
   const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
   const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
+  const [mobileFeaturesOpen, setMobileFeaturesOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
@@ -24,6 +26,62 @@ export default function Header() {
             <Link to="/pricing" className="text-gray-700 hover:text-blue-600">
               Pricing
             </Link>
+            
+            {/* Features Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setFeaturesOpen(true)}
+              onMouseLeave={() => setFeaturesOpen(false)}
+            >
+              <button className="text-gray-700 hover:text-blue-600 flex items-center gap-1 py-2">
+                Features
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              
+              {featuresOpen && (
+                <div className="absolute top-full left-0 pt-2 w-64">
+                  <div className="bg-white rounded-lg shadow-lg border border-gray-200 py-2">
+                    <Link 
+                      to="/features" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-semibold"
+                    >
+                      All Features
+                    </Link>
+                    <div className="border-t border-gray-200 my-2"></div>
+                    <Link 
+                      to="/outreach-hub" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      📣 Outreach Hub
+                      <span className="block text-xs text-gray-500 mt-1">Client campaigns & follow-ups</span>
+                    </Link>
+                    <Link 
+                      to="/scheduling" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      📅 Scheduling
+                      <span className="block text-xs text-gray-500 mt-1">Drag-and-drop calendar</span>
+                    </Link>
+                    <Link 
+                      to="/team-management" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      👥 Team Management
+                      <span className="block text-xs text-gray-500 mt-1">GPS tracking & monitoring</span>
+                    </Link>
+                    <Link 
+                      to="/invoicing-payments" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      💳 Invoicing & Payments
+                      <span className="block text-xs text-gray-500 mt-1">Get paid on-site</span>
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
             
             {/* Industries Dropdown */}
             <div 
@@ -255,6 +313,63 @@ export default function Header() {
               >
                 Pricing
               </Link>
+              
+              {/* Collapsible Features submenu in mobile */}
+              <div>
+                <button
+                  onClick={() => setMobileFeaturesOpen(!mobileFeaturesOpen)}
+                  className="w-full text-left text-gray-900 font-semibold px-4 py-2 hover:bg-gray-50 rounded-md flex items-center justify-between"
+                >
+                  <span>Features</span>
+                  <svg 
+                    className={`w-5 h-5 transition-transform ${mobileFeaturesOpen ? 'rotate-180' : ''}`} 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {mobileFeaturesOpen && (
+                  <div className="pl-4 pr-4 py-2 space-y-1 bg-gray-50">
+                    <Link
+                      to="/features"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white font-semibold"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      All Features
+                    </Link>
+                    <Link
+                      to="/outreach-hub"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      📣 Outreach Hub
+                    </Link>
+                    <Link
+                      to="/scheduling"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      📅 Scheduling
+                    </Link>
+                    <Link
+                      to="/team-management"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      👥 Team Management
+                    </Link>
+                    <Link
+                      to="/invoicing-payments"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      💳 Invoicing & Payments
+                    </Link>
+                  </div>
+                )}
+              </div>
               
               {/* Collapsible Industries submenu in mobile */}
               <div>
