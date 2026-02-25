@@ -41,6 +41,7 @@ import SchedulingFeatures from './pages/SchedulingFeatures';
 import TeamManagement from './pages/TeamManagement';
 import InvoicingPayments from './pages/InvoicingPayments';
 import OutreachHub from './pages/OutreachHub';
+import Features from './pages/Features';
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
           <Route path="team-management" element={<TeamManagement />} />
           <Route path="invoicing-payments" element={<InvoicingPayments />} />
           <Route path="outreach-hub" element={<OutreachHub />} />
+          <Route path="features" element={<Features />} />
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />

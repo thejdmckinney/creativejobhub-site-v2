@@ -325,6 +325,18 @@ export default function HandymanSoftware() {
             icon: "💰"
           },
           {
+            title: "Outreach Hub",
+            description: "Send targeted campaigns to past customers for repeat business and referrals.",
+            path: "/outreach-hub",
+            icon: "📣"
+          },
+          {
+            title: "Team Management",
+            description: "GPS tracking, time tracking, and performance monitoring for your crew.",
+            path: "/team-management",
+            icon: "👥"
+          },
+          {
             title: "Chimney Sweep Software",
             description: "Industry-specific features for chimney sweep contractors.",
             path: "/chimney-sweep-software",
@@ -341,18 +353,6 @@ export default function HandymanSoftware() {
             description: "See how we compare to Jobber, ServiceTitan, and others.",
             path: "/competitors",
             icon: "⚖️"
-          },
-          {
-            title: "How It Works",
-            description: "Learn about our complete workflow from lead to payment.",
-            path: "/how-it-works",
-            icon: "🔄"
-          },
-          {
-            title: "Blog & Resources",
-            description: "Tips, guides, and updates for field service contractors.",
-            path: "/blog",
-            icon: "📚"
           }
         ]}
       />

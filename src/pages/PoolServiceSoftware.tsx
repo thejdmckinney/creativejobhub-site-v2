@@ -315,6 +315,18 @@ export default function PoolServiceSoftware() {
             icon: "💰"
           },
           {
+            title: "Outreach Hub",
+            description: "Win back inactive customers and promote seasonal services with targeted campaigns.",
+            path: "/outreach-hub",
+            icon: "📣"
+          },
+          {
+            title: "Invoicing & Payments",
+            description: "Accept payments on-site with mobile card readers and online invoices.",
+            path: "/invoicing-payments",
+            icon: "�"
+          },
+          {
             title: "Chimney Sweep Software",
             description: "Industry-specific features for chimney sweep contractors.",
             path: "/chimney-sweep-software",
@@ -324,25 +336,13 @@ export default function PoolServiceSoftware() {
             title: "Handyman Software",
             description: "Software for multi-trade contractors managing various services.",
             path: "/handyman-software",
-            icon: "🔧"
+            icon: "�"
           },
           {
             title: "Compare to Competitors",
             description: "See how we compare to Jobber, ServiceTitan, and others.",
             path: "/competitors",
             icon: "⚖️"
-          },
-          {
-            title: "How It Works",
-            description: "Learn about our complete workflow from lead to payment.",
-            path: "/how-it-works",
-            icon: "🔄"
-          },
-          {
-            title: "Blog & Resources",
-            description: "Tips, guides, and updates for field service contractors.",
-            path: "/blog",
-            icon: "📚"
           }
         ]}
       />

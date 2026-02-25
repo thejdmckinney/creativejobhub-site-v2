@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import RelatedPages from '../components/RelatedPages';
 import schedulingPageImage from '../assets/scheduling-page.png';
 
 export default function SchedulingFeatures() {
@@ -419,6 +420,49 @@ export default function SchedulingFeatures() {
           </div>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Explore More Features"
+        pages={[
+          {
+            title: "Team Management",
+            description: "GPS tracking, time tracking, and performance monitoring for your field crew.",
+            path: "/team-management",
+            icon: "👥"
+          },
+          {
+            title: "Outreach Hub",
+            description: "Stay connected with clients through automated emails, SMS, and follow-ups.",
+            path: "/outreach-hub",
+            icon: "📣"
+          },
+          {
+            title: "Invoicing & Payments",
+            description: "Get paid faster with mobile card readers and online payment options.",
+            path: "/invoicing-payments",
+            icon: "💳"
+          },
+          {
+            title: "See Pricing",
+            description: "$89/month for everything. No per-user fees or contracts.",
+            path: "/pricing",
+            icon: "💰"
+          },
+          {
+            title: "How It Works",
+            description: "See the complete workflow from lead to payment in 6 simple steps.",
+            path: "/how-it-works",
+            icon: "🔄"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See how we stack up against Jobber, Housecall Pro, and ServiceTitan.",
+            path: "/competitors",
+            icon: "⚖️"
+          }
+        ]}
+      />
     </div>
   );
 }

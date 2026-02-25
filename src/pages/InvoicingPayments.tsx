@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import RelatedPages from '../components/RelatedPages';
 import stripePartnerImage from '../assets/stripe-partner.png';
 
 export default function InvoicingPayments() {
@@ -90,6 +91,49 @@ export default function InvoicingPayments() {
           </div>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Explore More Features"
+        pages={[
+          {
+            title: "Scheduling Features",
+            description: "Smart calendar with drag-and-drop scheduling and conflict prevention.",
+            path: "/scheduling",
+            icon: "📅"
+          },
+          {
+            title: "Team Management",
+            description: "Real-time GPS tracking and performance monitoring for your field crew.",
+            path: "/team-management",
+            icon: "👥"
+          },
+          {
+            title: "Outreach Hub",
+            description: "Boost repeat business with automated client outreach and campaigns.",
+            path: "/outreach-hub",
+            icon: "📣"
+          },
+          {
+            title: "See Pricing",
+            description: "$89/month with all features included. No per-user fees.",
+            path: "/pricing",
+            icon: "💰"
+          },
+          {
+            title: "Bring Your Own Tools",
+            description: "Connect your own Stripe, QuickBooks, and Twilio accounts without markups.",
+            path: "/bring-your-own-tools",
+            icon: "🔧"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See why we're better than Jobber, Housecall Pro, and ServiceTitan.",
+            path: "/competitors",
+            icon: "⚖️"
+          }
+        ]}
+      />
     </div>
   );
 }

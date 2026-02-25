@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import RelatedPages from '../components/RelatedPages';
 import jobsMapImage from '../assets/Jobs-map-desktop.png';
 
 export default function TeamManagement() {
@@ -90,6 +91,49 @@ export default function TeamManagement() {
           </div>
         </div>
       </section>
+
+      {/* Related Pages */}
+      <RelatedPages
+        title="Explore More Features"
+        pages={[
+          {
+            title: "Scheduling Features",
+            description: "Drag-and-drop calendar, conflict alerts, and smart job assignment.",
+            path: "/scheduling",
+            icon: "📅"
+          },
+          {
+            title: "Outreach Hub",
+            description: "Keep customers engaged with email campaigns, SMS, and automated follow-ups.",
+            path: "/outreach-hub",
+            icon: "📣"
+          },
+          {
+            title: "Invoicing & Payments",
+            description: "Accept payments anywhere with mobile card readers and online invoicing.",
+            path: "/invoicing-payments",
+            icon: "💳"
+          },
+          {
+            title: "See Pricing",
+            description: "$89/month for unlimited users and all features.",
+            path: "/pricing",
+            icon: "💰"
+          },
+          {
+            title: "Industry Solutions",
+            description: "Specialized features for chimney sweeps, handyman, pool service, and more.",
+            path: "/chimney-sweep-software",
+            icon: "🏠"
+          },
+          {
+            title: "Compare to Competitors",
+            description: "See why contractors choose us over Jobber and Housecall Pro.",
+            path: "/competitors",
+            icon: "⚖️"
+          }
+        ]}
+      />
     </div>
   );
 }

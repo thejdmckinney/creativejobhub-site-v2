@@ -578,6 +578,12 @@ export default function Pricing() {
         title="Learn More About Crew Ops Pro"
         pages={[
           {
+            title: "Outreach Hub",
+            description: "Proactive client engagement with mass email, SMS campaigns, and follow-ups. A feature competitors don't have.",
+            path: "/outreach-hub",
+            icon: "📣"
+          },
+          {
             title: "How It Works",
             description: "See the complete workflow from lead to payment in 6 simple steps.",
             path: "/how-it-works",
@@ -606,12 +612,6 @@ export default function Pricing() {
             description: "The story of a frustrated contractor who built better software.",
             path: "/why-i-built-this",
             icon: "💡"
-          },
-          {
-            title: "Customer Reviews",
-            description: "Read what contractors are saying about Crew Ops Pro.",
-            path: "/competitors",
-            icon: "⭐"
           }
         ]}
       />

@@ -770,6 +770,18 @@ export default function ChimneySweepSoftware() {
             icon: "💰"
           },
           {
+            title: "Outreach Hub",
+            description: "Stay connected with clients through mass emails, SMS campaigns, and automated follow-ups.",
+            path: "/outreach-hub",
+            icon: "�"
+          },
+          {
+            title: "Scheduling Features",
+            description: "Drag-and-drop calendar, route optimization, and automated reminders.",
+            path: "/scheduling",
+            icon: "📅"
+          },
+          {
             title: "Handyman Software",
             description: "Software for multi-trade contractors managing various services.",
             path: "/handyman-software",
@@ -786,18 +798,6 @@ export default function ChimneySweepSoftware() {
             description: "See how we compare to Jobber, ServiceTitan, and others.",
             path: "/competitors",
             icon: "⚖️"
-          },
-          {
-            title: "How It Works",
-            description: "Learn about our complete workflow from lead to payment.",
-            path: "/how-it-works",
-            icon: "🔄"
-          },
-          {
-            title: "Blog & Resources",
-            description: "Tips, guides, and updates for field service contractors.",
-            path: "/blog",
-            icon: "📚"
           }
         ]}
       />
