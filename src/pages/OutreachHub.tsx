@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 export default function OutreachHub() {
   return (
@@ -12,7 +10,6 @@ export default function OutreachHub() {
         keywords="client outreach software, customer communication tool, mass email campaigns, SMS marketing for contractors, client engagement, follow-up scheduler, call logging, outbound calling hub, customer retention software"
         ogImage="https://www.crewopspro.com/crewopspro-home-page.png"
       />
-      <Header />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white py-20">
@@ -452,8 +449,6 @@ export default function OutreachHub() {
           </p>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }

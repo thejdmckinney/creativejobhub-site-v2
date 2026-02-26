@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 export default function Features() {
   return (
@@ -12,7 +10,6 @@ export default function Features() {
         keywords="field service management features, contractor software features, scheduling software, invoicing software, team management, client outreach"
         ogImage="https://www.crewopspro.com/crewopspro-home-page.png"
       />
-      <Header />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white py-20">
@@ -349,8 +346,6 @@ export default function Features() {
           </p>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }

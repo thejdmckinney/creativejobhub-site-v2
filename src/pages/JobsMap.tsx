@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import RelatedPages from '../components/RelatedPages';
 import jobsMapImage from '../assets/Jobs-map-desktop.png';
 
@@ -14,7 +12,6 @@ export default function JobsMap() {
         keywords="field service GPS tracking, live technician tracking software, field crew monitoring, dispatch software for contractors, real-time job map, emergency job scheduling software, technician location tracking, field service visibility"
         ogImage="https://www.crewopspro.com/Jobs-map-desktop.png"
       />
-      <Header />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white py-20">
@@ -661,8 +658,6 @@ export default function JobsMap() {
           }
         ]}
       />
-
-      <Footer />
     </>
   );
 }
