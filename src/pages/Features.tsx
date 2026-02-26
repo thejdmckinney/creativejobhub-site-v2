@@ -89,6 +89,23 @@ export default function Features() {
               </span>
             </Link>
 
+            {/* Jobs Map */}
+            <Link
+              to="/features/jobs-map"
+              className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all hover:scale-105 group"
+            >
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-red-200 transition-colors">
+                <span className="text-4xl">🗺️</span>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Jobs Map & Live Tracking</h3>
+              <p className="text-gray-600 mb-4">
+                See every technician's location in real-time. Emergency dispatch in seconds. No more phone tag when urgent calls come in.
+              </p>
+              <span className="text-blue-600 font-semibold group-hover:translate-x-2 transition-transform inline-block">
+                Learn more →
+              </span>
+            </Link>
+
             {/* Invoicing & Payments */}
             <Link
               to="/invoicing-payments"

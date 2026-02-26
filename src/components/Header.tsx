@@ -72,6 +72,13 @@ export default function Header() {
                       <span className="block text-xs text-gray-500 mt-1">GPS tracking & monitoring</span>
                     </Link>
                     <Link 
+                      to="/features/jobs-map" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      🗺️ Jobs Map
+                      <span className="block text-xs text-gray-500 mt-1">Live tech tracking & dispatch</span>
+                    </Link>
+                    <Link 
                       to="/invoicing-payments" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
@@ -359,6 +366,13 @@ export default function Header() {
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       👥 Team Management
+                    </Link>
+                    <Link
+                      to="/features/jobs-map"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      🗺️ Jobs Map
                     </Link>
                     <Link
                       to="/invoicing-payments"

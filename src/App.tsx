@@ -42,6 +42,7 @@ import TeamManagement from './pages/TeamManagement';
 import InvoicingPayments from './pages/InvoicingPayments';
 import OutreachHub from './pages/OutreachHub';
 import Features from './pages/Features';
+import JobsMap from './pages/JobsMap';
 
 function App() {
   return (
@@ -82,6 +83,7 @@ function App() {
           <Route path="invoicing-payments" element={<InvoicingPayments />} />
           <Route path="outreach-hub" element={<OutreachHub />} />
           <Route path="features" element={<Features />} />
+          <Route path="features/jobs-map" element={<JobsMap />} />
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
