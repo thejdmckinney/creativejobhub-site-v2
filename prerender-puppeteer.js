@@ -189,10 +189,18 @@ async function generateStaticPages() {
     
     // Launch browser
     console.log('🌐 Launching Chromium...');
-    browser = await puppeteer.launch({
+    
+    const browserOptions = {
       headless: 'new',
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
+    };
+    
+    if (isVercel) {
+      browserOptions.executablePath = await chromium.default.executablePath();
+      browserOptions.args = [...browserOptions.args, ...chromium.default.args];
+    }
+    
+    browser = await puppeteer.default.launch(browserOptions);
     console.log('✅ Browser launched\n');
     
     // Pre-render all pages
