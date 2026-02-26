@@ -167,6 +167,27 @@ const routes = [
     content: 'Collect payment on-site with tap-to-pay credit card processing. Send professional invoices instantly from mobile app. Get paid same day, not Net 30. Automatic payment reminders reduce late payments. Online payment portal makes it easy for customers to pay. QuickBooks sync eliminates double data entry. Track outstanding invoices and cash flow in real-time. Accept credit cards, ACH, checks, and cash.',
   },
   {
+    path: '/outreach-hub',
+    title: 'Outreach Hub | Client Communication Software for Contractors',
+    description: 'Stay connected with clients through mass email campaigns, SMS marketing, call logging, and automated follow-ups. A feature competitors don\'t have.',
+    h1: 'Stay Connected With Your Clients',
+    content: 'Outreach Hub helps contractors maximize client engagement. Send mass email campaigns to promote seasonal services. Send SMS campaigns for urgent announcements. Log all client calls and interactions. Schedule automated follow-ups. Win back inactive customers. Generate repeat business with targeted campaigns. A competitive advantage that Jobber and Housecall Pro don\'t offer.',
+  },
+  {
+    path: '/features',
+    title: 'All Features | Crew Ops Pro Field Service Software',
+    description: 'Everything you need to run a successful field service business. Scheduling, GPS tracking, jobs map, invoicing, customer management, and more—all in one platform.',
+    h1: 'Everything You Need to Run Your Field Service Business',
+    content: 'Crew Ops Pro includes all the features you need. Smart scheduling with drag-and-drop calendar. Real-time GPS tracking and team management. Live jobs map with emergency dispatch. Mobile invoicing and payment processing. Outreach hub for client campaigns. Customer management with complete history. Professional estimates and quotes. QuickBooks integration. Mobile apps for iOS and Android. All included at one simple price.',
+  },
+  {
+    path: '/features/jobs-map',
+    title: 'Live Tech Tracking & Jobs Map | Real-Time Field Service GPS Tracking',
+    description: 'See where every technician is in real-time. Emergency dispatch software with live GPS tracking, job status updates, and instant crew visibility for field service contractors.',
+    h1: 'Stop Asking "Where\'s My Team?"',
+    content: 'Jobs Map shows every technician\'s location in real-time on a live map. See who\'s available, who\'s on a job, and who\'s closest to an emergency. Color-coded status pins show availability at a glance. Emergency dispatch finds the nearest available tech in seconds. No more phone tag when urgent calls come in. ETA calculator shows arrival times with real traffic data. Job clustering helps optimize routes. Stop guessing where your team is—see everyone on the map.',
+  },
+  {
     path: '/blog',
     title: 'Creative Job Hub Blog | Tips for Service Business Growth',
     description: 'Read expert tips on job management, scheduling, customer communication, and growing your service business.',

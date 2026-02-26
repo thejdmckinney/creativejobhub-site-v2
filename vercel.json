@@ -1,5 +1,5 @@
 {
-  "buildCommand": "tsc -b && vite build",
+  "buildCommand": "npm run build:simple",
   "outputDirectory": "dist",
   "framework": null,
   "redirects": [
