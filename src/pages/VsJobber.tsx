@@ -4,7 +4,7 @@ import SEO from '../components/SEO';
 import FAQSchema from '../components/FAQSchema';
 import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
-import vsJobberImage from '../assets/crewopspro-vs-jobber.png';
+import vsJobberImage from '../assets/new-crewopspro-vs-jobber.png';
 import aiPricingImage from '../assets/Ai-pricing-analysis.png';
 import clientDetailsImage from '../assets/client-details.png';
 import dashboardImage from '../assets/dashboard-view.png';
