@@ -248,6 +248,178 @@ export default function LandscapingSoftware() {
         </div>
       </section>
 
+      {/* Industry Links Section */}
+      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Software Built for All Trades
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Whether you specialize in landscaping, lawn care, tree service, or run a multi-trade operation, Crew Ops Pro adapts to your business. One platform for every field service trade.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            {/* HVAC */}
+            <Link 
+              to="/hvac-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">❄️</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                HVAC Software
+              </h3>
+              <p className="text-gray-600">
+                Refrigerant tracking, seasonal maintenance contracts, and equipment warranty management for HVAC contractors.
+              </p>
+            </Link>
+
+            {/* Plumbing */}
+            <Link 
+              to="/plumbing-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">🔧</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Plumbing Software
+              </h3>
+              <p className="text-gray-600">
+                Emergency dispatch, recurring maintenance, and parts tracking built specifically for plumbing contractors.
+              </p>
+            </Link>
+
+            {/* Electrical */}
+            <Link 
+              to="/electrical-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">⚡</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Electrical Software
+              </h3>
+              <p className="text-gray-600">
+                Permit tracking, code compliance documentation, and panel upgrade management for electricians.
+              </p>
+            </Link>
+
+            {/* Painting */}
+            <Link 
+              to="/painting-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">🎨</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Painting Software
+              </h3>
+              <p className="text-gray-600">
+                Color tracking, multi-day project scheduling, and material estimation for painting contractors.
+              </p>
+            </Link>
+
+            {/* Pool Service */}
+            <Link 
+              to="/pool-service-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">🏊</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Pool Service Software
+              </h3>
+              <p className="text-gray-600">
+                Chemical tracking, water testing logs, and weekly route management for pool service companies.
+              </p>
+            </Link>
+
+            {/* Chimney Sweep */}
+            <Link 
+              to="/chimney-sweep-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">🧹</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Chimney Sweep Software
+              </h3>
+              <p className="text-gray-600">
+                CSIA inspection checklists, creosote tracking, and offline mode for basement work without cell service.
+              </p>
+            </Link>
+
+            {/* Handyman */}
+            <Link 
+              to="/handyman-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">🔨</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Handyman Software
+              </h3>
+              <p className="text-gray-600">
+                Multi-trade job tracking, flexible pricing, and customer history for handyman services and home repairs.
+              </p>
+            </Link>
+
+            {/* General Contractors */}
+            <Link 
+              to="/general-contractors-software"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 group"
+            >
+              <div className="text-4xl mb-3">🏗️</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                General Contractors
+              </h3>
+              <p className="text-gray-600">
+                Multi-project management, subcontractor coordination, and purchase orders for general contractors.
+              </p>
+            </Link>
+          </div>
+
+          {/* Feature Links */}
+          <div className="border-t border-gray-200 pt-12">
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+              Core Features Every Trade Needs
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Link 
+                to="/scheduling"
+                className="bg-blue-50 p-6 rounded-lg hover:bg-blue-100 transition-colors group"
+              >
+                <div className="text-3xl mb-2">📅</div>
+                <h4 className="font-bold text-gray-900 mb-1 group-hover:text-blue-600">Scheduling</h4>
+                <p className="text-gray-600 text-sm">Drag-and-drop calendar and route optimization</p>
+              </Link>
+
+              <Link 
+                to="/jobs-map"
+                className="bg-green-50 p-6 rounded-lg hover:bg-green-100 transition-colors group"
+              >
+                <div className="text-3xl mb-2">🗺️</div>
+                <h4 className="font-bold text-gray-900 mb-1 group-hover:text-green-600">Jobs Map</h4>
+                <p className="text-gray-600 text-sm">Visualize jobs and optimize technician routes</p>
+              </Link>
+
+              <Link 
+                to="/invoicing-payments"
+                className="bg-purple-50 p-6 rounded-lg hover:bg-purple-100 transition-colors group"
+              >
+                <div className="text-3xl mb-2">💳</div>
+                <h4 className="font-bold text-gray-900 mb-1 group-hover:text-purple-600">Invoicing</h4>
+                <p className="text-gray-600 text-sm">Accept payments on-site and sync with QuickBooks</p>
+              </Link>
+
+              <Link 
+                to="/outreach-hub"
+                className="bg-orange-50 p-6 rounded-lg hover:bg-orange-100 transition-colors group"
+              >
+                <div className="text-3xl mb-2">📧</div>
+                <h4 className="font-bold text-gray-900 mb-1 group-hover:text-orange-600">Outreach Hub</h4>
+                <p className="text-gray-600 text-sm">Email/SMS campaigns and automated follow-ups</p>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <FAQSchema faqs={faqs} />
 
       {/* FAQ Section */}
