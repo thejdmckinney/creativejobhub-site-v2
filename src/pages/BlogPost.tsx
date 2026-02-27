@@ -55,6 +55,8 @@ export default function BlogPost() {
         title={post.title}
         description={post.description}
         keywords={`${post.category}, field service, contractor tips, ${post.title}`}
+        ogImage={post.featuredImage}
+        ogType="article"
       />
 
       <article className="min-h-screen bg-gray-50">
