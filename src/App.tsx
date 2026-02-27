@@ -42,6 +42,11 @@ import InvoicingPayments from './pages/InvoicingPayments';
 import OutreachHub from './pages/OutreachHub';
 import Features from './pages/Features';
 import JobsMap from './pages/JobsMap';
+import FieldServiceSoftwareTexas from './pages/FieldServiceSoftwareTexas';
+import HVACSoftwarePhoenix from './pages/HVACSoftwarePhoenix';
+import PlumbingSoftwareFlorida from './pages/PlumbingSoftwareFlorida';
+import FieldServiceSoftwareCalifornia from './pages/FieldServiceSoftwareCalifornia';
+import ContractorSoftwareDallas from './pages/ContractorSoftwareDallas';
 
 function App() {
   return (
@@ -73,6 +78,14 @@ function App() {
           <Route path="landscaping-software" element={<LandscapingSoftware />} />
           <Route path="painting-software" element={<PaintingSoftware />} />
           <Route path="general-contractors-software" element={<GeneralContractorsSoftware />} />
+          
+          {/* Location Pages */}
+          <Route path="field-service-software-texas" element={<FieldServiceSoftwareTexas />} />
+          <Route path="hvac-software-phoenix" element={<HVACSoftwarePhoenix />} />
+          <Route path="plumbing-software-florida" element={<PlumbingSoftwareFlorida />} />
+          <Route path="field-service-software-california" element={<FieldServiceSoftwareCalifornia />} />
+          <Route path="contractor-software-dallas" element={<ContractorSoftwareDallas />} />
+          
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
@@ -82,6 +95,7 @@ function App() {
           <Route path="outreach-hub" element={<OutreachHub />} />
           <Route path="features" element={<Features />} />
           <Route path="features/jobs-map" element={<JobsMap />} />
+          <Route path="jobs-map" element={<JobsMap />} />
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
