@@ -37,6 +37,7 @@ import Studio from './pages/Studio';
 import Contact from './pages/Contact';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import SmsTerms from './pages/SmsTerms';
 import SchedulingFeatures from './pages/SchedulingFeatures';
 import InvoicingPayments from './pages/InvoicingPayments';
 import OutreachHub from './pages/OutreachHub';
@@ -99,6 +100,7 @@ function App() {
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="sms-terms" element={<SmsTerms />} />
           {/* Blog Routes */}
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />

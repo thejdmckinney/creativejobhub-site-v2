@@ -99,6 +99,11 @@ export default function Footer() {
                   Terms of Service
                 </Link>
               </li>
+              <li>
+                <Link to="/sms-terms" className="hover:text-white">
+                  SMS Terms
+                </Link>
+              </li>
             </ul>
           </div>
 

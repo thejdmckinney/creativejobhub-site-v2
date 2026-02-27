@@ -52,6 +52,7 @@ const routes = [
   '/blog',
   '/terms-of-service',
   '/privacy-policy',
+  '/sms-terms',
   '/why-i-built-this',
   '/signup',
   '/login',

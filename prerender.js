@@ -45,6 +45,7 @@ const staticRoutes = [
   '/contact',
   '/terms-of-service',
   '/privacy-policy',
+  '/sms-terms',
   '/outreach-hub',
   '/features',
   '/features/jobs-map',

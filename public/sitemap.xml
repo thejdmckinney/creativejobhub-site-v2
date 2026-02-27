@@ -265,14 +265,21 @@
   <!-- Legal Pages -->
   <url>
     <loc>https://www.crewopspro.com/terms-of-service</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/privacy-policy</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.crewopspro.com/sms-terms</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
