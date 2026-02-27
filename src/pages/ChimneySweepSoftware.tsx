@@ -8,6 +8,7 @@ import FAQSchema from '../components/FAQSchema';
 import RelatedPages from '../components/RelatedPages';
 import CalculateSavingsButton from '../components/CalculateSavingsButton';
 import csiaInspectionImage from '../assets/crewopspro-chimneysweep.png';
+import csiaChecklistImage from '../assets/csia-inspection-checklist.png';
 
 export default function ChimneySweepSoftware() {
   const [selectedLevel, setSelectedLevel] = useState<'level1' | 'level2' | 'level3'>('level1');
@@ -140,17 +141,30 @@ export default function ChimneySweepSoftware() {
             </p>
           </div>
 
-          {/* Image - Now smaller and better positioned */}
-          <div className="max-w-2xl mx-auto mb-12">
-            <img 
-              src={csiaInspectionImage} 
-              alt="CSIA Inspection Checklist and Creosote Tracking in Crew Ops Pro Mobile App" 
-              className="w-full rounded-lg shadow-lg border-2 border-gray-200"
-              loading="lazy"
-            />
-            <p className="text-center text-gray-600 mt-4 text-sm">
-              Complete CSIA inspections and log creosote readings right from your mobile device
-            </p>
+          {/* Images - Two column layout */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
+            <div>
+              <img 
+                src={csiaChecklistImage} 
+                alt="CSIA Inspection Checklist in Crew Ops Pro Mobile App" 
+                className="w-full rounded-lg shadow-lg border-2 border-gray-200"
+                loading="lazy"
+              />
+              <p className="text-center text-gray-600 mt-4 text-sm">
+                Built-in CSIA Level 1, 2, 3 inspection checklists
+              </p>
+            </div>
+            <div>
+              <img 
+                src={csiaInspectionImage} 
+                alt="Creosote Tracking and Flue Documentation" 
+                className="w-full rounded-lg shadow-lg border-2 border-gray-200"
+                loading="lazy"
+              />
+              <p className="text-center text-gray-600 mt-4 text-sm">
+                Log creosote readings and track flue conditions
+              </p>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
