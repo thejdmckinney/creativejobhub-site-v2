@@ -123,7 +123,7 @@ export default function HVACSoftware() {
               <div className="text-5xl mb-4">🔄</div>
               <h3 className="text-xl font-semibold mb-2">Seasonal Maintenance</h3>
               <p className="text-gray-600">
-                Automate spring and fall tune-ups with recurring maintenance plans. The system schedules appointments, sends reminders, and keeps you coming back to the same customers year after year.
+                Automate spring and fall tune-ups with recurring maintenance plans. Our <Link to="/scheduling" className="text-blue-600 hover:underline font-semibold">smart scheduling system</Link> sends automatic reminders and keeps you coming back to the same customers year after year.
               </p>
             </div>
             <div className="text-center">
@@ -133,6 +133,12 @@ export default function HVACSoftware() {
                 Log refrigerant usage, recovery amounts, and EPA compliance details. Track tech certifications and generate reports for audits. Stay compliant without the paperwork hassle.
               </p>
             </div>
+          </div>
+          
+          <div className="mt-12 text-center bg-blue-50 p-6 rounded-lg">
+            <p className="text-lg text-gray-700">
+              <strong>Need all-in-one field service management?</strong> Crew Ops Pro includes <Link to="/jobs-map" className="text-blue-600 hover:underline font-semibold">GPS tracking & dispatch</Link>, <Link to="/invoicing-payments" className="text-blue-600 hover:underline font-semibold">mobile payments</Link>, and <Link to="/outreach-hub" className="text-blue-600 hover:underline font-semibold">customer communication tools</Link> in one platform.
+            </p>
           </div>
         </div>
       </section>

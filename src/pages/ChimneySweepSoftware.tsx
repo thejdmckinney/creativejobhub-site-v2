@@ -137,7 +137,7 @@ export default function ChimneySweepSoftware() {
               Why Chimney Sweeps Are Leaving Generic Software
             </h2>
             <p className="text-xl text-gray-600">
-              Jobber and Housecall Pro don't understand your business. We built this specifically for you.
+              <Link to="/vs-jobber" className="text-blue-600 hover:underline font-semibold">Jobber</Link> and <Link to="/vs-housecall-pro" className="text-blue-600 hover:underline font-semibold">Housecall Pro</Link> don't understand your business. We built this specifically for you.
             </p>
           </div>
 
@@ -184,10 +184,16 @@ export default function ChimneySweepSoftware() {
                 <li><strong>• CSIA Level 1, 2, 3 checklists pre-built</strong> - Tap through inspections, never miss an item</li>
                 <li><strong>• Creosote tracking per flue</strong> - Log stages 1, 2, 3 with photos and recommendations</li>
                 <li><strong>• Flue sizing and damper documentation</strong> - Track measurements that matter</li>
-                <li><strong>• $89/month flat rate</strong> - Unlimited users, no surprise fees</li>
+                <li><strong>• $89/month flat rate</strong> - Unlimited users, no surprise fees. <Link to="/pricing" className="text-blue-600 hover:underline font-semibold">See full pricing →</Link></li>
                 <li><strong>• Built by someone who gets your business</strong> - Features chimney sweeps actually need</li>
               </ul>
             </div>
+          </div>
+          
+          <div className="mt-12 text-center bg-orange-50 p-6 rounded-lg max-w-3xl mx-auto">
+            <p className="text-lg text-gray-700">
+              <strong>Beyond inspections:</strong> Crew Ops Pro also includes <Link to="/scheduling" className="text-blue-600 hover:underline font-semibold">seasonal scheduling</Link>, <Link to="/invoicing-payments" className="text-blue-600 hover:underline font-semibold">mobile invoicing</Link>, and <Link to="/outreach-hub" className="text-blue-600 hover:underline font-semibold">automated appointment reminders</Link> for your busiest months.
+            </p>
           </div>
         </div>
       </section>

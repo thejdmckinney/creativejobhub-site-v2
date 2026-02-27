@@ -116,14 +116,14 @@ export default function PlumbingSoftware() {
               <div className="text-5xl mb-4">🚨</div>
               <h3 className="text-xl font-semibold mb-2">Emergency Call Management</h3>
               <p className="text-gray-600">
-                Track emergency vs. regular calls with automatic after-hours pricing. Never miss an emergency job or underprice urgent service calls.
+                Track emergency vs. regular calls with automatic after-hours pricing. Our <Link to="/scheduling" className="text-blue-600 hover:underline font-semibold">drag-and-drop scheduling</Link> helps you dispatch the nearest plumber to urgent jobs.
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">📱</div>
               <h3 className="text-xl font-semibold mb-2">Mobile-First Design</h3>
               <p className="text-gray-600">
-                Your plumbers can do everything from their phone: create estimates, complete jobs, collect payments, and generate invoices—right at the customer's location.
+                Your plumbers can do everything from their phone: create estimates, complete jobs, collect payments, and generate invoices—right at the customer's location. Full <Link to="/jobs-map" className="text-blue-600 hover:underline font-semibold">GPS tracking</Link> shows exactly where your team is.
               </p>
             </div>
             <div className="text-center">
@@ -133,6 +133,12 @@ export default function PlumbingSoftware() {
                 Set up maintenance plans for water heaters, backflow testing, and drain cleaning. Automated scheduling keeps you coming back to the same customers.
               </p>
             </div>
+          </div>
+          
+          <div className="mt-12 text-center bg-blue-50 p-6 rounded-lg">
+            <p className="text-lg text-gray-700">
+              <strong>Want to see the complete platform?</strong> Crew Ops Pro combines job management with <Link to="/invoicing-payments" className="text-blue-600 hover:underline font-semibold">fast payments</Link> and <Link to="/outreach-hub" className="text-blue-600 hover:underline font-semibold">automated customer follow-ups</Link> to help you grow. <Link to="/how-it-works" className="text-blue-600 hover:underline font-semibold">See how it works →</Link>
+            </p>
           </div>
         </div>
       </section>
