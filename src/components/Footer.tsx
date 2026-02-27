@@ -163,6 +163,31 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Popular Locations */}
+        <div className="mt-12 pt-8 border-t border-gray-800">
+          <div className="text-center mb-6">
+            <h3 className="text-white font-semibold text-sm mb-2">Popular Service Areas</h3>
+            <p className="text-gray-500 text-xs">Available nationwide • Serving contractors in all 50 states</p>
+          </div>
+          <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm">
+            <Link to="/field-service-software-texas" className="text-gray-400 hover:text-white transition-colors">
+              Texas
+            </Link>
+            <Link to="/hvac-software-phoenix" className="text-gray-400 hover:text-white transition-colors">
+              Phoenix, AZ
+            </Link>
+            <Link to="/plumbing-software-florida" className="text-gray-400 hover:text-white transition-colors">
+              Florida
+            </Link>
+            <Link to="/field-service-software-california" className="text-gray-400 hover:text-white transition-colors">
+              California
+            </Link>
+            <Link to="/contractor-software-dallas" className="text-gray-400 hover:text-white transition-colors">
+              Dallas-Fort Worth
+            </Link>
+          </div>
+        </div>
+
         {/* Trust Seals */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm">
