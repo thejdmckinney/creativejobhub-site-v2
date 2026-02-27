@@ -47,8 +47,11 @@ export default function SEO({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={absoluteOgImage} />
+      <meta property="og:image:secure_url" content={absoluteOgImage} />
+      <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content={fullTitle} />
       <meta property="og:site_name" content="Crew Ops Pro" />
       <meta property="og:locale" content="en_US" />
       
