@@ -28,7 +28,7 @@ export default function VsHousecallPro() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Crew Ops Pro vs Housecall Pro | Side-by-Side Review"
+        title="Crew Ops Pro vs Housecall Pro 2026 | Feature Comparison"
         description="Compare Crew Ops Pro vs Housecall Pro. Find the best job management software for your service business."
         keywords="Housecall Pro alternative, Crew Ops Pro vs Housecall Pro, Housecall Pro comparison"
       />

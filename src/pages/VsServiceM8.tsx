@@ -7,7 +7,7 @@ export default function VsServiceM8() {
   return (
     <div className="bg-white">
       <SEO 
-        title="ServiceM8: $129/Month Per User. Us: $89/Month Total."
+        title="Crew Ops Pro vs ServiceM8 2026 | $89 vs $645/mo | Save $6,672"
         description="Add 5 users on ServiceM8 = $645/month. Add 50 users on Crew Ops Pro = $89/month. Per-user pricing doesn't scale. We do. Try free for 14 days."
         keywords="ServiceM8 alternative, Crew Ops Pro vs ServiceM8, ServiceM8 comparison"
       />

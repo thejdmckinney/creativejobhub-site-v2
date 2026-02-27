@@ -27,7 +27,7 @@ export default function HVACSoftwarePhoenix() {
   return (
     <div className="bg-white">
       <SEO 
-        title="HVAC Software for Phoenix Contractors | Crew Ops Pro"
+        title="HVAC Software Phoenix 2026 | 280+ Local Contractors | $89/mo"
         description="Trusted by 280+ Phoenix HVAC contractors handling 118°F summers. Manage emergency AC calls, seasonal surges, and multi-crew dispatch. $89/month, unlimited users."
         keywords="HVAC software Phoenix, Phoenix AC software, air conditioning software Phoenix, HVAC contractor software Arizona, Phoenix HVAC dispatch, Scottsdale HVAC software"
       />

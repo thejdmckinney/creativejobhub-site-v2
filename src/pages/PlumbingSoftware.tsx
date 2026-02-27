@@ -55,7 +55,7 @@ export default function PlumbingSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Plumbing Software - Schedule, Invoice & Get Paid Faster | $89/mo"
+        title="Top Plumbing Software 2026 | #1 Rated by Plumbers | $89/mo"
         description="The best plumbing software for managing service calls, emergency jobs, recurring maintenance, and invoicing. Built for plumbers who need simple, powerful tools. $89/month flat, unlimited plumbers."
         keywords="plumbing software, plumber app, plumbing business software, plumber scheduling software, plumbing invoice software, plumbing service software"
       />

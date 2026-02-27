@@ -10,7 +10,7 @@ export default function PoolServiceSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Pool Software That Actually Tracks Chlorine Levels (Not Just Tasks)"
+        title="Pool Service Software 2026 | Chemical Tracking | $89/mo"
         description="Built-in chemical tracking, pool equipment history, and route optimization. Stop using generic software that doesn't understand pool service. $89/month."
         keywords="pool service software, pool maintenance software, pool route software, chemical tracking software, pool business software, pool cleaning software"
       />

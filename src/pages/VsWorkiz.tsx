@@ -7,7 +7,7 @@ export default function VsWorkiz() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Workiz Charges $238/Month for 5 Users. We Charge $89 for Unlimited."
+        title="Crew Ops Pro vs Workiz 2026 | $89 vs $238/mo | Save $1,788/Year"
         description="Same features. Better mobile app. Unlimited users vs Workiz's $238/month (5 users). Save $1,788/year and get QuickBooks sync included. Switch in 2 hours."
         keywords="Workiz alternative, Crew Ops Pro vs Workiz, Workiz comparison"
       />

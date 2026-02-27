@@ -57,7 +57,7 @@ export default function ChimneySweepSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="The Only Field Service Software That Knows What Creosote Is"
+        title="Chimney Sweep Software 2026 | CSIA Checklists | $89/mo"
         description="Built-in CSIA Level 1, 2, 3 inspection checklists. Creosote tracking. Flue sizing calculators. Finally, software that understands chimney sweeps. $89/month."
         keywords="chimney sweep software, CSIA inspection software, creosote tracking, chimney inspection app, chimney sweep business software, CSIA checklist app"
       />

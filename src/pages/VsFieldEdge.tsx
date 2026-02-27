@@ -7,7 +7,7 @@ export default function VsFieldEdge() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Your Techs Hate FieldEdge's Mobile App. Try Ours Instead."
+        title="Crew Ops Pro vs FieldEdge 2026 | Better Mobile App | $89/mo"
         description="FieldEdge's mobile app has a 2.3-star rating. Slow, buggy, crashes constantly. Crew Ops Pro: 4.8 stars, works offline, $80/month cheaper. Switch today."
         keywords="FieldEdge alternative, Crew Ops Pro vs FieldEdge, modern field service software"
       />

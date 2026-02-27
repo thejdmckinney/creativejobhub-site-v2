@@ -55,7 +55,7 @@ export default function LandscapingSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Landscaping Software | Job Management for Lawn Care Professionals"
+        title="Landscaping Software 2026 | Route Optimization | $89/mo Flat"
         description="The best landscaping software for managing crews, recurring maintenance, and seasonal contracts. Schedule mowing routes, track equipment, and invoice on-site. $89/month flat pricing."
         keywords="landscaping software, lawn care software, landscaping business software, lawn maintenance software, landscape management software, crew scheduling software"
       />

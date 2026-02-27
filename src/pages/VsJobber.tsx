@@ -49,7 +49,7 @@ export default function VsJobber() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Jobber Charges $50 Per User. We Charge $89 for Unlimited Users. Seriously."
+        title="Crew Ops Pro vs Jobber 2026 | $89 vs $250/mo | Save $1,932/Year"
         description="5 users on Jobber = $250/month ($3,000/year). 50 users on Crew Ops Pro = $89/month ($1,068/year). Why are you still using Jobber?"
         keywords="Jobber alternative, alternative to Jobber, best Jobber alternatives, cheaper than Jobber, Jobber vs Crew Ops Pro, Jobber competitor, switch from Jobber, Jobber pricing alternative"
       />

@@ -27,7 +27,7 @@ export default function FieldServiceSoftwareCalifornia() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Field Service Software for California Contractors | Crew Ops Pro"
+        title="Field Service Software California 2026 | 850+ Contractors | $89/mo"
         description="Trusted by 850+ California contractors in LA, San Diego, San Francisco, and Sacramento. Handle regulations, traffic, and growth. $89/month, unlimited users."
         keywords="field service software California, contractor software California, HVAC software Los Angeles, plumbing software San Diego, California contractor management, Title 24 software"
       />

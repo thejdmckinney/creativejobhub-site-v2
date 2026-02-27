@@ -27,7 +27,7 @@ export default function FieldServiceSoftwareTexas() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Field Service Software for Texas Contractors | Crew Ops Pro"
+        title="Field Service Software Texas 2026 | 1,200+ Contractors | $89/mo"
         description="Trusted by 1,200+ Texas contractors in Dallas, Houston, Austin, and beyond. Manage HVAC, plumbing, electrical, and field service businesses. $89/month, unlimited users."
         keywords="field service software Texas, contractor software Texas, HVAC software Dallas, plumbing software Houston, Texas contractor management, field service management Texas"
       />

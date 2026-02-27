@@ -27,7 +27,7 @@ export default function VsServiceTitan() {
   return (
     <div className="bg-white">
       <SEO 
-        title="ServiceTitan Costs More Than a New Truck. We Cost $89/Month."
+        title="Crew Ops Pro vs ServiceTitan 2026 | $89/mo vs $9,000/year"
         description="ServiceTitan's pricing starts at $9,000/year + implementation fees. That's a down payment on a Ford F-250. Or you could pay $89/month and buy the truck instead."
         keywords="ServiceTitan alternative, affordable ServiceTitan, Crew Ops Pro vs ServiceTitan"
       />

@@ -27,7 +27,7 @@ export default function ContractorSoftwareDallas() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Contractor Software for Dallas | Crew Ops Pro"
+        title="Contractor Software Dallas 2026 | 450+ DFW Contractors | $89/mo"
         description="Trusted by 450+ Dallas-Fort Worth contractors. Manage HVAC, plumbing, electrical, and field service businesses across DFW. $89/month, unlimited users."
         keywords="contractor software Dallas, Dallas field service software, DFW contractor management, HVAC software Dallas, plumbing software Fort Worth, Dallas contractor app"
       />

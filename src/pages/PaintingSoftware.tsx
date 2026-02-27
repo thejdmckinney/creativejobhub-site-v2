@@ -55,7 +55,7 @@ export default function PaintingSoftware() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Painting Contractor Software | Crew Ops Pro"
+        title="Painting Software 2026 | Color Tracking & Estimates | $89/mo"
         description="The best painting contractor software for managing residential and commercial projects. Track color selections, materials, and multi-day jobs. $89/month flat pricing."
         keywords="painting contractor software, painter software, painting business software, painting estimating software, house painting software, commercial painting software"
       />
