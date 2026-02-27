@@ -15,7 +15,7 @@ export default function SEO({
   title = 'How Crew Ops Pro Works | Job Management Made Simple',
   description = 'See how Crew Ops Pro helps service businesses manage jobs, schedules, customers, and payments in one simple platform.',
   keywords = 'field service management, contractor software, job management, hvac software, plumbing software, electrical software, landscaping software, scheduling software, estimate software, invoice software',
-  ogImage = 'https://www.crewopspro.com/new-crewops-logo-only.png',
+  ogImage = 'https://www.crewopspro.com/crewopspro-og-image.png',
   ogType = 'website',
   canonicalUrl,
   noIndex = false,
@@ -23,6 +23,11 @@ export default function SEO({
   const location = useLocation();
   const fullTitle = title.includes('Crew Ops Pro') ? title : `${title} | Crew Ops Pro`;
   const currentUrl = canonicalUrl || `https://www.crewopspro.com${location.pathname}`;
+  
+  // Ensure OG image is an absolute URL
+  const absoluteOgImage = ogImage?.startsWith('http') 
+    ? ogImage 
+    : `https://www.crewopspro.com${ogImage?.startsWith('/') ? ogImage : `/${ogImage}`}`;
 
   return (
     <Helmet>
@@ -41,7 +46,7 @@ export default function SEO({
       <meta property="og:url" content={currentUrl} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={ogImage} />
+      <meta property="og:image" content={absoluteOgImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content="Crew Ops Pro" />
@@ -52,7 +57,7 @@ export default function SEO({
       <meta name="twitter:url" content={currentUrl} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:image" content={absoluteOgImage} />
       <meta name="twitter:image:alt" content="Crew Ops Pro - Field Service Management Software" />
       <meta name="twitter:site" content="@crewopspro" />
       <meta name="twitter:creator" content="@crewopspro" />
