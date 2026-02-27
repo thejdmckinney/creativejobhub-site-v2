@@ -45,7 +45,6 @@ const routes = [
   '/general-contractors-software',
   '/bring-your-own-tools',
   '/scheduling',
-  '/team-management',
   '/invoicing-payments',
   '/outreach-hub',
   '/features',

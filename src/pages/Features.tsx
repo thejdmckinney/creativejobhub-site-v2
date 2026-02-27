@@ -6,8 +6,8 @@ export default function Features() {
     <>
       <SEO
         title="All Features | Complete Field Service Management Platform"
-        description="Everything you need to run your field service business: scheduling, team management, invoicing, payments, client outreach, and more. All in one platform for $89/month."
-        keywords="field service management features, contractor software features, scheduling software, invoicing software, team management, client outreach"
+        description="Everything you need to run your field service business: scheduling, live GPS tracking, invoicing, payments, client outreach, and more. All in one platform for $89/month."
+        keywords="field service management features, contractor software features, scheduling software, invoicing software, GPS tracking, live dispatch, client outreach"
         ogImage="https://www.crewopspro.com/crewopspro-home-page.png"
       />
 
@@ -63,23 +63,6 @@ export default function Features() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Scheduling</h3>
               <p className="text-gray-600 mb-4">
                 Drag-and-drop calendar with conflict alerts, emergency dispatch, and smart job assignment. Stop double-booking your best techs.
-              </p>
-              <span className="text-blue-600 font-semibold group-hover:translate-x-2 transition-transform inline-block">
-                Learn more →
-              </span>
-            </Link>
-
-            {/* Team Management */}
-            <Link
-              to="/team-management"
-              className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all hover:scale-105 group"
-            >
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-purple-200 transition-colors">
-                <span className="text-4xl">👥</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Team Management</h3>
-              <p className="text-gray-600 mb-4">
-                Real-time GPS tracking, job status updates, and performance insights. Know exactly where your team is and what they're doing.
               </p>
               <span className="text-blue-600 font-semibold group-hover:translate-x-2 transition-transform inline-block">
                 Learn more →

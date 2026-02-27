@@ -153,13 +153,6 @@ const routes = [
     content: 'Smart scheduling with drag-and-drop calendar. Instant conflict alerts prevent double-booking. Emergency dispatch finds available technicians fast. Auto-assignment matches jobs to the right techs based on skills, location, and availability. Color-coded calendar shows job status at a glance. Mobile app sync keeps everyone updated in real-time. Recurring job automation saves hours every week.',
   },
   {
-    path: '/team-management',
-    title: 'Team Management Features | Creative Job Hub',
-    description: 'Real-time GPS tracking, job status updates, and team performance insights. Know exactly where your team is and what they\'re doing with live field visibility.',
-    h1: 'Know Where Your Team Is And What They\'re Doing',
-    content: 'Real-time GPS tracking shows technician locations on live map. Job status updates show who is en route, on site, or completed. Live field visibility eliminates phone tag and guessing. Performance insights track completion rates, customer ratings, and revenue per tech. Clock in and out with geofencing. Photo documentation proves work completed. Digital timesheets eliminate manual entry.',
-  },
-  {
     path: '/invoicing-payments',
     title: 'Get Paid Faster with Creative Job Hub | Invoicing & Payments',
     description: 'Collect payment on-site with tap-to-pay, send professional invoices instantly, and get paid the same day. No more Net 30—get your money when the job is done.',

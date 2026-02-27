@@ -38,7 +38,6 @@ import Contact from './pages/Contact';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import SchedulingFeatures from './pages/SchedulingFeatures';
-import TeamManagement from './pages/TeamManagement';
 import InvoicingPayments from './pages/InvoicingPayments';
 import OutreachHub from './pages/OutreachHub';
 import Features from './pages/Features';
@@ -79,7 +78,6 @@ function App() {
           <Route path="bring-your-own-tools" element={<BringYourOwnTools />} />
           <Route path="contact" element={<Contact />} />
           <Route path="scheduling" element={<SchedulingFeatures />} />
-          <Route path="team-management" element={<TeamManagement />} />
           <Route path="invoicing-payments" element={<InvoicingPayments />} />
           <Route path="outreach-hub" element={<OutreachHub />} />
           <Route path="features" element={<Features />} />
