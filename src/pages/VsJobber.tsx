@@ -103,7 +103,7 @@ export default function VsJobber() {
               </Link>
             </div>
             <p className="text-gray-600">
-              ✓ No credit card required &nbsp;•&nbsp; ✓ Switch in 2 hours &nbsp;•&nbsp; ✓ Import Jobber data instantly
+              ✓ 14 days free &nbsp;•&nbsp; ✓ Switch in 2 hours &nbsp;•&nbsp; ✓ Import Jobber data instantly
             </p>
           </div>
         </div>
@@ -232,7 +232,7 @@ export default function VsJobber() {
               </Link>
             </div>
             <p className="text-gray-600 mt-4 text-sm">
-              ✓ No credit card required &nbsp;•&nbsp; ✓ Cancel anytime &nbsp;•&nbsp; ✓ Free migration support
+              ✓ 14 days free &nbsp;•&nbsp; ✓ Cancel anytime &nbsp;•&nbsp; ✓ Free migration support
             </p>
           </div>
         </div>
@@ -1095,7 +1095,7 @@ export default function VsJobber() {
               Start Free Trial - Switch in 2 Hours →
             </Link>
             <p className="text-gray-600 text-lg">
-              ✓ No credit card &nbsp;•&nbsp; ✓ 14-day free trial &nbsp;•&nbsp; ✓ Free migration support &nbsp;•&nbsp; ✓ Cancel anytime
+              ✓ 14-day free trial &nbsp;•&nbsp; ✓ Free migration support &nbsp;•&nbsp; ✓ Cancel anytime
             </p>
 
             <div className="mt-8 pt-8 border-t border-gray-200">
