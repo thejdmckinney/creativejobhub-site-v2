@@ -7,8 +7,8 @@ import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 import RelatedPages from '../components/RelatedPages';
 import CalculateSavingsButton from '../components/CalculateSavingsButton';
-import csiaInspectionImage from '../assets/crewopspro-chimneysweep.png';
-import csiaChecklistImage from '../assets/csia-inspection-checklist.png';
+import csiaInspectionImage from '../assets/crewopspro-chimneysweep.webp';
+import csiaChecklistImage from '../assets/csia-inspection-checklist.webp';
 
 export default function ChimneySweepSoftware() {
   const [selectedLevel, setSelectedLevel] = useState<'level1' | 'level2' | 'level3'>('level1');

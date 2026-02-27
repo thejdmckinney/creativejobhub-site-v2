@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import RelatedPages from '../components/RelatedPages';
-import schedulingPageImage from '../assets/scheduling-page.png';
+import schedulingPageImage from '../assets/scheduling-page.webp';
 
 export default function SchedulingFeatures() {
   return (

@@ -8,7 +8,7 @@ export default function Features() {
         title="All Features | Complete Field Service Management Platform"
         description="Everything you need to run your field service business: scheduling, live GPS tracking, invoicing, payments, client outreach, and more. All in one platform for $89/month."
         keywords="field service management features, contractor software features, scheduling software, invoicing software, GPS tracking, live dispatch, client outreach"
-        ogImage="https://www.crewopspro.com/crewopspro-home-page.png"
+        ogImage="https://www.crewopspro.com/crewopspro-home-page.webp"
       />
 
       {/* Hero Section */}

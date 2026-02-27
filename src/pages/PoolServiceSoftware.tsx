@@ -4,7 +4,7 @@ import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedPages from '../components/RelatedPages';
 import CalculateSavingsButton from '../components/CalculateSavingsButton';
-import poolServiceImage from '../assets/crewopspro-pool-service.png';
+import poolServiceImage from '../assets/crewopspro-pool-service.webp';
 
 export default function PoolServiceSoftware() {
   return (

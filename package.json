@@ -44,6 +44,7 @@
     "postcss": "^8.5.6",
     "puppeteer": "^24.36.1",
     "puppeteer-core": "^24.36.1",
+    "sharp": "^0.34.5",
     "sirv-cli": "^3.0.1",
     "tailwindcss": "^4.1.18",
     "typescript": "~5.9.3",

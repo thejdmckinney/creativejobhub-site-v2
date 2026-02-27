@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import RelatedPages from '../components/RelatedPages';
-import jobsMapImage from '../assets/Jobs-map-desktop.png';
+import jobsMapImage from '../assets/Jobs-map-desktop.webp';
 
 export default function JobsMap() {
   return (
@@ -10,7 +10,7 @@ export default function JobsMap() {
         title="Live Tech Tracking & Jobs Map | Real-Time Field Service GPS Tracking"
         description="See where every technician is in real-time. Emergency dispatch software with live GPS tracking, job status updates, and instant crew visibility for field service contractors."
         keywords="field service GPS tracking, live technician tracking software, field crew monitoring, dispatch software for contractors, real-time job map, emergency job scheduling software, technician location tracking, field service visibility"
-        ogImage="https://www.crewopspro.com/Jobs-map-desktop.png"
+        ogImage="https://www.crewopspro.com/Jobs-map-desktop.webp"
       />
 
       {/* Hero Section */}

@@ -24,7 +24,7 @@ export default function SoftwareApplicationSchema() {
     },
     "description": "The all-in-one field service management software built specifically for creative contractors. Schedule jobs, create estimates, manage clients, and get paid faster. $89/month, everything included.",
     "url": "https://www.crewopspro.com",
-    "screenshot": "https://www.crewopspro.com/src/assets/home-page-image.png",
+    "screenshot": "https://www.crewopspro.com/src/assets/home-page-image.webp",
     "softwareVersion": "2.0",
     "releaseNotes": "Enhanced mobile app with offline mode, QuickBooks Online integration, GPS tracking, and automated invoicing.",
     "featureList": [

@@ -8,7 +8,7 @@ export default function OutreachHub() {
         title="Outreach Hub - Proactive Client Communication Tool"
         description="Stay connected with your clients using Crew Ops Pro's Outreach Hub. Send mass emails, SMS campaigns, log calls, schedule follow-ups, and maximize client engagement. A feature Jobber and Housecall Pro don't offer."
         keywords="client outreach software, customer communication tool, mass email campaigns, SMS marketing for contractors, client engagement, follow-up scheduler, call logging, outbound calling hub, customer retention software"
-        ogImage="https://www.crewopspro.com/crewopspro-home-page.png"
+        ogImage="https://www.crewopspro.com/crewopspro-home-page.webp"
       />
 
       {/* Hero Section */}

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import RelatedPages from '../components/RelatedPages';
-import stripePartnerImage from '../assets/stripe-partner.png';
+import stripePartnerImage from '../assets/stripe-partner.webp';
 
 export default function InvoicingPayments() {
   return (

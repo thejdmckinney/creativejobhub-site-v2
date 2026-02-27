@@ -11,7 +11,7 @@ export default function ContactPageSchema() {
       "@type": "Organization",
       "name": "Crew Ops Pro",
       "url": "https://www.crewopspro.com",
-      "logo": "https://www.crewopspro.com/logo.png",
+      "logo": "https://www.crewopspro.com/logo.webp",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+1-555-0100",

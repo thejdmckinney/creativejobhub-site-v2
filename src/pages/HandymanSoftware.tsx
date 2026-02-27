@@ -4,7 +4,7 @@ import StarRating from '../components/StarRating';
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedPages from '../components/RelatedPages';
 import CalculateSavingsButton from '../components/CalculateSavingsButton';
-import handymanImage from '../assets/crewopspro-handyman.png';
+import handymanImage from '../assets/crewopspro-handyman.webp';
 
 export default function HandymanSoftware() {
   return (

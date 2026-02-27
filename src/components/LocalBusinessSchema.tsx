@@ -5,7 +5,7 @@ export default function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Crew Ops Pro",
-    "image": "https://www.crewopspro.com/cjh-og-image.png",
+    "image": "https://www.crewopspro.com/cjh-og-image.webp",
     "description": "Field service management software built by contractors for contractors. All-in-one solution for scheduling, estimates, invoicing, mobile apps, and more.",
     "address": {
       "@type": "PostalAddress",
