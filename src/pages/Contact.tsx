@@ -122,7 +122,7 @@ export default function Contact() {
                     <h3 className="font-semibold text-gray-900 mb-1">Support</h3>
                     <p className="text-gray-600">
                       <a 
-                        href="https://support.crewopspro.com/en/" 
+                        href="https://crewopspro.tawk.help/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-700"

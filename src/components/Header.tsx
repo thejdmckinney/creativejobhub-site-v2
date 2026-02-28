@@ -208,7 +208,7 @@ export default function Header() {
                       Contact
                     </Link>
                     <a 
-                      href="https://support.crewopspro.com/en/" 
+                      href="https://crewopspro.tawk.help/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
@@ -520,7 +520,7 @@ export default function Header() {
                       Contact
                     </Link>
                     <a
-                      href="https://support.crewopspro.com/en/"
+                      href="https://crewopspro.tawk.help/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"

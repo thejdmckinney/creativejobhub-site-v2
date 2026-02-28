@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://support.crewopspro.com/en/" 
+                  href="https://crewopspro.tawk.help/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-white"
