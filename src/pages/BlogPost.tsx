@@ -4,6 +4,7 @@ import { PortableText } from '@portabletext/react';
 import SEO from '../components/SEO';
 import CTAButton from '../components/CTAButton';
 import Comments from '../components/Comments';
+import ShareButtons from '../components/ShareButtons';
 import { getPostBySlug, type BlogPost } from '../utils/blog';
 
 export default function BlogPost() {
@@ -197,6 +198,13 @@ export default function BlogPost() {
                   ),
                 },
               }}
+            />
+
+            {/* Share Buttons */}
+            <ShareButtons 
+              url={`/blog/${post.slug}`}
+              title={post.title}
+              description={post.description}
             />
           </div>
 
