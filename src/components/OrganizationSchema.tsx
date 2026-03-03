@@ -13,7 +13,7 @@ export default function OrganizationSchema() {
     "name": "Crew Ops Pro",
     "legalName": "Crew Ops Pro LLC",
     "url": "https://www.crewopspro.com",
-    "logo": "https://www.crewopspro.com/cjh-og-image.webp",
+    "logo": "https://www.crewopspro.com/crewopspro-new-og-image.webp",
     "description": "Field service management software for contractors. Scheduling, estimates, invoicing, QuickBooks integration. Built by a contractor for contractors.",
     "foundingDate": "2025",
     "slogan": "Field Service Software That Doesn't Cost More Than Your Truck Payment",
