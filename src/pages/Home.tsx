@@ -57,9 +57,9 @@ export default function Home() {
   return (
     <div className="bg-white">
       <SEO 
-        title="Field Service Software That Doesn't Cost More Than Your Truck Payment"
-        description="Jobber wants $3,600/year. ServiceTitan wants $10,000+. We charge $89/month for everything. Built by a contractor who got tired of being ripped off."
-        keywords="field service management software, contractor software, hvac software, plumbing software, electrical software, landscaping software, job scheduling, estimates, invoicing, QuickBooks integration"
+        title="Best Field Service Management Software for Small Business | Crew Ops Pro"
+        description="Affordable cloud-based field service management software for contractors. Schedule jobs, dispatch teams, and get paid faster. QuickBooks integration included. $89/month, unlimited users."
+        keywords="field service management software, best field service software, cloud based field service management software, field service management software for small business, affordable field service software, field service software for quickbooks, mobile field service software, field service scheduling software"
       />
       <OrganizationSchema />
       <FAQSchema faqs={faqs} />
@@ -71,10 +71,10 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Stop Losing Jobs to Messy Scheduling and Slow Invoices
+                Best Field Service Management Software for Small Business
               </h1>
               <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
-                Schedule field teams, dispatch jobs, and get paid faster - all in one system built for service businesses.
+                Cloud-based field service software that helps contractors schedule teams, dispatch jobs, and get paid faster. Affordable pricing, unlimited users, QuickBooks integration included.
               </h2>
               
               {/* Credibility Bullets */}
@@ -83,19 +83,19 @@ export default function Home() {
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-medium text-gray-700">Built for field teams</span>
+                  <span className="text-sm font-medium text-gray-700">Cloud-based software</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-medium text-gray-700">Works offline</span>
+                  <span className="text-sm font-medium text-gray-700">Mobile field app</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-medium text-gray-700">Get paid in 1-2 days</span>
+                  <span className="text-sm font-medium text-gray-700">QuickBooks ready</span>
                 </div>
               </div>
 
@@ -167,23 +167,26 @@ export default function Home() {
       {/* SECTION 3 - FEATURE MICRO-BLOCKS */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-            Everything You Need to Run Your Field Business
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+            Complete Field Service Management Software Solution
           </h2>
+          <p className="text-center text-gray-600 text-lg max-w-3xl mx-auto mb-16">
+            From scheduling and dispatch to mobile invoicing and QuickBooks integration - everything field service businesses need in one affordable platform.
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Scheduling Block */}
             <div id="scheduling" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
               <div className="text-4xl mb-4">📅</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Stop Double-Booking Your Best Techs
+                Field Service Scheduling Software
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
-                  <span className="text-gray-700">Drag-and-drop calendar with conflict alerts</span>
+                  <span className="text-gray-700">Drag-and-drop calendar prevents double-booking</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -207,7 +210,7 @@ export default function Home() {
             <div id="team-management" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
               <div className="text-4xl mb-4">👥</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Know Where Your Team Is and What They're Doing
+                Mobile Field Service Software
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
@@ -220,13 +223,13 @@ export default function Home() {
                   <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
-                  <span className="text-gray-700">Time tracking with clock-in/out from mobile app</span>
+                  <span className="text-gray-700">Mobile app works offline in basements and remote areas</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
-                  <span className="text-gray-700">Instant dispatch via SMS - no phone tag</span>
+                  <span className="text-gray-700">Field service dispatch software with instant SMS alerts</span>
                 </li>
               </ul>
               <Link to="/team-management" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
@@ -238,7 +241,7 @@ export default function Home() {
             <div id="invoicing" className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Get Paid Faster, Not Net-30 Slower
+                Field Service Invoicing Software
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
@@ -257,7 +260,7 @@ export default function Home() {
                   <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
-                  <span className="text-gray-700">Auto-sync to QuickBooks - zero data entry</span>
+                  <span className="text-gray-700">QuickBooks integration - auto-sync invoices and payments</span>
                 </li>
               </ul>
               <Link to="/invoicing-payments" className="text-blue-600 hover:text-blue-700 font-semibold text-sm">
