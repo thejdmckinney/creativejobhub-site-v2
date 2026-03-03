@@ -64,9 +64,9 @@ export default function Pricing() {
   return (
     <div className="bg-white">
       <SEO 
-        title="$89/Month For Unlimited Users. Seriously. | Crew Ops Pro Pricing"
-        description="While Jobber charges $50+ per user, we charge $89/month total. No per-user fees. No hidden costs. Everything included. Calculate your savings now."
-        keywords="field service pricing, contractor software pricing, affordable field service software, unlimited users, jobber alternative pricing"
+        title="Affordable Field Service Management Software - $89/Month | Crew Ops Pro"
+        description="Best field service management software for small business. $89/month unlimited users vs competitors at $300+/month. Cloud-based, mobile app, QuickBooks integration included."
+        keywords="affordable field service software, field service management software for small business, best field service management software, field service software pricing, unlimited users field service software, cloud based field service software"
       />
       <SoftwareApplicationSchema />
       <ProductSchema />
@@ -85,11 +85,12 @@ export default function Pricing() {
                 🔥 MOST POPULAR PLAN
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Stop Paying Per User. Pay Once.
+                Affordable Field Service Management Software for Small Business
               </h1>
               <p className="text-2xl text-blue-100 mb-8">
-                Jobber charges <span className="font-bold text-white">$50 per user</span>. 
-                We charge <span className="font-bold text-white">$89 total</span>. Add 100 users if you want.
+                Best field service software at $89/month with unlimited users. 
+                While competitors charge <span className="font-bold text-white">$300+/month</span>, 
+                we keep it simple and affordable.
               </p>
               <div className="flex items-center gap-4 mb-8">
                 <StarRating />
@@ -117,12 +118,12 @@ export default function Pricing() {
             {/* Pricing Box */}
             <div className="bg-white text-gray-900 rounded-2xl shadow-2xl p-8">
               <div className="text-center mb-6">
-                <div className="text-gray-600 text-sm font-semibold uppercase mb-2">Simple Pricing</div>
+                <div className="text-gray-600 text-sm font-semibold uppercase mb-2">Cloud-Based Solution</div>
                 <div className="mb-4">
                   <span className="text-6xl font-bold text-gray-900">$89</span>
                   <span className="text-2xl text-gray-500">/month</span>
                 </div>
-                <p className="text-xl font-semibold text-gray-700">Everything Included. Forever.</p>
+                <p className="text-xl font-semibold text-gray-700">Complete Field Service Management Software</p>
               </div>
               
               <div className="space-y-3 mb-8">
@@ -132,23 +133,23 @@ export default function Pricing() {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-green-500 text-xl font-bold">✓</span>
+                  <span className="text-gray-700">Mobile field service app (iOS & Android)</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-green-500 text-xl font-bold">✓</span>
+                  <span className="text-gray-700">Cloud-based scheduling & dispatch software</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-green-500 text-xl font-bold">✓</span>
+                  <span className="text-gray-700">Field service invoicing & payments</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-green-500 text-xl font-bold">✓</span>
+                  <span className="text-gray-700">QuickBooks integration included</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-green-500 text-xl font-bold">✓</span>
                   <span className="text-gray-700">GPS tracking & route optimization</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-green-500 text-xl font-bold">✓</span>
-                  <span className="text-gray-700">Mobile app (iOS & Android)</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-green-500 text-xl font-bold">✓</span>
-                  <span className="text-gray-700">Invoicing, estimates & payments</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-green-500 text-xl font-bold">✓</span>
-                  <span className="text-gray-700">QuickBooks integration</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-green-500 text-xl font-bold">✓</span>
-                  <span className="text-gray-700">Custom forms & checklists</span>
                 </div>
               </div>
               
@@ -192,10 +193,10 @@ export default function Pricing() {
       <section id="calculator" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">
-            Calculate Your Savings
+            Compare Field Service Management Software Pricing
           </h2>
           <p className="text-xl text-center text-gray-600 mb-12">
-            See how much you'll save vs Jobber based on your team size
+            See how our affordable field service software saves small businesses thousands per year
           </p>
           
           <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 mb-8">
@@ -349,10 +350,10 @@ export default function Pricing() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">
-            Everything You Need. Nothing You Don't.
+            Complete Field Service Software Features Included
           </h2>
           <p className="text-xl text-center text-gray-600 mb-12">
-            All features included at $89/month. No tiers. No upgrades. No BS.
+            Best value in field service management software - all features at $89/month
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
