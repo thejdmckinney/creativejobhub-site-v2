@@ -25,7 +25,7 @@ export const blogPost = defineType({
       name: 'author',
       title: 'Author',
       type: 'string',
-      initialValue: 'Jeremy McKinney - Creative Job Hub',
+      initialValue: 'Jeremy McKinney - Crew Ops Pro',
     }),
     defineField({
       name: 'featuredImage',

@@ -62,7 +62,7 @@ export default function Contact() {
       <SEO 
         title="Contact Crew Ops Pro | Talk to Our Team"
         description="Have questions about Crew Ops Pro? Contact our team for support, sales inquiries, or general information."
-        keywords="contact creative job hub, field service software support, sales inquiry, customer service"
+        keywords="contact crew ops pro, field service software support, sales inquiry, customer service"
       />
       <ContactPageSchema />
 

@@ -72,7 +72,7 @@ const industries: IndustryData[] = [
       'Complete job history on mobile before arrival',
       'Take payment on-site, funds in 1-2 days'
     ],
-    proofSnippet: 'Plumbers using CJH close 23% more emergency calls'
+    proofSnippet: 'Plumbers using Crew Ops Pro close 23% more emergency calls'
   },
   {
     id: 'hvac',
@@ -212,7 +212,7 @@ export default function IndustryTabs() {
           <div>
             <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
               <span className="text-2xl mr-2">✅</span>
-              How CJH Solves It
+              How Crew Ops Pro Solves It
             </h4>
             <ul className="space-y-3">
               {activeIndustry.capabilities.map((capability, idx) => (

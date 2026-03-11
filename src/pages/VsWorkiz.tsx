@@ -220,7 +220,7 @@ export default function VsWorkiz() {
           <div className="mt-12 bg-blue-50 rounded-lg p-8">
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-700 italic mb-4">
-                "Switched from Workiz 3 months ago because the mobile app was driving my team crazy. CJH is SO much faster and easier to use. My techs actually like using it now instead of complaining. Plus I'm saving $150/month."
+                "Switched from Workiz 3 months ago because the mobile app was driving my team crazy. Crew Ops Pro is SO much faster and easier to use. My techs actually like using it now instead of complaining. Plus I'm saving $150/month."
               </p>
               <p className="font-semibold text-gray-900">— David R., Electrician, Phoenix AZ</p>
             </div>
@@ -425,7 +425,7 @@ export default function VsWorkiz() {
                 Will my team adapt easily to a new app?
               </h3>
               <p className="text-gray-600">
-                Most techs find CJH easier to use than Workiz because it's more intuitive. Less taps, faster loading, clearer layout. We've had multiple contractors tell us their team actually prefers CJH.
+                Most techs find Crew Ops Pro easier to use than Workiz because it's more intuitive. Less taps, faster loading, clearer layout. We've had multiple contractors tell us their team actually prefers Crew Ops Pro.
               </p>
             </div>
 

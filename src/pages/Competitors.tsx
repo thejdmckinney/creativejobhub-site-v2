@@ -250,19 +250,19 @@ export default function Competitors() {
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
               <p className="text-lg text-gray-600 mb-4 italic">
-                "ServiceTitan wanted $600/month plus a 2-year contract. CJH lets me try it free for 14 days and cancel anytime. That's how confident they are."
+                "ServiceTitan wanted $600/month plus a 2-year contract. Crew Ops Pro lets me try it free for 14 days and cancel anytime. That's how confident they are."
               </p>
               <p className="font-semibold text-gray-900">- Sarah, Plumbing Company Owner</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
               <p className="text-lg text-gray-600 mb-4 italic">
-                "Housecall Pro's mobile app was clunky and slow. CJH is faster and actually works the way I work in the field."
+                "Housecall Pro's mobile app was clunky and slow. Crew Ops Pro is faster and actually works the way I work in the field."
               </p>
               <p className="font-semibold text-gray-900">- David, Electrical Contractor</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
               <p className="text-lg text-gray-600 mb-4 italic">
-                "I called Workiz support 6 times before getting help. Jeremy at CJH responds within hours. Built and supported by someone who gets it."
+                "I called Workiz support 6 times before getting help. Jeremy at Crew Ops Pro responds within hours. Built and supported by someone who gets it."
               </p>
               <p className="font-semibold text-gray-900">- Tom, Handyman Service</p>
             </div>

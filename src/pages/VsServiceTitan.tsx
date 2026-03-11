@@ -452,7 +452,7 @@ export default function VsServiceTitan() {
                 What if I've already committed to ServiceTitan?
               </h3>
               <p className="text-gray-600">
-                Check your contract terms. Some contractors find that the savings with CJH ($400+/month) cover any early termination fees within 3-6 months. Calculate the total savings over the remaining contract period - you might be better off switching now.
+                Check your contract terms. Some contractors find that the savings with Crew Ops Pro ($400+/month) cover any early termination fees within 3-6 months. Calculate the total savings over the remaining contract period - you might be better off switching now.
               </p>
             </div>
 

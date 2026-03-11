@@ -357,7 +357,7 @@ export default function VsHousecallPro() {
           <div className="mt-12 bg-blue-50 rounded-lg p-8">
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-700 italic mb-4">
-                "I switched from Housecall Pro 6 months ago and haven't looked back. CJH is faster, cheaper, and actually has the features I need for my pool business. Housecall was costing me $280/month with add-ons. Now I pay $89 and get MORE features."
+                "I switched from Housecall Pro 6 months ago and haven't looked back. Crew Ops Pro is faster, cheaper, and actually has the features I need for my pool business. Housecall was costing me $280/month with add-ons. Now I pay $89 and get MORE features."
               </p>
               <p className="font-semibold text-gray-900">— Marcus T., Pool Service Owner, Dallas TX</p>
             </div>
@@ -526,7 +526,7 @@ export default function VsHousecallPro() {
                 What if I'm locked in a contract with Housecall Pro?
               </h3>
               <p className="text-gray-600">
-                Check your contract terms. Many contractors find the savings with CJH cover any early termination fees within 2-3 months. Calculate your potential savings - it might be worth it to switch now.
+                Check your contract terms. Many contractors find the savings with Crew Ops Pro cover any early termination fees within 2-3 months. Calculate your potential savings - it might be worth it to switch now.
               </p>
             </div>
 
