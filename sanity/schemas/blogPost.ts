@@ -60,6 +60,21 @@ export const blogPost = defineType({
       validation: (Rule) => Rule.required().max(160),
     }),
     defineField({
+      name: 'seoTitle',
+      title: 'SEO Title (Meta Title)',
+      type: 'string',
+      description: 'Optional: Custom title for search engines. If left blank, the post title will be used. Keep under 60 characters.',
+      validation: (Rule) => Rule.max(60),
+    }),
+    defineField({
+      name: 'seoDescription',
+      title: 'SEO Description (Meta Description)',
+      type: 'text',
+      rows: 3,
+      description: 'Optional: Custom description for search engines. If left blank, the regular description will be used. Keep between 150-160 characters.',
+      validation: (Rule) => Rule.max(160),
+    }),
+    defineField({
       name: 'content',
       title: 'Content',
       type: 'array',

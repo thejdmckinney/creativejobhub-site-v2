@@ -53,8 +53,8 @@ export default function BlogPost() {
   return (
     <>
       <SEO 
-        title={post.title}
-        description={post.description}
+        title={post.seoTitle || post.title}
+        description={post.seoDescription || post.description}
         keywords={`${post.category}, field service, contractor tips, ${post.title}`}
         ogImage={post.featuredImage}
         ogType="article"

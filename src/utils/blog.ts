@@ -6,6 +6,8 @@ export interface BlogPost {
   slug: string;
   title: string;
   description: string;
+  seoTitle?: string;
+  seoDescription?: string;
   date: string;
   category: string;
   author: string;
@@ -22,6 +24,8 @@ export async function getAllPosts(): Promise<BlogPost[]> {
     "slug": slug.current,
     title,
     description,
+    seoTitle,
+    seoDescription,
     "date": publishedAt,
     category,
     author,
@@ -47,6 +51,8 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     "slug": slug.current,
     title,
     description,
+    seoTitle,
+    seoDescription,
     "date": publishedAt,
     category,
     author,
@@ -80,6 +86,8 @@ export async function getPostsByCategory(category: string): Promise<BlogPost[]> 
     "slug": slug.current,
     title,
     description,
+    seoTitle,
+    seoDescription,
     "date": publishedAt,
     category,
     author,
