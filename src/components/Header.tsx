@@ -78,6 +78,13 @@ export default function Header() {
                       💳 Invoicing & Payments
                       <span className="block text-xs text-gray-500 mt-1">Get paid on-site</span>
                     </Link>
+                    <Link 
+                      to="/smart-materials-list" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      ✨ Smart Materials List
+                      <span className="block text-xs text-gray-500 mt-1">AI-powered for electricians</span>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -366,6 +373,13 @@ export default function Header() {
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       💳 Invoicing & Payments
+                    </Link>
+                    <Link
+                      to="/smart-materials-list"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      ✨ Smart Materials List
                     </Link>
                   </div>
                 )}
