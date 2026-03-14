@@ -39,6 +39,7 @@ const staticRoutes = [
   '/painting-software',
   '/general-contractors-software',
   '/bring-your-own-tools',
+  '/smart-materials-list',
   '/blog',
   '/signup',
   '/login',

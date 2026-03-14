@@ -44,6 +44,7 @@ const routes = [
   '/painting-software',
   '/general-contractors-software',
   '/bring-your-own-tools',
+  '/smart-materials-list',
   '/scheduling',
   '/invoicing-payments',
   '/outreach-hub',

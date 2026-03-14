@@ -48,6 +48,7 @@ import HVACSoftwarePhoenix from './pages/HVACSoftwarePhoenix';
 import PlumbingSoftwareFlorida from './pages/PlumbingSoftwareFlorida';
 import FieldServiceSoftwareCalifornia from './pages/FieldServiceSoftwareCalifornia';
 import ContractorSoftwareDallas from './pages/ContractorSoftwareDallas';
+import SmartMaterialsList from './pages/SmartMaterialsList';
 
 function App() {
   return (
@@ -97,6 +98,7 @@ function App() {
           <Route path="features" element={<Features />} />
           <Route path="features/jobs-map" element={<JobsMap />} />
           <Route path="jobs-map" element={<JobsMap />} />
+          <Route path="smart-materials-list" element={<SmartMaterialsList />} />
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
