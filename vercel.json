@@ -8,10 +8,72 @@
       "has": [
         {
           "type": "host",
+          "value": "crewopspro.com"
+        }
+      ],
+      "destination": "https://www.crewopspro.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.crewopspro.com"
+        },
+        {
+          "type": "header",
+          "key": "x-forwarded-proto",
+          "value": "http"
+        }
+      ],
+      "destination": "https://www.crewopspro.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
           "value": "creativejobhub.com"
         }
       ],
       "destination": "https://www.creativejobhub.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-field-service-software/:path*",
+      "destination": "/hvac-software",
+      "permanent": true
+    },
+    {
+      "source": "/industries/pool-service/:path*",
+      "destination": "/pool-service-software",
+      "permanent": true
+    },
+    {
+      "source": "/features/boost-reviews/:path*",
+      "destination": "/features",
+      "permanent": true
+    },
+    {
+      "source": "/industries/pest-control/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/electrical-field-service-software/:path*",
+      "destination": "/electrical-software",
+      "permanent": true
+    },
+    {
+      "source": "/chimney-service-field-service-software/:path*",
+      "destination": "/chimney-sweep-software",
+      "permanent": true
+    },
+    {
+      "source": "/pressure-washing-field-service-software/:path*",
+      "destination": "/",
       "permanent": true
     }
   ],
