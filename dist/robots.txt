@@ -8,3 +8,11 @@ Sitemap: https://www.crewopspro.com/sitemap.xml
 # Disallow admin or test pages (if any)
 Disallow: /admin/
 Disallow: /test/
+
+# Disallow old URL patterns that have been redirected
+Disallow: /hvac-field-service-software/
+Disallow: /industries/
+Disallow: /electrical-field-service-software/
+Disallow: /chimney-service-field-service-software/
+Disallow: /pressure-washing-field-service-software/
+Disallow: /features/boost-reviews/

@@ -49,6 +49,7 @@ import PlumbingSoftwareFlorida from './pages/PlumbingSoftwareFlorida';
 import FieldServiceSoftwareCalifornia from './pages/FieldServiceSoftwareCalifornia';
 import ContractorSoftwareDallas from './pages/ContractorSoftwareDallas';
 import SmartMaterialsList from './pages/SmartMaterialsList';
+import ChimneyInspectionSuite from './pages/ChimneyInspectionSuite';
 
 function App() {
   return (
@@ -99,6 +100,7 @@ function App() {
           <Route path="features/jobs-map" element={<JobsMap />} />
           <Route path="jobs-map" element={<JobsMap />} />
           <Route path="smart-materials-list" element={<SmartMaterialsList />} />
+          <Route path="chimney-inspection-suite" element={<ChimneyInspectionSuite />} />
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
