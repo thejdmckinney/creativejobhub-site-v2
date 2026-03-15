@@ -75,6 +75,36 @@
       "source": "/pressure-washing-field-service-software/:path*",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/features/simplified-communications/:path*",
+      "destination": "/features",
+      "permanent": true
+    },
+    {
+      "source": "/industries/pressure-washing/:path*",
+      "destination": "/painting-software",
+      "permanent": true
+    },
+    {
+      "source": "/assets/header.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/:path*",
+      "destination": "/why-i-built-this",
+      "permanent": true
+    },
+    {
+      "source": "/appliance-repair-field-service-software/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/carpet-cleaning-field-service-software/:path*",
+      "destination": "/",
+      "permanent": true
     }
   ],
   "rewrites": [
