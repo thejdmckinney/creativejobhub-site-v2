@@ -204,13 +204,29 @@ export default function RouteOptimization() {
               </div>
             </div>
 
-            {/* Animated Map Placeholder */}
+            {/* Key Features Cards */}
             <div className="max-w-5xl mx-auto">
-              <div className="relative rounded-xl shadow-2xl overflow-hidden border-4 border-white bg-gradient-to-br from-blue-100 to-indigo-100 p-12">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">🗺️</div>
-                  <p className="text-gray-700 font-semibold text-lg">Interactive Route Optimization Map</p>
-                  <p className="text-gray-600 mt-2">Watch routes automatically optimize based on traffic and job locations</p>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-blue-100">
+                  <div className="text-4xl mb-3">🚗</div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2">Smart Routing</h3>
+                  <p className="text-gray-600 text-sm">
+                    AI clusters jobs geographically and avoids traffic in real-time to minimize drive time.
+                  </p>
+                </div>
+                <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-indigo-100">
+                  <div className="text-4xl mb-3">�‍🔧</div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2">Skill Matching</h3>
+                  <p className="text-gray-600 text-sm">
+                    Automatically assigns jobs to techs based on certifications, skills, and specialty areas.
+                  </p>
+                </div>
+                <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-purple-100">
+                  <div className="text-4xl mb-3">📍</div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2">Live Tracking</h3>
+                  <p className="text-gray-600 text-sm">
+                    See every tech's location in real-time with accurate ETAs for customers and next stops.
+                  </p>
                 </div>
               </div>
             </div>
@@ -384,10 +400,121 @@ export default function RouteOptimization() {
                       {item.description}
                     </p>
                   </div>
-                  <div className={`${index % 2 === 1 ? 'md:order-1' : ''} bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg p-8 min-h-[200px] flex items-center justify-center`}>
-                    <p className="text-gray-500 text-center italic">
-                      Step {item.step} Visualization
-                    </p>
+                  <div className={`${index % 2 === 1 ? 'md:order-1' : ''}`}>
+                    {index === 0 && (
+                      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">What You'll See:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-blue-600 text-xl">•</span>
+                            <span>All pending jobs with customer names and addresses</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-blue-600 text-xl">•</span>
+                            <span>Service type, duration, and priority level for each job</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-blue-600 text-xl">•</span>
+                            <span>Filter by date range, service area, or job type</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 1 && (
+                      <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">AI Analyzes:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-purple-600 text-xl">•</span>
+                            <span>Geographic proximity of all job locations</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-purple-600 text-xl">•</span>
+                            <span>Current traffic conditions and predicted delays</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-purple-600 text-xl">•</span>
+                            <span>Technician skills, availability, and current location</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 2 && (
+                      <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border border-green-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Route Details Include:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-green-600 text-xl">•</span>
+                            <span>Total drive time and miles per technician</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-green-600 text-xl">•</span>
+                            <span>Number of stops and estimated completion time</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-green-600 text-xl">•</span>
+                            <span>Color-coded routes on map for easy visualization</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 3 && (
+                      <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-8 border border-orange-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Easy Adjustments:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-orange-600 text-xl">•</span>
+                            <span>Drag-and-drop jobs between technicians</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-orange-600 text-xl">•</span>
+                            <span>Reorder stops to match customer preferences</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-orange-600 text-xl">•</span>
+                            <span>System recalculates drive times instantly</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 4 && (
+                      <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-8 border border-cyan-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Technicians Receive:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-cyan-600 text-xl">•</span>
+                            <span>Push notification with their daily route</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-cyan-600 text-xl">•</span>
+                            <span>Turn-by-turn navigation for each stop</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-cyan-600 text-xl">•</span>
+                            <span>Customer info and job details at their fingertips</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 5 && (
+                      <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8 border border-indigo-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Live Dashboard Shows:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-indigo-600 text-xl">•</span>
+                            <span>Real-time GPS location of every technician</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-indigo-600 text-xl">•</span>
+                            <span>Job status (en route, in progress, completed)</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-indigo-600 text-xl">•</span>
+                            <span>Accurate ETAs for customers and next appointments</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
@@ -517,11 +644,58 @@ export default function RouteOptimization() {
                   </ul>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg p-12 min-h-[500px] flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">📱</div>
-                  <p className="text-gray-600 font-semibold">Mobile App Preview</p>
-                  <p className="text-gray-500 text-sm mt-2">Technician daily route view</p>
+              <div className="bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl p-8 text-white">
+                <h3 className="text-2xl font-bold mb-6 text-center">
+                  📱 Mobile App Benefits
+                </h3>
+                <div className="space-y-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center text-2xl">
+                        🧭
+                      </div>
+                      <h4 className="font-bold text-lg">Smart Navigation</h4>
+                    </div>
+                    <p className="text-blue-100 text-sm">
+                      Turn-by-turn directions with real-time traffic updates. Gets techs to jobs faster with no wrong turns.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center text-2xl">
+                        📞
+                      </div>
+                      <h4 className="font-bold text-lg">One-Tap Contact</h4>
+                    </div>
+                    <p className="text-blue-100 text-sm">
+                      Call or text customers with one tap. Customer info right in the app - no searching through paperwork.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center text-2xl">
+                        ✅
+                      </div>
+                      <h4 className="font-bold text-lg">Job Tracking</h4>
+                    </div>
+                    <p className="text-blue-100 text-sm">
+                      Mark jobs complete instantly. Updates office in real-time so dispatch knows when to send next job.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center text-2xl">
+                        📡
+                      </div>
+                      <h4 className="font-bold text-lg">Offline Mode</h4>
+                    </div>
+                    <p className="text-blue-100 text-sm">
+                      Routes download at start of day. Works in rural areas or basements with no cell signal.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
