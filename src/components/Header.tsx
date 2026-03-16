@@ -92,6 +92,13 @@ export default function Header() {
                       🔥 Chimney Inspection Suite
                       <span className="block text-xs text-gray-500 mt-1">CSIA-compliant checklists</span>
                     </Link>
+                    <Link 
+                      to="/features/route-optimization" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      🗺️ Route Optimization
+                      <span className="block text-xs text-gray-500 mt-1">AI-powered routing & GPS tracking</span>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -394,6 +401,13 @@ export default function Header() {
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       🔥 Chimney Inspection Suite
+                    </Link>
+                    <Link
+                      to="/features/route-optimization"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      🗺️ Route Optimization
                     </Link>
                   </div>
                 )}
