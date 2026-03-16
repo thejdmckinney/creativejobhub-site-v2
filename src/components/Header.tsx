@@ -85,6 +85,13 @@ export default function Header() {
                       ✨ Smart Materials List
                       <span className="block text-xs text-gray-500 mt-1">AI-powered for electricians</span>
                     </Link>
+                    <Link 
+                      to="/chimney-inspection-suite" 
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      🔥 Chimney Inspection Suite
+                      <span className="block text-xs text-gray-500 mt-1">CSIA-compliant checklists</span>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -380,6 +387,13 @@ export default function Header() {
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       ✨ Smart Materials List
+                    </Link>
+                    <Link
+                      to="/chimney-inspection-suite"
+                      className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      🔥 Chimney Inspection Suite
                     </Link>
                   </div>
                 )}
