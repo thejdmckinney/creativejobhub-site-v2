@@ -50,6 +50,7 @@ import FieldServiceSoftwareCalifornia from './pages/FieldServiceSoftwareCaliforn
 import ContractorSoftwareDallas from './pages/ContractorSoftwareDallas';
 import SmartMaterialsList from './pages/SmartMaterialsList';
 import ChimneyInspectionSuite from './pages/ChimneyInspectionSuite';
+import RouteOptimization from './pages/RouteOptimization';
 
 function App() {
   return (
@@ -101,6 +102,7 @@ function App() {
           <Route path="jobs-map" element={<JobsMap />} />
           <Route path="smart-materials-list" element={<SmartMaterialsList />} />
           <Route path="chimney-inspection-suite" element={<ChimneyInspectionSuite />} />
+          <Route path="features/route-optimization" element={<RouteOptimization />} />
           {/* Legal Pages */}
           <Route path="terms-of-service" element={<TermsOfService />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />

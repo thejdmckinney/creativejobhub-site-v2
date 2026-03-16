@@ -103,6 +103,14 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- Route Optimization -->
+  <url>
+    <loc>https://www.crewopspro.com/features/route-optimization</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
   <!-- Setup Guides -->
   <url>
     <loc>https://www.crewopspro.com/setup-guides</loc>

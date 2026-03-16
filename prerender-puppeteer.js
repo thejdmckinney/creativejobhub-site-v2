@@ -46,6 +46,7 @@ const routes = [
   '/bring-your-own-tools',
   '/smart-materials-list',
   '/chimney-inspection-suite',
+  '/features/route-optimization',
   '/scheduling',
   '/invoicing-payments',
   '/outreach-hub',
