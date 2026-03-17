@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import CTAButton from '../components/CTAButton';
+import ImageCarousel from '../components/ImageCarousel';
 
 export default function RouteOptimization() {
   const keyFeatures = [
@@ -230,6 +231,51 @@ export default function RouteOptimization() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Image Carousel Section */}
+        <section className="py-16 px-6 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                See Route Optimization in Action
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Explore our route planning, live tracking maps, and optimization tools
+              </p>
+            </div>
+            
+            <ImageCarousel
+              images={[
+                {
+                  src: '/creat-optimized-routes.png',
+                  alt: 'Create optimized routes interface',
+                  caption: 'One-click route creation with AI-powered optimization'
+                },
+                {
+                  src: '/optimized-routes-settings.png',
+                  alt: 'Route optimization settings and preferences',
+                  caption: 'Customize routing preferences for your business needs'
+                },
+                {
+                  src: '/route-optimization-strategy.png',
+                  alt: 'Route optimization strategy overview',
+                  caption: 'Strategic route planning that maximizes efficiency'
+                },
+                {
+                  src: '/jobs-map-desktop.png',
+                  alt: 'Live jobs map with technician tracking',
+                  caption: 'Real-time GPS tracking of all technicians and jobs'
+                },
+                {
+                  src: '/jobs-maps.png',
+                  alt: 'Jobs map mobile view',
+                  caption: 'Monitor routes and track progress from any device'
+                }
+              ]}
+              autoPlayInterval={6000}
+            />
           </div>
         </section>
 
