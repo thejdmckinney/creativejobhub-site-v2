@@ -208,10 +208,121 @@ export default function ChimneyInspectionSuite() {
                       {step.description}
                     </p>
                   </div>
-                  <div className={`${index % 2 === 1 ? 'md:order-1' : ''} bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg p-8 min-h-[200px] flex items-center justify-center`}>
-                    <p className="text-gray-500 text-center italic">
-                      Step {step.number} Visualization
-                    </p>
+                  <div className={`${index % 2 === 1 ? 'md:order-1' : ''}`}>
+                    {index === 0 && (
+                      <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-8 border border-orange-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Property Information Available:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-orange-600 text-xl">•</span>
+                            <span>Customer contact info and service address</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-orange-600 text-xl">•</span>
+                            <span>Full inspection history with dates and findings</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-orange-600 text-xl">•</span>
+                            <span>Chimney specs, age, and previous service notes</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 1 && (
+                      <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8 border border-red-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Chimney Details Tracked:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-red-600 text-xl">•</span>
+                            <span>Multiple chimneys per property supported</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-red-600 text-xl">•</span>
+                            <span>Creosote history tracked over time for each chimney</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-red-600 text-xl">•</span>
+                            <span>Past photos, repairs, and maintenance records</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 2 && (
+                      <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-8 border border-yellow-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">CSIA Checklist Items:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-yellow-600 text-xl">•</span>
+                            <span>Level 1: Visual inspection of accessible areas</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-yellow-600 text-xl">•</span>
+                            <span>Level 2: Video scanning and accessible areas</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-yellow-600 text-xl">•</span>
+                            <span>Level 3: Full structural evaluation checklist</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 3 && (
+                      <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-8 border border-blue-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Documentation Features:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-blue-600 text-xl">•</span>
+                            <span>Take unlimited photos with auto-timestamps</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-blue-600 text-xl">•</span>
+                            <span>Select creosote stage (1, 2, or 3) with visual guide</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-blue-600 text-xl">•</span>
+                            <span>Voice-to-text notes for faster documentation</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 4 && (
+                      <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border border-green-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Report Includes:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-green-600 text-xl">•</span>
+                            <span>Branded header with your company logo and info</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-green-600 text-xl">•</span>
+                            <span>All photos organized by inspection area</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-green-600 text-xl">•</span>
+                            <span>CSIA compliance certification and checklist results</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                    {index === 5 && (
+                      <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-8 border border-purple-100">
+                        <h4 className="text-lg font-bold text-gray-900 mb-4">Instant Delivery Options:</h4>
+                        <ul className="space-y-3">
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-purple-600 text-xl">•</span>
+                            <span>Email PDF directly from the job site</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-purple-600 text-xl">•</span>
+                            <span>Text message with report link to customer</span>
+                          </li>
+                          <li className="flex items-start gap-3 text-gray-700">
+                            <span className="text-purple-600 text-xl">•</span>
+                            <span>Create repair quote right from inspection findings</span>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
