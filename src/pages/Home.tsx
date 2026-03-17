@@ -6,6 +6,7 @@ import FAQSchema from '../components/FAQSchema';
 import SoftwareApplicationSchema from '../components/SoftwareApplicationSchema';
 import FAQAccordion from '../components/FAQAccordion';
 import IndustryTabs from '../components/IndustryTabs';
+import MobilePhoneCarousel from '../components/MobilePhoneCarousel';
 import { trackTrialSignup } from '../utils/analytics';
 import heroBanner from '../assets/crewopspro-home-page.webp';
 
@@ -367,6 +368,128 @@ export default function Home() {
               </p>
               <div className="font-semibold text-gray-900">James Rodriguez</div>
               <div className="text-sm text-gray-600">Rodriguez Electric, Denver CO</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 5.5 - MOBILE APP SHOWCASE */}
+      <section className="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Text Content */}
+            <div className="text-white">
+              <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-6">
+                📱 Mobile App Experience
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                The Field Service App Your Techs Will Actually Use
+              </h2>
+              
+              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+                Built for field teams, not IT departments. Everything your technicians need is right on their phone—job details, customer history, navigation, invoicing, and more.
+              </p>
+
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1">Works Offline</h3>
+                    <p className="text-blue-100">Complete jobs in basements, rural areas, or anywhere without internet. Data syncs when back online.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1">Get Paid On-Site</h3>
+                    <p className="text-blue-100">Accept credit cards, checks, and cash right from the job site. Customers get receipts instantly.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1">GPS Navigation Built In</h3>
+                    <p className="text-blue-100">Turn-by-turn directions to every job. Techs never have to leave the app to find customers.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1">Full Customer History</h3>
+                    <p className="text-blue-100">Past jobs, photos, notes, equipment details—everything at their fingertips before they knock on the door.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  to="/signup"
+                  onClick={() => trackTrialSignup('/signup')}
+                  className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg"
+                >
+                  Try It Free for 14 Days
+                </Link>
+                <Link
+                  to="/features"
+                  className="inline-block bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-colors"
+                >
+                  See All Features
+                </Link>
+              </div>
+            </div>
+
+            {/* Right: Mobile Phone Carousel */}
+            <div className="flex justify-center lg:justify-end">
+              <MobilePhoneCarousel
+                screenshots={[
+                  {
+                    src: '/app-screenshots/placeholder1.png',
+                    alt: 'Job details screen',
+                    caption: 'Complete job details at your fingertips'
+                  },
+                  {
+                    src: '/app-screenshots/placeholder2.png',
+                    alt: 'Customer information',
+                    caption: 'Full customer history and service records'
+                  },
+                  {
+                    src: '/app-screenshots/placeholder3.png',
+                    alt: 'Invoice and payment',
+                    caption: 'Create invoices and collect payments on-site'
+                  },
+                  {
+                    src: '/app-screenshots/placeholder4.png',
+                    alt: 'Navigation map',
+                    caption: 'Built-in GPS navigation to every job'
+                  },
+                  {
+                    src: '/app-screenshots/placeholder5.png',
+                    alt: 'Job completion',
+                    caption: 'Mark jobs complete and move to the next'
+                  }
+                ]}
+                autoPlayInterval={4000}
+              />
             </div>
           </div>
         </div>
