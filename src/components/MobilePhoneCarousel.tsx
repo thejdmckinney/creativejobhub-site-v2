@@ -89,7 +89,7 @@ export default function MobilePhoneCarousel({ screenshots, autoPlayInterval = 40
                     <img
                       src={screenshot.src}
                       alt={screenshot.alt}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain bg-white"
                     />
                   </div>
                 ))}
