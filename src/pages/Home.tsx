@@ -463,29 +463,59 @@ export default function Home() {
               <MobilePhoneCarousel
                 screenshots={[
                   {
-                    src: '/app-screenshots/placeholder1.png',
-                    alt: 'Job details screen',
-                    caption: 'Complete job details at your fingertips'
+                    src: '/app-screenshots/Dashboard view 1.png',
+                    alt: 'Dashboard overview',
+                    caption: 'Real-time dashboard with key business metrics'
                   },
                   {
-                    src: '/app-screenshots/placeholder2.png',
-                    alt: 'Customer information',
-                    caption: 'Full customer history and service records'
+                    src: '/app-screenshots/jobs page .png',
+                    alt: 'Jobs list view',
+                    caption: 'Manage all jobs from a single view'
                   },
                   {
-                    src: '/app-screenshots/placeholder3.png',
-                    alt: 'Invoice and payment',
-                    caption: 'Create invoices and collect payments on-site'
+                    src: '/app-screenshots/schedule view.png',
+                    alt: 'Schedule calendar',
+                    caption: 'Drag-and-drop scheduling made easy'
                   },
                   {
-                    src: '/app-screenshots/placeholder4.png',
-                    alt: 'Navigation map',
-                    caption: 'Built-in GPS navigation to every job'
+                    src: '/app-screenshots/properties view 1.png',
+                    alt: 'Property details',
+                    caption: 'Complete customer and property information'
                   },
                   {
-                    src: '/app-screenshots/placeholder5.png',
-                    alt: 'Job completion',
-                    caption: 'Mark jobs complete and move to the next'
+                    src: '/app-screenshots/invoices view.png',
+                    alt: 'Invoicing screen',
+                    caption: 'Create and send invoices instantly'
+                  },
+                  {
+                    src: '/app-screenshots/payments view.png',
+                    alt: 'Payment processing',
+                    caption: 'Accept payments on-site with ease'
+                  },
+                  {
+                    src: '/app-screenshots/estimate view.png',
+                    alt: 'Estimate builder',
+                    caption: 'Build professional estimates in minutes'
+                  },
+                  {
+                    src: '/app-screenshots/smart estimator.png',
+                    alt: 'Smart estimator tool',
+                    caption: 'AI-powered smart estimator for faster quotes'
+                  },
+                  {
+                    src: '/app-screenshots/outreach hub.png',
+                    alt: 'Outreach hub',
+                    caption: 'Automated customer outreach campaigns'
+                  },
+                  {
+                    src: '/app-screenshots/analytics view 1.png',
+                    alt: 'Analytics dashboard',
+                    caption: 'Track performance with detailed analytics'
+                  },
+                  {
+                    src: '/app-screenshots/menu view.png',
+                    alt: 'App navigation menu',
+                    caption: 'Easy navigation to all features'
                   }
                 ]}
                 autoPlayInterval={4000}
