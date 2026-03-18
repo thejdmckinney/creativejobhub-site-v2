@@ -9,6 +9,13 @@ interface SEOProps {
   ogType?: string;
   canonicalUrl?: string;
   noIndex?: boolean;
+  article?: {
+    author?: string;
+    publishedTime?: string;
+    modifiedTime?: string;
+    section?: string;
+    tags?: string[];
+  };
 }
 
 export default function SEO({
@@ -19,6 +26,7 @@ export default function SEO({
   ogType = 'website',
   canonicalUrl,
   noIndex = false,
+  article,
 }: SEOProps) {
   const location = useLocation();
   const fullTitle = title.includes('Crew Ops Pro') ? title : `${title} | Crew Ops Pro`;
@@ -50,10 +58,23 @@ export default function SEO({
       <meta property="og:image:secure_url" content={absoluteOgImage} />
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content={fullTitle} />
       <meta property="og:site_name" content="Crew Ops Pro" />
       <meta property="og:locale" content="en_US" />
+      
+      {/* Article-specific meta tags */}
+      {ogType === 'article' && article && (
+        <>
+          {article.author && <meta property="article:author" content={article.author} />}
+          {article.publishedTime && <meta property="article:published_time" content={article.publishedTime} />}
+          {article.modifiedTime && <meta property="article:modified_time" content={article.modifiedTime} />}
+          {article.section && <meta property="article:section" content={article.section} />}
+          {article.tags?.map((tag, index) => (
+            <meta key={index} property="article:tag" content={tag} />
+          ))}
+        </>
+      )}
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />

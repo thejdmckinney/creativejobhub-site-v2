@@ -31,7 +31,7 @@ export async function getAllPosts(): Promise<BlogPost[]> {
     author,
     readTime,
     featured,
-    "featuredImage": featuredImage.asset->url,
+    "featuredImage": featuredImage.asset->url + "?w=1200&h=630&fit=crop&auto=format",
     content
   }`;
 
@@ -58,7 +58,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     author,
     readTime,
     featured,
-    "featuredImage": featuredImage.asset->url,
+    "featuredImage": featuredImage.asset->url + "?w=1200&h=630&fit=crop&auto=format",
     content[] {
       ...,
       _type == "image" => {
@@ -93,7 +93,7 @@ export async function getPostsByCategory(category: string): Promise<BlogPost[]> 
     author,
     readTime,
     featured,
-    "featuredImage": featuredImage.asset->url,
+    "featuredImage": featuredImage.asset->url + "?w=1200&h=630&fit=crop&auto=format",
     content
   }`;
 

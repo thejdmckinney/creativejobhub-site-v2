@@ -58,6 +58,12 @@ export default function BlogPost() {
         keywords={`${post.category}, field service, contractor tips, ${post.title}`}
         ogImage={post.featuredImage}
         ogType="article"
+        article={{
+          author: post.author,
+          publishedTime: new Date(post.date).toISOString(),
+          section: post.category,
+          tags: [post.category, 'field service', 'contractor tips'],
+        }}
       />
 
       <article className="min-h-screen bg-gray-50">
