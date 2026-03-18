@@ -17,9 +17,14 @@ export default function BlogPost() {
       if (slug) {
         const fetchedPost = await getPostBySlug(slug);
         
-        // Debug: Log the content structure
-        if (fetchedPost?.content) {
-          console.log('Blog content structure:', JSON.stringify(fetchedPost.content, null, 2));
+        // Debug: Log the post data including featured image
+        if (fetchedPost) {
+          console.log('Blog post data:', {
+            title: fetchedPost.title,
+            featuredImage: fetchedPost.featuredImage,
+            slug: fetchedPost.slug,
+            url: `https://www.crewopspro.com/blog/${fetchedPost.slug}`
+          });
         }
         
         setPost(fetchedPost);
