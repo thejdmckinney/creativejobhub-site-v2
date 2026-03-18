@@ -374,7 +374,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 5.5 - MOBILE APP SHOWCASE */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600">
+      <section className="py-20 bg-gradient-to-br from-blue-600 via-blue-700 to-orange-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Text Content */}
