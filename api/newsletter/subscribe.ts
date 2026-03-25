@@ -2,7 +2,6 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const RESEND_AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID!;
 
 // Welcome email template
 function generateWelcomeEmail(): string {
@@ -132,11 +131,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(400).json({ error: 'Valid email is required' });
     }
 
-    // Add contact to Resend Audience
+    // Add contact to Resend (goes to global contacts list)
     try {
       await resend.contacts.create({
         email,
-        audienceId: RESEND_AUDIENCE_ID,
+        firstName: 'Newsletter',
+        lastName: 'Subscriber',
+        unsubscribed: false,
       });
     } catch (contactError: any) {
       // If contact already exists, that's okay - they might be re-subscribing
