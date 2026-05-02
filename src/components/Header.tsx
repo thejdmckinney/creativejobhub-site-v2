@@ -54,49 +54,85 @@ export default function Header() {
                       to="/outreach-hub" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      📣 Outreach Hub
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                        </svg>
+                        Outreach Hub
+                      </span>
                       <span className="block text-xs text-gray-500 mt-1">Client campaigns & follow-ups</span>
                     </Link>
                     <Link 
                       to="/scheduling" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      📅 Scheduling
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        Scheduling
+                      </span>
                       <span className="block text-xs text-gray-500 mt-1">Drag-and-drop calendar</span>
                     </Link>
                     <Link 
                       to="/features/jobs-map" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      🗺️ Jobs Map
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                        </svg>
+                        Jobs Map
+                      </span>
                       <span className="block text-xs text-gray-500 mt-1">Live tech tracking & dispatch</span>
                     </Link>
                     <Link 
                       to="/invoicing-payments" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      💳 Invoicing & Payments
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                        </svg>
+                        Invoicing & Payments
+                      </span>
                       <span className="block text-xs text-gray-500 mt-1">Get paid on-site</span>
                     </Link>
                     <Link 
                       to="/smart-materials-list" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      ✨ Smart Materials List
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                        </svg>
+                        Smart Materials List
+                      </span>
                       <span className="block text-xs text-gray-500 mt-1">AI-powered for electricians</span>
                     </Link>
                     <Link 
                       to="/chimney-inspection-suite" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      🔥 Chimney Inspection Suite
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                        Chimney Inspection Suite
+                      </span>
                       <span className="block text-xs text-gray-500 mt-1">CSIA-compliant checklists</span>
                     </Link>
                     <Link 
                       to="/features/route-optimization" 
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      🗺️ Route Optimization
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        Route Optimization
+                      </span>
                       <span className="block text-xs text-gray-500 mt-1">AI-powered routing & GPS tracking</span>
                     </Link>
                   </div>
@@ -365,49 +401,85 @@ export default function Header() {
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      📣 Outreach Hub
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                        </svg>
+                        Outreach Hub
+                      </span>
                     </Link>
                     <Link
                       to="/scheduling"
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      📅 Scheduling
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        Scheduling
+                      </span>
                     </Link>
                     <Link
                       to="/features/jobs-map"
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      🗺️ Jobs Map
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                        </svg>
+                        Jobs Map
+                      </span>
                     </Link>
                     <Link
                       to="/invoicing-payments"
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      💳 Invoicing & Payments
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                        </svg>
+                        Invoicing & Payments
+                      </span>
                     </Link>
                     <Link
                       to="/smart-materials-list"
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      ✨ Smart Materials List
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                        </svg>
+                        Smart Materials List
+                      </span>
                     </Link>
                     <Link
                       to="/chimney-inspection-suite"
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      🔥 Chimney Inspection Suite
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                        Chimney Inspection Suite
+                      </span>
                     </Link>
                     <Link
                       to="/features/route-optimization"
                       className="block text-gray-600 hover:text-blue-600 py-2 px-4 rounded hover:bg-white"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      🗺️ Route Optimization
+                      <span className="inline-flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        Route Optimization
+                      </span>
                     </Link>
                   </div>
                 )}
