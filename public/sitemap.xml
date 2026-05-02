@@ -150,21 +150,21 @@
   <!-- Industry Pages -->
   <url>
     <loc>https://www.crewopspro.com/chimney-sweep-software</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/handyman-software</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/pool-service-software</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -178,14 +178,14 @@
   
   <url>
     <loc>https://www.crewopspro.com/hvac-software</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://www.crewopspro.com/electrical-software</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -207,6 +207,49 @@
   <url>
     <loc>https://www.crewopspro.com/general-contractors-software</loc>
     <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Phase 1: High-Intent Long-Tail Content Pages -->
+  <url>
+    <loc>https://www.crewopspro.com/affordable-field-service-software</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.crewopspro.com/jobber-alternative-under-100</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.crewopspro.com/housecall-pro-alternative-affordable</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.crewopspro.com/software-for-handyman-business-scheduling</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.crewopspro.com/best-field-service-software-small-business-2026</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.crewopspro.com/field-service-software-quickbooks-integration</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
