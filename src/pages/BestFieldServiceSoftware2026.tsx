@@ -158,7 +158,7 @@ export default function BestFieldServiceSoftware2026() {
       },
       realCost3Users: "$289/month ($3,468/year)",
       realCost10Users: "$569/month ($6,828/year)",
-      link: "/vs-housecallpro"
+      link: "/vs-housecall-pro"
     },
     {
       name: "ServiceM8",
