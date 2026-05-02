@@ -76,7 +76,7 @@ export default function FieldServiceSoftwareTexas() {
             </Link>
           </div>
           <p className="text-center text-gray-600 mt-4">
-            No credit card required • Cancel anytime • Serving all 254 Texas counties
+            Cancel anytime • Serving all 254 Texas counties
           </p>
         </div>
       </section>
@@ -349,7 +349,7 @@ export default function FieldServiceSoftwareTexas() {
             Ready to Join 1,200+ Texas Contractors?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Start your free trial today. No credit card required.
+            Start your free trial today. credit card required.
           </p>
           <Link 
             to="/signup" 

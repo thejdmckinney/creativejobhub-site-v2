@@ -76,7 +76,7 @@ export default function FieldServiceSoftwareCalifornia() {
             </Link>
           </div>
           <p className="text-center text-gray-600 mt-4">
-            No credit card required • Cancel anytime • Serving all 58 California counties
+            Cancel anytime • Serving all 58 California counties
           </p>
         </div>
       </section>

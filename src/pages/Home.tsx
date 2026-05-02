@@ -19,7 +19,7 @@ export default function Home() {
     },
     {
       question: "Is there a free trial?",
-      answer: "Yes! We offer a 14-day free trial with full access to all features. No credit card required to start."
+      answer: "Yes! We offer a 14-day free trial with full access to all features."
     },
     {
       question: "Does it work offline?",
@@ -740,7 +740,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="mt-6 text-orange-100 text-sm">
-            14-day free trial • No credit card required • Cancel anytime
+            14-day free trial • Cancel anytime
           </p>
         </div>
       </section>

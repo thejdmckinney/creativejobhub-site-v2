@@ -651,7 +651,7 @@ export default function QuickBooksIntegration() {
           </div>
 
           <p className="text-green-100 text-lg mb-8">
-            ✓ No credit card required &nbsp;•&nbsp; ✓ 15-minute setup &nbsp;•&nbsp; ✓ Free support
+            ✓ 15-minute setup &nbsp;•&nbsp; ✓ Free support
           </p>
 
           <div className="flex items-center justify-center gap-3">

@@ -393,7 +393,7 @@ export default function ElectricalSoftware() {
             >
               Start Your Free Trial - Join 150+ Electrical Contractors
             </Link>
-            <p className="text-gray-600 mt-4">14-day free trial • No credit card required • Cancel anytime</p>
+            <p className="text-gray-600 mt-4">14-day free trial • Cancel anytime</p>
           </div>
         </div>
       </section>

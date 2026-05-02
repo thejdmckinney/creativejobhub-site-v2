@@ -256,7 +256,7 @@ export default function SoftwareHandymanScheduling() {
               onClick={() => trackTrialSignup('handyman-scheduling-hero')}
               className="inline-block px-10 py-5 bg-yellow-400 text-orange-900 font-bold text-xl rounded-lg hover:bg-yellow-300 transition-all transform hover:scale-105 text-center shadow-xl"
             >
-              Start Free Trial - No Credit Card →
+              Start Free Trial  →
             </Link>
             <Link
               to="/handyman-software"
@@ -701,7 +701,7 @@ export default function SoftwareHandymanScheduling() {
               onClick={() => trackTrialSignup('handyman-scheduling-final-cta')}
               className="inline-block px-10 py-5 bg-yellow-400 text-orange-900 font-bold text-xl rounded-lg hover:bg-yellow-300 transition-all transform hover:scale-105"
             >
-              Start Free Trial - No Credit Card Required →
+              Start Free Trial  →
             </Link>
           </div>
 

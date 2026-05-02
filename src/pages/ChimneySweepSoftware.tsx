@@ -101,7 +101,7 @@ export default function ChimneySweepSoftware() {
             </Link>
             <CalculateSavingsButton variant="outline" size="lg" className="bg-white text-blue-600 border-white hover:bg-blue-50" />
           </div>
-          <p className="text-center text-blue-200">No credit card required • Set up in 5 minutes • Cancel anytime</p>
+          <p className="text-center text-blue-200">Set up in 5 minutes • Cancel anytime</p>
         </div>
       </section>
 
@@ -609,7 +609,7 @@ export default function ChimneySweepSoftware() {
             >
               Start Your 14-Day Free Trial
             </Link>
-            <p className="text-gray-600 mt-4">No credit card required • Set up in minutes</p>
+            <p className="text-gray-600 mt-4">Set up in minutes</p>
           </div>
         </div>
       </section>
@@ -817,7 +817,7 @@ export default function ChimneySweepSoftware() {
             >
               Start Your Free Trial - Join 180+ Chimney Sweeps
             </Link>
-            <p className="text-gray-600 mt-4">14-day free trial • No credit card required • Cancel anytime</p>
+            <p className="text-gray-600 mt-4">14-day free trial • Cancel anytime</p>
           </div>
         </div>
       </section>

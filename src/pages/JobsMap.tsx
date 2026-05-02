@@ -611,7 +611,7 @@ export default function JobsMap() {
             </Link>
           </div>
           <p className="text-orange-200">
-            💳 No credit card required • ⚡ Set up in minutes • 📍 See your first tech on the map today
+            ⚡ Set up in minutes • 📍 See your first tech on the map today
           </p>
         </div>
       </section>

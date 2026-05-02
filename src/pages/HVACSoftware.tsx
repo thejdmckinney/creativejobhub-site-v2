@@ -353,7 +353,7 @@ export default function HVACSoftware() {
             >
               Start Your Free Trial - Join 250+ HVAC Companies
             </Link>
-            <p className="text-gray-600 mt-4">14-day free trial • No credit card required • Cancel anytime</p>
+            <p className="text-gray-600 mt-4">14-day free trial • Cancel anytime</p>
           </div>
         </div>
       </section>

@@ -380,7 +380,7 @@ export default function SmartMaterialsList() {
             </h2>
             <p className="text-xl text-gray-300 mb-8">
               Join electrical contractors who are saving hours every week with AI-powered materials lists.
-              Try it free for 14 days—no credit card required.
+              Try it free for 14 days—credit card required.
             </p>
             <div className="mb-6">
               <CTAButton 
@@ -390,7 +390,7 @@ export default function SmartMaterialsList() {
               />
             </div>
             <p className="text-gray-400 text-sm">
-              Free 14-day trial • No credit card required • Cancel anytime
+              Free 14-day trial • Cancel anytime
             </p>
           </div>
         </section>

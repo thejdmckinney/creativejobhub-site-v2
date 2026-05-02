@@ -308,7 +308,7 @@ export default function Features() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join hundreds of contractors who manage their entire operation with Crew Ops Pro. Start your free trial today - no credit card required.
+            Join hundreds of contractors who manage their entire operation with Crew Ops Pro. Start your free trial today - credit card required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

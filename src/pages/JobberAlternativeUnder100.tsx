@@ -188,7 +188,7 @@ export default function JobberAlternativeUnder100() {
           </div>
 
           <p className="text-center text-orange-200 text-lg">
-            ✓ Free data migration from Jobber &nbsp;•&nbsp; ✓ No credit card required &nbsp;•&nbsp; ✓ Cancel anytime
+            ✓ Free data migration from Jobber &nbsp;•&nbsp; ✓ Cancel anytime
           </p>
         </div>
       </section>
@@ -561,7 +561,7 @@ export default function JobberAlternativeUnder100() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-gray-900 mb-3">Sign Up for CrewOpsPro Free Trial</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    No credit card required. Get full access to all features for 14 days.
+                    Get full access to all features for 14 days.
                   </p>
                   <Link
                     to="/signup"
@@ -814,7 +814,7 @@ export default function JobberAlternativeUnder100() {
           </div>
 
           <p className="text-green-100 text-lg">
-            ✓ No credit card required &nbsp;•&nbsp; ✓ Free data migration &nbsp;•&nbsp; ✓ Cancel anytime
+            ✓ Free data migration &nbsp;•&nbsp; ✓ Cancel anytime
           </p>
 
           <div className="mt-12 pt-12 border-t border-green-500">

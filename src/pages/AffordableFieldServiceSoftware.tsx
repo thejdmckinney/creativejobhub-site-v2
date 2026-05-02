@@ -21,7 +21,7 @@ export default function AffordableFieldServiceSoftware() {
     },
     {
       question: "Is there a free trial?",
-      answer: "Yes. 14-day free trial with full access to all features. No credit card required to start. If you don't love it, cancel with one click."
+      answer: "Yes. 14-day free trial with full access to all features. If you don't love it, cancel with one click."
     },
     {
       question: "What industries is this built for?",
@@ -177,7 +177,7 @@ export default function AffordableFieldServiceSoftware() {
           </div>
 
           <p className="text-center text-blue-200 text-lg">
-            ✓ No credit card required &nbsp;•&nbsp; ✓ Cancel anytime &nbsp;•&nbsp; ✓ Free data migration
+            ✓ Cancel anytime &nbsp;•&nbsp; ✓ Free data migration
           </p>
         </div>
       </section>
@@ -368,7 +368,7 @@ export default function AffordableFieldServiceSoftware() {
               onClick={() => trackTrialSignup('affordable-who-for')}
               className="inline-block px-8 py-4 bg-blue-600 text-white font-bold text-lg rounded-lg hover:bg-blue-700 transition-all"
             >
-              Try It Free - No Credit Card Required →
+              Try It Free  →
             </Link>
           </div>
         </div>
@@ -777,7 +777,7 @@ export default function AffordableFieldServiceSoftware() {
           </div>
 
           <p className="text-green-100 text-lg">
-            ✓ No credit card required &nbsp;•&nbsp; ✓ Set up in 5 minutes &nbsp;•&nbsp; ✓ Cancel anytime
+            ✓ Set up in 5 minutes &nbsp;•&nbsp; ✓ Cancel anytime
           </p>
 
           <div className="mt-12 pt-12 border-t border-green-500">

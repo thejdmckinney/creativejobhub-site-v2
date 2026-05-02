@@ -77,7 +77,7 @@ export default function HVACSoftwarePhoenix() {
             </Link>
           </div>
           <p className="text-center text-gray-600 mt-4">
-            No credit card required • Cancel anytime • Used by 280+ Phoenix HVAC pros
+            Cancel anytime • Used by 280+ Phoenix HVAC pros
           </p>
         </div>
       </section>

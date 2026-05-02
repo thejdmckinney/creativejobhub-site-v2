@@ -77,7 +77,7 @@ export default function PlumbingSoftwareFlorida() {
             </Link>
           </div>
           <p className="text-center text-gray-600 mt-4">
-            No credit card required • Cancel anytime • Serving plumbers statewide
+            Cancel anytime • Serving plumbers statewide
           </p>
         </div>
       </section>

@@ -375,7 +375,7 @@ export default function HandymanSoftware() {
             >
               Start Your Free Trial - Join 300+ Handyman Businesses
             </Link>
-            <p className="text-gray-600 mt-4">14-day free trial • No credit card required • Cancel anytime</p>
+            <p className="text-gray-600 mt-4">14-day free trial • Cancel anytime</p>
           </div>
         </div>
       </section>

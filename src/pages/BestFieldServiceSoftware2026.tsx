@@ -869,7 +869,7 @@ export default function BestFieldServiceSoftware2026() {
               onClick={() => trackTrialSignup('fsm-comparison-final-cta')}
               className="inline-block px-10 py-5 bg-yellow-400 text-green-900 font-bold text-xl rounded-lg hover:bg-yellow-300 transition-all transform hover:scale-105"
             >
-              Start Free Trial - No Credit Card →
+              Start Free Trial  →
             </Link>
             <Link
               to="/pricing"
@@ -880,7 +880,7 @@ export default function BestFieldServiceSoftware2026() {
           </div>
 
           <p className="text-green-100 text-lg mb-8">
-            ✓ 14-day free trial &nbsp;•&nbsp; ✓ No credit card required &nbsp;•&nbsp; ✓ Cancel anytime
+            ✓ 14-day free trial &nbsp;•&nbsp; ✓ Cancel anytime
           </p>
 
           <div className="flex items-center justify-center gap-3">

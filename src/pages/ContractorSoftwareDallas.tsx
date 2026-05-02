@@ -76,7 +76,7 @@ export default function ContractorSoftwareDallas() {
             </Link>
           </div>
           <p className="text-center text-gray-600 mt-4">
-            No credit card required • Cancel anytime • Used by 450+ DFW contractors
+            Cancel anytime • Used by 450+ DFW contractors
           </p>
         </div>
       </section>

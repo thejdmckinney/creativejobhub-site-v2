@@ -111,7 +111,7 @@ export default function Pricing() {
                 </Link>
               </div>
               <p className="text-blue-200 text-sm mt-4">
-                ✓ No credit card required ✓ Setup in 15 minutes ✓ Cancel anytime
+                ✓ Setup in 15 minutes ✓ Cancel anytime
               </p>
             </div>
             
@@ -562,7 +562,7 @@ export default function Pricing() {
             >
               Start Free Trial Now
             </Link>
-            <p className="text-sm text-gray-500">No charge for 14 days. No credit card required.</p>
+            <p className="text-sm text-gray-500">No charge for 14 days. credit card required.</p>
           </div>
 
           <p className="text-orange-100 text-lg">
