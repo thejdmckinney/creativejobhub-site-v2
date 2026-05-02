@@ -578,7 +578,123 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 7 - FAQ */}
+      {/* SECTION 7 - RESOURCES & GUIDES */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+            Helpful Resources for Service Business Owners
+          </h2>
+          <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
+            Learn how to choose the right field service software for your business
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Affordable FSM */}
+            <Link
+              to="/affordable-field-service-software"
+              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group"
+            >
+              <div className="text-4xl mb-4">💰</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Affordable Field Service Software
+              </h3>
+              <p className="text-gray-600 mb-4">
+                How to find field service management software that won't break the bank. Compare pricing models and hidden fees.
+              </p>
+              <div className="text-blue-600 font-medium group-hover:translate-x-2 transition-transform inline-block">
+                Read guide →
+              </div>
+            </Link>
+
+            {/* Best FSM 2026 */}
+            <Link
+              to="/best-field-service-software-small-business-2026"
+              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group"
+            >
+              <div className="text-4xl mb-4">🏆</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Best Field Service Software 2026
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Compare the top 10 field service management platforms for small businesses. See features, pricing, and pros/cons.
+              </p>
+              <div className="text-blue-600 font-medium group-hover:translate-x-2 transition-transform inline-block">
+                See comparison →
+              </div>
+            </Link>
+
+            {/* Jobber Alternative */}
+            <Link
+              to="/jobber-alternative-under-100"
+              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group"
+            >
+              <div className="text-4xl mb-4">🔄</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Jobber Alternative Under $100
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Save $2,000-5,000/year by switching from Jobber to flat-rate pricing with no per-user fees.
+              </p>
+              <div className="text-blue-600 font-medium group-hover:translate-x-2 transition-transform inline-block">
+                Learn more →
+              </div>
+            </Link>
+
+            {/* Handyman Scheduling */}
+            <Link
+              to="/software-for-handyman-business-scheduling"
+              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group"
+            >
+              <div className="text-4xl mb-4">🔨</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Handyman Business Scheduling
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Manage 10-15 jobs per day with route optimization, materials tracking, and on-site invoicing.
+              </p>
+              <div className="text-blue-600 font-medium group-hover:translate-x-2 transition-transform inline-block">
+                Read guide →
+              </div>
+            </Link>
+
+            {/* QuickBooks Integration */}
+            <Link
+              to="/field-service-software-quickbooks-integration"
+              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group"
+            >
+              <div className="text-4xl mb-4">📊</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                QuickBooks Integration
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Sync invoices, payments, and expenses automatically. No duplicate data entry or manual reconciliation.
+              </p>
+              <div className="text-blue-600 font-medium group-hover:translate-x-2 transition-transform inline-block">
+                Learn how →
+              </div>
+            </Link>
+
+            {/* Housecall Pro Alternative */}
+            <Link
+              to="/housecall-pro-alternative-affordable"
+              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group"
+            >
+              <div className="text-4xl mb-4">💸</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                Housecall Pro Alternative
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Get the same features as Housecall Pro without paying $60/month per additional technician.
+              </p>
+              <div className="text-blue-600 font-medium group-hover:translate-x-2 transition-transform inline-block">
+                Compare now →
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 8 - FAQ */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
@@ -600,7 +716,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 8 - FINAL CTA */}
+      {/* SECTION 9 - FINAL CTA */}
       <section className="py-20 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">

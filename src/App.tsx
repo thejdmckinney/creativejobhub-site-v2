@@ -51,6 +51,12 @@ import ContractorSoftwareDallas from './pages/ContractorSoftwareDallas';
 import SmartMaterialsList from './pages/SmartMaterialsList';
 import ChimneyInspectionSuite from './pages/ChimneyInspectionSuite';
 import RouteOptimization from './pages/RouteOptimization';
+import AffordableFieldServiceSoftware from './pages/AffordableFieldServiceSoftware';
+import JobberAlternativeUnder100 from './pages/JobberAlternativeUnder100';
+import SoftwareHandymanScheduling from './pages/SoftwareHandymanScheduling';
+import BestFieldServiceSoftware2026 from './pages/BestFieldServiceSoftware2026';
+import HousecallProAlternativeAffordable from './pages/HousecallProAlternativeAffordable';
+import QuickBooksIntegration from './pages/QuickBooksIntegration';
 
 function App() {
   return (
@@ -82,6 +88,14 @@ function App() {
           <Route path="landscaping-software" element={<LandscapingSoftware />} />
           <Route path="painting-software" element={<PaintingSoftware />} />
           <Route path="general-contractors-software" element={<GeneralContractorsSoftware />} />
+          
+          {/* Long-tail Keyword Pages */}
+          <Route path="affordable-field-service-software" element={<AffordableFieldServiceSoftware />} />
+          <Route path="jobber-alternative-under-100" element={<JobberAlternativeUnder100 />} />
+          <Route path="software-for-handyman-business-scheduling" element={<SoftwareHandymanScheduling />} />
+          <Route path="best-field-service-software-small-business-2026" element={<BestFieldServiceSoftware2026 />} />
+          <Route path="housecall-pro-alternative-affordable" element={<HousecallProAlternativeAffordable />} />
+          <Route path="field-service-software-quickbooks-integration" element={<QuickBooksIntegration />} />
           
           {/* Location Pages */}
           <Route path="field-service-software-texas" element={<FieldServiceSoftwareTexas />} />

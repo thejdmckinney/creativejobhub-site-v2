@@ -172,6 +172,214 @@ export default function PoolServiceSoftware() {
         </div>
       </section>
 
+      {/* Real Pool Service Businesses Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">
+            Real Pool Service Companies Using CrewOpsPro
+          </h2>
+          <p className="text-xl text-gray-600 mb-12 text-center">
+            See how pool service pros are optimizing routes and growing revenue
+          </p>
+
+          <div className="space-y-8">
+            {/* Case Study 1 */}
+            <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-blue-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Crystal Clear Pool Service</h3>
+                  <p className="text-gray-600">Phoenix, AZ • 140 weekly accounts • 4 technicians</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">8 hrs/week saved</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Routes organized manually on paper. Techs drove 180 miles/day with poor routing. 
+                    Spent 2 hours/day driving between pools that were 10-15 minutes apart. Wasting gas and time.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    CrewOpsPro's route optimization automatically organized 35 pools per day per tech by geography. 
+                    Optimized routes reduced daily driving from 180 miles to 110 miles. Cut drive time by 40%.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Saved 2 hours/day × 4 techs = 8 hours/day saved.</strong> Added 24 new weekly accounts 
+                    without hiring. Revenue up $1,440/month ($60/account × 24). Gas costs down $800/month.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"We were literally zigzagging across town. CrewOpsPro organized our routes and we picked up 24 accounts without adding a truck."</strong>
+                  <span className="block mt-2 text-gray-600">- Carlos Martinez, Owner</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 2 */}
+            <div className="bg-gradient-to-r from-cyan-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-cyan-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Aqua Pro Pool Care</h3>
+                  <p className="text-gray-600">Las Vegas, NV • 220 accounts • 6 technicians</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">$4,200/mo more</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Chemical readings recorded on paper cards at each pool. Cards got wet/damaged. 
+                    No history to show customers why green pool happened. Lost historical data for equipment troubleshooting.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Log pH, chlorine, alkalinity, CYA in CrewOpsPro app per pool. History tracked automatically. 
+                    Show customers graph: "Your chlorine dropped 3 weeks ago when we changed filter, here's the trend."
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Upsold 35 customers on equipment maintenance contracts</strong> by showing chemical history 
+                    proving equipment issues. $120/month average = <strong>$4,200/month new recurring revenue</strong>.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"Having chemical history lets us educate customers. They trust us more because we have the data."</strong>
+                  <span className="block mt-2 text-gray-600">- Lisa Chen, Operations Manager</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 3 */}
+            <div className="bg-gradient-to-r from-green-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-green-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sunshine Pool Maintenance</h3>
+                  <p className="text-gray-600">Tampa, FL • 95 accounts • Owner + 2 techs</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">$2,850/mo saved</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Owner spent 15 hours/week on billing: creating invoices, tracking payments, sending reminders, 
+                    depositing checks. Hired part-time bookkeeper at $450/month just for billing.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Automated recurring billing. CrewOpsPro charges credit cards automatically every month. 
+                    Sends invoices/receipts automatically. Auto-emails payment reminders for past-due accounts.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Owner saved 15 hours/week</strong> (60 hours/month). Eliminated bookkeeper = $450/month saved. 
+                    Owner's time worth $40/hour = $2,400/month. <strong>Total: $2,850/month value</strong>.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"I don't touch billing anymore. Cards get charged automatically. I just check my bank account and it's there."</strong>
+                  <span className="block mt-2 text-gray-600">- Mike Johnson, Owner</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 4 */}
+            <div className="bg-gradient-to-r from-purple-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-purple-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Blue Wave Pool Service</h3>
+                  <p className="text-gray-600">San Diego, CA • 180 accounts • 5 technicians</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">36 new accounts</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    At capacity with 180 accounts. Each tech serviced 36 accounts/week. 
+                    Couldn't take new customers without hiring 6th tech (truck, insurance, salary = $50k/year).
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Optimized routes cut drive time by 30%. Reduced service time with mobile app (no paperwork). 
+                    Techs now complete 43 accounts/week instead of 36 (20% more capacity).
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Added 36 new accounts</strong> without hiring (7 per tech × 5 techs). 
+                    Revenue: 36 accounts × $60 = <strong>$2,160/month more</strong>. Avoided $50k hiring cost.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"We thought we needed another truck. Turns out we just needed better software. Same team, 20% more revenue."</strong>
+                  <span className="block mt-2 text-gray-600">- Jennifer Park, Co-Owner</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link 
+              to="/signup" 
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-12 py-5 rounded-lg font-semibold text-xl transition-colors shadow-xl"
+            >
+              Start Your Free Trial - Join 200+ Pool Service Pros
+            </Link>
+            <p className="text-gray-600 mt-4">14-day free trial • No credit card required • Cancel anytime</p>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

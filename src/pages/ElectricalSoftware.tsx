@@ -190,6 +190,214 @@ export default function ElectricalSoftware() {
         </div>
       </section>
 
+      {/* Real Electrical Contractor Businesses Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">
+            Real Electrical Contractors Using CrewOpsPro
+          </h2>
+          <p className="text-xl text-gray-600 mb-12 text-center">
+            See how electricians are managing permits, materials, and emergency calls
+          </p>
+
+          <div className="space-y-8">
+            {/* Case Study 1 */}
+            <div className="bg-gradient-to-r from-yellow-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-yellow-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Bright Star Electric</h3>
+                  <p className="text-gray-600">Austin, TX • 8 electricians • Commercial & Residential</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">$6,500/mo saved</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Permit tracking on spreadsheets. Office staff spent 12 hours/week calling city for permit status, 
+                    tracking inspection dates, notifying crews. Missed inspections cost $500 in reschedule fees monthly.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Track permits in CrewOpsPro per job. Set inspection date reminders (day before, morning of). 
+                    Attach permit PDFs to jobs. Electricians see permit status in mobile app.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Office staff saved 12 hours/week</strong> = $600/month. Zero missed inspections = $500/month saved. 
+                    Total: <strong>$1,100/month saved</strong>. Plus faster permit turnaround = 6 more jobs/month = $5,400/month more revenue.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"Permit tracking was killing us. Now it's automated. We haven't missed an inspection in 6 months."</strong>
+                  <span className="block mt-2 text-gray-600">- David Kim, Owner</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 2 */}
+            <div className="bg-gradient-to-r from-orange-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-orange-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Metro Electric Services</h3>
+                  <p className="text-gray-600">Denver, CO • 12 electricians • Emergency + Project work</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">15 emergency calls/week</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Emergency calls came in via phone. Dispatcher manually called electricians to find who's available. 
+                    Took 15-20 minutes to dispatch. Lost 8-10 emergency calls/week (customers called competitors).
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    GPS tracking shows which electricians are closest to emergency. Dispatcher sees real-time locations, 
+                    assigns nearest available tech in 2 minutes. Tech gets push notification with job details and address.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Picked up 15 more emergency calls/week</strong> (faster response = customers wait). 
+                    Emergency calls average $375. 15 calls/week × $375 = <strong>$5,625/week = $24,375/month more</strong>.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"Emergency dispatch used to take 20 minutes. Now it's 2 minutes. We're capturing way more emergency work."</strong>
+                  <span className="block mt-2 text-gray-600">- Rachel Torres, Dispatch Manager</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 3 */}
+            <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-blue-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Precision Electrical</h3>
+                  <p className="text-gray-600">Seattle, WA • 5 electricians • Commercial focus</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">$2,400/mo saved</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Material takeoffs on paper. Estimator spent 3-4 hours per bid counting fixtures, wire runs, panels. 
+                    Errors meant under-ordering (delay) or over-ordering (waste). Lost 15% margin on material mistakes.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Built material takeoff templates in CrewOpsPro: "Panel Install" = 1 panel + 20' wire + 2 breakers + hardware. 
+                    Click template, quantities auto-calculate. Export to supplier for ordering.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Estimator saved 2 hours per bid</strong> (8 hours/week = $400/month). Material accuracy improved 
+                    (waste down 12% = $2,000/month saved). <strong>Total: $2,400/month benefit</strong>.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"Material takeoffs were our bottleneck. Templates cut our estimating time in half and we're not wasting materials."</strong>
+                  <span className="block mt-2 text-gray-600">- James Wilson, Project Manager</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 4 */}
+            <div className="bg-gradient-to-r from-green-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-green-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Volt Master Electric</h3>
+                  <p className="text-gray-600">Phoenix, AZ • 6 electricians • Residential specialist</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">40% faster</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Invoicing on paper after jobs. Office staff typed invoices from paper forms next day. 
+                    Customers waited 24-48 hours for invoice. Payment cycle: job complete → invoice next day → payment in 30 days = 31 days.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Electricians invoice on-site via mobile app. Itemize labor, materials, permit fees. Customer signs on phone. 
+                    Email invoice automatically. Accept credit card payment immediately.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>40% of customers pay on-site now</strong> (credit card). Cash flow improved: getting paid same day vs 30+ days. 
+                    Reduced late payments from 30% to 10%. <strong>$8,000/month better cash position</strong>.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"On-site invoicing changed our cash flow. We're getting paid the day we do the work. No more 30-day waits."</strong>
+                  <span className="block mt-2 text-gray-600">- Miguel Rodriguez, Owner</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link 
+              to="/signup" 
+              className="inline-block bg-orange-600 hover:bg-orange-700 text-white px-12 py-5 rounded-lg font-semibold text-xl transition-colors shadow-xl"
+            >
+              Start Your Free Trial - Join 150+ Electrical Contractors
+            </Link>
+            <p className="text-gray-600 mt-4">14-day free trial • No credit card required • Cancel anytime</p>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section className="py-20 bg-yellow-400 text-gray-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

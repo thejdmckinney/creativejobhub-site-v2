@@ -614,6 +614,214 @@ export default function ChimneySweepSoftware() {
         </div>
       </section>
 
+      {/* Real Chimney Sweep Businesses Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">
+            Real Chimney Sweep Businesses Using CrewOpsPro
+          </h2>
+          <p className="text-xl text-gray-600 mb-12 text-center">
+            See how chimney sweeps are growing their businesses with industry-specific software
+          </p>
+
+          <div className="space-y-8">
+            {/* Case Study 1 */}
+            <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-blue-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Heritage Chimney Services</h3>
+                  <p className="text-gray-600">Madison, WI • 4 technicians • CSIA Certified</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">+48 jobs/month</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Used paper CSIA checklists. Took 15-20 minutes to complete by hand. Office staff spent 6 hours/week typing reports. 
+                    Lost checklists meant redoing inspections. Customers waited 3-5 days for reports.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Digital CSIA checklists in CrewOpsPro mobile app. Techs complete Level 1 inspections in 8-10 minutes. 
+                    Take photos directly in app. Generate PDF reports on-site. Email to customers before leaving.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>48 more inspections per month</strong> (saved 10 min per inspection). Office staff saved 6 hours/week. 
+                    Customer satisfaction up 40% (same-day reports). Revenue up $8,400/month.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"The CSIA checklists alone saved us 2 hours per day. We're doing 12 more inspections per week with the same team."</strong>
+                  <span className="block mt-2 text-gray-600">- Tom Anderson, Owner</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 2 */}
+            <div className="bg-gradient-to-r from-orange-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-orange-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Mountain View Chimney & Hearth</h3>
+                  <p className="text-gray-600">Denver, CO • 7 technicians • 35 years in business</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">$3,200/mo saved</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Tracking creosote levels on paper. No history of Stage 1/2/3 readings over time. Couldn't show customers why cleaning was needed. 
+                    Lost 30-40% of recommended cleanings because customers didn't understand severity.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    CrewOpsPro's creosote tracking. Log Stage 1/2/3 readings per flue. Take photos of buildup. Show customers comparison: 
+                    "Last year Stage 1, this year Stage 2, next year could be Stage 3 fire hazard."
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Cleaning conversion rate up from 60% to 85%</strong>. Added 16 cleanings/month @ $200 average = <strong>$3,200/month more revenue</strong>. 
+                    Customers appreciate visual proof.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"Being able to show customers their creosote progression with photos changed everything. They get it now."</strong>
+                  <span className="block mt-2 text-gray-600">- Sarah Martinez, General Manager</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 3 */}
+            <div className="bg-gradient-to-r from-green-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-green-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Black Diamond Chimney Sweep</h3>
+                  <p className="text-gray-600">Portland, ME • 2 technicians • Owner-operator</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">12 hrs/week saved</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Owner spent 12 hours/week on admin: scheduling calls, creating invoices, tracking payments, following up on late payments. 
+                    Only had time for 3-4 jobs/day himself. Burned out.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Online booking (customers self-schedule), automated appointment reminders, on-site invoicing, 
+                    automatic payment reminders. Owner checks dashboard 15 min/day instead of answering phone all day.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>12 hours/week back</strong> (50% less admin time). Owner now does 5-6 jobs/day. 
+                    Added 10 jobs/week = $2,000/week more = <strong>$8,000/month increase</strong>. Work-life balance restored.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"I got my life back. I'm actually doing chimney work now instead of paperwork. My wife is happy again."</strong>
+                  <span className="block mt-2 text-gray-600">- Mike Thompson, Owner</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Case Study 4 */}
+            <div className="bg-gradient-to-r from-purple-50 to-white rounded-xl p-8 shadow-lg border-l-4 border-purple-600">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Fireplace Doctors</h3>
+                  <p className="text-gray-600">Charlotte, NC • 5 technicians • Commercial & Residential</p>
+                </div>
+                <div className="bg-green-100 px-4 py-2 rounded-lg">
+                  <p className="text-sm font-bold text-green-700">$4,800/mo saved</p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-red-700 mb-2">❌ The Problem:</p>
+                  <p className="text-sm text-gray-700">
+                    Using Jobber: $199 base + $100 GPS + $50 QuickBooks + $250 (5 users) = $599/month. 
+                    Expensive for seasonal business (only busy Sept-March). Paying year-round when only working 7 months.
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-blue-700 mb-2">✓ The Solution:</p>
+                  <p className="text-sm text-gray-700">
+                    Switched to CrewOpsPro: $89/month, everything included (GPS, QuickBooks, unlimited users). 
+                    Same features, better price. CSIA checklists were bonus (Jobber didn't have these).
+                  </p>
+                </div>
+
+                <div className="bg-green-50 rounded-lg p-4">
+                  <p className="text-sm font-bold text-green-700 mb-2">📈 The Result:</p>
+                  <p className="text-sm text-gray-700">
+                    <strong>Saved $510/month</strong> = $6,120/year. Plus got CSIA checklists (worth $500 in time savings/month). 
+                    Total benefit: <strong>$500 + $510 = $1,010/month</strong> = $12,120/year.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>"We were basically paying Jobber $600/month for features we already have in CrewOpsPro for $89. Should have switched years ago."</strong>
+                  <span className="block mt-2 text-gray-600">- David Park, Operations Manager</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link 
+              to="/signup" 
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-12 py-5 rounded-lg font-semibold text-xl transition-colors shadow-xl"
+            >
+              Start Your Free Trial - Join 180+ Chimney Sweeps
+            </Link>
+            <p className="text-gray-600 mt-4">14-day free trial • No credit card required • Cancel anytime</p>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section className="py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

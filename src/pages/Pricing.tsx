@@ -579,40 +579,40 @@ export default function Pricing() {
         title="Learn More About Crew Ops Pro"
         pages={[
           {
-            title: "Outreach Hub",
-            description: "Proactive client engagement with mass email, SMS campaigns, and follow-ups. A feature competitors don't have.",
-            path: "/outreach-hub",
-            icon: "📣"
+            title: "Jobber Alternative Under $100",
+            description: "See exactly how much you'll save by switching from Jobber to flat-rate pricing with no per-user fees.",
+            path: "/jobber-alternative-under-100",
+            icon: "�"
+          },
+          {
+            title: "Housecall Pro Alternative",
+            description: "Get the same features as Housecall Pro without paying $60/month per additional technician.",
+            path: "/housecall-pro-alternative-affordable",
+            icon: "🔄"
+          },
+          {
+            title: "Affordable Field Service Software",
+            description: "Learn how to find field service management software that won't break the bank for small businesses.",
+            path: "/affordable-field-service-software",
+            icon: "💸"
+          },
+          {
+            title: "QuickBooks Integration",
+            description: "Sync invoices, payments, and expenses automatically with QuickBooks integration included at no extra cost.",
+            path: "/field-service-software-quickbooks-integration",
+            icon: "�"
+          },
+          {
+            title: "Best Field Service Software 2026",
+            description: "Compare the top 10 field service platforms side-by-side to find the best fit for your business.",
+            path: "/best-field-service-software-small-business-2026",
+            icon: "�"
           },
           {
             title: "How It Works",
             description: "See the complete workflow from lead to payment in 6 simple steps.",
             path: "/how-it-works",
-            icon: "🔄"
-          },
-          {
-            title: "Compare to Competitors",
-            description: "See how we stack up against Jobber, Housecall Pro, and ServiceTitan.",
-            path: "/competitors",
-            icon: "⚖️"
-          },
-          {
-            title: "Bring Your Own Tools",
-            description: "Use Stripe, QuickBooks, and Twilio without markups or hidden fees.",
-            path: "/bring-your-own-tools",
-            icon: "🔧"
-          },
-          {
-            title: "Industry Solutions",
-            description: "Specialized features for pool service, chimney sweeps, HVAC, and more.",
-            path: "/chimney-sweep-software",
-            icon: "🏠"
-          },
-          {
-            title: "Why I Built This",
-            description: "The story of a frustrated contractor who built better software.",
-            path: "/why-i-built-this",
-            icon: "💡"
+            icon: "�"
           }
         ]}
       />
